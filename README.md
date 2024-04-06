@@ -7,22 +7,19 @@ Although legal citations are typically short strings, they contain a great deal 
 * Supreme Court Reader (SCR) citations;
 * CanLII citations.
 
-## Features
+## Metadata
 
-- **Citation parsing.** The module extracts the following metadata from raw CanLII citation strings:
-  - Atomic citation
-  - Style of cause
-  - Citation type
-  - Year
-  - Decision number
-  - Jurisdiction
-  - Court name
-  - Court level
-  - CanLII URL
+The module currently extracts the following from (most) raw CanLII citation strings:
 
-## Known issues
-- Assumes and requires correct input
-- Currently limited to neutral and CanLII citations
+- **Atomic citation.** The citation's unique ID. 
+- **Style of cause.** The human readable case name.
+- **Citation type.** The type of citation parsed.
+- **Year.** The decision's year.
+- **Decision number.** The decision's number.
+- **Jurisdiction.** The province, territory, or federal jurisdiction the case was heard in.
+- **Court name.** The human readable court level.
+- **Court level.** The relative level of the court.
+- **CanLII URL.** The decision's URL on canlii.org
 
 
 ## Installation
