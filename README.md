@@ -5,13 +5,13 @@ This Python module is designed to extract and standardize metadata from legal ci
 
 ## Features
 
-- **Citation parsing**: Extracts metadata from CanLII citation strings, including year, court code, decision number, and more.
+- **Citation parsing**: Extracts metadata from CanLII citation strings, including court name, court level, jurisdiction, and more.
 - **URL construction**: Constructs CanLII URLs for cases based on their metadata.
-- 
 
 ## Known issues
 - Assumes and requires correct input
 - Currently limited to neutral and CanLII citations
+
 
 ## Installation
 
