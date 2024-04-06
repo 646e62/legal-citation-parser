@@ -121,7 +121,7 @@ def canlii_citation_parser(
     citation_info = {
         "uid": uid,
         "style_of_cause": style_of_cause,
-        "citation": citation,
+        "atomic_citation": citation,
         "citation_type": citation_type,
         "scr_citation": scr_citation,
         "year": year,
@@ -188,3 +188,13 @@ def canlii_url_constructor(
         if check_url(url):
             return url
     return None
+# Path: legal_citation_parser/canlii_constants.py
+# Compare this snippet from legal_citation_parser/__init__.py:
+# from .citation_parser import parse_citation
+#
+# __all__ = ['parse_citation']
+# Compare this snippet from setup.py:
+# from setuptools import setup, find_packages
+#
+# # read the contents of your README file one level up
+# from os import path

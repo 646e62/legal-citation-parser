@@ -11,7 +11,8 @@ Although legal citations are typically short strings, they contain a great deal 
 
 The module currently extracts the following from (most) raw CanLII citation strings:
 
-- **Atomic citation.** The citation's unique ID. 
+- **UID.** The decision's unique ID. Corresponds to the CanLII API's `caseId` variable.
+- **Atomic citation.** The citation's human readable unique ID. 
 - **Style of cause.** The human readable case name.
 - **Citation type.** The type of citation parsed.
 - **Year.** The decision's year.
