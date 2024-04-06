@@ -1,3 +1,7 @@
+"""
+Contains constants that map court names to their respective levels and jurisdictions.
+"""
+
 COURT_LEVEL_MAPPING = {
     "scc": ("Supreme Court of Canada", "federal"),
     "scc-l": ("Supreme Court of Canada - Applications for Leave", "federal"),
@@ -354,6 +358,10 @@ COURT_LEVEL_MAPPING = {
     "qccdopq": ("Conseil de discipline de l'Ordre des pharmaciens du Québec", "québec"),
     "qcopodq": ("Conseil de discipline de l'Ordre des podiatres du Québec", "québec"),
     "qcopq": ("Conseil de discipline de l'Ordre des psychologues du Québec", "québec"),
+    "qccdsf": (
+        "Conseil de discipline de l'Ordre des sages-femmes du Québec",
+        "québec",
+    ),
     "qccdosfq": (
         "Conseil de discipline de l'Ordre des sages-femmes du Québec",
         "québec",
@@ -430,6 +438,7 @@ COURT_LEVEL_MAPPING = {
     "qccse": ("Conseil des services essentiels", "québec"),
     "qccmeq": ("Corporation des maîtres électriciens du Québec", "québec"),
     "qccmpmq": ("Corporation of Master Pipe-Mechanics of Québec", "québec"),
+    "qctadp": ("Tribunal administratif de déontologie policière", "québec"),
     "qcla": ("Labour Arbitration Awards (including Conférence des arbitres)", "québec"),
     "qcct": ("Labour Commissioner", "québec"),
     "qctt": ("Labour Court", "québec"),
@@ -624,4 +633,20 @@ COURT_HIERARCHY_CRIMINAL = {
     "nuca": "provincial appellate",
     "nucj": "provincial",
     "yjcn": "provincial",
+}
+
+PROVINCE_TERRITORY_ABBREVIATIONS = {
+    "alberta": "ab",
+    "british columbia": "bc",
+    "manitoba": "mb",
+    "new brunswick": "nb",
+    "newfoundland and labrador": "nl",
+    "nova scotia": "ns",
+    "ontario": "on",
+    "prince edward island": "pe",
+    "québec": "qc",
+    "saskatchewan": "sk",
+    "yukon": "yt",
+    "northwest territories": "nt",
+    "nunavut": "nu",
 }
