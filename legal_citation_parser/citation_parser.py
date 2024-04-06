@@ -3,12 +3,7 @@ This Python module provides tools for extracting metadata information from legal
 
 """
 
-# from canlii_rules import canlii_citation_parser
-
 from .canlii_rules import canlii_citation_parser
-
-# Main code
-
 
 def parse_citation(
     citation: str, citation_type: str = "canlii", include_url: bool = False

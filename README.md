@@ -1,12 +1,24 @@
 # legal_citation_parser
 Extracts metadata from legal citations.
 
-This Python module is designed to extract and standardize metadata from legal citation strings specifically from the Canadian Legal Information Institute (CanLII) database. It includes functionalities such as validating URLs, correcting court codes, parsing citation strings, and constructing URLs based on the extracted metadata.
+Although legal citations are typically short strings, they contain a great deal of information compressed into a relatively small package. This Python module is designed to extract and standardize that data from from legal citation strings. This module can currently handles the following citation types:
+
+* Neutral citations (Canadian);
+* Supreme Court Reader (SCR) citations;
+* CanLII citations.
 
 ## Features
 
-- **Citation parsing**: Extracts metadata from CanLII citation strings, including court name, court level, jurisdiction, and more.
-- **URL construction**: Constructs CanLII URLs for cases based on their metadata.
+- **Citation parsing.** The module extracts the following metadata from raw CanLII citation strings:
+  - Atomic citation
+  - Style of cause
+  - Citation type
+  - Year
+  - Decision number
+  - Jurisdiction
+  - Court name
+  - Court level
+  - CanLII URL
 
 ## Known issues
 - Assumes and requires correct input
@@ -15,12 +27,16 @@ This Python module is designed to extract and standardize metadata from legal ci
 
 ## Installation
 
+From the command line:
+
 ```bash
 pip install legal_citation_parser
 ```
 
+In Python 3.x:
+
 ```python
-from legal_citation_parser import parse_citation
+>>> from legal_citation_parser import parse_citation
 ```
 
 ## Contributing

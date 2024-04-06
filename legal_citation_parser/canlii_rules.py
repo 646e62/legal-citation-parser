@@ -1,3 +1,7 @@
+"""
+Rule set for parsing CanLII citations and constructing CanLII URLs, as well as neutral citations.
+"""
+
 import re
 
 from .canlii_constants import (
@@ -8,11 +12,15 @@ from .canlii_constants import (
 
 from .utils import check_url
 
-# CanLII functions
-
 def court_code_corrector(court_code):
     """
-    Assorted tools for standardizing court codes. I'll continue to add them as I encounter them.
+    Court code fine-tuning function to ensure consistency in the court code format.
+
+    Args:
+        court_code (str): The court code to correct.
+
+    Returns:
+        str: The corrected court code.
     """
 
     court_code = court_code.lower()
