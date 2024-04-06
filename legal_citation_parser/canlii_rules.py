@@ -1,52 +1,26 @@
-"""
-This Python module provides tools for extracting metadata information from legal citation strings.
-
-"""
-
 import re
-import requests
 
-from canlii_constants import (
-    COURT_LEVEL_MAPPING,
+from .canlii_constants import (
     COURT_HIERARCHY_CRIMINAL,
+    COURT_LEVEL_MAPPING,
     PROVINCE_TERRITORY_ABBREVIATIONS,
 )
 
+from .utils import check_url
 
-def check_url(url):
-    """
-    Checks if a URL is valid by sending a GET request and verifying the status code.
-
-    Args:
-        url (str): The URL to check.
-
-    Returns:
-        str: The URL if it is valid, otherwise None.
-    """
-
-    try:
-        response = requests.get(url, timeout=5)
-
-        if response.status_code == 200:
-            return url
-        else:
-            return None
-    except requests.RequestException:
-        return None
-
+# CanLII functions
 
 def court_code_corrector(court_code):
     """
     Assorted tools for standardizing court codes. I'll continue to add them as I encounter them.
     """
 
-    # Standardize the court code by lowercasing it
     court_code = court_code.lower()
 
     # Correct for older decisions that use "NWT" instead of "NT"
     if "nwt" in court_code:
         court_code = court_code.replace("nwt", "nt")
-        
+
     # Format the court code by removing spaces and parentheses
     court_code = court_code.replace("(", "").replace(")", "").replace(" ", "")
     return court_code
@@ -68,24 +42,6 @@ def canlii_citation_parser(
         citation, citation type (neutral or CanLII), year, court code, decision number,
         jurisdiction, court name, and court level. If `include_url` is True, the dictionary will
         also include the CanLII URL.
-
-    Examples:
-        >>> citation_string = "R v Smith, 2019 ONCA 123 (CanLII)"
-        >>> canlii_citation_parser(citation_string, include_url=True)
-        {
-            "uid": "2019onca123",
-            "style_of_cause": "Tolias (Re)",
-            "citation": "2019 ONCA 123",
-            "citation_type": "neutral",
-            "scr_citation": None,
-            "year": "2019",
-            "court": "onca",
-            "decision_number": "123",
-            "jurisdiction": "ON",
-            "court_name": "Court of Appeal for Ontario",
-            "court_level": "provincial appellate"
-            "url": "https://www.canlii.org/en/on/onca/doc/2019/2019onca123/2019onca123.html"
-        }
     """
 
     # Remove the " (CanLII)" suffix from the citation string, if present, as it is not part of the
@@ -224,27 +180,3 @@ def canlii_url_constructor(
         if check_url(url):
             return url
     return None
-
-
-def parse_citation(citation: str, citation_type="canlii") -> dict:
-    """
-    Parses a citation string to extract key information about the court case.
-
-    Args:
-        citation (str): The citation string to parse.
-        type (str): The type of citation to parse. Default is "canlii".
-
-    Returns:
-        dict: A dictionary containing the parsed information, including the style of cause,
-        citation, citation type (neutral or CanLII), year, court code, decision number,
-        jurisdiction, court name, and court level.
-    """
-
-    if citation_type == "canlii":
-        return canlii_citation_parser(citation)
-
-    elif "CanLII" in citation:
-        return canlii_citation_parser(citation)
-
-    else:
-        return None
