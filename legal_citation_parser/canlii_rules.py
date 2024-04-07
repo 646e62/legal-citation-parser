@@ -43,7 +43,9 @@ def court_code_corrector(court_code):
 def canlii_citation_parser(
     citation_string: str,
     include_url: bool = False,
-    call_api: bool = False,
+    call_api_metadata: bool = False,
+    call_api_cases_cited: bool = False,
+    call_api_cases_citing: bool = False,
 ) -> dict:
     """
     Rules for parsing a CanLII citation string to extract metadata information.
@@ -153,8 +155,17 @@ def canlii_citation_parser(
             jurisdiction, court_code, year, decision_number, citation_type
         )
 
-    if call_api:
-        api_info = canlii_api_call(uid, court_code)
+    # API fine-tuning
+    if call_api_metadata:
+        api_info = canlii_api_call(uid, court_code, get_metadata=True)
+        citation_info.update(api_info)
+    
+    if call_api_cases_cited:
+        api_info = canlii_api_call(uid, court_code, get_cited_cases=True)
+        citation_info.update(api_info)
+
+    if call_api_cases_citing:
+        api_info = canlii_api_call(uid, court_code, get_citing_cases=True)
         citation_info.update(api_info)
 
     return citation_info
@@ -217,7 +228,7 @@ def canlii_api_call(
     case_id: str,
     database_id: str,
     language: str = "en",
-    get_metadata=True,
+    get_metadata=False,
     get_cited_cases=False,
     get_citing_cases=False,
 ) -> dict:
