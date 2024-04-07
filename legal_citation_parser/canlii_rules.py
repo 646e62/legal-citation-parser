@@ -3,6 +3,10 @@ Rule set for parsing CanLII citations and constructing CanLII URLs, as well as n
 """
 
 import re
+import os
+import requests
+
+from dotenv import load_dotenv
 
 from .canlii_constants import (
     COURT_HIERARCHY_CRIMINAL,
@@ -37,6 +41,7 @@ def court_code_corrector(court_code):
 def canlii_citation_parser(
     citation_string: str,
     include_url: bool = False,
+    call_api: bool = True,
 ) -> dict:
     """
     Rules for parsing a CanLII citation string to extract metadata information.
@@ -146,6 +151,10 @@ def canlii_citation_parser(
             jurisdiction, court_code, year, decision_number, citation_type
         )
 
+    if call_api:
+        api_info = canlii_api_call(uid)
+        citation_info.update(api_info)
+
     return citation_info
 
 
@@ -196,3 +205,32 @@ def canlii_url_constructor(
         if check_url(url):
             return url
     return None
+
+
+def canlii_api_call(case_id: str) -> dict:
+    """
+    Makes an API call to the CanLII API to retrieve metadata information about a case.
+
+    Args:
+        case_id (str): The unique CanLII case ID.
+
+    Returns:
+        dict: A dictionary containing the metadata information about the case, including the style
+        of cause, citation, citation type (neutral or CanLII), year, court code, decision number,
+        jurisdiction, court name, and court level. The dictionary will also include the CanLII URL.
+    """
+
+    # Placeholder for the API call
+    # Load environment variables from .env file
+    load_dotenv()
+
+    # Access your API key
+    API_KEY = os.getenv("CANLII_API_KEY")
+
+    # Get a dictionary from a CanLII API call
+    url = f"https://api.canlii.org/v1/caseBrowse/en/csc-scc/{case_id}/?api_key={API_KEY}"
+    response = requests.get(url)
+    case_info = response.json()
+
+    return case_info
+
