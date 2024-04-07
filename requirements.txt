@@ -1,1 +1,2 @@
 reqests
+python_dotenv
