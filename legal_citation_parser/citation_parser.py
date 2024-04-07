@@ -1,5 +1,5 @@
 """
-This Python module provides tools for extracting metadata information from legal citation strings.
+Extracts metadata information from legal citation strings.
 
 """
 
