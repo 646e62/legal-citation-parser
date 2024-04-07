@@ -37,6 +37,7 @@ def court_code_corrector(court_code):
 def canlii_citation_parser(
     citation_string: str,
     include_url: bool = False,
+    call_api: bool = False,
 ) -> dict:
     """
     Rules for parsing a CanLII citation string to extract metadata information.
@@ -196,3 +197,20 @@ def canlii_url_constructor(
         if check_url(url):
             return url
     return None
+
+
+def canlii_api_call(case_id: str) -> dict:
+    """
+    Makes an API call to the CanLII API to retrieve metadata information about a case.
+
+    Args:
+        case_id (str): The unique CanLII case ID.
+
+    Returns:
+        dict: A dictionary containing the metadata information about the case, including the style
+        of cause, citation, citation type (neutral or CanLII), year, court code, decision number,
+        jurisdiction, court name, and court level. The dictionary will also include the CanLII URL.
+    """
+
+    # Placeholder for the API call
+    pass
