@@ -3,13 +3,11 @@ This Python module provides tools for extracting metadata information from legal
 
 """
 
-#from canlii_rules import canlii_citation_parser
-
 from .canlii_rules import canlii_citation_parser
 
-# Main code
-
-def parse_citation(citation: str, citation_type="canlii") -> dict:
+def parse_citation(
+    citation: str, citation_type: str = "canlii", include_url: bool = False
+) -> dict:
     """
     Parses a citation string to extract key information about the court case.
 
@@ -24,7 +22,7 @@ def parse_citation(citation: str, citation_type="canlii") -> dict:
     """
 
     if citation_type == "canlii":
-        return canlii_citation_parser(citation)
+        return canlii_citation_parser(citation, include_url=include_url)
 
     elif "CanLII" in citation:
         return canlii_citation_parser(citation)
