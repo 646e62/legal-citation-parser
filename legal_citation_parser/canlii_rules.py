@@ -4,6 +4,7 @@ Rule set for parsing CanLII citations and constructing CanLII URLs, as well as n
 
 import re
 import os
+import sys
 import requests
 
 from dotenv import load_dotenv
@@ -15,6 +16,7 @@ from .canlii_constants import (
 )
 
 from .utils import check_url
+
 
 def court_code_corrector(court_code):
     """
@@ -41,7 +43,7 @@ def court_code_corrector(court_code):
 def canlii_citation_parser(
     citation_string: str,
     include_url: bool = False,
-    call_api: bool = True,
+    call_api: bool = False,
 ) -> dict:
     """
     Rules for parsing a CanLII citation string to extract metadata information.
@@ -152,14 +154,18 @@ def canlii_citation_parser(
         )
 
     if call_api:
-        api_info = canlii_api_call(uid)
+        api_info = canlii_api_call(uid, court_code)
         citation_info.update(api_info)
 
     return citation_info
 
 
 def canlii_url_constructor(
-    jurisdiction: str, court_level: str, year: str, decision_number: str, citation_type: str
+    jurisdiction: str,
+    court_level: str,
+    year: str,
+    decision_number: str,
+    citation_type: str,
 ) -> str:
     """
     Constructs the likely URL for a CanLII case based on the jurisdiction, court level, year, and
@@ -207,7 +213,14 @@ def canlii_url_constructor(
     return None
 
 
-def canlii_api_call(case_id: str) -> dict:
+def canlii_api_call(
+    case_id: str,
+    database_id: str,
+    language: str = "en",
+    get_metadata=True,
+    get_cited_cases=False,
+    get_citing_cases=False,
+) -> dict:
     """
     Makes an API call to the CanLII API to retrieve metadata information about a case.
 
@@ -220,17 +233,47 @@ def canlii_api_call(case_id: str) -> dict:
         jurisdiction, court name, and court level. The dictionary will also include the CanLII URL.
     """
 
-    # Placeholder for the API call
-    # Load environment variables from .env file
+    # Load the CanLII API key from the .env file. If it is not present, prompt the user to enter it.
+    # If the user enters nothing, the function will exit.
+
+    
     load_dotenv()
+    if os.getenv("CANLII_API_KEY") is None:
+        print("Please enter your CanLII API key (or blank input to exit):")
+        API_KEY = input()
+        if API_KEY == "":
+            sys.exit()
+    else:
+        API_KEY = os.getenv("CANLII_API_KEY")
 
-    # Access your API key
-    API_KEY = os.getenv("CANLII_API_KEY")
+    metadata_api_info = {}
 
-    # Get a dictionary from a CanLII API call
-    url = f"https://api.canlii.org/v1/caseBrowse/en/csc-scc/{case_id}/?api_key={API_KEY}"
-    response = requests.get(url)
-    case_info = response.json()
+    if database_id == "scc":
+        database_id = "csc-scc"
 
-    return case_info
+    if get_metadata:
+        metadata_url = f"https://api.canlii.org/v1/caseBrowse/{language}/{database_id}/{case_id}/?api_key={API_KEY}"
+        response = requests.get(metadata_url, timeout=5)
+        case_metadata = response.json()
+        metadata_api_info["short_url"] = case_metadata["url"]
+        metadata_api_info["language"] = case_metadata["language"]
+        metadata_api_info["docket_number"] = case_metadata["docketNumber"]
+        metadata_api_info["decision_date"] = case_metadata["decisionDate"]
+        metadata_api_info["keywords"] = case_metadata["keywords"]
+        metadata_api_info["categories"] = case_metadata["topics"]
 
+    if get_cited_cases:
+        cited_cases_url = f"  https://api.canlii.org/v1/caseCitator/{language}/{database_id}/{case_id}/citedCases?api_key={API_KEY}"
+        response = requests.get(cited_cases_url, timeout=5)
+        cited_cases = response.json()
+        metadata_api_info["cited_cases"] = cited_cases
+
+    if get_citing_cases:
+        citing_cases_url = (
+            cited_cases_url
+        ) = f"  https://api.canlii.org/v1/caseCitator/{language}/{database_id}/{case_id}/citingCases?api_key={API_KEY}"
+        response = requests.get(citing_cases_url, timeout=5)
+        citing_cases = response.json()
+        metadata_api_info["citing_cases"] = citing_cases
+
+    return metadata_api_info
