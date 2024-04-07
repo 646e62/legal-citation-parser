@@ -59,8 +59,11 @@ def canlii_citation_parser(
     # Absent a very unusually-named court case, the style of cause will always be separated from the
     # rest of the citation by a comma, space, a four-digit year, and another space. This regex
     # pattern captures the style of cause.
-    year = re.search(r", \d{4}", citation_string)
-    year = year.group().replace(", ", "")
+    try:
+        year = re.search(r", \d{4}", citation_string)
+        year = year.group().replace(", ", "")
+    except AttributeError:
+        year = None
 
     # Split the string where a comma is followed by a space and then four digits using regex
     # Append the year plus a space to the second element of the resulting list
@@ -71,14 +74,13 @@ def canlii_citation_parser(
     style_of_cause = style_of_cause.replace(".", "")
 
     # Construct the citation string
-    citation = year + " " + citation_string[1]
-
-    # Prevents the code from breaking entirely if some of the elements don't parse correctly
-    court_decoded = None
-    court_level = None
+    try:
+        citation = year + " " + citation_string[1]
+    except TypeError:
+        citation = None
 
     # Identify and handle SCR citations
-    if " SCR " in citation:
+    if citation and " SCR " in citation:
         citation = citation.split(", ")
         scr_citation = citation[1]
         citation = citation[0]
@@ -86,13 +88,13 @@ def canlii_citation_parser(
         scr_citation = None
 
     # Determine the citation type, if any
-    if " CanLII " not in citation:
+    if citation and " CanLII " not in citation:
         citation_type = "neutral"
         court_code = citation.split(" ")[1]
         court_code = court_code_corrector(court_code)
         decision_number = citation.split(" ")[2]
         uid = str(year) + court_code + decision_number
-    elif " CanLII " in citation:
+    elif citation and " CanLII " in citation:
         citation_type = "canlii"
         court_code = re.search(r"\(([^)]+)\)", citation)
         court_code = court_code.group()
@@ -105,15 +107,21 @@ def canlii_citation_parser(
         decision_number = None
         uid = None
 
-    # Extrapolate the court name and jurisdiction from the court code
-    court_code_lower = court_code.lower()
-    court_decoded = COURT_LEVEL_MAPPING.get(court_code_lower)
-    court_level = COURT_HIERARCHY_CRIMINAL.get(court_code_lower)
+    if uid is None:
+        style_of_cause = None
 
-    if court_decoded:
+    # Extrapolate the court name and jurisdiction from the court code
+    if court_code:
+        court_code_lower = court_code.lower()
+        court_decoded = COURT_LEVEL_MAPPING.get(court_code_lower)
+        court_level = COURT_HIERARCHY_CRIMINAL.get(court_code_lower)
         court_name = court_decoded[0]
         jurisdiction = court_decoded[1]
     else:
+        court_decoded = None
+        court_name = None
+        court_level = None
+        jurisdiction = None
         court_name = None
         jurisdiction = None
 

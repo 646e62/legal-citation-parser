@@ -649,4 +649,5 @@ PROVINCE_TERRITORY_ABBREVIATIONS = {
     "yukon": "yt",
     "northwest territories": "nt",
     "nunavut": "nu",
+    "federal": "ca",
 }
