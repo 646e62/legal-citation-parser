@@ -25,6 +25,8 @@ The module currently extracts the following from (most) raw CanLII citation stri
 
 ## Installation
 
+### pip
+
 From the command line:
 
 ```bash
