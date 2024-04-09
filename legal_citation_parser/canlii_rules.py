@@ -3,11 +3,6 @@ Rule set for parsing CanLII citations and constructing CanLII URLs, as well as n
 """
 
 import re
-import os
-import sys
-import requests
-
-from dotenv import load_dotenv
 
 from .canlii_constants import (
     COURT_HIERARCHY_CRIMINAL,
@@ -15,7 +10,7 @@ from .canlii_constants import (
     PROVINCE_TERRITORY_ABBREVIATIONS,
 )
 
-from .utils import check_url
+from .utils import check_url, canlii_api_call
 
 
 def court_code_corrector(court_code):
@@ -97,25 +92,29 @@ def canlii_citation_parser(
         scr_citation = None
 
     # Determine the citation type, if any
+    # Relocate and refactor this code if more citation types are added
     if citation and " CanLII " not in citation:
         citation_type = "neutral"
         court_code = citation.split(" ")[1]
         court_code = court_code_corrector(court_code)
         decision_number = citation.split(" ")[2]
         uid = str(year) + court_code + decision_number
+    
+    # Catches CanLII citations in obvious cases where the citation type wasn't explicitly stated
     elif citation and " CanLII " in citation:
         citation_type = "canlii"
         court_code = re.search(r"\(([^)]+)\)", citation)
         court_code = court_code.group()
         court_code = court_code_corrector(court_code)
         decision_number = citation.split(" ")[2]
-        uid = str(year) + court_code + decision_number
+        uid = generate_uid(year, court_code, decision_number, citation_type)
     else:
         citation_type = None
         court_code = None
         decision_number = None
         uid = None
 
+    # Without this code, the function returns the non-compliant string as the style of cause
     if uid is None:
         style_of_cause = None
 
@@ -126,13 +125,10 @@ def canlii_citation_parser(
         court_level = COURT_HIERARCHY_CRIMINAL.get(court_code_lower)
         court_name = court_decoded[0]
         jurisdiction = court_decoded[1]
+    
+    # Each subsequent variable requires court_code, so they are set to None if court_code == None
     else:
-        court_decoded = None
-        court_name = None
-        court_level = None
-        jurisdiction = None
-        court_name = None
-        jurisdiction = None
+        court_decoded = court_name = court_level = jurisdiction = None
 
     # Construct the citation information dictionary
     citation_info = {
@@ -155,20 +151,35 @@ def canlii_citation_parser(
             jurisdiction, court_code, year, decision_number, citation_type
         )
 
-    # API fine-tuning
+    # API non-exclusive fine-tuning
+    # Metadata
     if call_api_metadata:
-        api_info = canlii_api_call(uid, court_code, get_metadata=True)
+        api_info = canlii_api_call(uid, court_code, decision_metadata=True)
         citation_info.update(api_info)
     
+    # Cases the decision cites
     if call_api_cases_cited:
-        api_info = canlii_api_call(uid, court_code, get_cited_cases=True)
+        api_info = canlii_api_call(uid, court_code, cases_cited=True)
         citation_info.update(api_info)
 
+    # Cases that cite the decision
     if call_api_cases_citing:
-        api_info = canlii_api_call(uid, court_code, get_citing_cases=True)
+        api_info = canlii_api_call(uid, court_code, cases_citing=True)
         citation_info.update(api_info)
 
     return citation_info
+
+
+def generate_uid(year: str, court_level: str, decision_number: str, citation_type: str) -> str:
+    
+    citation = ""
+
+    if citation_type == "canlii":
+        citation = f"{year}canlii{decision_number}"
+    else:
+        citation = f"{year}{court_level}{decision_number}"
+
+    return citation
 
 
 def canlii_url_constructor(
@@ -199,10 +210,7 @@ def canlii_url_constructor(
         return None
 
     # Creates either a CanLII or neutral citation based on the citation type
-    if citation_type == "canlii":
-        citation = f"{year}canlii{decision_number}"
-    else:
-        citation = f"{year}{court_level}{decision_number}"
+    citation = generate_uid(year, court_level, decision_number, citation_type)
 
     # Construct the URL for the English and French versions of the CanLII URL
     urls = [
@@ -222,69 +230,3 @@ def canlii_url_constructor(
         if check_url(url):
             return url
     return None
-
-
-def canlii_api_call(
-    case_id: str,
-    database_id: str,
-    language: str = "en",
-    get_metadata=False,
-    get_cited_cases=False,
-    get_citing_cases=False,
-) -> dict:
-    """
-    Makes an API call to the CanLII API to retrieve metadata information about a case.
-
-    Args:
-        case_id (str): The unique CanLII case ID.
-
-    Returns:
-        dict: A dictionary containing the metadata information about the case, including the style
-        of cause, citation, citation type (neutral or CanLII), year, court code, decision number,
-        jurisdiction, court name, and court level. The dictionary will also include the CanLII URL.
-    """
-
-    # Load the CanLII API key from the .env file. If it is not present, prompt the user to enter it.
-    # If the user enters nothing, the function will exit.
-
-    
-    load_dotenv()
-    if os.getenv("CANLII_API_KEY") is None:
-        print("Please enter your CanLII API key (or blank input to exit):")
-        API_KEY = input()
-        if API_KEY == "":
-            sys.exit()
-    else:
-        API_KEY = os.getenv("CANLII_API_KEY")
-
-    metadata_api_info = {}
-
-    if database_id == "scc":
-        database_id = "csc-scc"
-
-    if get_metadata:
-        metadata_url = f"https://api.canlii.org/v1/caseBrowse/{language}/{database_id}/{case_id}/?api_key={API_KEY}"
-        response = requests.get(metadata_url, timeout=5)
-        case_metadata = response.json()
-        metadata_api_info["short_url"] = case_metadata["url"]
-        metadata_api_info["language"] = case_metadata["language"]
-        metadata_api_info["docket_number"] = case_metadata["docketNumber"]
-        metadata_api_info["decision_date"] = case_metadata["decisionDate"]
-        metadata_api_info["keywords"] = case_metadata["keywords"]
-        metadata_api_info["categories"] = case_metadata["topics"]
-
-    if get_cited_cases:
-        cited_cases_url = f"  https://api.canlii.org/v1/caseCitator/{language}/{database_id}/{case_id}/citedCases?api_key={API_KEY}"
-        response = requests.get(cited_cases_url, timeout=5)
-        cited_cases = response.json()
-        metadata_api_info["cited_cases"] = cited_cases
-
-    if get_citing_cases:
-        citing_cases_url = (
-            cited_cases_url
-        ) = f"  https://api.canlii.org/v1/caseCitator/{language}/{database_id}/{case_id}/citingCases?api_key={API_KEY}"
-        response = requests.get(citing_cases_url, timeout=5)
-        citing_cases = response.json()
-        metadata_api_info["citing_cases"] = citing_cases
-
-    return metadata_api_info

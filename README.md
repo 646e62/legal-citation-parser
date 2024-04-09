@@ -9,6 +9,8 @@ Although legal citations are typically short strings, they contain a great deal 
 
 ## Metadata
 
+### Basic citation string
+
 The module currently extracts the following from (most) raw CanLII citation strings:
 
 - **UID.** The decision's unique ID. Corresponds to the CanLII API's `caseId` variable.
@@ -21,6 +23,9 @@ The module currently extracts the following from (most) raw CanLII citation stri
 - **Court name.** The human readable court level.
 - **Court level.** The relative level of the court.
 - **CanLII URL.** The decision's URL on canlii.org
+
+### CanLII API
+
 
 
 ## Installation

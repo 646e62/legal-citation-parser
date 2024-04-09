@@ -17,8 +17,7 @@ def parse_citation(
 
     Keyword Args:
         include_url (bool): A flag to determine whether to include the CanLII URL in the output.
-        call_api (bool): A flag to determine whether to call the CanLII API to retrieve additional
-        metadata information.
+        
 
     Returns:
         dict: A dictionary containing the parsed information, including the style of cause,
