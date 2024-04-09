@@ -98,7 +98,7 @@ def canlii_citation_parser(
         court_code = citation.split(" ")[1]
         court_code = court_code_corrector(court_code)
         decision_number = citation.split(" ")[2]
-        uid = str(year) + court_code + decision_number
+        uid = generate_uid(year, court_code, decision_number, citation_type)
     
     # Catches CanLII citations in obvious cases where the citation type wasn't explicitly stated
     elif citation and " CanLII " in citation:
@@ -171,7 +171,20 @@ def canlii_citation_parser(
 
 
 def generate_uid(year: str, court_level: str, decision_number: str, citation_type: str) -> str:
-    
+    """
+    Generates a unique identifier (UID) for a CanLII case based on the year, court level, and
+    decision number. The UID is used to construct the CanLII URL, as well as for API calls.
+
+    Args:
+        year (str): The year of the decision.
+        court_level (str): The court level abbreviation.
+        decision_number (str): The decision number.
+        citation_type (str): The type of citation to generate.
+
+    Returns:
+        str: The generated unique identifier for the CanLII case.
+    """
+
     citation = ""
 
     if citation_type == "canlii":

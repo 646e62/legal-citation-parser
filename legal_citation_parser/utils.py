@@ -33,8 +33,8 @@ def check_url(url: str) -> str:
 
 def canlii_api_call(
     case_id: str,
-    legislation_id: str,
     database_id: str,
+    legislation_id: str=None,
     language: str = "en",
     decision_metadata=False,
     legislation_metadata=False,

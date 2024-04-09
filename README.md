@@ -26,7 +26,16 @@ The module currently extracts the following from (most) raw CanLII citation stri
 
 ### CanLII API
 
+The module is also able to use the CanLII API to retrieve additional metadata and other potentially useful case information, including:
 
+* **Short URL.** The decision's short URL.
+* **Language.** The decision's language or languages.
+* **Docket number.** The decision's docket number or numbers.
+* **Decision date.** The YYYY-MM-DD the court issued the decision.
+* **Keywords.** A 'list' of keywords supplied by CanLII, separated by a '—'.
+* **Categories.** A 'list' of categories supplied by CanLII, also separated by a '—'.
+* **Cases cited.** A list of decisions (including databaseId, caseId, title, and citation) the case cites.
+* **Cases citing.** A list of decisions (including databaseId, caseId, title, and citation) that cite the case.
 
 ## Installation
 
@@ -44,6 +53,31 @@ In Python 3.x:
 >>> from legal_citation_parser import parse_citation
 ```
 
+Example call:
+
+```python
+>>> parse_citation("R v Sutherland, 2022 MBCA 23", include_url=True, call_api_metadata=True)
+>>>
+{'uid': '2022mbca23',
+ 'style_of_cause': 'R v Sutherland',
+ 'atomic_citation': '2022 MBCA 23',
+ 'citation_type': 'neutral',
+ 'scr_citation': None,
+ 'year': '2022',
+ 'court': 'mbca',
+ 'decision_number': '23',
+ 'jurisdiction': 'manitoba',
+ 'court_name': 'Court of Appeal of Manitoba',
+ 'court_level': 'provincial appellate',
+ 'url': 'https://www.canlii.org/en/mb/mbca/doc/2022/2022mbca23/2022mbca23.html',
+ 'short_url': 'https://canlii.ca/t/jmnrg',
+ 'language': 'en',
+ 'docket_number': 'AR21-30-09591',
+ 'decision_date': '2022-02-24',
+ 'keywords': 'Criminal law — Murder — Second degree murder — Evidence — Admissibility',
+ 'categories': 'Criminal or statutory infractions — Evidence — Practice and procedure'}
+```
+
 ## Contributing
 
 Contributions to improve this module are welcome. You can contribute by:
@@ -53,5 +87,5 @@ Contributions to improve this module are welcome. You can contribute by:
 
 ## License
 
-This project is licensed under the GPL 3.0 License - see the LICENSE file for details.
+This project is licensed under the GPL 3.0 License - see the [LICENSE](https://github.com/646e62/legal_citation_parser/blob/main/LICENSE) file for details.
 
