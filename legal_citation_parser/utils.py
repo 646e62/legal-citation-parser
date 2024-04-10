@@ -8,6 +8,7 @@ import sys
 import requests
 
 from dotenv import load_dotenv
+from .canlii_constants import PROVINCE_TERRITORY_ABBREVIATIONS
 
 def check_url(url: str) -> str:
     """
@@ -32,14 +33,15 @@ def check_url(url: str) -> str:
 
 
 def canlii_api_call(
-    case_id: str,
-    database_id: str,
-    legislation_id: str=None,
+    case_id: str = None,
+    database_id: str = None,
+    legislation_id: str = None,
     language: str = "en",
     decision_metadata=False,
     legislation_metadata=False,
     cases_cited=False,
     cases_citing=False,
+    canlii_database=False,
 ) -> dict:
     """
     Makes an API call to the CanLII API to retrieve metadata information about a case.
@@ -103,4 +105,37 @@ def canlii_api_call(
         metadata_api_info["type"] = legislation_metadata["type"]
         metadata_api_info["citation"] = legislation_metadata["citation"]
 
+    if canlii_database:
+        database_url = f"https://api.canlii.org/v1/caseBrowse/{language}/?api_key={API_KEY}"
+        response = requests.get(database_url, timeout=5)
+        database_info = response.json()
+        metadata_api_info["database"] = database_info
+
     return metadata_api_info
+
+
+def generate_canlii_court_database(language: str ="en") -> dict:
+    """
+    Generates a dictionary of CanLII court databases.
+
+    Args:
+        language (str): The language of the court databases.
+
+    Returns:
+        dict: A dictionary containing the court databases available on CanLII.
+    """
+
+    case_database = canlii_api_call(language=language, canlii_database=True)
+
+    ABBREVIATION_TO_PROVINCE_TERRITORY = {v: k for k, v in PROVINCE_TERRITORY_ABBREVIATIONS.items()}
+    transformed_dict = {}
+    for entry in case_database:
+        database_id = entry.get('databaseId')
+        name = entry.get('name')
+        jurisdiction = entry.get('jurisdiction')
+
+        # Substitute the jurisdiction with its full name
+        jurisdiction_full = ABBREVIATION_TO_PROVINCE_TERRITORY.get(jurisdiction, jurisdiction)  # Default to original if not found
+        transformed_dict[database_id] = (name, jurisdiction_full)
+    
+    return transformed_dict

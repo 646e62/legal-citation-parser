@@ -7,6 +7,7 @@ import re
 from .canlii_constants import (
     COURT_HIERARCHY_CRIMINAL,
     COURT_LEVEL_MAPPING,
+    COURT_LEVEL_MAPPING_LEGACY,
     PROVINCE_TERRITORY_ABBREVIATIONS,
 )
 
@@ -122,6 +123,8 @@ def canlii_citation_parser(
     if court_code:
         court_code_lower = court_code.lower()
         court_decoded = COURT_LEVEL_MAPPING.get(court_code_lower)
+        if court_decoded is None:
+            court_decoded = COURT_LEVEL_MAPPING_LEGACY.get(court_code_lower, 'scc')
         court_level = COURT_HIERARCHY_CRIMINAL.get(court_code_lower)
         court_name = court_decoded[0]
         jurisdiction = court_decoded[1]
