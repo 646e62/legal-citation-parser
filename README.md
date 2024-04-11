@@ -122,6 +122,11 @@ Should produce:
    } 
 ```
 
+## v 0.2.1 updates
+
+* Added functionality to the CanLII API call tool
+* Updated the court code dictionaries using the CanLII API
+
 ## Contributing
 
 Contributions to improve this module are welcome. You can contribute by:
