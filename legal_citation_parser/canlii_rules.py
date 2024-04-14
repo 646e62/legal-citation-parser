@@ -121,10 +121,13 @@ def canlii_citation_parser(
 
     # Extrapolate the court name and jurisdiction from the court code
     if court_code:
+        print(court_code)
         court_code_lower = court_code.lower()
         court_decoded = COURT_LEVEL_MAPPING.get(court_code_lower)
+        print(court_decoded)
         if court_decoded is None:
             court_decoded = COURT_LEVEL_MAPPING_LEGACY.get(court_code_lower, 'scc')
+            print(court_decoded)
         court_level = COURT_HIERARCHY_CRIMINAL.get(court_code_lower)
         court_name = court_decoded[0]
         jurisdiction = court_decoded[1]
@@ -224,9 +227,27 @@ def canlii_url_constructor(
         jurisdiction_code = PROVINCE_TERRITORY_ABBREVIATIONS[jurisdiction]
     else:
         return None
+    
+    if court_level == "pesc":
+        court_level == "pesctd"
+
+    print(court_level)
 
     # Creates either a CanLII or neutral citation based on the citation type
     citation = generate_uid(year, court_level, decision_number, citation_type)
+
+    # Special case rules for certain jurisdictions and court levels
+    # Replace with a more general solution as more exceptions manifest
+    
+    # court_level
+    if "pesc" in court_level:
+        court_level = court_level.replace("pesc", "pesctd")
+    if "peca" in court_level:
+        court_level = court_level.replace("peca", "pescad")
+    
+    # citation
+    if "nt" in citation:
+        citation = citation.replace("nt", "nwt")
 
     # Construct the URL for the English and French versions of the CanLII URL
     urls = [
@@ -246,3 +267,51 @@ def canlii_url_constructor(
         if check_url(url):
             return url
     return None
+
+def correct_database_id(court_level: str) -> str:
+    """
+    Constructs the CanLII database ID for a specific court level.
+
+    Args:
+        court_level (str): The court level abbreviation.
+
+    Returns:
+        str: The database ID for the court level.
+    """
+
+    COURT_CODE_DATABASE_ID_MAPPING = {
+        "scc": "csc-scc",
+        "scc-l": "csc-scc-al",
+        "pesc": "pesctd",
+        "peca": "pescad",
+        "nuwcat": "ntwcat",
+        #9 NBSEC
+    }
+
+    if court_level in PROVINCE_TERRITORY_ABBREVIATIONS:
+        jurisdiction_code = PROVINCE_TERRITORY_ABBREVIATIONS[court_level]
+    else:
+        return None
+
+    return f"{jurisdiction_code}/{court_level}" 
+
+
+def correct_citation(citation: str) -> str:
+    """
+    Corrects the citation string to ensure consistency in the format.
+
+    Args:
+        citation (str): The citation string to correct.
+
+    Returns:
+        str: The corrected citation string.
+    """
+
+    CITATION_CORRECTION_MAPPING = {
+        "nt": "nwt",
+        "qcopodq": "qccdpod",
+        "qccmmtq": "qccmpmq",
+        "nuwcat": "ntnuwcat",
+        "ntwcat": "ntnuwcat",
+        #9 NBSEC
+    }

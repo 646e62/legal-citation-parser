@@ -2,7 +2,13 @@
 Contains constants that map court names to their respective levels and jurisdictions.
 """
 
-COURT_LEVEL_MAPPING = {
+DATABASE_ID_MAPPING = {
+    'scc': 'csc-scc',
+    'scc-l': 'scc-al',
+    
+}
+
+COURT_LEVEL_MAPPING_API = {
     'nlpc': ('Provincial Court of Newfoundland and Labrador', 'newfoundland and labrador'),
     'nlpb': ('Newfoundland and Labrador Pharmacy Board', 'newfoundland and labrador'),
     'qcopodq': ("Conseil de discipline de l'Ordre des podiatres du Québec", 'québec'),
@@ -897,6 +903,7 @@ COURT_LEVEL_MAPPING_LEGACY = {
     ),
     "pescad": ("Prince Edward Island Court of Appeal", "prince edward island"),
     "peca": ("Prince Edward Island Court of Appeal", "prince edward island"),
+    'pesc': ('Supreme Court of Prince Edward Island', 'prince edward island'),
     "pesctd": ("Supreme Court of Prince Edward Island", "prince edward island"),
     "pepc": ("Provincial Court of Prince Edward Island", "prince edward island"),
     "peipc": ("Information and Privacy Commissioner", "prince edward island"),
