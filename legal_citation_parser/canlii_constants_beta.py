@@ -3214,9 +3214,13 @@ COURT_CODES = {
             "name":
             {
                 "en": "Labour Arbitration Awards",
+                "fr": "Sentences arbitrales de travail",
             },
-            "url": {"en": "https://www.canlii.org/en/nb/nbla/"},
-            "court_id": ["nbla"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/nb/nbla/",
+                "fr": "https://www.canlii.org/fr/nb/nbla/",},
+            "court_id": [],
         },
 
         "pela":
@@ -3225,9 +3229,14 @@ COURT_CODES = {
             "name":
             {
                 "en": "Labour Arbitration Awards",
+                "fr": "Sentences arbitrales de travail",
             },
-            "url": {"en": "https://www.canlii.org/en/pe/pela/"},
-            "court_id": ["pela"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/pe/pela/",
+                "fr": "https://www.canlii.org/fr/pe/pela/",
+            },
+            "court_id": [],
         },
 
         "qcoapq":
@@ -3237,8 +3246,12 @@ COURT_CODES = {
             {
                 "fr": "Conseil de discipline de l'Ordre des audioprothésistes du Québec",
             },
-            "url": {"en": "https://www.canlii.org/en/qc/qcoapq/"},
-            "court_id": ["qcoapq"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/qc/qcoapq/",
+                "fr": "https://www.canlii.org/fr/qc/qcoapq/",
+            },
+            "court_id": ["qccdap"],
         },
 
         "bcrb":
@@ -3248,7 +3261,11 @@ COURT_CODES = {
             {
                 "en": "British Columbia Review Board",
             },
-            "url": {"en": "https://www.canlii.org/en/bc/bcrb/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/bc/bcrb/",
+                "fr": "https://www.canlii.org/fr/bc/bcrb/",
+            },
             "court_id": ["bcrb"],
         },
 
@@ -3259,7 +3276,11 @@ COURT_CODES = {
             {
                 "fr": "Commission d'accès à l'information",
             },
-            "url": {"en": "https://www.canlii.org/en/qc/qccai/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/qc/qccai/",
+                "fr": "https://www.canlii.org/fr/qc/qccai/",
+            },
             "court_id": ["qccai"],
         },
 
@@ -3270,8 +3291,12 @@ COURT_CODES = {
             {
                 "fr": "Tribunal d'arbitrage (performing, recording and film artists)",
             },
-            "url": {"en": "https://www.canlii.org/en/qc/qctaa/"},
-            "court_id": ["qctaa"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/qc/qctaa/",
+                "fr": "https://www.canlii.org/fr/qc/qctaa/",
+            },
+            "court_id": ["qcta"],
         },
 
         "qccdoooq":
@@ -3281,8 +3306,12 @@ COURT_CODES = {
             {
                 "fr": "Conseil de discipline de l'Ordre des opticiens d'ordonnances du Québec",
             },
-            "url": {"en": "https://www.canlii.org/en/qc/qccdoooq/"},
-            "court_id": ["qccdoooq"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/qc/qccdoooq/",
+                "fr": "https://www.canlii.org/fr/qc/qccdoooq/",
+            },
+            "court_id": ["qccdood"],
         },
 
         "bclrb":
@@ -3292,7 +3321,11 @@ COURT_CODES = {
             {
                 "en": "Labour Relations Board",
             },
-            "url": {"en": "https://www.canlii.org/en/bc/bclrb/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/bc/bclrb/",
+                "fr": "https://www.canlii.org/fr/bc/bclrb/",
+            },
             "court_id": ["bclrb"],
         },
 
@@ -3303,7 +3336,11 @@ COURT_CODES = {
             {
                 "en": "Nova Scotia Securities Commission",
             },
-            "url": {"en": "https://www.canlii.org/en/ns/nssec/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/ns/nssec/",
+                "fr": "https://www.canlii.org/fr/ns/nssec/",
+            },
             "court_id": ["nssec"],
         },
 
@@ -3313,9 +3350,14 @@ COURT_CODES = {
             "name":
             {
                 "en": "Mining and Lands Tribunal",
+                "fr": "Tribunal des mines et des terres",
             },
-            "url": {"en": "https://www.canlii.org/en/on/onmlt/"},
-            "court_id": ["onmlc"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/on/onmlt/",
+                "fr": "https://www.canlii.org/fr/on/ontmt/",
+            },
+            "court_id": [],
         },
 
         "skpmb":
@@ -3325,7 +3367,11 @@ COURT_CODES = {
             {
                 "en": "Saskatchewan Provincial Mediation Board",
             },
-            "url": {"en": "https://www.canlii.org/en/sk/skpmb/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/sk/skpmb/",
+                "fr": "https://www.canlii.org/fr/sk/skpmb/",
+            },
             "court_id": ["skpmb"],
         },
 
@@ -3336,8 +3382,12 @@ COURT_CODES = {
             {
                 "fr": "Conseil de discipline de l'Ordre professionnel des traducteurs, terminologues et interprètes agréés du Québec",
             },
-            "url": {"en": "https://www.canlii.org/en/qc/qcottiaq/"},
-            "court_id": ["qcottiaq"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/qc/qcottiaq/",
+                "fr": "https://www.canlii.org/fr/qc/qcottiaq/",
+            },
+            "court_id": [],
         },
 
         "cer-rec":
@@ -3346,9 +3396,14 @@ COURT_CODES = {
             "name":
             {
                 "en": "Canada Energy Regulator",
+                "fr": "Régie de l’énergie du Canada",
             },
-            "url": {"en": "https://www.canlii.org/en/ca/cer/"},
-            "court_id": ["cer-rec"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/ca/cer/",
+                "fr": "https://www.canlii.org/fr/ca/rec/",
+            },
+            "court_id": [],
         },
 
         "nbomb":
@@ -3357,9 +3412,14 @@ COURT_CODES = {
             "name":
             {
                 "en": "Ombud New Brunswick",
+                "fr": "Ombud Nouveau-Brunswick",
             },
-            "url": {"en": "https://www.canlii.org/en/nb/nbombud/"},
-            "court_id": ["nbomb"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/nb/nbombud/",
+                "fr": "https://www.canlii.org/fr/nb/nbombud/",
+            },
+            "court_id": ["nbombud", "nbomb"],
         },
 
         "casa-cala":
@@ -3368,9 +3428,14 @@ COURT_CODES = {
             "name":
             {
                 "en": "Labour Arbitration Awards",
+                "fr": "Sentences arbitrales de travail",
             },
-            "url": {"en": "https://www.canlii.org/en/ca/cala/"},
-            "court_id": ["casa-cala"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/ca/cala/",
+                "fr": "https://www.canlii.org/fr/ca/casa/",
+            },
+            "court_id": [],
         },
 
         "qctat":
@@ -3380,7 +3445,11 @@ COURT_CODES = {
             {
                 "fr": "Tribunal administratif du travail",
             },
-            "url": {"en": "https://www.canlii.org/en/qc/qctat/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/qc/qctat/",
+                "fr": "https://www.canlii.org/fr/qc/qctat/",
+            },
             "court_id": ["qctat"],
         },
 
@@ -3392,7 +3461,11 @@ COURT_CODES = {
                 "en": "Court of Quebec",
                 "fr": "Cour du Québec",
             },
-            "url": {"en": "https://www.canlii.org/en/qc/qccq/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/qc/qccq/",
+                "fr": "https://www.canlii.org/fr/qc/qccq/",
+            },
             "court_id": ["qccq"],
         },
 
@@ -3404,8 +3477,12 @@ COURT_CODES = {
                 "en": "Administrative Tribunal of Québec",
                 "fr": "Tribunal administratif du Québec",
             },
-            "url": {"en": "https://www.canlii.org/en/qc/qctaq/"},
-            "court_id": ["qctaq"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/qc/qctaq/",
+                "fr": "https://www.canlii.org/fr/qc/qctaq/",
+            },
+            "court_id": [],
         },
 
         "qccs":
@@ -3416,7 +3493,11 @@ COURT_CODES = {
                 "en": "Superior Court",
                 "fr": "Cour supérieure",
             },
-            "url": {"en": "https://www.canlii.org/en/qc/qccs/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/qc/qccs/",
+                "fr": "https://www.canlii.org/fr/qc/qccs/",
+            },
             "court_id": ["qccs"],
         },
 
@@ -3427,7 +3508,11 @@ COURT_CODES = {
             {
                 "en": "College of Chiropodists of Ontario",
             },
-            "url": {"en": "https://www.canlii.org/en/on/oncocoo/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/on/oncocoo/",
+                "fr": "https://www.canlii.org/fr/on/oncocoo/",
+            },
             "court_id": ["oncocoo"],
         },
 
@@ -3439,8 +3524,12 @@ COURT_CODES = {
                 "en": "Labour Commissioner",
                 "fr": "Commissaire au travail",
             },
-            "url": {"en": "https://www.canlii.org/en/qc/qcct/"},
-            "court_id": ["qcct"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/qc/qcct/",
+                "fr": "https://www.canlii.org/fr/qc/qcct/",
+            },
+            "court_id": [],
         },
 
         "tmob":
@@ -3449,9 +3538,14 @@ COURT_CODES = {
             "name":
             {
                 "en": "Trademarks Opposition Board",
+                "fr": "Commission des oppositions des marques de commerce",
             },
-            "url": {"en": "https://www.canlii.org/en/ca/tmob/"},
-            "court_id": ["tmob"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/ca/tmob/",
+                "fr": "https://www.canlii.org/fr/ca/comc/",
+            },
+            "court_id": ["tmob", "comc"],
         },
 
         "qcoaciq":
@@ -3461,8 +3555,12 @@ COURT_CODES = {
             {
                 "fr": "Comité de discipline de l'organisme d'autoréglementation du courtage immobilier du Québec",
             },
-            "url": {"en": "https://www.canlii.org/en/qc/qcoaciq/"},
-            "court_id": ["qcoaciq"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/qc/qcoaciq/",
+                "fr": "https://www.canlii.org/fr/qc/qcoaciq/",
+            },
+            "court_id": [],
         },
 
         "onmic":
@@ -3471,8 +3569,13 @@ COURT_CODES = {
             "name":
             {
                 "en": "Municipal Integrity Commissioners of Ontario",
+                "fr": "Commissaires à l'intégrité municipaux de l'Ontario",
             },
-            "url": {"en": "https://www.canlii.org/en/on/onmic/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/on/onmic/",
+                "fr": "https://www.canlii.org/fr/on/onmic/",
+            },
             "court_id": ["onmic"],
         },
 
@@ -3482,8 +3585,13 @@ COURT_CODES = {
             "name":
             {
                 "en": "Court of Appeal for Ontario",
+                "fr": "Cour d'appel de l'Ontario",
             },
-            "url": {"en": "https://www.canlii.org/en/on/onca/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/on/onca/",
+                "fr": "https://www.canlii.org/fr/on/onca/",
+            },
             "court_id": ["onca"],
         },
 
@@ -3494,7 +3602,11 @@ COURT_CODES = {
             {
                 "en": "Provincial Court of Nova Scotia",
             },
-            "url": {"en": "https://www.canlii.org/en/ns/nspc/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/ns/nspc/",
+                "fr": "https://www.canlii.org/fr/ns/nspc/",
+            },
             "court_id": ["nspc"],
         },
 
@@ -3505,7 +3617,11 @@ COURT_CODES = {
             {
                 "en": "Real Estate Council of Alberta",
             },
-            "url": {"en": "https://www.canlii.org/en/ab/abreca/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/ab/abreca/",
+                "fr": "https://www.canlii.org/fr/ab/abreca/",
+            },
             "court_id": ["abreca"],
         },
 
@@ -3516,7 +3632,11 @@ COURT_CODES = {
             {
                 "en": "College of Veterinarians of Ontario",
             },
-            "url": {"en": "https://www.canlii.org/en/on/oncvo/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/on/oncvo/",
+                "fr": "https://www.canlii.org/fr/on/oncvo/",
+            },
             "court_id": ["oncvo"],
         },
 
@@ -3526,9 +3646,14 @@ COURT_CODES = {
             "name":
             {
                 "en": "Court of King's Bench of Manitoba",
+                "fr": "Cour du Banc du Roi du Manitoba",
             },
-            "url": {"en": "https://www.canlii.org/en/mb/mbkb/"},
-            "court_id": ["mbqb"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/mb/mbkb/",
+                "fr": "https://www.canlii.org/fr/mb/mbkb/",
+            },
+            "court_id": ["mbqb", "mbkb"],
         },
 
         "sct-trp":
@@ -3537,9 +3662,14 @@ COURT_CODES = {
             "name":
             {
                 "en": "Specific Claims Tribunal Canada",
+                "en": "Tribunal des revendications particulières Canada",
             },
-            "url": {"en": "https://www.canlii.org/en/ca/sct/"},
-            "court_id": ["sct-trp"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/ca/sct/",
+                "fr": "https://www.canlii.org/fr/ca/trp/",
+            },
+            "court_id": ["sctc", "trpc"],
         },
 
         "skqb":
@@ -3559,9 +3689,14 @@ COURT_CODES = {
             "name":
             {
                 "en": "Assessment Review Board",
+                "fr": "Commission de révision de l'évaluation foncière de l'Ontario",
             },
-            "url": {"en": "https://www.canlii.org/en/on/onarb/"},
-            "court_id": ["onarb"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/on/onarb/",
+                "fr": "https://www.canlii.org/fr/on/oncref/",
+            },
+            "court_id": [],
         },
 
         "ablrb":
@@ -3571,8 +3706,12 @@ COURT_CODES = {
             {
                 "en": "Alberta Labour Relations Board",
             },
-            "url": {"en": "https://www.canlii.org/en/ab/ablrb/"},
-            "court_id": ["ablrb"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/ab/ablrb/",
+                "fr": "https://www.canlii.org/fr/ab/ablrb/",
+            },
+            "court_id": ["alrb"],
         },
 
         "qcdag":
@@ -3583,8 +3722,12 @@ COURT_CODES = {
                 "en": "Labour Arbitration Awards (including Conférence des arbitres)",
                 "fr": "Sentences arbitrales de travail (incluant Conférence des arbitres)",
             },
-            "url": {"en": "https://www.canlii.org/en/qc/qcla/"},
-            "court_id": ["qcdag"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/qc/qcla/",
+                "fr": "https://www.canlii.org/fr/qc/qcsat/",
+            },
+            "court_id": [],
         },
 
         "peirac":
@@ -3593,8 +3736,13 @@ COURT_CODES = {
             "name":
             {
                 "en": "Prince Edward Island Regulatory & Appeals Commission",
+                "fr": "Commission de réglementation et d'appels de l'Île-du-Prince-Édouard",
             },
-            "url": {"en": "https://www.canlii.org/en/pe/peirac/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/pe/peirac/",
+                "fr": "https://www.canlii.org/fr/pe/peirac/",
+            },
             "court_id": ["peirac"],
         },
 
@@ -3605,8 +3753,12 @@ COURT_CODES = {
             {
                 "en": "Saskatchewan Local Government Board",
             },
-            "url": {"en": "https://www.canlii.org/en/sk/sklgb/"},
-            "court_id": ["sklgb"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/sk/sklgb/",
+                "fr": "https://www.canlii.org/fr/sk/sklgb/",
+            },
+            "court_id": [],
         },
 
         "onctcmpao":
@@ -3615,8 +3767,13 @@ COURT_CODES = {
             "name":
             {
                 "en": "College of Traditional Chinese Medicine Practitioners and Acupuncturists of Ontario",
+                "fr": "Ordre des praticiens en médecine traditionnelle chinoise et des acupuncteurs de l'Ontario",
             },
-            "url": {"en": "https://www.canlii.org/en/on/onctcmpao/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/on/onctcmpao/",
+                "fr": "https://www.canlii.org/fr/on/onctcmpao/",
+            },
             "court_id": ["onctcmpao"],
         },
 
@@ -3627,7 +3784,11 @@ COURT_CODES = {
             {
                 "en": "Superintendent of Pensions",
             },
-            "url": {"en": "https://www.canlii.org/en/bc/bcsp/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/bc/bcsp/",
+                "fr": "https://www.canlii.org/fr/bc/bcsp/",
+            },
             "court_id": ["bcsp"],
         },
 
@@ -3638,8 +3799,12 @@ COURT_CODES = {
             {
                 "en": "Employment Standards Appeals Office",
             },
-            "url": {"en": "https://www.canlii.org/en/nt/ntlsb/"},
-            "court_id": ["ntlsb"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/nt/ntlsb/",
+                "fr": "https://www.canlii.org/fr/nt/ntlsb/",
+            },
+            "court_id": [],
         },
 
         "mbpc":
@@ -3648,8 +3813,13 @@ COURT_CODES = {
             "name":
             {
                 "en": "Provincial Court of Manitoba",
+                "fr": "Cour provinciale du Manitoba",
             },
-            "url": {"en": "https://www.canlii.org/en/mb/mbpc/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/mb/mbpc/",
+                "fr": "https://www.canlii.org/fr/mb/mbpc/",
+            },
             "court_id": ["mbpc"],
         },
 
@@ -3659,8 +3829,13 @@ COURT_CODES = {
             "name":
             {
                 "en": "Provincial Court of Saskatchewan",
+                "fr": "Cour provinciale de la Saskatchewan",
             },
-            "url": {"en": "https://www.canlii.org/en/sk/skpc/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/sk/skpc/",
+                "fr": "https://www.canlii.org/fr/sk/skpc/",
+            },
             "court_id": ["skpc"],
         },
 
@@ -3671,7 +3846,11 @@ COURT_CODES = {
             {
                 "en": "Supreme Court of British Columbia",
             },
-            "url": {"en": "https://www.canlii.org/en/bc/bcsc/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/bc/bcsc/",
+                "fr": "https://www.canlii.org/fr/bc/bcsc/",
+                },
             "court_id": ["bcsc"],
         },
 
@@ -3682,8 +3861,12 @@ COURT_CODES = {
             {
                 "en": "Alberta Grievance Arbitration Awards",
             },
-            "url": {"en": "https://www.canlii.org/en/ab/abgaa/"},
-            "court_id": ["abgaa"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/ab/abgaa/",
+                "fr": "https://www.canlii.org/fr/ab/abgaa/",
+            },
+            "court_id": [],
         },
 
         "onscdc":
@@ -3692,9 +3875,14 @@ COURT_CODES = {
             "name":
             {
                 "en": "Divisional Court",
+                "fr": "Cour divisionnaire",
             },
-            "url": {"en": "https://www.canlii.org/en/on/onscdc/"},
-            "court_id": ["onscdc"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/on/onscdc/",
+                "fr": "https://www.canlii.org/fr/on/onscdc/",
+            },
+            "court_id": ["onsc"],
         },
 
         "nttc":
@@ -3704,8 +3892,12 @@ COURT_CODES = {
             {
                 "en": "Territorial Court of the Northwest Territories",
             },
-            "url": {"en": "https://www.canlii.org/en/nt/nttc/"},
-            "court_id": ["nttc"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/nt/nttc/",
+                "fr": "https://www.canlii.org/fr/nt/nttc/",
+            },
+            "court_id": ["nwttc"],
         },
 
         "qcrbq":
@@ -3715,7 +3907,11 @@ COURT_CODES = {
             {
                 "fr": "Régie du Bâtiment - licences d'entrepreneur de construction",
             },
-            "url": {"en": "https://www.canlii.org/en/qc/qcrbq/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/qc/qcrbq/",
+                "fr": "https://www.canlii.org/fr/qc/qcrbq/",
+            },
             "court_id": ["qcrbq"],
         },
 
@@ -3725,9 +3921,14 @@ COURT_CODES = {
             "name":
             {
                 "en": "Workers’ Compensation Appeals Tribunal",
+                "fr": "Tribunal d'appel des accidents au travail",
             },
-            "url": {"en": "https://www.canlii.org/en/nb/nbwcat/"},
-            "court_id": ["nbwhscc"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/nb/nbwcat/",
+                "fr": "https://www.canlii.org/fr/nb/nbtaat/",
+            },
+            "court_id": [],
         },
 
         "ntaat":
@@ -3737,8 +3938,12 @@ COURT_CODES = {
             {
                 "en": "Northwest Territories Assessment Appeal Tribunal",
             },
-            "url": {"en": "https://www.canlii.org/en/nt/ntaat/"},
-            "court_id": ["ntaat"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/nt/ntaat/",
+                "fr": "https://www.canlii.org/fr/nt/ntaat/",
+            },
+            "court_id": ["nwtaat"],
         },
 
         "onrcdso":
@@ -3747,8 +3952,13 @@ COURT_CODES = {
             "name":
             {
                 "en": "Royal College of Dental Surgeons of Ontario",
+                "fr": "Collège royal des chirurgiens dentistes de l'Ontario",
             },
-            "url": {"en": "https://www.canlii.org/en/on/onrcdso/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/on/onrcdso/",
+                "fr": "https://www.canlii.org/fr/on/onrcdso/",
+            },
             "court_id": ["onrcdso"],
         },
 
@@ -3759,8 +3969,12 @@ COURT_CODES = {
             {
                 "en": "Saskatchewan Surrogate Court",
             },
-            "url": {"en": "https://www.canlii.org/en/sk/sksu/"},
-            "court_id": ["sksu"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/sk/sksu/",
+                "fr": "https://www.canlii.org/fr/sk/sksu/",
+            },
+            "court_id": [],
         },
 
         "bcitab":
@@ -3770,7 +3984,11 @@ COURT_CODES = {
             {
                 "en": "Skilled Trades BC Appeal Board",
             },
-            "url": {"en": "https://www.canlii.org/en/bc/bcstab/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/bc/bcstab/",
+                "fr": "https://www.canlii.org/fr/bc/bcstab/",
+            },
             "court_id": ["bcitab"],
         },
 
@@ -3780,8 +3998,13 @@ COURT_CODES = {
             "name":
             {
                 "en": "Provincial Court",
+                "fr": "Cour provinciale",
             },
-            "url": {"en": "https://www.canlii.org/en/nb/nbpc/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/nb/nbpc/",
+                "fr": "https://www.canlii.org/fr/nb/nbpc/",
+            },
             "court_id": ["nbpc"],
         },
 
@@ -3792,8 +4015,12 @@ COURT_CODES = {
             {
                 "en": "Commission de l'équité salariale",
             },
-            "url": {"en": "https://www.canlii.org/en/qc/qcces/"},
-            "court_id": ["qcces"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/qc/qcces/",
+                "fr": "https://www.canlii.org/fr/qc/qcces/",
+            },
+            "court_id": [],
         },
 
         "ondr":
@@ -3802,8 +4029,13 @@ COURT_CODES = {
             "name":
             {
                 "en": "Ontario Court of the Drainage Referee",
+                "fr": "Arbitre en matière de drainage de l'Ontario",
             },
-            "url": {"en": "https://www.canlii.org/en/on/ondr/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/on/ondr/",
+                "fr": "https://www.canlii.org/fr/on/ondr/",
+            },
             "court_id": ["ondr"],
         },
 
@@ -3814,7 +4046,11 @@ COURT_CODES = {
             {
                 "en": "Office of the Registrar of Lobbyists",
             },
-            "url": {"en": "https://www.canlii.org/en/bc/bcorl/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/bc/bcorl/",
+                "fr": "https://www.canlii.org/fr/bc/bcorl/",
+            },
             "court_id": ["bcorl"],
         },
 
@@ -3824,9 +4060,14 @@ COURT_CODES = {
             "name":
             {
                 "en": "Yukon Human Rights Commission (Board of Adjudication)",
+                "fr": "Commission des droits de la personne du Yukon (conseil d'arbitrage)",
             },
-            "url": {"en": "https://www.canlii.org/en/yk/ykhrc/"},
-            "court_id": ["ykhrc"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/yk/ykhrc/",
+                "fr": "https://www.canlii.org/fr/yk/ykhrc/",
+            },
+            "court_id": [],
         },
 
         "pepc":
@@ -3836,8 +4077,12 @@ COURT_CODES = {
             {
                 "en": "Provincial Court of Prince Edward Island",
             },
-            "url": {"en": "https://www.canlii.org/en/pe/pepc/"},
-            "court_id": ["pepc"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/pe/pepc/",
+                "fr": "https://www.canlii.org/fr/pe/pepc/",
+            },
+            "court_id": [],
         },
 
         "bcccalab":
@@ -3847,7 +4092,11 @@ COURT_CODES = {
             {
                 "en": "Community Care and Assisted Living Appeal Board",
             },
-            "url": {"en": "https://www.canlii.org/en/bc/bcccalab/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/bc/bcccalab/",
+                "fr": "https://www.canlii.org/fr/bc/bcccalab/",
+            },
             "court_id": ["bcccalab"],
         },
 
@@ -3858,8 +4107,12 @@ COURT_CODES = {
             {
                 "en": "Supreme Court of Newfoundland and Labrador",
             },
-            "url": {"en": "https://www.canlii.org/en/nl/nlsc/"},
-            "court_id": ["nlsctd"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/nl/nlsc/",
+                "fr": "https://www.canlii.org/fr/nl/nlsc/",
+            },
+            "court_id": ["nlsc", "nlsctd", "nltd"],
         },
 
         "skmbr":
@@ -3869,7 +4122,11 @@ COURT_CODES = {
             {
                 "en": "Saskatchewan Municipal Boards of Revision",
             },
-            "url": {"en": "https://www.canlii.org/en/sk/skmbr/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/sk/skmbr/",
+                "fr": "https://www.canlii.org/fr/sk/skmbr/",
+            },
             "court_id": ["skmbr"],
         },
 
@@ -3879,9 +4136,14 @@ COURT_CODES = {
             "name":
             {
                 "en": "Supreme Court of the Northwest Territories",
+                "fr": "Cour suprême des Territoires du Nord-Ouest",
             },
-            "url": {"en": "https://www.canlii.org/en/nt/ntsc/"},
-            "court_id": ["ntsc"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/nt/ntsc/",
+                "fr": "https://www.canlii.org/fr/nt/ntsc/",
+            },
+            "court_id": ["nwtsc", "ntsc"],
         },
 
         "oncrpo":
@@ -3891,7 +4153,11 @@ COURT_CODES = {
             {
                 "en": "College of Registered Psychotherapists and Registered Mental Health Therapists of Ontario",
             },
-            "url": {"en": "https://www.canlii.org/en/on/oncrpo/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/on/oncrpo/",
+                "fr": "https://www.canlii.org/fr/on/oncrpo/",
+            },
             "court_id": ["oncrpo"],
         },
 
@@ -3902,7 +4168,11 @@ COURT_CODES = {
             {
                 "en": "Court of Appeal of Newfoundland and Labrador",
             },
-            "url": {"en": "https://www.canlii.org/en/nl/nlca/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/nl/nlca/",
+                "fr": "https://www.canlii.org/fr/nl/nlca/",
+            },
             "court_id": ["nlca"],
         },
 
@@ -3912,9 +4182,14 @@ COURT_CODES = {
             "name":
             {
                 "en": "Rental Officer",
+                "fr": "Régisseur des loyers",
             },
-            "url": {"en": "https://www.canlii.org/en/nt/ntro/"},
-            "court_id": ["ntro"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/nt/ntro/",
+                "fr": "https://www.canlii.org/fr/nt/ntro/",
+            },
+            "court_id": [],
         },
 
         "nuipc":
@@ -3924,8 +4199,12 @@ COURT_CODES = {
             {
                 "en": "Information and Privacy Commissioner",
             },
-            "url": {"en": "https://www.canlii.org/en/nu/nuipc/"},
-            "court_id": ["nuipc"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/nu/nuipc/",
+                "fr": "https://www.canlii.org/fr/nu/nuipc/",
+            },
+            "court_id": ["nupc"],
         },
 
         "onhrap":
@@ -3934,9 +4213,14 @@ COURT_CODES = {
             "name":
             {
                 "en": "Horse Racing Appeal Panel",
+                "fr": "Comité d’appel des courses de chevaux",
             },
-            "url": {"en": "https://www.canlii.org/en/on/onhrap/"},
-            "court_id": ["onhrap"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/on/onhrap/",
+                "fr": "https://www.canlii.org/fr/on/oncacc/",
+            },
+            "court_id": [],
         },
 
         "oncj":
@@ -3945,8 +4229,13 @@ COURT_CODES = {
             "name":
             {
                 "en": "Ontario Court of Justice",
+                "fr": "Cour de justice de l'Ontario",
             },
-            "url": {"en": "https://www.canlii.org/en/on/oncj/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/on/oncj/",
+                "fr": "https://www.canlii.org/fr/on/oncj/",
+            },
             "court_id": ["oncj"],
         },
 
@@ -3956,9 +4245,14 @@ COURT_CODES = {
             "name":
             {
                 "en": "Canada Agricultural Review Tribunal",
+                "fr": "Commission de révision agricole du Canada",
             },
-            "url": {"en": "https://www.canlii.org/en/ca/cart/"},
-            "court_id": ["cart-crac"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/ca/cart/",
+                "fr": "https://www.canlii.org/fr/ca/crac/",
+            },
+            "court_id": ["cart", "crac"],
         },
 
         "bcfac":
@@ -3968,7 +4262,11 @@ COURT_CODES = {
             {
                 "en": "Forest Appeals Commission",
             },
-            "url": {"en": "https://www.canlii.org/en/bc/bcfac/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/bc/bcfac/",
+                "fr": "https://www.canlii.org/fr/bc/bcfac/",
+            },
             "court_id": ["bcfac"],
         },
 
@@ -3979,8 +4277,12 @@ COURT_CODES = {
             {
                 "en": "Nova Scotia Probate Court",
             },
-            "url": {"en": "https://www.canlii.org/en/ns/nspr/"},
-            "court_id": ["nspr"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/ns/nspr/",
+                "fr": "https://www.canlii.org/fr/ns/nspr/",
+            },
+            "court_id": ["nspb", "ns pr",],
         },
 
         "qccdp":
@@ -3990,8 +4292,12 @@ COURT_CODES = {
             {
                 "fr": "Tribunal administratif de déontologie policière",
             },
-            "url": {"en": "https://www.canlii.org/en/qc/qctadp/"},
-            "court_id": ["qccdp"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/qc/qctadp/",
+                "fr": "https://www.canlii.org/fr/qc/qctadp/",
+            },
+            "court_id": ["qctadp", "qc tadp", "chrc cdp", "qc tdap", "qc cdp"],
         },
 
         "onco":
@@ -4001,7 +4307,11 @@ COURT_CODES = {
             {
                 "en": "College of Optometrists of Ontario",
             },
-            "url": {"en": "https://www.canlii.org/en/on/onco/"},
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/on/onco/",
+                "fr": "https://www.canlii.org/fr/on/onco/",
+            },
             "court_id": ["onco"],
         },
 
@@ -4011,9 +4321,14 @@ COURT_CODES = {
             "name":
             {
                 "en": "Court of Appeal of Yukon",
+                "fr": "Cour d'appel du Yukon",
             },
-            "url": {"en": "https://www.canlii.org/en/yk/ykca/"},
-            "court_id": ["ykca"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/yk/ykca/",
+                "fr": "https://www.canlii.org/fr/yk/ykca/",
+            },
+            "court_id": ["ykca", "yk ca"],
         },
 
         "qctdp":
@@ -4024,8 +4339,12 @@ COURT_CODES = {
                 "en": "Human Rights Tribunal",
                 "fr": "Tribunal des droits de la personne",
             },
-            "url": {"en": "https://www.canlii.org/en/qc/qctdp/"},
-            "court_id": ["qctdp"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/qc/qctdp/",
+                "fr": "https://www.canlii.org/fr/qc/qctdp/",
+            },
+            "court_id": ["qctdp", "qc tdp", "cq tdp", "tdp qc", "tdp cq"],
         },
 
         "qccmnq":
@@ -4035,8 +4354,12 @@ COURT_CODES = {
             {
                 "fr": "Commission municipale du Québec",
             },
-            "url": {"en": "https://www.canlii.org/en/qc/qccmnq/"},
-            "court_id": ["qccmnq"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/qc/qccmnq/",
+                "fr": "https://www.canlii.org/fr/qc/qccmnq/",
+            },
+            "court_id": ["qc cmnq"],
         },
 
         "qcoppq":
@@ -4046,8 +4369,12 @@ COURT_CODES = {
             {
                 "fr": "Conseil de discipline de l'Ordre professionnel de la physiothérapie du Québec",
             },
-            "url": {"en": "https://www.canlii.org/en/qc/qcoppq/"},
-            "court_id": ["qcoppq"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/qc/qcoppq/",
+                "fr": "https://www.canlii.org/fr/qc/qcoppq/",
+            },
+            "court_id": ["qccdoppq", "qc oppq"],
         },
 
         "qccdoii":
@@ -4057,8 +4384,11 @@ COURT_CODES = {
             {
                 "fr": "Conseil de discipline de l'Ordre des infirmières et infirmiers du Québec",
             },
-            "url": {"en": "https://www.canlii.org/en/qc/qccdoii/"},
-            "court_id": ["qccdoii"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/qc/qccdoii/",
+                "fr": "https://www.canlii.org/fr/qc/qccdoii/",},
+            "court_id": ["qccdinf", "qc cdoii"],
         },
 
         "ntipc":
@@ -4068,8 +4398,12 @@ COURT_CODES = {
             {
                 "en": "Northwest Territories Information and Privacy Commissioner",
             },
-            "url": {"en": "https://www.canlii.org/en/nt/ntipc/"},
-            "court_id": ["ntipc"],
+            "url": 
+            {
+                "en": "https://www.canlii.org/en/nt/ntipc/",
+                "fr": "https://www.canlii.org/fr/nt/ntipc/",
+            },
+            "court_id": ["ntipc", "nwt ipc"],
         },
 
         "qcoarq":
