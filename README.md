@@ -1,5 +1,5 @@
-# legal_citation_parser v 0.2.1
-Extracts metadata from legal citations.
+# legal_citation_parser v 0.3.0
+Extracts metadata from Canadian legal citations.
 
 Although legal citations are typically short strings, they contain a great deal of information compressed into a relatively small package. This Python module is designed to extract and standardize that data from from legal citation strings. This module can currently handles the following citation types:
 
@@ -122,10 +122,9 @@ Should produce:
    } 
 ```
 
-## v 0.2.1 updates
+## v 0.3.0 updates
 
-* Added functionality to the CanLII API call tool
-* Updated the court code dictionaries using the CanLII API
+* Court code & URL constructor overhaul
 
 ## Contributing
 
