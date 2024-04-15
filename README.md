@@ -125,6 +125,7 @@ Should produce:
 ## v 0.3.0 updates
 
 * Court code & URL constructor overhaul
+* URL construction on by default, relegated verification pings to edge cases
 
 ## Contributing
 
