@@ -11,6 +11,10 @@ from .canlii_constants import (
     PROVINCE_TERRITORY_ABBREVIATIONS,
 )
 
+from .canlii_constants_beta import (
+    COURT_CODES,
+)
+
 from .utils import check_url, canlii_api_call
 
 
@@ -109,6 +113,8 @@ def canlii_citation_parser(
         court_code = court_code_corrector(court_code)
         decision_number = citation.split(" ")[2]
         uid = generate_uid(year, court_code, decision_number, citation_type)
+    
+    # Returns None for all variables if the citation string is not from CanLII
     else:
         citation_type = None
         court_code = None
