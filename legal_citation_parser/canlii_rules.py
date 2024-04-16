@@ -12,6 +12,7 @@ from .canlii_constants import (
 
 from .utils import canlii_api_call
 
+
 def canlii_citation_parser(
     citation_string: str,
     language: str = "en",
@@ -36,7 +37,7 @@ def canlii_citation_parser(
     # Remove the " (CanLII)" suffix from the citation string, if present, as it is not part of the
     # citation itself
 
-    def check_court_code(court_code, citation):
+    def check_court_code(court_code, citation, language="en"):
         """
         Court code fine-tuning function to ensure consistency in the court code format.
         """
@@ -55,12 +56,6 @@ def canlii_citation_parser(
         if court_code == "scc" or database_id == "csc":
             database_id = "csc-scc"
         
-        # Corrects for NTTC/NTSC and NTYJC by defaulting to NTTC
-        elif court_code == "nwttc":
-            database_id = "nttc"
-        elif court_code == "nwtsc":
-            database_id = "ntsc"
-        
         # Separates "qc cm" citations by year
         # The QCCMQ database took over "qc cm" after and including 1983, with one exception 
         # (1983canlii2659)
@@ -69,16 +64,37 @@ def canlii_citation_parser(
         elif court_code == "qc cm" and int(year) <= 1983:
             database_id = "qccm"
 
-        # qcta
+        # cbc/cacp - decide based on language
+        # The "ca cb" court code is used for both the CBC and CACP databases. CBC is an English 
+        # abbreviation for the Copyright Board of Canada, and CACP is the French abbreviation for
+        # the Commissaire aux brevets
+        elif court_code == "ca cb":
+            if language == "en":
+                database_id = "cbc"
+            else:
+                database_id = "cacp"
 
-        # onsc
+        # nwttc/nwtsc & ntwytc — defaulting to NTTC for now
+        # Can be addressed with a ping test or the CanLII API later
+        elif court_code == "nwttc":
+            database_id = "nttc"
+        elif court_code == "nwtsc":
+            database_id = "ntsc"
 
-        # ca cb
+        # qcta/qctaa - default to qcta for now
+        # Can be addressed with a ping test or the CanLII API later
+        elif court_code == "qcta":
+            database_id = "qcta"
 
-        return uid, decision_number, database_id
+        # onsc/onsctd - default to onsc for now
+        # Can be addressed with a ping test or the CanLII API later
+        elif court_code == "onsc":
+            database_id = "onsc"
+
+        return uid, decision_number, database_id, language
     
 
-    def check_court_database(database_id, language="en"):
+    def check_court_database(database_id, language):
         """
         DRY function to check the court database ID and return the court level, jurisdiction, and
         court name.
@@ -92,7 +108,7 @@ def canlii_citation_parser(
         
         court_name = COURT_CODES[database_id]["name"][language]
 
-        return court_level, jurisdiction, court_name, language
+        return court_level, jurisdiction, court_name
 
 
     citation_string = citation_string.replace(" (CanLII)", "")
@@ -135,9 +151,7 @@ def canlii_citation_parser(
         citation_type = "canlii"
         court_code = re.search(r"\(([^)]+)\)", citation)
         court_code = court_code.group(1).lower()
-        uid, decision_number, database_id = check_court_code(court_code, citation)
-    
-    # Returns None for all variables if the citation string is not from CanLII
+        uid, decision_number, database_id, language = check_court_code(court_code, citation)
     else:
         return None
 
@@ -146,7 +160,7 @@ def canlii_citation_parser(
         return None
 
     # Compile the long URL
-    court_level, jurisdiction, court_name, language = check_court_database(database_id, language)
+    court_level, jurisdiction, court_name = check_court_database(database_id, language)
     long_url = f"https://www.canlii.org/{language}/{jurisdiction}/{database_id}/doc/{year}/{uid}/{uid}.html"
 
 
