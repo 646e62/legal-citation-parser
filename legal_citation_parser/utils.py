@@ -65,15 +65,8 @@ def canlii_api_call(
 
     metadata_api_info = {}
 
-    # Corrections. Replace with a proper dictionary
-    if database_id == "scc":
-        database_id = "csc-scc"
-    if database_id == "scc-l":
-        database_id = "csc-scc-al"
-
     if decision_metadata:
         metadata_url = f"https://api.canlii.org/v1/caseBrowse/{language}/{database_id}/{case_id}/?api_key={API_KEY}"
-        print(metadata_url)
         response = requests.get(metadata_url, timeout=5)
         case_metadata = response.json()
         metadata_api_info["short_url"] = case_metadata["url"]

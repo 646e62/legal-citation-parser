@@ -10,11 +10,7 @@ from .canlii_constants import (
     COURT_CODE_MAP,
 )
 
-from .utils import check_url, canlii_api_call
-
-"""
-Rule set for parsing CanLII citations and constructing CanLII URLs, as well as neutral citations.
-"""
+from .utils import canlii_api_call
 
 def canlii_citation_parser(
     citation_string: str,
@@ -173,12 +169,12 @@ def canlii_citation_parser(
     # API non-exclusive fine-tuning
     # Metadata
     if metadata:
-        api_info = canlii_api_call(uid, court_code, decision_metadata=True)
+        api_info = canlii_api_call(uid, database_id, decision_metadata=True)
         citation_info.update(api_info)
     
     # Cases the decision cites
     if cited:
-        api_info = canlii_api_call(uid, court_code, cases_cited=True)
+        api_info = canlii_api_call(uid, database_id, cases_cited=True)
         citation_info.update(api_info)
 
     # Cases that cite the decision
