@@ -91,7 +91,7 @@ def canlii_citation_parser(
         elif court_code == "onsc":
             database_id = "onsc"
 
-        return uid, decision_number, database_id, language
+        return uid, decision_number, database_id
     
 
     def check_court_database(database_id, language):
@@ -144,14 +144,14 @@ def canlii_citation_parser(
     if citation and " CanLII " not in citation:
         citation_type = "neutral"
         court_code = citation.split(" ")[1].lower()
-        uid, decision_number, database_id = check_court_code(court_code, citation)
+        uid, decision_number, database_id = check_court_code(court_code, citation, language)
 
     # Catches CanLII citations in obvious cases where the citation type wasn't explicitly stated
     elif citation and " CanLII " in citation:
         citation_type = "canlii"
         court_code = re.search(r"\(([^)]+)\)", citation)
         court_code = court_code.group(1).lower()
-        uid, decision_number, database_id, language = check_court_code(court_code, citation)
+        uid, decision_number, database_id = check_court_code(court_code, citation, language)
     else:
         return None
 
