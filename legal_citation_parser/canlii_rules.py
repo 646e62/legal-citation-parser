@@ -45,8 +45,11 @@ def canlii_citation_parser(
         for court in COURT_CODE_MAP:
             if court_code == court[0]:
                 database_id = court[1]
-
+                break
+        else:
+            return None, None, None
         # Add error handling for court codes not in the map
+        
                 
         decision_number = citation.split(" ")[2]
         uid = generate_uid(year, court_code, decision_number, citation_type)
@@ -146,6 +149,9 @@ def canlii_citation_parser(
         citation_type = "neutral"
         court_code = citation.split(" ")[1].lower()
         uid, decision_number, database_id = check_court_code(court_code, citation, language)
+        # Return an error if the court code is not recognized
+        if uid is None:
+            return "Error: court code not recognized"
 
     # Catches CanLII citations in obvious cases where the citation type wasn't explicitly stated
     elif citation and " CanLII " in citation:
@@ -153,6 +159,8 @@ def canlii_citation_parser(
         court_code = re.search(r"\(([^)]+)\)", citation)
         court_code = court_code.group(1).lower()
         uid, decision_number, database_id = check_court_code(court_code, citation, language)
+        if uid is None:
+            return "Error: court code not recognized"
     else:
         return None
 
