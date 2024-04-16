@@ -44,8 +44,9 @@ def canlii_citation_parser(
 
         for court in COURT_CODE_MAP:
             if court_code == court[0]:
-                court_code = court[0]
                 database_id = court[1]
+
+        # Add error handling for court codes not in the map
                 
         decision_number = citation.split(" ")[2]
         uid = generate_uid(year, court_code, decision_number, citation_type)
@@ -118,7 +119,7 @@ def canlii_citation_parser(
     # pattern captures the style of cause.
     year_match = re.search(r", \d{4}", citation_string)
     if year_match is None:
-        return None  # If no year is found, return None
+        return "Error: citation string must contain a four-digit year"  # If no year is found, return None
     year = year_match.group().replace(", ", "")
 
     # Split the citation string into the style of cause and the rest of the citation
@@ -128,8 +129,8 @@ def canlii_citation_parser(
     # Construct the citation string
     try:
         citation = year + " " + citation_string[1]
-    except TypeError:
-        return None
+    except IndexError:
+        return "Error: citation must contain a court code and decision number"
 
     # Identify and handle SCR citations
     if citation and " SCR " in citation:
