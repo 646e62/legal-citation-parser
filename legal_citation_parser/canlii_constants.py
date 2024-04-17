@@ -88,7 +88,7 @@ COURT_CODES = {
     "qcamf": {
         "jurisdiction": "qc",
         "name": {
-            "Quebec Autorité des marchés financiers",
+            "fr": "Quebec Autorité des marchés financiers",
         },
         "url": {
             "en": "qcamf",
@@ -2017,7 +2017,7 @@ COURT_CODES = {
     "qccdchad": {
         "jurisdiction": "qc",
         "name": {
-            "en": "Comité de discipline de la Chambre de l'assurance de dommages",
+            "fr": "Comité de discipline de la Chambre de l'assurance de dommages",
         },
         "url": {
             "en": "qccdchad",
@@ -2199,7 +2199,7 @@ COURT_CODES = {
     "qccmeq": {
         "jurisdiction": "qc",
         "name": {
-            "en": "Corporation des maîtres électriciens du Québec",
+            "fr": "Corporation des maîtres électriciens du Québec",
         },
         "url": {
             "en": "qccmeq",
@@ -3052,7 +3052,7 @@ COURT_CODES = {
     "qcces": {
         "jurisdiction": "qc",
         "name": {
-            "en": "Commission de l'équité salariale",
+            "fr": "Commission de l'équité salariale",
         },
         "url": {
             "en": "qcces",
@@ -3600,7 +3600,7 @@ COURT_CODES = {
     "qccdoiq": {
         "jurisdiction": "qc",
         "name": {
-            "en": "Conseil de discipline de l'Ordre des ingénieurs du Québec",
+            "fr": "Conseil de discipline de l'Ordre des ingénieurs du Québec",
         },
         "url": {
             "en": "qccdoiq",
@@ -4228,7 +4228,7 @@ COURT_CODES = {
     "qcotstcfq": {
         "jurisdiction": "qc",
         "name": {
-            "en": "Conseil de discipline de l'Ordre professionnel des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec",
+            "fr": "Conseil de discipline de l'Ordre professionnel des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec",
         },
         "url": {
             "en": "qcotstcfq",
