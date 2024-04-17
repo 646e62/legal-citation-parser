@@ -7,7 +7,7 @@ Although legal citations are typically short strings, they contain a great deal 
 * Supreme Court Reader (SCR) citations;
 * CanLII citations.
 
-Version 0.3.0 brings significant reliability and performance improvements. Specifically, the database mapping different courts and tribunals to their unique codes has been completely redone, improving the function's overall performance and accuracy. 
+Version 0.3.0 brought significant reliability and performance improvements. Specifically, the database mapping different courts and tribunals to their unique codes has been completely redone, improving the function's overall performance and accuracy. Version 0.3.1 builds on this by fixing some bugs discovered during new feature testing, and rudimentary database implementation.
 
 ## Metadata
 
@@ -134,10 +134,10 @@ Should produce:
    } 
 ```
 
-## v 0.3.0 updates
+## v 0.3.1 updates
 
-* Court code & URL constructor overhaul
-* URL construction on by default, relegated verification pings to edge cases
+* Numerous court code fixes
+* Early database implementation and testing
 
 ## Contributing
 

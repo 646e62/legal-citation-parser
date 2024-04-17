@@ -88,7 +88,7 @@ COURT_CODES = {
     "qcamf": {
         "jurisdiction": "qc",
         "name": {
-            "Quebec Autorité des marchés financiers",
+            "fr": "Quebec Autorité des marchés financiers",
         },
         "url": {
             "en": "qcamf",
@@ -1385,7 +1385,7 @@ COURT_CODES = {
             "en": "yktc",
             "fr": "yktc",
         },
-        "court_id": ["yktc", "yk tc"],
+        "court_id": ["yktc", "yk tc", "ykyc", "yk yc", "yttc", "yt tc"],
     },
     "qcopq": {
         "jurisdiction": "qc",
@@ -2017,7 +2017,7 @@ COURT_CODES = {
     "qccdchad": {
         "jurisdiction": "qc",
         "name": {
-            "en": "Comité de discipline de la Chambre de l'assurance de dommages",
+            "fr": "Comité de discipline de la Chambre de l'assurance de dommages",
         },
         "url": {
             "en": "qccdchad",
@@ -2199,7 +2199,7 @@ COURT_CODES = {
     "qccmeq": {
         "jurisdiction": "qc",
         "name": {
-            "en": "Corporation des maîtres électriciens du Québec",
+            "fr": "Corporation des maîtres électriciens du Québec",
         },
         "url": {
             "en": "qccmeq",
@@ -2956,7 +2956,7 @@ COURT_CODES = {
             "en": "onscdc",
             "fr": "onscdc",
         },
-        "court_id": ["onsc", "on scdc"],
+        "court_id": ["onsc", "on scdc", "oncs", "on cs"],
     },
     "nttc": {
         "jurisdiction": "nt",
@@ -3013,7 +3013,7 @@ COURT_CODES = {
             "en": "onrcdso",
             "fr": "onrcdso",
         },
-        "court_id": ["onrcdso"],
+        "court_id": ["onrcdso", "on rcdso"],
     },
     "sksu": {
         "jurisdiction": "sk",
@@ -3052,7 +3052,7 @@ COURT_CODES = {
     "qcces": {
         "jurisdiction": "qc",
         "name": {
-            "en": "Commission de l'équité salariale",
+            "fr": "Commission de l'équité salariale",
         },
         "url": {
             "en": "qcces",
@@ -3266,7 +3266,7 @@ COURT_CODES = {
             "en": "qctadp",
             "fr": "qctadp",
         },
-        "court_id": ["qctadp", "qc tadp", "chrc cdp", "qc tdap", "qc cdp"],
+        "court_id": ["qctadp", "qc tadp", "chrc cdp", "qc tdap", "qc cdp", "qccdp"],
     },
     "onco": {
         "jurisdiction": "on",
@@ -3459,7 +3459,7 @@ COURT_CODES = {
             "en": "nbkb",
             "fr": "nbbr",
         },
-        "court_id": ["nbqb", "nbkb", "nb qb", "nb kb"],
+        "court_id": ["nbqb", "nbkb", "nb qb", "nb kb", "nbbr", "nb br"],
     },
     "nshrc": {
         "jurisdiction": "ns",
@@ -3600,7 +3600,7 @@ COURT_CODES = {
     "qccdoiq": {
         "jurisdiction": "qc",
         "name": {
-            "en": "Conseil de discipline de l'Ordre des ingénieurs du Québec",
+            "fr": "Conseil de discipline de l'Ordre des ingénieurs du Québec",
         },
         "url": {
             "en": "qccdoiq",
@@ -3732,7 +3732,7 @@ COURT_CODES = {
             "en": "fct",
             "fr": "cfpi",
         },
-        "court_id": ["fc", "cf"],
+        "court_id": ["fc", "cf", "fct"],
     },
     "nllrb": {
         "jurisdiction": "nl",
@@ -3833,7 +3833,7 @@ COURT_CODES = {
             "en": "caiiroc",
             "fr": "ocrcvm",
         },
-        "court_id": ["iroc", "ocrcvm", "ca ocrcvm", "ca iiroc"],
+        "court_id": ["iroc", "ocrcvm", "ca ocrcvm", "ca iiroc", "iiroc"],
     },
     "nscps": {
         "jurisdiction": "ns",
@@ -4188,7 +4188,7 @@ COURT_CODES = {
             "en": "onlst",
             "fr": "ontb",
         },
-        "court_id": ["onlsth", "ontbh", "on lst"],
+        "court_id": ["onlsth", "ontbh", "on lst", "onlsta", "onlsap", "onlst", "onlshp"],
     },
     "abmgb": {
         "jurisdiction": "ab",
@@ -4228,7 +4228,7 @@ COURT_CODES = {
     "qcotstcfq": {
         "jurisdiction": "qc",
         "name": {
-            "en": "Conseil de discipline de l'Ordre professionnel des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec",
+            "fr": "Conseil de discipline de l'Ordre professionnel des travailleurs sociaux et des thérapeutes conjugaux et familiaux du Québec",
         },
         "url": {
             "en": "qcotstcfq",
@@ -4566,7 +4566,8 @@ COURT_CODE_MAP = [
     ("on rc", "onrc"),
     ("nbrea", "nbrea"),
     ("ab ci", "abci"),
-    ("cmca cm", "cm"),
+    ("cm", "cm"),
+    ("ca cm", "cm"),
     ("onset", "onset"),
     ("onted", "onset"),
     ("qcrmaaq", "qcrmaaq"),
@@ -4694,6 +4695,10 @@ COURT_CODE_MAP = [
     ("ccri", "cirb"),
     ("yktc", "yktc"),
     ("yk tc", "yktc"),
+    ("ykyc", "yktc"),
+    ("yk yc", "yktc"),
+    ("yttc", "yktc"),
+    ("yt tc", "yktc"),
     ("qc opq", "qcopq"),
     ("qccdpsy", "qcopq"),
     ("qc opdq", "qcopdq"),
@@ -4925,6 +4930,8 @@ COURT_CODE_MAP = [
     ("ab gaa", "abgaa"),
     ("onsc", "onscdc"),
     ("on scdc", "onscdc"),
+    ("on cs", "onscdc"),
+    ("oncs", "onscdc"),
     ("nwttc", "nttc"),
     ("nwt tc", "nttc"),
     ("qcrbq", "qcrbq"),
@@ -4933,6 +4940,7 @@ COURT_CODE_MAP = [
     ("nb taat", "nbwhscc"),
     ("nwtaat", "ntaat"),
     ("onrcdso", "onrcdso"),
+    ("on rcdso", "onrcdso"),
     ("sk su", "sksu"),
     ("bcitab", "bcitab"),
     ("nbpc", "nbpc"),
@@ -4954,6 +4962,7 @@ COURT_CODE_MAP = [
     ("oncrpo", "oncrpo"),
     ("nlca", "nlca"),
     ("nl ca", "nlca"),
+    ("nfca", "nlca"),
     ("nwt ro", "ntro"),
     ("nuipc", "nuipc"),
     ("on hrap", "onhrap"),
@@ -4972,6 +4981,7 @@ COURT_CODE_MAP = [
     ("chrc cdp", "qccdp"),
     ("qc tdap", "qccdp"),
     ("qc cdp", "qccdp"),
+    ("qccdp", "qccdp"),
     ("onco", "onco"),
     ("ykca", "ykca"),
     ("yk ca", "ykca"),
@@ -5002,8 +5012,10 @@ COURT_CODE_MAP = [
     ("bceab", "bceab"),
     ("nbqb", "nbqb"),
     ("nbkb", "nbqb"),
+    ("nbbr", "nbqb"),
     ("nb qb", "nbqb"),
     ("nb kb", "nbqb"),
+    ("nb br", "nbqb"),
     ("ns hrc", "nshrc"),
     ("qc oiia", "qccdoiia"),
     ("qccdia", "qccdoiia"),
@@ -5038,6 +5050,7 @@ COURT_CODE_MAP = [
     ("qccdingf", "qcoifq"),
     ("qc tal", "qcrdl"),
     ("qctal", "qcrdl"),
+    ("fct", "fct"),
     ("fc", "fct"),
     ("cf", "fct"),
     ("nllrb", "nllrb"),
@@ -5060,6 +5073,7 @@ COURT_CODE_MAP = [
     ("ocrcvm", "caiiroc"),
     ("ca ocrcvm", "caiiroc"),
     ("ca iiroc", "caiiroc"),
+    ("iiroc", "caiiroc"),
     ("ns cps", "nscps"),
     ("abtsb", "abtsb"),
     ("onsbt", "onsbt"),
@@ -5109,9 +5123,12 @@ COURT_CODE_MAP = [
     ("ab cgyarb", "abcgyarb"),
     ("qccdmv", "qccdomv"),
     ("qc cdomv", "qccdomv"),
+    ("onlsta", "onlst"),
+    ("onlsap", "onlst"),
     ("onlsth", "onlst"),
     ("ontbh", "onlst"),
     ("on lst", "onlst"),
+    ("onlshp", "onlst"),
     ("abmgb", "abmgb"),
     ("cci", "cci-tcc"),
     ("tcc", "cci-tcc"),

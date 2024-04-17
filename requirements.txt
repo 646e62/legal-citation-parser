@@ -1,2 +1,3 @@
 reqests
 python_dotenv
+sqliite3
