@@ -1,4 +1,4 @@
-# legal_citation_parser v 0.3.0
+# legal_citation_parser v 0.3.1
 Extracts metadata from Canadian legal citations.
 
 Although legal citations are typically short strings, they contain a great deal of information compressed into a relatively small package. This Python module is designed to extract and standardize that data from from legal citation strings. This module can currently handles the following citation types:
