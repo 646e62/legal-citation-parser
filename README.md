@@ -1,5 +1,5 @@
-# legal_citation_parser v 0.2.1
-Extracts metadata from legal citations.
+# legal_citation_parser v 0.3.0
+Extracts metadata from Canadian legal citations.
 
 Although legal citations are typically short strings, they contain a great deal of information compressed into a relatively small package. This Python module is designed to extract and standardize that data from from legal citation strings. This module can currently handles the following citation types:
 
@@ -7,11 +7,13 @@ Although legal citations are typically short strings, they contain a great deal 
 * Supreme Court Reader (SCR) citations;
 * CanLII citations.
 
+Version 0.3.0 brings significant reliability and performance improvements. Specifically, the database mapping different courts and tribunals to their unique codes has been completely redone, improving the function's overall performance and accuracy. 
+
 ## Metadata
 
 ### Basic citation string
 
-The module currently extracts the following from (most) raw CanLII citation strings:
+The module currently extracts the following from raw CanLII citation strings:
 
 - **UID.** The decision's unique ID. Corresponds to the CanLII API's `caseId` variable.
 - **Atomic citation.** The citation's human readable unique ID. 
@@ -47,16 +49,26 @@ From the command line:
 pip install legal_citation_parser
 ```
 
+## Usage
+
 In Python 3.x:
 
 ```python
 >>> from legal_citation_parser import parse_citation
 ```
 
-Example call:
+### Kwargs
+* `verify_url`: Pings a program-generated `long_url` . If unsuccessful, the function checks the same URL with the alternative language selected (i.e., "fr" instead of "en", and vice versa). Returns `None` if neither URL ping successfully.
+* `metadata`: Retrieves CanLII metadata. Requires a CanLII API key.
+* `cited`:  Returns a list of cases a decision cites. Requiees a CanLII API key.
+* `citing`: Returns a list of cases that cite the decision. Requires a CanLII API key.
+
+### Example calls
+
+
 
 ```python
-parse_citation("R v Sutherland, 2022 MBCA 23", include_url=True, call_api_metadata=True)
+parse_citation("R v Sutherland, 2022 MBCA 23", verify_url=True, metadata=True)
 ```
 
 Should produce:
@@ -70,10 +82,10 @@ Should produce:
  'year': '2022',
  'court': 'mbca',
  'decision_number': '23',
- 'jurisdiction': 'manitoba',
+ 'jurisdiction': 'mb',
  'court_name': 'Court of Appeal of Manitoba',
  'court_level': 'provincial appellate',
- 'url': 'https://www.canlii.org/en/mb/mbca/doc/2022/2022mbca23/2022mbca23.html',
+ 'long_url': 'https://www.canlii.org/en/mb/mbca/doc/2022/2022mbca23/2022mbca23.html',
  'short_url': 'https://canlii.ca/t/jmnrg',
  'language': 'en',
  'docket_number': 'AR21-30-09591',
@@ -122,10 +134,10 @@ Should produce:
    } 
 ```
 
-## v 0.2.1 updates
+## v 0.3.0 updates
 
-* Added functionality to the CanLII API call tool
-* Updated the court code dictionaries using the CanLII API
+* Court code & URL constructor overhaul
+* URL construction on by default, relegated verification pings to edge cases
 
 ## Contributing
 

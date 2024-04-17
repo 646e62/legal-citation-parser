@@ -8,7 +8,6 @@ import sys
 import requests
 
 from dotenv import load_dotenv
-from .canlii_constants import PROVINCE_TERRITORY_ABBREVIATIONS
 
 def check_url(url: str) -> str:
     """
@@ -66,9 +65,6 @@ def canlii_api_call(
 
     metadata_api_info = {}
 
-    if database_id == "scc":
-        database_id = "csc-scc"
-
     if decision_metadata:
         metadata_url = f"https://api.canlii.org/v1/caseBrowse/{language}/{database_id}/{case_id}/?api_key={API_KEY}"
         response = requests.get(metadata_url, timeout=5)
@@ -87,9 +83,7 @@ def canlii_api_call(
         metadata_api_info["cited_cases"] = cited_cases
 
     if cases_citing:
-        citing_cases_url = (
-            cited_cases_url
-        ) = f"https://api.canlii.org/v1/caseCitator/{language}/{database_id}/{case_id}/citingCases?api_key={API_KEY}"
+        citing_cases_url = f"https://api.canlii.org/v1/caseCitator/{language}/{database_id}/{case_id}/citingCases?api_key={API_KEY}"
         response = requests.get(citing_cases_url, timeout=5)
         citing_cases = response.json()
         metadata_api_info["citing_cases"] = citing_cases
@@ -112,30 +106,3 @@ def canlii_api_call(
         metadata_api_info["database"] = database_info
 
     return metadata_api_info
-
-
-def generate_canlii_court_database(language: str ="en") -> dict:
-    """
-    Generates a dictionary of CanLII court databases.
-
-    Args:
-        language (str): The language of the court databases.
-
-    Returns:
-        dict: A dictionary containing the court databases available on CanLII.
-    """
-
-    case_database = canlii_api_call(language=language, canlii_database=True)
-
-    ABBREVIATION_TO_PROVINCE_TERRITORY = {v: k for k, v in PROVINCE_TERRITORY_ABBREVIATIONS.items()}
-    transformed_dict = {}
-    for entry in case_database:
-        database_id = entry.get('databaseId')
-        name = entry.get('name')
-        jurisdiction = entry.get('jurisdiction')
-
-        # Substitute the jurisdiction with its full name
-        jurisdiction_full = ABBREVIATION_TO_PROVINCE_TERRITORY.get(jurisdiction, jurisdiction)  # Default to original if not found
-        transformed_dict[database_id] = (name, jurisdiction_full)
-    
-    return transformed_dict
