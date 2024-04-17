@@ -151,7 +151,7 @@ def canlii_citation_parser(
         uid, decision_number, database_id = check_court_code(court_code, citation, language)
         # Return an error if the court code is not recognized
         if uid is None:
-            return "Error: court code not recognized"
+            return f"Error: court code {court_code} not recognized"
 
     # Catches CanLII citations in obvious cases where the citation type wasn't explicitly stated
     elif citation and " CanLII " in citation:
@@ -160,7 +160,7 @@ def canlii_citation_parser(
         court_code = court_code.group(1).lower()
         uid, decision_number, database_id = check_court_code(court_code, citation, language)
         if uid is None:
-            return "Error: court code not recognized"
+            return f"Error: court code {court_code} not recognized"
     else:
         return None
 
