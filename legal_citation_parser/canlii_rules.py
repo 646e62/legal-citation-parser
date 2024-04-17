@@ -10,8 +10,7 @@ from .canlii_constants import (
     COURT_CODE_MAP,
 )
 
-from .utils import canlii_api_call
-
+from .utils import canlii_api_call, check_url
 
 def canlii_citation_parser(
     citation_string: str,
@@ -19,6 +18,7 @@ def canlii_citation_parser(
     metadata: bool = False,
     cited: bool = False,
     citing: bool = False,
+    verify_url: bool = False,
 ) -> dict:
     """
     Rules for parsing a CanLII citation string to extract metadata information.
@@ -189,24 +189,46 @@ def canlii_citation_parser(
         "long_url": long_url,
     }
 
-    # API non-exclusive fine-tuning
-    # Metadata
+    # Kwargs
+
+    ## Utility
+    ### Long URL verification
+    if verify_url:
+        if check_url(long_url):
+            print("URL is valid")
+            pass
+        else:
+            # Check long_url, but with the opposite language ("fr" instead of "en" and vice versa)
+            # This is a temporary solution to the language issue
+            if language == "en":
+                alt_language = "fr"
+            else:
+                alt_language = "en"
+            alt_url = f"https://www.canlii.org/{alt_language}/{jurisdiction}/{database_id}/doc/{year}/{uid}/{uid}.html"
+            if check_url(alt_url):
+                citation_info["long_url"] = alt_url
+                print("Alt URL is valid")
+            else:
+                citation_info["long_url"] = None
+
+
+    ## API fine-tuning
+    ### Metadata
     if metadata:
         api_info = canlii_api_call(uid, database_id, decision_metadata=True)
         citation_info.update(api_info)
     
-    # Cases the decision cites
+    ### Cases cited
     if cited:
         api_info = canlii_api_call(uid, database_id, cases_cited=True)
         citation_info.update(api_info)
 
-    # Cases that cite the decision
+    ### Cases citing
     if citing:
-        api_info = canlii_api_call(uid, court_code, cases_citing=True)
+        api_info = canlii_api_call(uid, database_id, cases_citing=True)
         citation_info.update(api_info)
 
     return citation_info
-
 
 def generate_uid(year: str, court_level: str, decision_number: str, citation_type: str) -> str:
     """

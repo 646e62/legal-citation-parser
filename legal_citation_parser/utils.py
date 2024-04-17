@@ -83,9 +83,7 @@ def canlii_api_call(
         metadata_api_info["cited_cases"] = cited_cases
 
     if cases_citing:
-        citing_cases_url = (
-            cited_cases_url
-        ) = f"https://api.canlii.org/v1/caseCitator/{language}/{database_id}/{case_id}/citingCases?api_key={API_KEY}"
+        citing_cases_url = f"https://api.canlii.org/v1/caseCitator/{language}/{database_id}/{case_id}/citingCases?api_key={API_KEY}"
         response = requests.get(citing_cases_url, timeout=5)
         citing_cases = response.json()
         metadata_api_info["citing_cases"] = citing_cases
