@@ -6,6 +6,7 @@ import requests
 import os
 import sys
 import requests
+import sqlite3
 
 from dotenv import load_dotenv
 
@@ -106,3 +107,99 @@ def canlii_api_call(
         metadata_api_info["database"] = database_info
 
     return metadata_api_info
+
+
+def create_citation_database():
+    conn = sqlite3.connect('results.db')
+    c = conn.cursor()
+
+    # Create the main results table
+    c.execute('''
+        CREATE TABLE IF NOT EXISTS results (
+            uid TEXT PRIMARY KEY,
+            style_of_cause TEXT,
+            atomic_citation TEXT,
+            citation_type TEXT,
+            scr_citation TEXT,
+            year TEXT,
+            court TEXT,
+            decision_number TEXT,
+            jurisdiction TEXT,
+            court_name TEXT,
+            court_level TEXT,
+            long_url TEXT,
+            short_url TEXT,
+            language TEXT,
+            docket_number TEXT,
+            decision_date TEXT
+        )
+    ''')
+
+    # Create the keywords table
+    c.execute('''
+        CREATE TABLE IF NOT EXISTS keywords (
+            uid TEXT,
+            keyword TEXT,
+            FOREIGN KEY (uid) REFERENCES results (uid)
+        )
+    ''')
+
+    # Create the categories table
+    c.execute('''
+        CREATE TABLE IF NOT EXISTS categories (
+            uid TEXT,
+            category TEXT,
+            FOREIGN KEY (uid) REFERENCES results (uid)
+        )
+    ''')
+
+    conn.commit()
+    conn.close()
+
+import sqlite3
+
+def insert_data(data, update_existing=False):
+    conn = sqlite3.connect('results.db')
+    c = conn.cursor()
+
+    if update_existing:
+        # Update existing records if the uid already exists
+        c.execute('''
+            INSERT INTO results (uid, style_of_cause, atomic_citation, citation_type, scr_citation, 
+                                 year, court, decision_number, jurisdiction, court_name, court_level,
+                                 long_url, short_url, language, docket_number, decision_date)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT(uid) DO UPDATE SET
+            style_of_cause=excluded.style_of_cause, atomic_citation=excluded.atomic_citation, citation_type=excluded.citation_type, 
+            scr_citation=excluded.scr_citation, year=excluded.year, court=excluded.court, 
+            decision_number=excluded.decision_number, jurisdiction=excluded.jurisdiction, 
+            court_name=excluded.court_name, court_level=excluded.court_level, long_url=excluded.long_url, 
+            short_url=excluded.short_url, language=excluded.language, docket_number=excluded.docket_number, 
+            decision_date=excluded.decision_date
+        ''', (data['uid'], data['style_of_cause'], data['atomic_citation'], data['citation_type'], data['scr_citation'],
+              data['year'], data['court'], data['decision_number'], data['jurisdiction'], data['court_name'], data['court_level'],
+              data['long_url'], data['short_url'], data['language'], data['docket_number'], data['decision_date']))
+    else:
+        # Ignore the insert if the uid already exists
+        c.execute('''
+            INSERT OR IGNORE INTO results (uid, style_of_cause, atomic_citation, citation_type, scr_citation, 
+                                          year, court, decision_number, jurisdiction, court_name, court_level,
+                                          long_url, short_url, language, docket_number, decision_date)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ''', (data['uid'], data['style_of_cause'], data['atomic_citation'], data['citation_type'], data['scr_citation'],
+              data['year'], data['court'], data['decision_number'], data['jurisdiction'], data['court_name'], data['court_level'],
+              data['long_url'], data['short_url'], data['language'], data['docket_number'], data['decision_date']))
+
+    # Handle keywords and categories, assuming they need to be unique per uid
+    if data.get('keywords'):
+        keywords = data['keywords'].split(' — ')  # Assuming keywords are separated by ' — '
+        for keyword in keywords:
+            c.execute('INSERT OR IGNORE INTO keywords (uid, keyword) VALUES (?, ?)', (data['uid'], keyword))
+
+    if data.get('categories'):
+        categories = data['categories'].split(' — ')  # Assuming categories are separated by ' — '
+        for category in categories:
+            c.execute('INSERT OR IGNORE INTO categories (uid, category) VALUES (?, ?)', (data['uid'], category))
+
+    conn.commit()
+    conn.close()
