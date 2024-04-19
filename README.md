@@ -97,7 +97,7 @@ Should produce:
 Example call:
 
 ```python
-parse_citation("R v Sutherland, 2022 MBCA 23", call_api_cases_cited=True)
+parse_citation("R v Sutherland, 2022 MBCA 23", cited=True)
 ```
 
 Should produce:
