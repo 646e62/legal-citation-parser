@@ -222,7 +222,7 @@ COURT_CODES = {
             "en": "bchprb",
             "fr": "bchprb",
         },
-        "court_id": ["bchprb"],
+        "court_id": ["bchprb", "bc hprb"],
     },
     "nsawab": {
         "jurisdiction": "ns",
@@ -4524,6 +4524,7 @@ COURT_CODE_MAP = [
     ("hrto", "onhrt"),
     ("qc tt", "qctt"),
     ("bchprb", "bchprb"),
+    ("bc hprb", "bchprb"),
     ("nsawab", "nsawab"),
     ("qccdsf", "qccdosfq"),
     ("qc cdosfq", "qccdosfq"),
