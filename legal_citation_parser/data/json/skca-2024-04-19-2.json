@@ -1,0 +1,4980 @@
+{
+    "cases": [
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii123"
+        },
+        "title": "Rink v. Milos",
+        "citation": "1918 CanLII 123 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii115"
+        },
+        "title": "Smith v. Regina City",
+        "citation": "1918 CanLII 115 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii112"
+        },
+        "title": "Beaver Lumber Company v. Quebec Bank",
+        "citation": "1918 CanLII 112 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii116"
+        },
+        "title": "Lett v. Gettins",
+        "citation": "1918 CanLII 116 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii308"
+        },
+        "title": "R. v. Shorten",
+        "citation": "1918 CanLII 308 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii315"
+        },
+        "title": "Reynolds v. Jackson",
+        "citation": "1918 CanLII 315 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii309"
+        },
+        "title": "Great West Permanent Loan Company v. McEvers",
+        "citation": "1918 CanLII 309 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii168"
+        },
+        "title": "Walker v. Canadian Pacific Railway Company",
+        "citation": "1918 CanLII 168 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii153"
+        },
+        "title": "Rex v. Fraser",
+        "citation": "1918 CanLII 153 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii146"
+        },
+        "title": "Andrews v. Canadian Northern Railway Company",
+        "citation": "1918 CanLII 146 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii140"
+        },
+        "title": "Colonial Investment \u0026 Loan Company v. Smyth",
+        "citation": "1918 CanLII 140 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii117"
+        },
+        "title": "Boulter-Waugh v. Phillips",
+        "citation": "1918 CanLII 117 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii110"
+        },
+        "title": "Robinson Estate, Re",
+        "citation": "1918 CanLII 110 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii125"
+        },
+        "title": "Hay v. C.P.R. Co",
+        "citation": "1918 CanLII 125 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii151"
+        },
+        "title": "Smith v. Crawford",
+        "citation": "1918 CanLII 151 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii296"
+        },
+        "title": "The Land Titles Act (Re)",
+        "citation": "1918 CanLII 296 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii191"
+        },
+        "title": "Goose Lake Grain \u0026 Lumber Company, Limited v. H. E. Wilson",
+        "citation": "1918 CanLII 191 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii138"
+        },
+        "title": "Union Supply Co., Ltd., Re",
+        "citation": "1918 CanLII 138 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii118"
+        },
+        "title": "Hart-Parr v. Wells",
+        "citation": "1918 CanLII 118 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii111"
+        },
+        "title": "McEntee v. G.T.P. Railway Company",
+        "citation": "1918 CanLII 111 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii211"
+        },
+        "title": "Hornstein v. C.N.R.",
+        "citation": "1918 CanLII 211 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii295"
+        },
+        "title": "Styles v. Henderson",
+        "citation": "1918 CanLII 295 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii319"
+        },
+        "title": "Berg v. Cowie",
+        "citation": "1918 CanLII 319 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii294"
+        },
+        "title": "Langton v. Nicholson",
+        "citation": "1918 CanLII 294 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii188"
+        },
+        "title": "Hook v. Prince Albert City",
+        "citation": "1918 CanLII 188 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii187"
+        },
+        "title": "Toth v. Hilkevics",
+        "citation": "1918 CanLII 187 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii183"
+        },
+        "title": "Robert Bell Engine \u0026 Thresher Co v. Farquharson",
+        "citation": "1918 CanLII 183 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii179"
+        },
+        "title": "Union Bank of Canada v. Benson",
+        "citation": "1918 CanLII 179 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii177"
+        },
+        "title": "Canada Hail Insurance v. McIsaac",
+        "citation": "1918 CanLII 177 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii173"
+        },
+        "title": "Royal Bank of Canada v. Banque d\u0027Hochelaga",
+        "citation": "1918 CanLII 173 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii171"
+        },
+        "title": "Noble v. Lashbrook",
+        "citation": "1918 CanLII 171 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii148"
+        },
+        "title": "Clavelle v. Russell",
+        "citation": "1918 CanLII 148 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii141"
+        },
+        "title": "Rex v. Tschetter",
+        "citation": "1918 CanLII 141 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii139"
+        },
+        "title": "Mills v. Sherwood Stores",
+        "citation": "1918 CanLII 139 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii158"
+        },
+        "title": "Gearhart v. Kraatz",
+        "citation": "1918 CanLII 158 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii156"
+        },
+        "title": "Eakins v. Shaunavon Town",
+        "citation": "1918 CanLII 156 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii209"
+        },
+        "title": "Lawton v. Lindsay",
+        "citation": "1918 CanLII 209 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii321"
+        },
+        "title": "McFeeley v. British Columbia Electric Railway Company",
+        "citation": "1918 CanLII 321 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii194"
+        },
+        "title": "Currie v. R.M. of Wreford No. 280",
+        "citation": "1918 CanLII 194 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii193"
+        },
+        "title": "Doherty v. Canada National Insurance Co.",
+        "citation": "1918 CanLII 193 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii181"
+        },
+        "title": "Schofield v. Emerson-Brantingham Implement Company",
+        "citation": "1918 CanLII 181 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii178"
+        },
+        "title": "Butler v. Saskatoon City",
+        "citation": "1918 CanLII 178 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii174"
+        },
+        "title": "Berlin Interior Hardware Company, Limited v. Colonial Investment",
+        "citation": "1918 CanLII 174 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1918canlii186"
+        },
+        "title": "Rex v. Zarkas",
+        "citation": "1918 CanLII 186 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii240"
+        },
+        "title": "R. v. McSloy",
+        "citation": "1917 CanLII 240 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii218"
+        },
+        "title": "Robertson v. Board of Trustees of Springbank S.D. No. 50",
+        "citation": "1917 CanLII 218 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii345"
+        },
+        "title": "Regina (City) v Armour and McCarthy",
+        "citation": "1917 CanLII 345 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii343"
+        },
+        "title": "Carr v. Imperial Oil Company, Limited",
+        "citation": "1917 CanLII 343 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii341"
+        },
+        "title": "The Canadian Bank of Commerce v. La Brash",
+        "citation": "1917 CanLII 341 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii315"
+        },
+        "title": "Rogers Lumber Yards Limited  v. Stuart  and Townsend et al",
+        "citation": "1917 CanLII 315 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii295"
+        },
+        "title": "Regina (City) v. Armour",
+        "citation": "1917 CanLII 295 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii291"
+        },
+        "title": "Scheel v. McCallum \u0026 Vannatter",
+        "citation": "1917 CanLII 291 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii301"
+        },
+        "title": "Smith v. Parsenau",
+        "citation": "1917 CanLII 301 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii299"
+        },
+        "title": "Morse Co-Operative Supply Co. v. Coates",
+        "citation": "1917 CanLII 299 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii259"
+        },
+        "title": "Gardiner v. Muir",
+        "citation": "1917 CanLII 259 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii258"
+        },
+        "title": "Etter v. City of Saskatoon",
+        "citation": "1917 CanLII 258 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii257"
+        },
+        "title": "Robertson v. Board of Trustees of Springbank S.D. No. 50",
+        "citation": "1917 CanLII 257 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii255"
+        },
+        "title": "Rogers Lumber Yards, Ltd. v. Stuart",
+        "citation": "1917 CanLII 255 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii234"
+        },
+        "title": "Whitlock v. Loney",
+        "citation": "1917 CanLII 234 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii219"
+        },
+        "title": "Miller-Morse Hardware. Co., Ltd. v. Smart",
+        "citation": "1917 CanLII 219 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii205"
+        },
+        "title": "Burritt v. Stone",
+        "citation": "1917 CanLII 205 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii147"
+        },
+        "title": "Allen v. Gray",
+        "citation": "1917 CanLII 147 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii143"
+        },
+        "title": "Imperial Elevator \u0026 Lumber Company, Limited v. Village of Pontiex",
+        "citation": "1917 CanLII 143 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii131"
+        },
+        "title": "Clements v. National Manufacturing Company",
+        "citation": "1917 CanLII 131 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii130"
+        },
+        "title": "Rex v. Harrison",
+        "citation": "1917 CanLII 130 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii124"
+        },
+        "title": "Hill v. Mallach",
+        "citation": "1917 CanLII 124 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii116"
+        },
+        "title": "Rex v. Robinson",
+        "citation": "1917 CanLII 116 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii99"
+        },
+        "title": "Board of Trustees of Gratton Separate School District No. 13 v. Board of Trustee of Regina Public School District No. 14",
+        "citation": "1917 CanLII 99 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii274"
+        },
+        "title": "Willow Heights Rural Telephone Co. v. Rourke",
+        "citation": "1917 CanLII 274 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii339"
+        },
+        "title": "Robertson v. Springbrook School District et al.",
+        "citation": "1917 CanLII 339 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii323"
+        },
+        "title": "Morgan v. De Geer et al.",
+        "citation": "1917 CanLII 323 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii322"
+        },
+        "title": "Matheson et al v. C.P.R.",
+        "citation": "1917 CanLII 322 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii300"
+        },
+        "title": "Gamble v. Excelsior Life Assurance Co",
+        "citation": "1917 CanLII 300 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii256"
+        },
+        "title": "Banbury v. Regina",
+        "citation": "1917 CanLII 256 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii250"
+        },
+        "title": "Morgan v. DeGeer",
+        "citation": "1917 CanLII 250 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii245"
+        },
+        "title": "Prince Albert, City of v. Sturgill",
+        "citation": "1917 CanLII 245 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii244"
+        },
+        "title": "Anderson v. Canadian Northern Co.",
+        "citation": "1917 CanLII 244 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii241"
+        },
+        "title": "Waterloo Mfg. Co., Ltd. v. Holland",
+        "citation": "1917 CanLII 241 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii238"
+        },
+        "title": "Matheson v. C.P.R.",
+        "citation": "1917 CanLII 238 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii232"
+        },
+        "title": "Neville v. MacDonald",
+        "citation": "1917 CanLII 232 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii228"
+        },
+        "title": "C.P.R. Caveat, Re; Land Titles Act, Re; Land Titles Act, Re",
+        "citation": "1917 CanLII 228 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii227"
+        },
+        "title": "Lyone v. Long",
+        "citation": "1917 CanLII 227 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii226"
+        },
+        "title": "Bugg v. C.N.R.",
+        "citation": "1917 CanLII 226 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii224"
+        },
+        "title": "Dominion of Canada Inv. \u0026 Debenture Co., Ltd. v. Carstens",
+        "citation": "1917 CanLII 224 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii216"
+        },
+        "title": "Dominion of Canada Inv. \u0026 Debenture Co., Ltd. v. Gelhorn",
+        "citation": "1917 CanLII 216 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii215"
+        },
+        "title": "Bell v. Cross",
+        "citation": "1917 CanLII 215 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii210"
+        },
+        "title": "Wexelman v. Dale",
+        "citation": "1917 CanLII 210 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii209"
+        },
+        "title": "Sask. Co-op. Elev. Co., Ltd. v. Town of Ogema",
+        "citation": "1917 CanLII 209 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii207"
+        },
+        "title": "Waterloo Mfg. Co., Ltd. v. Allan",
+        "citation": "1917 CanLII 207 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii151"
+        },
+        "title": "Acme Grain, Limited v. Wenaus",
+        "citation": "1917 CanLII 151 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii140"
+        },
+        "title": "Fawell v. Andrew",
+        "citation": "1917 CanLII 140 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii133"
+        },
+        "title": "Vancise, Re",
+        "citation": "1917 CanLII 133 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii110"
+        },
+        "title": "Hudson\u0027s Bay Company v. Heffernan",
+        "citation": "1917 CanLII 110 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii98"
+        },
+        "title": "Craig v. Qu\u0027Appelle of Town",
+        "citation": "1917 CanLII 98 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii104"
+        },
+        "title": "Chatterson v. Dutton",
+        "citation": "1917 CanLII 104 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii113"
+        },
+        "title": "Traquair v. Michelson",
+        "citation": "1917 CanLII 113 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii100"
+        },
+        "title": "Robertson v. Rur. Mun. of Sherwood",
+        "citation": "1917 CanLII 100 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii254"
+        },
+        "title": "Weidman v. McClary Mfg. Co.",
+        "citation": "1917 CanLII 254 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii248"
+        },
+        "title": "R. v. Regina Trading Co. Ltd.",
+        "citation": "1917 CanLII 248 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii247"
+        },
+        "title": "Green v. C.N.R.",
+        "citation": "1917 CanLII 247 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii246"
+        },
+        "title": "First National Bank v. Cudmore",
+        "citation": "1917 CanLII 246 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii243"
+        },
+        "title": "Chatterson v. Dutton",
+        "citation": "1917 CanLII 243 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii239"
+        },
+        "title": "Can. Mtge. \u0026 Inv. Co. v. McCraney, Mackenzie \u0026 Hutchinson",
+        "citation": "1917 CanLII 239 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii230"
+        },
+        "title": "Calgary Brewing \u0026 Malting Co. Ltd. v. Rogers",
+        "citation": "1917 CanLII 230 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii223"
+        },
+        "title": "Wilson v. Zeller",
+        "citation": "1917 CanLII 223 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii214"
+        },
+        "title": "Cowie v. McDonald",
+        "citation": "1917 CanLII 214 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii152"
+        },
+        "title": "Quebec Bank v. Phillips \u0026 McIntosh",
+        "citation": "1917 CanLII 152 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii150"
+        },
+        "title": "Hansen Grain Company v. Buchanan",
+        "citation": "1917 CanLII 150 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii149"
+        },
+        "title": "Fawell v. Andrew",
+        "citation": "1917 CanLII 149 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii145"
+        },
+        "title": "Nelson v. Canadian Pacific Railway",
+        "citation": "1917 CanLII 145 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii142"
+        },
+        "title": "Rex v. MacDonald",
+        "citation": "1917 CanLII 142 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii138"
+        },
+        "title": "Quebec Bank v. Milding",
+        "citation": "1917 CanLII 138 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii137"
+        },
+        "title": "Neal v. Kellington",
+        "citation": "1917 CanLII 137 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii134"
+        },
+        "title": "Goddard v. Prime",
+        "citation": "1917 CanLII 134 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii129"
+        },
+        "title": "Union Bank v. Engen",
+        "citation": "1917 CanLII 129 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii122"
+        },
+        "title": "Mclvor v. Coldwell",
+        "citation": "1917 CanLII 122 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii118"
+        },
+        "title": "Green v. Canadian Northern Railway Co.",
+        "citation": "1917 CanLII 118 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii115"
+        },
+        "title": "Executors \u0026 Administrators Trust Co v. Hoehn",
+        "citation": "1917 CanLII 115 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii114"
+        },
+        "title": "Northern Crown Bank v. Elford",
+        "citation": "1917 CanLII 114 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii103"
+        },
+        "title": "Henderson v. R.M. Pinto Creek",
+        "citation": "1917 CanLII 103 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii101"
+        },
+        "title": "Canadian Mortgage \u0026 Investment Company v. McCraney",
+        "citation": "1917 CanLII 101 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii211"
+        },
+        "title": "Brown v. Nolan",
+        "citation": "1917 CanLII 211 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii125"
+        },
+        "title": "Morton v. Grand Trunk Pacific Railway",
+        "citation": "1917 CanLII 125 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii217"
+        },
+        "title": "McCarthy v. Regina (Bartz Case)",
+        "citation": "1917 CanLII 217 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii204"
+        },
+        "title": "McCarthy v. City of Regina and Regina Board of P.S. Trustees (Neida Case)",
+        "citation": "1917 CanLII 204 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii127"
+        },
+        "title": "Imperial Bank of Canada v. Hill",
+        "citation": "1917 CanLII 127 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii120"
+        },
+        "title": "Koch v. Grand Truck Pacific Railway",
+        "citation": "1917 CanLII 120 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii119"
+        },
+        "title": "Canadian Mortgage Association v. City of Regina",
+        "citation": "1917 CanLII 119 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii111"
+        },
+        "title": "Cassidy v. City of Moose Jaw",
+        "citation": "1917 CanLII 111 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii107"
+        },
+        "title": "Peart Bros. Ltd. v. McDonald Company Ltd.",
+        "citation": "1917 CanLII 107 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1917canlii106"
+        },
+        "title": "Smart Hardware Company, Limited and Sidney Smart v. Town of Melfort",
+        "citation": "1917 CanLII 106 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii312"
+        },
+        "title": "The Waterloo Manufacturing Co., Ltd. v. Holland",
+        "citation": "1916 CanLII 312 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii214"
+        },
+        "title": "Rex v. Druggist Sundries Co.",
+        "citation": "1916 CanLII 214 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii285"
+        },
+        "title": "Calgary Brewing and Malting Co. Ltd. v. Rogers",
+        "citation": "1916 CanLII 285 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii213"
+        },
+        "title": "Rex v. Peterson",
+        "citation": "1916 CanLII 213 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii283"
+        },
+        "title": "Sherwood v. Wilson",
+        "citation": "1916 CanLII 283 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii261"
+        },
+        "title": "Wilkes v. The City of Saskatoon",
+        "citation": "1916 CanLII 261 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii253"
+        },
+        "title": "Rex v. Goyer",
+        "citation": "1916 CanLII 253 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii251"
+        },
+        "title": "L.E. Waterman Company, Limited v. Canadian Credit Men\u0027s Trust Association, Limited",
+        "citation": "1916 CanLII 251 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii249"
+        },
+        "title": "Douglas v. Sharpe",
+        "citation": "1916 CanLII 249 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii242"
+        },
+        "title": "Rex v. Rosen",
+        "citation": "1916 CanLII 242 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii227"
+        },
+        "title": "Robert Bell Engine \u0026 Threshing Co. Ltd. v. Topolo",
+        "citation": "1916 CanLII 227 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii222"
+        },
+        "title": "Riach v. Elliott",
+        "citation": "1916 CanLII 222 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii198"
+        },
+        "title": "Bellet v. Klotz",
+        "citation": "1916 CanLII 198 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii194"
+        },
+        "title": "Rex v. Giesinger",
+        "citation": "1916 CanLII 194 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii190"
+        },
+        "title": "Council of the Rural Municipality of Sherwood, No 159 v. Wilson",
+        "citation": "1916 CanLII 190 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii183"
+        },
+        "title": "Clason v. Selensky",
+        "citation": "1916 CanLII 183 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii282"
+        },
+        "title": "Robertson v. Sherwood",
+        "citation": "1916 CanLII 282 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii188"
+        },
+        "title": "Racey v. International Harvester Co.",
+        "citation": "1916 CanLII 188 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii223"
+        },
+        "title": "Proby v. Erratt Co",
+        "citation": "1916 CanLII 223 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii287"
+        },
+        "title": "Harmer v. The A. Macdonald Co., Ltd.",
+        "citation": "1916 CanLII 287 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii257"
+        },
+        "title": "Rex v. Canadian Pacific Railway Company",
+        "citation": "1916 CanLII 257 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii219"
+        },
+        "title": "Dick v. Lambert",
+        "citation": "1916 CanLII 219 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii201"
+        },
+        "title": "Holmested v. Canadian Northern Railway Company",
+        "citation": "1916 CanLII 201 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii151"
+        },
+        "title": "The Western Trust Co. v. Regina (City)",
+        "citation": "1916 CanLII 151 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii114"
+        },
+        "title": "Holmstead v. Moose Jaw (City)",
+        "citation": "1916 CanLII 114 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii104"
+        },
+        "title": "Dick v. S. E. Lambert",
+        "citation": "1916 CanLII 104 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii162"
+        },
+        "title": "Rudy v. Sonmore",
+        "citation": "1916 CanLII 162 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii265"
+        },
+        "title": "Bell v. Canadian Pacific Raiway Co.",
+        "citation": "1916 CanLII 265 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii256"
+        },
+        "title": "Huck v. Canadian Pacific Railway Company",
+        "citation": "1916 CanLII 256 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii255"
+        },
+        "title": "Johnson v. Chomyszyn",
+        "citation": "1916 CanLII 255 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii240"
+        },
+        "title": "Thompson v. Greenwood",
+        "citation": "1916 CanLII 240 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii238"
+        },
+        "title": "Crown Fruit Co., Ltd. v. Lyons",
+        "citation": "1916 CanLII 238 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii232"
+        },
+        "title": "Sim v. Good",
+        "citation": "1916 CanLII 232 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii226"
+        },
+        "title": "Northern Crown Bank v. Elford",
+        "citation": "1916 CanLII 226 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii221"
+        },
+        "title": "Rex v. Cordray",
+        "citation": "1916 CanLII 221 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii218"
+        },
+        "title": "Rudy v. Sonmore",
+        "citation": "1916 CanLII 218 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii211"
+        },
+        "title": "Johnson Caveat, Re",
+        "citation": "1916 CanLII 211 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii206"
+        },
+        "title": "Kelsey v. Klein; Kelsey v. Varco",
+        "citation": "1916 CanLII 206 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii196"
+        },
+        "title": "Security Lumber Co. v. Duplat",
+        "citation": "1916 CanLII 196 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii195"
+        },
+        "title": "Yager v. City of Swift Current",
+        "citation": "1916 CanLII 195 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii185"
+        },
+        "title": "Regina Cartage v. Regina City",
+        "citation": "1916 CanLII 185 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii180"
+        },
+        "title": "Goddard v. Prime",
+        "citation": "1916 CanLII 180 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii173"
+        },
+        "title": "Yager v. Swift Current (City)",
+        "citation": "1916 CanLII 173 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii134"
+        },
+        "title": "Johnson Caveat (Re)",
+        "citation": "1916 CanLII 134 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii132"
+        },
+        "title": "Security Lumber Co. v. Duplat",
+        "citation": "1916 CanLII 132 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii129"
+        },
+        "title": "Huck v. C.P.R.",
+        "citation": "1916 CanLII 129 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii121"
+        },
+        "title": "The Crown Fruit Co. v. Lyons",
+        "citation": "1916 CanLII 121 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii116"
+        },
+        "title": "Bean v. Ecklin",
+        "citation": "1916 CanLII 116 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii107"
+        },
+        "title": "The Regina Cartage Co. v. Regina (City)",
+        "citation": "1916 CanLII 107 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii241"
+        },
+        "title": "Rex v. McSloy",
+        "citation": "1916 CanLII 241 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii154"
+        },
+        "title": "Westman v. Regina (City)",
+        "citation": "1916 CanLII 154 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii264"
+        },
+        "title": "Harris v. Geiger",
+        "citation": "1916 CanLII 264 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii252"
+        },
+        "title": "Cowie v. Sawyer-Massey",
+        "citation": "1916 CanLII 252 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii247"
+        },
+        "title": "Executors \u0026 Administrators Trust Co. Ltd. Liquidator v. Seaborn",
+        "citation": "1916 CanLII 247 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii231"
+        },
+        "title": "Heinrichs v. Wiens",
+        "citation": "1916 CanLII 231 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii143"
+        },
+        "title": "Heinrichs v. Wiens",
+        "citation": "1916 CanLII 143 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii126"
+        },
+        "title": "Northern Plumbing \u0026 Heating Co. v. Greene",
+        "citation": "1916 CanLII 126 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii115"
+        },
+        "title": "Executors and Administrators Trust Co. v. Seaborn",
+        "citation": "1916 CanLII 115 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii309"
+        },
+        "title": "Sask Elevator Co v Can Credit Men\u0027s Trust Assoc",
+        "citation": "1916 CanLII 309 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii308"
+        },
+        "title": "Kimball Lumber Co v Anderson",
+        "citation": "1916 CanLII 308 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii260"
+        },
+        "title": "Cowie v. Robins \u0026 Son",
+        "citation": "1916 CanLII 260 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii258"
+        },
+        "title": "Sackville v. Canada Permanent Mortgage Corporation",
+        "citation": "1916 CanLII 258 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii254"
+        },
+        "title": "McPhail v. Abbott",
+        "citation": "1916 CanLII 254 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii236"
+        },
+        "title": "Regina Brokerage and Investment Company v. Waddell",
+        "citation": "1916 CanLII 236 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii228"
+        },
+        "title": "Weyburn Security Bank v. Knudson",
+        "citation": "1916 CanLII 228 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii216"
+        },
+        "title": "Borys v. Christowski",
+        "citation": "1916 CanLII 216 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii204"
+        },
+        "title": "Lutz v. Dominion Trust Co.",
+        "citation": "1916 CanLII 204 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii203"
+        },
+        "title": "Hart v. Johnston",
+        "citation": "1916 CanLII 203 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii199"
+        },
+        "title": "Regina City v. Town of Gull Lake",
+        "citation": "1916 CanLII 199 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii193"
+        },
+        "title": "Security Lumber Co. Ltd. v. Plested",
+        "citation": "1916 CanLII 193 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii187"
+        },
+        "title": "Nagy v. Venne",
+        "citation": "1916 CanLII 187 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii186"
+        },
+        "title": "Rogers Lumber Company v. Canadian Pacific Railway Co.",
+        "citation": "1916 CanLII 186 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii179"
+        },
+        "title": "Assiniboia Land Co. v. Acres",
+        "citation": "1916 CanLII 179 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii177"
+        },
+        "title": "Newby v. Brownlee Village",
+        "citation": "1916 CanLII 177 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii171"
+        },
+        "title": "Security Lumber Co. v. Plested",
+        "citation": "1916 CanLII 171 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii169"
+        },
+        "title": "Hart v. Johnston \u0026 Wyatt",
+        "citation": "1916 CanLII 169 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii156"
+        },
+        "title": "Kronau (Village) v. Euteneier",
+        "citation": "1916 CanLII 156 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii155"
+        },
+        "title": "Nagy v. Venne",
+        "citation": "1916 CanLII 155 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii148"
+        },
+        "title": "Newby v. Brownlee (Town)",
+        "citation": "1916 CanLII 148 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii137"
+        },
+        "title": "Regina Brokerage and Inv. Co. v. Waddell",
+        "citation": "1916 CanLII 137 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii133"
+        },
+        "title": "The Lumber Manufacturers Yards Ltd. v. Western Jobbers Clearing House",
+        "citation": "1916 CanLII 133 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii128"
+        },
+        "title": "McGregor v. Peterson",
+        "citation": "1916 CanLII 128 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii123"
+        },
+        "title": "Lutz v. The Dominion Trust Co.",
+        "citation": "1916 CanLII 123 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii108"
+        },
+        "title": "Cowie v. The Sawyer-Massey Co.",
+        "citation": "1916 CanLII 108 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii106"
+        },
+        "title": "Robinson \u0026 Sons Ltd. v. Ellis",
+        "citation": "1916 CanLII 106 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii97"
+        },
+        "title": "The Assiniboia Land Co. v. Acres",
+        "citation": "1916 CanLII 97 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii95"
+        },
+        "title": "Vachon v. Prince Albert (City)",
+        "citation": "1916 CanLII 95 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii184"
+        },
+        "title": "Bean v. Ecklin",
+        "citation": "1916 CanLII 184 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii248"
+        },
+        "title": "Cornea v. National Paving \u0026 Contracting Co. Ltd.",
+        "citation": "1916 CanLII 248 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii229"
+        },
+        "title": "Bechtel v. Canadian Pacific Railway Company",
+        "citation": "1916 CanLII 229 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii220"
+        },
+        "title": "International Harvester Company v. Smith",
+        "citation": "1916 CanLII 220 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii200"
+        },
+        "title": "Hamm v. Bashford",
+        "citation": "1916 CanLII 200 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii192"
+        },
+        "title": "Haug Bros. \u0026 Nellermoe Co, Ltd. v. Murdock",
+        "citation": "1916 CanLII 192 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii191"
+        },
+        "title": "Diplock v. Canadian Northern Railway Co.",
+        "citation": "1916 CanLII 191 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii182"
+        },
+        "title": "City of Swift Current v. Leslie",
+        "citation": "1916 CanLII 182 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii167"
+        },
+        "title": "Swift Current v. Leslie",
+        "citation": "1916 CanLII 167 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1916canlii270"
+        },
+        "title": "Bechtel v. C.P.R.",
+        "citation": "1916 CanLII 270 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii260"
+        },
+        "title": "Robinson \u0026 Sons v. Ellis",
+        "citation": "1915 CanLII 260 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii228"
+        },
+        "title": "Rex v. Manning",
+        "citation": "1915 CanLII 228 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii205"
+        },
+        "title": "Ontario Wind Engine v. Bunn",
+        "citation": "1915 CanLII 205 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii261"
+        },
+        "title": "Western Trust Company v. City of Regina",
+        "citation": "1915 CanLII 261 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii264"
+        },
+        "title": "McGregor v. Peterson \u0026 Williams",
+        "citation": "1915 CanLII 264 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii567"
+        },
+        "title": "West v. Shun",
+        "citation": "1915 CanLII 567 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii292"
+        },
+        "title": "Holmested C.N.R. Co",
+        "citation": "1915 CanLII 292 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii252"
+        },
+        "title": "Tucker v. Jones",
+        "citation": "1915 CanLII 252 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii239"
+        },
+        "title": "Imperial Elevator v. Kuss",
+        "citation": "1915 CanLII 239 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii222"
+        },
+        "title": "Atkinson v. Canadian Pacific Railway Company",
+        "citation": "1915 CanLII 222 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii216"
+        },
+        "title": "Carlton v. Rural Municipality of Sherwood",
+        "citation": "1915 CanLII 216 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii199"
+        },
+        "title": "Bowers v. Bowlen",
+        "citation": "1915 CanLII 199 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii194"
+        },
+        "title": "West v. Lee Soon",
+        "citation": "1915 CanLII 194 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii185"
+        },
+        "title": "Russell v. Quaker Oats Co.",
+        "citation": "1915 CanLII 185 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii174"
+        },
+        "title": "Canadian Bank of Commerce v. Bellamy",
+        "citation": "1915 CanLII 174 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii173"
+        },
+        "title": "Dirks v. Fast",
+        "citation": "1915 CanLII 173 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii171"
+        },
+        "title": "Rex v. Oma",
+        "citation": "1915 CanLII 171 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii166"
+        },
+        "title": "Last West Lumber v. Haddad",
+        "citation": "1915 CanLII 166 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii159"
+        },
+        "title": "Rex v. McPherson",
+        "citation": "1915 CanLII 159 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii152"
+        },
+        "title": "Wilson Estate (Re)",
+        "citation": "1915 CanLII 152 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii150"
+        },
+        "title": "Willett v. Rose",
+        "citation": "1915 CanLII 150 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii112"
+        },
+        "title": "Britsch v. Piper",
+        "citation": "1915 CanLII 112 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii91"
+        },
+        "title": "Otis v. Otis",
+        "citation": "1915 CanLII 91 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii244"
+        },
+        "title": "Mowat v. Dominion Trust Co.",
+        "citation": "1915 CanLII 244 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii179"
+        },
+        "title": "St. Pierre v. Rekert",
+        "citation": "1915 CanLII 179 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii296"
+        },
+        "title": "Maytag Co. v. Kolb",
+        "citation": "1915 CanLII 296 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii287"
+        },
+        "title": "Dutton Wall Lumber Co. v. Ferguson",
+        "citation": "1915 CanLII 287 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii286"
+        },
+        "title": "Saskatoon Hardware Co. v. Priel",
+        "citation": "1915 CanLII 286 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii259"
+        },
+        "title": "Rex v. Hauberg",
+        "citation": "1915 CanLII 259 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii245"
+        },
+        "title": "King v. Londerville",
+        "citation": "1915 CanLII 245 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii241"
+        },
+        "title": "Harris v. Wilson",
+        "citation": "1915 CanLII 241 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii240"
+        },
+        "title": "Lloyd v. Ashdown",
+        "citation": "1915 CanLII 240 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii219"
+        },
+        "title": "Gartside v. Leland",
+        "citation": "1915 CanLII 219 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii213"
+        },
+        "title": "Leeson v. Moses",
+        "citation": "1915 CanLII 213 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii209"
+        },
+        "title": "Roaf v. G.T.P Town \u0026 Development Company",
+        "citation": "1915 CanLII 209 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii207"
+        },
+        "title": "Fitzgerald v. Mayo",
+        "citation": "1915 CanLII 207 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii204"
+        },
+        "title": "Averill v. Caswell",
+        "citation": "1915 CanLII 204 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii198"
+        },
+        "title": "Schell v. City of Regina",
+        "citation": "1915 CanLII 198 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii197"
+        },
+        "title": "Jones v. Swift Current",
+        "citation": "1915 CanLII 197 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii193"
+        },
+        "title": "Standard Trust v. Little",
+        "citation": "1915 CanLII 193 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii188"
+        },
+        "title": "Powell v. Montgomery",
+        "citation": "1915 CanLII 188 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii180"
+        },
+        "title": "Wilson, Re",
+        "citation": "1915 CanLII 180 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii177"
+        },
+        "title": "Moon v. Stephens",
+        "citation": "1915 CanLII 177 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii175"
+        },
+        "title": "Beaver Lumber Company v. Dolsen",
+        "citation": "1915 CanLII 175 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii172"
+        },
+        "title": "Rex v. Inkster",
+        "citation": "1915 CanLII 172 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii169"
+        },
+        "title": "Rex v. Hrycziuk",
+        "citation": "1915 CanLII 169 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii168"
+        },
+        "title": "Peart Bros. Hardware Co. Ltd. v. Phillips",
+        "citation": "1915 CanLII 168 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii162"
+        },
+        "title": "Cotton v. Boyd",
+        "citation": "1915 CanLII 162 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii160"
+        },
+        "title": "Sproule v. Isman",
+        "citation": "1915 CanLII 160 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii156"
+        },
+        "title": "Rothesay Park Co. v. Montgomery Bros.",
+        "citation": "1915 CanLII 156 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii149"
+        },
+        "title": "Canadian Northern Express Co. v. Town of Rosthern",
+        "citation": "1915 CanLII 149 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii143"
+        },
+        "title": "Foss v. Sterling Loan",
+        "citation": "1915 CanLII 143 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii114"
+        },
+        "title": "Union Bank of Canada v. Lumsden Milling Co.",
+        "citation": "1915 CanLII 114 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii89"
+        },
+        "title": "Borbridge v. Borland",
+        "citation": "1915 CanLII 89 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii265"
+        },
+        "title": "Broder v. Glenn",
+        "citation": "1915 CanLII 265 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii295"
+        },
+        "title": "Melfort Investment Co. Ltd. v. Mackenzie, Mann \u0026 Co",
+        "citation": "1915 CanLII 295 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii108"
+        },
+        "title": "Anglo·American Trust Co. v. Longworth",
+        "citation": "1915 CanLII 108 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii257"
+        },
+        "title": "First National Bank of Palo Alto v. Kruse",
+        "citation": "1915 CanLII 257 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii163"
+        },
+        "title": "Mills v. Harris",
+        "citation": "1915 CanLII 163 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii233"
+        },
+        "title": "Shierman v. Harris and Craske",
+        "citation": "1915 CanLII 233 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii155"
+        },
+        "title": "Pedlar v. Ryder",
+        "citation": "1915 CanLII 155 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii266"
+        },
+        "title": "Saskatchewan Elevator Co. v. Canadian Credit Men\u0027s Trust Association, Ltd.",
+        "citation": "1915 CanLII 266 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii186"
+        },
+        "title": "Foss v. Sterling Loan",
+        "citation": "1915 CanLII 186 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii201"
+        },
+        "title": "Borbridge v. Borland",
+        "citation": "1915 CanLII 201 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii291"
+        },
+        "title": "Golightly v. Banning",
+        "citation": "1915 CanLII 291 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii290"
+        },
+        "title": "International Harvester Co. v. Leeson",
+        "citation": "1915 CanLII 290 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii288"
+        },
+        "title": "Bain v. Cochana",
+        "citation": "1915 CanLII 288 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii255"
+        },
+        "title": "Willie v. Delisle",
+        "citation": "1915 CanLII 255 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii254"
+        },
+        "title": "Haug Bros. \u0026 Nellermoe Co. Ltd. v. Baade",
+        "citation": "1915 CanLII 254 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii253"
+        },
+        "title": "Royal Bank v. Lee",
+        "citation": "1915 CanLII 253 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii251"
+        },
+        "title": "Canadian Bank of Commerce v. Waldner",
+        "citation": "1915 CanLII 251 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii246"
+        },
+        "title": "Western Trust v. Duncan",
+        "citation": "1915 CanLII 246 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii243"
+        },
+        "title": "Gardner v. Staples",
+        "citation": "1915 CanLII 243 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii242"
+        },
+        "title": "Rex v. Worrell",
+        "citation": "1915 CanLII 242 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii232"
+        },
+        "title": "Heinrichs v. Wiens",
+        "citation": "1915 CanLII 232 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii230"
+        },
+        "title": "Zarr v. Confederation Life Association",
+        "citation": "1915 CanLII 230 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii229"
+        },
+        "title": "Coristine Limited v. Haddad",
+        "citation": "1915 CanLII 229 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii221"
+        },
+        "title": "Ostrander Estate, Re",
+        "citation": "1915 CanLII 221 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii215"
+        },
+        "title": "Sawyer-Massey v. White \u0026 Turnbull",
+        "citation": "1915 CanLII 215 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii208"
+        },
+        "title": "Rollefson v. Olson and Mutual Life",
+        "citation": "1915 CanLII 208 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii178"
+        },
+        "title": "Imperial Elevator \u0026 Lumber Co, Ltd. v. Hillman",
+        "citation": "1915 CanLII 178 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii176"
+        },
+        "title": "Cameron v. Royal Bank of Canada",
+        "citation": "1915 CanLII 176 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii170"
+        },
+        "title": "Ferrie v. Meikle",
+        "citation": "1915 CanLII 170 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii167"
+        },
+        "title": "Churchill v. MacRae",
+        "citation": "1915 CanLII 167 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii161"
+        },
+        "title": "Mills v. Harris",
+        "citation": "1915 CanLII 161 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii128"
+        },
+        "title": "Ostrander v. Houston",
+        "citation": "1915 CanLII 128 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii101"
+        },
+        "title": "Western Trust Co. v. Willoughby",
+        "citation": "1915 CanLII 101 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii72"
+        },
+        "title": "Early v. C. N. R.",
+        "citation": "1915 CanLII 72 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii71"
+        },
+        "title": "Bellamy v. Robertson",
+        "citation": "1915 CanLII 71 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii84"
+        },
+        "title": "Weyburn Security Bank v. Martin and Diemert",
+        "citation": "1915 CanLII 84 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii256"
+        },
+        "title": "La Plante v. Kinnon",
+        "citation": "1915 CanLII 256 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii157"
+        },
+        "title": "Boyd v. Dean",
+        "citation": "1915 CanLII 157 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii294"
+        },
+        "title": "Dusseault v. Kopp",
+        "citation": "1915 CanLII 294 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii86"
+        },
+        "title": "Rothesay Park Co. v. Montgomery Bros",
+        "citation": "1915 CanLII 86 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii289"
+        },
+        "title": "Bean Estate, Re",
+        "citation": "1915 CanLII 289 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii312"
+        },
+        "title": "Re Registration of Letters of Guardianship of Roland Polgreen, a Lunatic",
+        "citation": "1915 CanLII 312 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii311"
+        },
+        "title": "Parry and Sturrock et al, v. Rural Municipality of Sherwood No. 159.",
+        "citation": "1915 CanLII 311 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii293"
+        },
+        "title": "Royal Bank of Canada v. Lee \u0026 Girard",
+        "citation": "1915 CanLII 293 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii225"
+        },
+        "title": "McGillivray v. Beamish",
+        "citation": "1915 CanLII 225 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii247"
+        },
+        "title": "National Trust Co. Ltd. v. Nadon",
+        "citation": "1915 CanLII 247 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii217"
+        },
+        "title": "Smith, Re",
+        "citation": "1915 CanLII 217 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii214"
+        },
+        "title": "Green v. Canadian Northern Railway Co.",
+        "citation": "1915 CanLII 214 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1915canlii190"
+        },
+        "title": "Landes v. Kusch",
+        "citation": "1915 CanLII 190 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii188"
+        },
+        "title": "Kern v. Tamblyn",
+        "citation": "1914 CanLII 188 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii126"
+        },
+        "title": "Creamer v. Gooderham",
+        "citation": "1914 CanLII 126 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii215"
+        },
+        "title": "Prime v. Moose Jaw Electric R. Co",
+        "citation": "1914 CanLII 215 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii122"
+        },
+        "title": "Union Bank v. Lumsden Milling Co",
+        "citation": "1914 CanLII 122 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii214"
+        },
+        "title": "Rex v. Georget",
+        "citation": "1914 CanLII 214 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii221"
+        },
+        "title": "Hord v. Wolf",
+        "citation": "1914 CanLII 221 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii336"
+        },
+        "title": "Re Moratorium Proclamation",
+        "citation": "1914 CanLII 336 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii220"
+        },
+        "title": "Ames-Holden McCready Co. v. Reiben",
+        "citation": "1914 CanLII 220 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii338"
+        },
+        "title": "Standard Construction Co. Ltd. v. Crabb.",
+        "citation": "1914 CanLII 338 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii176"
+        },
+        "title": "Hudsons Bay Co. v. Barry",
+        "citation": "1914 CanLII 176 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii305"
+        },
+        "title": "Robinson v. Ford",
+        "citation": "1914 CanLII 305 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii301"
+        },
+        "title": "Martin Hargreaves Co. v. Wrigley",
+        "citation": "1914 CanLII 301 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii300"
+        },
+        "title": "Bergstrom v. Edwards",
+        "citation": "1914 CanLII 300 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii297"
+        },
+        "title": "Barthels, Shewan \u0026 Co. v. Sloane et al.",
+        "citation": "1914 CanLII 297 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii291"
+        },
+        "title": "Brown v. Moose Jaw Electric Railway",
+        "citation": "1914 CanLII 291 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii290"
+        },
+        "title": "Newton v. Husson",
+        "citation": "1914 CanLII 290 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii289"
+        },
+        "title": "Lecky v. Carman",
+        "citation": "1914 CanLII 289 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii287"
+        },
+        "title": "Standard Trust Company v. Karst, et al.",
+        "citation": "1914 CanLII 287 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii286"
+        },
+        "title": "Rex v. Howes",
+        "citation": "1914 CanLII 286 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii284"
+        },
+        "title": "Woodside v. Grant et al.",
+        "citation": "1914 CanLII 284 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii199"
+        },
+        "title": "Duck v. Floht",
+        "citation": "1914 CanLII 199 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii196"
+        },
+        "title": "Albert Improvement Co. Ltd. v. Peverett",
+        "citation": "1914 CanLII 196 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii191"
+        },
+        "title": "Rex v. Schurman",
+        "citation": "1914 CanLII 191 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii184"
+        },
+        "title": "Rex v. Holderman",
+        "citation": "1914 CanLII 184 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii183"
+        },
+        "title": "Powell v. North Saskatchewan Lands Co. Ltd",
+        "citation": "1914 CanLII 183 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii175"
+        },
+        "title": "Lumber Manufacturers\u0027 Yards v. Thompson",
+        "citation": "1914 CanLII 175 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii167"
+        },
+        "title": "Powell v. Canadian Northern Railway Co",
+        "citation": "1914 CanLII 167 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii165"
+        },
+        "title": "Baxter v. Elliott",
+        "citation": "1914 CanLII 165 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii156"
+        },
+        "title": "Cameron v. Royal Bank of Canada",
+        "citation": "1914 CanLII 156 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii155"
+        },
+        "title": "Baker v. McCurdy",
+        "citation": "1914 CanLII 155 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii152"
+        },
+        "title": "Neville v. MacMillen",
+        "citation": "1914 CanLII 152 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii150"
+        },
+        "title": "Rogers Lumber Co v. Dunlop",
+        "citation": "1914 CanLII 150 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii145"
+        },
+        "title": "Vicars v. Arnold",
+        "citation": "1914 CanLII 145 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii135"
+        },
+        "title": "Campbell v. Ghiz",
+        "citation": "1914 CanLII 135 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii203"
+        },
+        "title": "Morin v. Dupuis",
+        "citation": "1914 CanLII 203 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii197"
+        },
+        "title": "Peacock v. Wilkinson",
+        "citation": "1914 CanLII 197 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii164"
+        },
+        "title": "A.B., In re",
+        "citation": "1914 CanLII 164 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii192"
+        },
+        "title": "Manitoba Bridge \u0026 Iron Works v. Gillespie",
+        "citation": "1914 CanLII 192 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii304"
+        },
+        "title": "Haynes v. Wilson",
+        "citation": "1914 CanLII 304 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii303"
+        },
+        "title": "Regina Public School v. Gratton Separate School.",
+        "citation": "1914 CanLII 303 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii302"
+        },
+        "title": "Rex v. Hogg",
+        "citation": "1914 CanLII 302 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii296"
+        },
+        "title": "Imperial Elevator \u0026 Co v. Olive",
+        "citation": "1914 CanLII 296 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii295"
+        },
+        "title": "Coast Lumber v. McLeod et al.",
+        "citation": "1914 CanLII 295 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii223"
+        },
+        "title": "Pioneer Tractor v. Peebles",
+        "citation": "1914 CanLII 247 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii222"
+        },
+        "title": "Shore v. Mead",
+        "citation": "1914 CanLII 222 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii219"
+        },
+        "title": "Hutchins v. Gas Traction Co",
+        "citation": "1914 CanLII 219 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii218"
+        },
+        "title": "Ireland v. Anderson",
+        "citation": "1914 CanLII 218 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii202"
+        },
+        "title": "Groves v. Harris",
+        "citation": "1914 CanLII 202 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii193"
+        },
+        "title": "Hargreaves v. Security Investment Company",
+        "citation": "1914 CanLII 193 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii189"
+        },
+        "title": "Bain \u0026 Torrey v. Eagle",
+        "citation": "1914 CanLII 189 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii174"
+        },
+        "title": "Canadian Northern Railway v. Peterson",
+        "citation": "1914 CanLII 174 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii163"
+        },
+        "title": "Kennedy v. Grose",
+        "citation": "1914 CanLII 163 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii157"
+        },
+        "title": "Linde-Canadian Refrigeration Co. Ltd. v. Saskatchewan Creamery Co. Ltd.",
+        "citation": "1914 CanLII 157 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii151"
+        },
+        "title": "International Harvester Co v. Smith",
+        "citation": "1914 CanLII 151 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii149"
+        },
+        "title": "Powell v. North Saskatchewan Lands Co. Ltd",
+        "citation": "1914 CanLII 149 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii141"
+        },
+        "title": "O\u0027Connor v. Sturgeon Lake Lumber Company",
+        "citation": "1914 CanLII 141 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii140"
+        },
+        "title": "Baldry v. Fenton",
+        "citation": "1914 CanLII 140 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii139"
+        },
+        "title": "Tomlinson v. Kiddo",
+        "citation": "1914 CanLII 139 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii138"
+        },
+        "title": "Armstrong v. Canadian Northern Railway Company",
+        "citation": "1914 CanLII 138 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii136"
+        },
+        "title": "Kier v. Benell",
+        "citation": "1914 CanLII 136 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii133"
+        },
+        "title": "Robert Bell Engine \u0026 Threshing Co. Ltd. v. Gagne",
+        "citation": "1914 CanLII 133 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii131"
+        },
+        "title": "Edmanson v Chilie",
+        "citation": "1914 CanLII 131 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii130"
+        },
+        "title": "Imperial Rural Telephone Co. Ltd. v. Baade",
+        "citation": "1914 CanLII 130 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii170"
+        },
+        "title": "Saskatchewan and Western Elevator Co v. Bank of Hamilton",
+        "citation": "1914 CanLII 170 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii74"
+        },
+        "title": "Nichols \u0026 Shepard Co. v. Gailing",
+        "citation": "1914 CanLII 74 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii216"
+        },
+        "title": "Emerson Brantingham Implement Co. v. Jackson",
+        "citation": "1914 CanLII 216 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii102"
+        },
+        "title": "Black v. Magill",
+        "citation": "1914 CanLII 102 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii343"
+        },
+        "title": "Saskatchewan Supply Co. v. McFarland",
+        "citation": "1914 CanLII 343 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii162"
+        },
+        "title": "Bettger v. Turner",
+        "citation": "1914 CanLII 162 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii217"
+        },
+        "title": "Rex v. Curran",
+        "citation": "1914 CanLII 217 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii201"
+        },
+        "title": "Dickson v. Van Hummell and Prudential Life Insurance Company",
+        "citation": "1914 CanLII 201 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii190"
+        },
+        "title": "Hartney v. Boulton",
+        "citation": "1914 CanLII 190 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii185"
+        },
+        "title": "Sager v. Manitoba Windmill \u0026 Pump Co",
+        "citation": "1914 CanLII 185 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii166"
+        },
+        "title": "Staats v. Canadian Pacific Railway Company",
+        "citation": "1914 CanLII 166 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii154"
+        },
+        "title": "Simpson v. Davis",
+        "citation": "1914 CanLII 154 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii153"
+        },
+        "title": "Smith v. Reid",
+        "citation": "1914 CanLII 153 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii142"
+        },
+        "title": "Kidd \u0026 Clements v. Docherty \u0026 Webb",
+        "citation": "1914 CanLII 142 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii137"
+        },
+        "title": "Matthews v. Heintzman \u0026 Co",
+        "citation": "1914 CanLII 137 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii124"
+        },
+        "title": "Kern v. Tamblyn",
+        "citation": "1914 CanLII 124 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii116"
+        },
+        "title": "Staats v. Canadian Pacifc Ry. Co.",
+        "citation": "1914 CanLII 116 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii94"
+        },
+        "title": "Creamer v. Gooderham",
+        "citation": "1914 CanLII 94 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii81"
+        },
+        "title": "Taylor v. Waddell",
+        "citation": "1914 CanLII 81 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1914canlii337"
+        },
+        "title": "Re Registration of Mortgage",
+        "citation": "1914 CanLII 337 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii137"
+        },
+        "title": "Carney v. Carney",
+        "citation": "1913 CanLII 137 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii193"
+        },
+        "title": "Cumberland Election, In re",
+        "citation": "1913 CanLII 624 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii120"
+        },
+        "title": "Barnes v. Ellis",
+        "citation": "1913 CanLII 120 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii288"
+        },
+        "title": "Conyea v. Canadian Northern Railway Co.",
+        "citation": "1913 CanLII 288 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii192"
+        },
+        "title": "Drinkle v. Steedman",
+        "citation": "1913 CanLII 192 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii190"
+        },
+        "title": "Agnew v. McKenzie Ellis Wood Co, Ltd",
+        "citation": "1913 CanLII 190 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii186"
+        },
+        "title": "Kennedy v. Grand Trunk Pacific Railway Co.",
+        "citation": "1913 CanLII 186 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii179"
+        },
+        "title": "King v. Jesse Hammond",
+        "citation": "1913 CanLII 179 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii178"
+        },
+        "title": "Simington v. Moose Haw Street Railway Co.",
+        "citation": "1913 CanLII 178 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii177"
+        },
+        "title": "Victor Manufacturing Co v. Regina Trading Co., Ltd.",
+        "citation": "1913 CanLII 177 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii174"
+        },
+        "title": "Scotney v. Smith Bros. \u0026 Wilson",
+        "citation": "1913 CanLII 174 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii173"
+        },
+        "title": "Swift Canadian Company Ltd. v. Easterbrook",
+        "citation": "1913 CanLII 173 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii162"
+        },
+        "title": "Toronto General Trusts Corporation v. Municipal Construction Company, Ltd.",
+        "citation": "1913 CanLII 162 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii149"
+        },
+        "title": "Smith v. Berwick",
+        "citation": "1913 CanLII 149 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii135"
+        },
+        "title": "Walker v. Canadian Northern Railway Company and Ideal Fence Company, Ltd",
+        "citation": "1913 CanLII 135 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii132"
+        },
+        "title": "Kent \u0026 Brown Ltd. v. Brenton",
+        "citation": "1913 CanLII 132 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii130"
+        },
+        "title": "King v. Wilson",
+        "citation": "1913 CanLII 130 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii129"
+        },
+        "title": "Gonyea v. Canadian Northern Railway Co.",
+        "citation": "1913 CanLII 129 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii118"
+        },
+        "title": "Beck v. Anderson",
+        "citation": "1913 CanLII 118 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii278"
+        },
+        "title": "Re Discharge of Mortgage by New Trustees",
+        "citation": "1913 CanLII 278 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii163"
+        },
+        "title": "Beck v. Duncan",
+        "citation": "1913 CanLII 163 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii150"
+        },
+        "title": "Brandon Construction Co. v. Board of Trustees of Saskatoon School District, No. 13",
+        "citation": "1913 CanLII 150 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii185"
+        },
+        "title": "Rex v. Ratz",
+        "citation": "1913 CanLII 185 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii141"
+        },
+        "title": "Booker v. O\u0027Brien",
+        "citation": "1913 CanLII 141 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii122"
+        },
+        "title": "King v. William J. Hutchins",
+        "citation": "1913 CanLII 122 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii117"
+        },
+        "title": "Rex v. Quong Sing",
+        "citation": "1913 CanLII 117 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii103"
+        },
+        "title": "Rural Municipality of Vermillon Hills v. Smith",
+        "citation": "1913 CanLII 103 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii268"
+        },
+        "title": "Boggs v. Hill",
+        "citation": "1913 CanLII 268 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii171"
+        },
+        "title": "Murray v. Plummer",
+        "citation": "1913 CanLII 171 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii210"
+        },
+        "title": "Crapper v. Can. Pac. R. Co. v. Regina Cartage Co",
+        "citation": "1913 CanLII 210 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii280"
+        },
+        "title": "Ross (Plantiff) Appellant v. Ross (Defendant) Respondent",
+        "citation": "1913 CanLII 280 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii146"
+        },
+        "title": "Taxation, Re",
+        "citation": "1913 CanLII 146 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1931canlii208"
+        },
+        "title": "King v. Walebek",
+        "citation": "1913 CanLII 294 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii286"
+        },
+        "title": "Rogers Lumber Co. v. Gray and Hosmer",
+        "citation": "1913 CanLII 286 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii177"
+        },
+        "title": "Schaefer v. Millar (No. 2)",
+        "citation": "1913 CanLII 285 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii279"
+        },
+        "title": "Dodd (Plaintiff) Respondent and J. W. Vail (Defendant) and P. Vail and B. Vail (Claimants) Appellants",
+        "citation": "1913 CanLII 279 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii191"
+        },
+        "title": "John P. French, In re",
+        "citation": "1913 CanLII 191 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii175"
+        },
+        "title": "Pratt v. Lovelace",
+        "citation": "1913 CanLII 175 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii151"
+        },
+        "title": "Toronto Type Foundry v. Riddett",
+        "citation": "1913 CanLII 151 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii125"
+        },
+        "title": "Rogers Lumber Co v. Smith",
+        "citation": "1913 CanLII 125 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii123"
+        },
+        "title": "Mortimer v. Fisher",
+        "citation": "1913 CanLII 123 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii119"
+        },
+        "title": "Jamieson Caveat, In re",
+        "citation": "1913 CanLII 119 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii176"
+        },
+        "title": "Ness v. Babcock",
+        "citation": "1913 CanLII 176 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii172"
+        },
+        "title": "Lekas v. Zappas",
+        "citation": "1913 CanLII 172 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii147"
+        },
+        "title": "Smith v. Mills",
+        "citation": "1913 CanLII 147 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii138"
+        },
+        "title": "Lamb v. Lasby",
+        "citation": "1913 CanLII 138 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii136"
+        },
+        "title": "Whitchelo v. Cohen",
+        "citation": "1913 CanLII 136 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii134"
+        },
+        "title": "Winterburn v. Boon",
+        "citation": "1913 CanLII 134 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii131"
+        },
+        "title": "Mars v. Drury",
+        "citation": "1913 CanLII 131 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii102"
+        },
+        "title": "Uhlenburgh v. Prince Albert Lumber Co.",
+        "citation": "1913 CanLII 102 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii89"
+        },
+        "title": "Whitchelo v. Colvin",
+        "citation": "1913 CanLII 89 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii211"
+        },
+        "title": "Rex v. McKay",
+        "citation": "1913 CanLII 211 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii281"
+        },
+        "title": "Rex v. McKay.",
+        "citation": "1913 CanLII 281 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii95"
+        },
+        "title": "Dodd v. J. W. Vail",
+        "citation": "1913 CanLII 95 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1913canlii184"
+        },
+        "title": "Clarke v. Fox",
+        "citation": "1913 CanLII 184 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii176"
+        },
+        "title": "Smith v. City of Saskatoon",
+        "citation": "1912 CanLII 176 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii82"
+        },
+        "title": "Winterburn v. Boon",
+        "citation": "1912 CanLII 82 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii257"
+        },
+        "title": "Washburn v Robertson",
+        "citation": "1912 CanLII 257 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii162"
+        },
+        "title": "Strayer v. Hitchcock",
+        "citation": "1912 CanLII 162 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii210"
+        },
+        "title": "Independent Lumber Co. v. David (No 2)",
+        "citation": "1912 CanLII 210 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii194"
+        },
+        "title": "Wasson v. Harker",
+        "citation": "1912 CanLII 194 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii189"
+        },
+        "title": "Havner Land Company v. Weyl",
+        "citation": "1912 CanLII 189 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii179"
+        },
+        "title": "Adamson v. Vachon",
+        "citation": "1912 CanLII 179 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii158"
+        },
+        "title": "Moose Jaw Securities Company v. Registrar of the Saskatoon Land Registration District",
+        "citation": "1912 CanLII 158 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii123"
+        },
+        "title": "Independent Lumber Co. v. Hurlburt",
+        "citation": "1912 CanLII 123 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii104"
+        },
+        "title": "Torangue v. Canadian Pacific Ry. Co.",
+        "citation": "1912 CanLII 104 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii99"
+        },
+        "title": "Styles v. Lasher",
+        "citation": "1912 CanLII 99 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii73"
+        },
+        "title": "McBride v. Rusk",
+        "citation": "1912 CanLII 73 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii65"
+        },
+        "title": "Chew v. Crockett (Decision No. 2)",
+        "citation": "1912 CanLII 65 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii241"
+        },
+        "title": "Wasson v. Harker (Decision No. 3)",
+        "citation": "1912 CanLII 241 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii109"
+        },
+        "title": "Pahkala v. Hannuksela (No. 2)",
+        "citation": "1912 CanLII 109 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii102"
+        },
+        "title": "Pahkala v. Hannuksela (No. 1)",
+        "citation": "1912 CanLII 102 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii242"
+        },
+        "title": "McEnroe v. Trethewey",
+        "citation": "1912 CanLII 242 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii204"
+        },
+        "title": "Wallace Bell Co. Ltd. v. City of Moose Jaw",
+        "citation": "1912 CanLII 204 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii202"
+        },
+        "title": "Young, Ex parte",
+        "citation": "1912 CanLII 202 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii190"
+        },
+        "title": "Rex v. Chartrand",
+        "citation": "1912 CanLII 190 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii188"
+        },
+        "title": "Scott v. Moachon",
+        "citation": "1912 CanLII 188 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii157"
+        },
+        "title": "Rex v. Sidney",
+        "citation": "1912 CanLII 157 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii143"
+        },
+        "title": "Smith v. Saskatoon (City)",
+        "citation": "1912 CanLII 143 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii133"
+        },
+        "title": "Wright v. Edwards",
+        "citation": "1912 CanLII 133 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii119"
+        },
+        "title": "Wallace Bell Co. v. Moose Jaw (City)",
+        "citation": "1912 CanLII 119 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii118"
+        },
+        "title": "R. v. Sidney",
+        "citation": "1912 CanLII 118 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii97"
+        },
+        "title": "Braithwaite v. Bayham",
+        "citation": "1912 CanLII 97 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii94"
+        },
+        "title": "Wrenshall v. McCammon",
+        "citation": "1912 CanLII 94 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii71"
+        },
+        "title": "Young (Re)",
+        "citation": "1912 CanLII 71 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii160"
+        },
+        "title": "Allin v. Ferguson",
+        "citation": "1912 CanLII 160 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii198"
+        },
+        "title": "McEwan v. Marks",
+        "citation": "1912 CanLII 198 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii205"
+        },
+        "title": "Meivre v. Steine",
+        "citation": "1912 CanLII 205 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii203"
+        },
+        "title": "Gordon v. Canadian Northern Railway Company",
+        "citation": "1912 CanLII 203 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii191"
+        },
+        "title": "Tobin v. Canadian Pacific Railway Company",
+        "citation": "1912 CanLII 191 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii145"
+        },
+        "title": "Coté v. Olson",
+        "citation": "1912 CanLII 145 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii270"
+        },
+        "title": "Slocock v. Simpson. City By-law—License—Meaning of “Engaged in Business.”",
+        "citation": "1912 CanLII 270 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii193"
+        },
+        "title": "Stewart \u0026 Matthews Co v. Ross",
+        "citation": "1912 CanLII 193 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii195"
+        },
+        "title": "Sutherland v. Rhinhart",
+        "citation": "1912 CanLII 195 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii192"
+        },
+        "title": "Richardson v. Ramsay",
+        "citation": "1912 CanLII 192 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii154"
+        },
+        "title": "Rex v. Hoo Sam",
+        "citation": "1912 CanLII 154 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1912canlii183"
+        },
+        "title": "Lock v. Snyder",
+        "citation": "1912 CanLII 183 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii201"
+        },
+        "title": "Ratner Bros. v. Porter.",
+        "citation": "1911 CanLII 201 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii174"
+        },
+        "title": "Independent Lumber Co. v. David and Hurlburt",
+        "citation": "1911 CanLII 174 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii160"
+        },
+        "title": "Patterson v. Palmer",
+        "citation": "1911 CanLII 160 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii105"
+        },
+        "title": "Lindsay v. Davidson",
+        "citation": "1911 CanLII 105 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii104"
+        },
+        "title": "Coventry v. Annable",
+        "citation": "1911 CanLII 104 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii123"
+        },
+        "title": "Massey-Harris Co. Ltd. v. F Horning",
+        "citation": "1911 CanLII 123 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii186"
+        },
+        "title": "Grant v. Bradley",
+        "citation": "1911 CanLII 186 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii175"
+        },
+        "title": "Palmer v. May",
+        "citation": "1911 CanLII 175 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii173"
+        },
+        "title": "Patterson v. Palmer",
+        "citation": "1911 CanLII 173 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii163"
+        },
+        "title": "Manitoba Windmill and Pump Co. v. McLelland",
+        "citation": "1911 CanLII 163 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii162"
+        },
+        "title": "Mah Po v. McCarthy",
+        "citation": "1911 CanLII 162 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii148"
+        },
+        "title": "Local Improvement District No. 189, In re",
+        "citation": "1911 CanLII 148 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii141"
+        },
+        "title": "Canadian Fairbanks Company v. Thompson",
+        "citation": "1911 CanLII 141 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii139"
+        },
+        "title": "Enkema v. Cherry",
+        "citation": "1911 CanLII 139 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii132"
+        },
+        "title": "Monarch Lumber Co. Ltd. v. Garrison",
+        "citation": "1911 CanLII 132 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii124"
+        },
+        "title": "Glenn v. Schaefer",
+        "citation": "1911 CanLII 124 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii101"
+        },
+        "title": "Devitt and Rural Municipality of Usborne, In re",
+        "citation": "1911 CanLII 101 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii80"
+        },
+        "title": "Havner v. Weyl",
+        "citation": "1911 CanLII 80 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii154"
+        },
+        "title": "Foster v. Moss",
+        "citation": "1911 CanLII 154 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii136"
+        },
+        "title": "Newstead v. Rowte",
+        "citation": "1911 CanLII 136 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii113"
+        },
+        "title": "Willoughby v. Sasktchewan Valley and Manitoba Land Co.",
+        "citation": "1911 CanLII 113 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii110"
+        },
+        "title": "Rumely Co v. Registrar of Saskatoon Land Registration District",
+        "citation": "1911 CanLII 110 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii103"
+        },
+        "title": "Alexander v. Gesman",
+        "citation": "1911 CanLII 103 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii185"
+        },
+        "title": "Galvin Walston Lumber Co v. McKinnon",
+        "citation": "1911 CanLII 185 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii176"
+        },
+        "title": "Banton v. March Bros and Wells",
+        "citation": "1911 CanLII 176 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii161"
+        },
+        "title": "Williams v. Town of North Battleford",
+        "citation": "1911 CanLII 161 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii146"
+        },
+        "title": "Blackstock v. Bell",
+        "citation": "1911 CanLII 146 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii131"
+        },
+        "title": "Independent Lumber Co v. Gardiner",
+        "citation": "1911 CanLII 131 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii118"
+        },
+        "title": "Beck v. Graham",
+        "citation": "1911 CanLII 118 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii107"
+        },
+        "title": "Independent Lumber Co v. Bocz",
+        "citation": "1911 CanLII 107 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii90"
+        },
+        "title": "Vousden v. Hopper",
+        "citation": "1911 CanLII 90 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1911canlii88"
+        },
+        "title": "Hole v. Wilson",
+        "citation": "1911 CanLII 88 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1910canlii72"
+        },
+        "title": "Rex v. Lynn",
+        "citation": "1910 CanLII 72 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1910canlii73"
+        },
+        "title": "Rex v. Mah Sam",
+        "citation": "1910 CanLII 73 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1910canlii142"
+        },
+        "title": "Zeats v. Johnston",
+        "citation": "1910 CanLII 142 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1910canlii136"
+        },
+        "title": "Mayberry v. Williams and Berg",
+        "citation": "1910 CanLII 136 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1910canlii119"
+        },
+        "title": "Greenwood v. Estevan School District",
+        "citation": "1910 CanLII 119 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1910canlii101"
+        },
+        "title": "Hart-Parr Company v. Eberle",
+        "citation": "1910 CanLII 101 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1910canlii86"
+        },
+        "title": "Pommerenke v. Bate",
+        "citation": "1910 CanLII 86 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1910canlii85"
+        },
+        "title": "Plested v. McLeod",
+        "citation": "1910 CanLII 85 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1910canlii106"
+        },
+        "title": "J.I. Case Threshing Machine Co., In re",
+        "citation": "1910 CanLII 106 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1910canlii98"
+        },
+        "title": "Kruse v. Romanowski",
+        "citation": "1910 CanLII 98 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1910canlii91"
+        },
+        "title": "Bell v. Hudson Bay Insurance Co.",
+        "citation": "1910 CanLII 91 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1910canlii81"
+        },
+        "title": "Newkirk v. Stees",
+        "citation": "1910 CanLII 81 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1910canlii75"
+        },
+        "title": "Mitchell v. Mitchell",
+        "citation": "1910 CanLII 75 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1910canlii121"
+        },
+        "title": "Moose Mountain Lumber and Hardware Company v. Paradis",
+        "citation": "1910 CanLII 121 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1910canlii120"
+        },
+        "title": "Vachon v. Straton",
+        "citation": "1910 CanLII 120 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1910canlii144"
+        },
+        "title": "Independent Lumber Co v. Gardiner",
+        "citation": "1910 CanLII 144 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1910canlii143"
+        },
+        "title": "Davis v. Burt",
+        "citation": "1910 CanLII 143 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1910canlii118"
+        },
+        "title": "Willoughby v. Sasktchewan Valley Land Co.",
+        "citation": "1910 CanLII 118 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1910canlii93"
+        },
+        "title": "McRorie c. Seward",
+        "citation": "1910 CanLII 93 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii172"
+        },
+        "title": "Brooks, In re",
+        "citation": "1909 CanLII 172 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii169"
+        },
+        "title": "Cross v. Douglas",
+        "citation": "1909 CanLII 169 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii168"
+        },
+        "title": "Burton v. Merchants Bank",
+        "citation": "1909 CanLII 168 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii166"
+        },
+        "title": "Anderson v. Olson",
+        "citation": "1909 CanLII 166 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii164"
+        },
+        "title": "McCallum v. Russell",
+        "citation": "1909 CanLII 164 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii161"
+        },
+        "title": "Imperial Bank v. Kieve",
+        "citation": "1909 CanLII 161 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii157"
+        },
+        "title": "Rex v. Duff",
+        "citation": "1909 CanLII 157 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii148"
+        },
+        "title": "Canadian Pacific R.W. Co. v. Forest City Paving Co",
+        "citation": "1909 CanLII 148 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii137"
+        },
+        "title": "Gaar Scott Co. v. Guiger",
+        "citation": "1909 CanLII 137 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii116"
+        },
+        "title": "Sawyer \u0026 Massey v. Bennett",
+        "citation": "1909 CanLII 116 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii108"
+        },
+        "title": "Kasindorf v. Hudsons Bay Insurance Co.",
+        "citation": "1909 CanLII 108 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii91"
+        },
+        "title": "North West Telephone Co, In re",
+        "citation": "1909 CanLII 91 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii75"
+        },
+        "title": "Wood \u0026 McCausland v. Barker",
+        "citation": "1909 CanLII 75 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii159"
+        },
+        "title": "Canada Life Assurance Co. v. Vance",
+        "citation": "1909 CanLII 159 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii139"
+        },
+        "title": "Canada Permanent Mortgage Corporation v. Jesse",
+        "citation": "1909 CanLII 139 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii135"
+        },
+        "title": "Wessell v. Turge",
+        "citation": "1909 CanLII 135 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii112"
+        },
+        "title": "Moore Milling Co. v. Laird",
+        "citation": "1909 CanLII 112 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii106"
+        },
+        "title": "Globe Fire Insce. Co. Ltd , In re",
+        "citation": "1909 CanLII 106 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii81"
+        },
+        "title": "Velie v. Hemstreet",
+        "citation": "1909 CanLII 81 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii136"
+        },
+        "title": "King v. Duff",
+        "citation": "1909 CanLII 136 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii118"
+        },
+        "title": "Mischowsky v. Hughe",
+        "citation": "1909 CanLII 118 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii102"
+        },
+        "title": "Reeves v. Konschur",
+        "citation": "1909 CanLII 102 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii167"
+        },
+        "title": "Robinson v. Lott",
+        "citation": "1909 CanLII 167 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii111"
+        },
+        "title": "Lee v. Broley",
+        "citation": "1909 CanLII 111 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii149"
+        },
+        "title": "Mah Po v. McCarthy",
+        "citation": "1909 CanLII 149 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii147"
+        },
+        "title": "Watt v. Watt",
+        "citation": "1909 CanLII 147 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii127"
+        },
+        "title": "In re Ebbing.",
+        "citation": "1909 CanLII 127 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii80"
+        },
+        "title": "Westaway v. Stewart",
+        "citation": "1909 CanLII 80 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1909canlii115"
+        },
+        "title": "Laird v. Leader Publishing Co.",
+        "citation": "1909 CanLII 115 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii139"
+        },
+        "title": "In re Mikkelson",
+        "citation": "1908 CanLII 139 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii127"
+        },
+        "title": "Rex v. Stephens",
+        "citation": "1908 CanLII 127 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii165"
+        },
+        "title": "Kew v. Watt",
+        "citation": "1908 CanLII 165 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii159"
+        },
+        "title": "Rex v. Reynolds",
+        "citation": "1908 CanLII 159 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii140"
+        },
+        "title": "Win Gat v. Johnson",
+        "citation": "1908 CanLII 140 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii105"
+        },
+        "title": "Covert v. Janzen (No. 2)",
+        "citation": "1908 CanLII 105 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii145"
+        },
+        "title": "Straton v. City of Saskatoon",
+        "citation": "1908 CanLII 145 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii167"
+        },
+        "title": "Beaver Lumber Co. v. Northern Construction Co",
+        "citation": "1908 CanLII 167 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii184"
+        },
+        "title": "Mears v. Arcola Woodworking Co. and The Commercial Assurance Co. et al., Garnishees",
+        "citation": "1908 CanLII 184 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii166"
+        },
+        "title": "Munro v. Beischel",
+        "citation": "1908 CanLII 166 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii163"
+        },
+        "title": "Burke v. Nolin",
+        "citation": "1908 CanLII 163 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii161"
+        },
+        "title": "Sawyer and Massey Co., Ltd. v. Boyce; and American Abell E. \u0026 T. Co., Claimants",
+        "citation": "1908 CanLII 161 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii157"
+        },
+        "title": "Excelsior Life v. Prestniak",
+        "citation": "1908 CanLII 157 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii146"
+        },
+        "title": "Huggard v. Ontario and Saskatchewan Land Company",
+        "citation": "1908 CanLII 146 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii138"
+        },
+        "title": "Rex v. Barrett",
+        "citation": "1908 CanLII 138 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii155"
+        },
+        "title": "Leib v. Leib",
+        "citation": "1908 CanLII 155 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii177"
+        },
+        "title": "Taegar v. Rowe",
+        "citation": "1908 CanLII 177 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii91"
+        },
+        "title": "Steele v. McCarthy",
+        "citation": "1908 CanLII 91 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii129"
+        },
+        "title": "Rex v. Dunning",
+        "citation": "1908 CanLII 129 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii164"
+        },
+        "title": "Yates v. Reser",
+        "citation": "1908 CanLII 164 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii149"
+        },
+        "title": "Bird v. The Canadian Pacific Railway Co",
+        "citation": "1908 CanLII 149 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii137"
+        },
+        "title": "The New Hamburg Manufacturing Company v. Weisbrod",
+        "citation": "1908 CanLII 137 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii128"
+        },
+        "title": "Laird v. Adams",
+        "citation": "1908 CanLII 128 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii107"
+        },
+        "title": "Reilander v. Bengert",
+        "citation": "1908 CanLII 107 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii90"
+        },
+        "title": "Bannerman v. Harlow",
+        "citation": "1908 CanLII 90 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii187"
+        },
+        "title": "Jackson v. The Canadian Pacific Railway Company",
+        "citation": "1908 CanLII 187 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii169"
+        },
+        "title": "Rex v. Code",
+        "citation": "1908 CanLII 169 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1908canlii106"
+        },
+        "title": "Purdy v. Colton",
+        "citation": "1908 CanLII 106 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1907canlii89"
+        },
+        "title": "Murray v. Canadian Pacific Railway Company",
+        "citation": "1907 CanLII 89 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1907canlii84"
+        },
+        "title": "Parkin v. Parkin",
+        "citation": "1907 CanLII 84 (SK CA)"
+      },
+      {
+        "databaseId": "skca",
+        "caseId": {
+          "en": "1907canlii81"
+        },
+        "title": "In re John Baker",
+        "citation": "1907 CanLII 81 (SK CA)"
+      }
+    ]
+  }
