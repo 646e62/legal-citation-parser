@@ -1,0 +1,940 @@
+{
+  "cases": [
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2005nssf17"
+      },
+      "title": "Gardner v. Gardner",
+      "citation": "2005 NSSF 17 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2004nssf108"
+      },
+      "title": "Lu v. Sun",
+      "citation": "2004 NSSF 108 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2004nssf7"
+      },
+      "title": "MCS v. TLS and TGM",
+      "citation": "2004 NSSF 7 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2003canlii17300"
+      },
+      "title": "D.L.P. v. D.M.P.",
+      "citation": "2003 CanLII 17300 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2003canlii8499"
+      },
+      "title": "Connolly v. Connolly",
+      "citation": "2003 CanLII 8499 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2003canlii30653"
+      },
+      "title": "Horner v. Horner",
+      "citation": "2003 CanLII 30653 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2003canlii64099"
+      },
+      "title": "Children\u0027s Aid Society of Halifax v. R.K.",
+      "citation": "2003 CanLII 64099 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2003nssf36"
+      },
+      "title": "Kalamatianos v. Kalamatianos",
+      "citation": "2003 NSSF 36 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2003canlii13048"
+      },
+      "title": "McInnis v. McInnis",
+      "citation": "2003 CanLII 13048 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2003nssf33"
+      },
+      "title": "Director of Maintenance Enforcement v. Everett Stuckless",
+      "citation": "2003 NSSF 33 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2003canlii64090"
+      },
+      "title": "Children\u0027s Aid Society of Inverness-Richmond v. P.P.",
+      "citation": "2003 CanLII 64090 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2003canlii64084"
+      },
+      "title": "R. v. R.C.",
+      "citation": "2003 CanLII 64084 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2003nssf30"
+      },
+      "title": "Dwyer v. Dwyer",
+      "citation": "2003 NSSF 30 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2003canlii41162"
+      },
+      "title": "McGrath v. McGrath",
+      "citation": "2003 CanLII 41162 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2003nssf16"
+      },
+      "title": "Gear v. Gear",
+      "citation": "2003 NSSF 16 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2003nssf6"
+      },
+      "title": "Guillena v. Guillena",
+      "citation": "2003 NSSF 6 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2003canlii52822"
+      },
+      "title": "King v. King",
+      "citation": "2003 CanLII 52822 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002nssf47"
+      },
+      "title": "Gardiner v. Gardiner",
+      "citation": "2002 NSSF 47 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002nssf46"
+      },
+      "title": "Cook v. Crabbe",
+      "citation": "2002 NSSF 46 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002nssf42"
+      },
+      "title": "Best v. Fraser",
+      "citation": "2002 NSSF 42 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002nssf40"
+      },
+      "title": "Peters v. Peters",
+      "citation": "2002 NSSF 40 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002nssc204"
+      },
+      "title": "J.E.A. v. C.L.M.",
+      "citation": "2002 NSSC 204 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002canlii41639"
+      },
+      "title": "Hanakowski v. Hanakowski",
+      "citation": "2002 CanLII 41639 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002canlii17656"
+      },
+      "title": "Gardiner v. Gardiner",
+      "citation": "2002 CanLII 17656 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002canlii35763"
+      },
+      "title": "Pierce v. Cusack",
+      "citation": "2002 CanLII 35763 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002canlii35578"
+      },
+      "title": "Hanakowski v. Hanakowski",
+      "citation": "2002 CanLII 35578 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002canlii37068"
+      },
+      "title": "Hynes v. Skeffington",
+      "citation": "2002 CanLII 37068 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002canlii42179"
+      },
+      "title": "Hannam v. Watts",
+      "citation": "2002 CanLII 42179 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002nssf25"
+      },
+      "title": "Nova Scotia (Director of Maintenance Enforcement) v. Murrant",
+      "citation": "2002 NSSF 25 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002canlii13093"
+      },
+      "title": "Rowe v. Rowe",
+      "citation": "2002 CanLII 13093 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002canlii6861"
+      },
+      "title": "Clattenburg v. Clattenburg",
+      "citation": "2002 CanLII 6861 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002nssf20"
+      },
+      "title": "D\u0027Entremont v. D\u0027Entremont",
+      "citation": "2002 NSSF 20 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002nssf18"
+      },
+      "title": "Wolfe v. Wolfe",
+      "citation": "2002 NSSF 18 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002nssf14"
+      },
+      "title": "Winford v. Dorton",
+      "citation": "2002 NSSF 14 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002nssf17"
+      },
+      "title": "Blair v. Casey",
+      "citation": "2002 NSSF 17 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002canlii13587"
+      },
+      "title": "Nova Scotia (Director of Maintenance Enforcement) v. McDonald",
+      "citation": "2002 CanLII 13587 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002canlii42178"
+      },
+      "title": "Forbes v. Forbes",
+      "citation": "2002 CanLII 42178 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2003nssf18"
+      },
+      "title": "Dando v. Dando",
+      "citation": "2003 NSSF 18 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002nssf10"
+      },
+      "title": "Bryant v. Bryant",
+      "citation": "2002 NSSF 10 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002nssf5"
+      },
+      "title": "Mason v. Mason",
+      "citation": "2002 NSSF 5 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002nssf3"
+      },
+      "title": "Sparks v. Jarvis",
+      "citation": "2002 NSSF 3 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002canlii8538"
+      },
+      "title": "Nova Scotia (Minister of Health) v. L.V.J.",
+      "citation": "2002 CanLII 8538 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002canlii53137"
+      },
+      "title": "Nova Scotia (Health) v. L.V.J.",
+      "citation": "2002 CanLII 53137 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002canlii53136"
+      },
+      "title": "Nova Scotia (Community Services) v. C.M.W.",
+      "citation": "2002 CanLII 53136 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002nssf12"
+      },
+      "title": "Warman v. Durant",
+      "citation": "2002 NSSF 12 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002canlii42172"
+      },
+      "title": "P.L.S. v. C.A.T.L.",
+      "citation": "2002 CanLII 42172 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001canlii21445"
+      },
+      "title": "Geary v. Geary",
+      "citation": "2001 CanLII 21445 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001canlii18113"
+      },
+      "title": "Simmons v. Jamieson",
+      "citation": "2001 CanLII 18113 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001canlii37514"
+      },
+      "title": "Younker v. Smith",
+      "citation": "2001 CanLII 37514 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001nssf33"
+      },
+      "title": "Fredericks v. Parsons",
+      "citation": "2001 NSSF 33 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001canlii2447"
+      },
+      "title": "Stein v. Stein",
+      "citation": "2001 CanLII 2447 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001canlii6387"
+      },
+      "title": "Nicholson v. Nicholson",
+      "citation": "2001 CanLII 6387 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001canlii37513"
+      },
+      "title": "Richardson v. Richardson",
+      "citation": "2001 CanLII 37513 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001canlii9069"
+      },
+      "title": "Nova Scotia (Director of Maintenance Enforcement) v. Murrant",
+      "citation": "2001 CanLII 9069 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001nssf29"
+      },
+      "title": "Robski v. Robski",
+      "citation": "2001 NSSF 29 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001canlii7394"
+      },
+      "title": "Patterson v. Patterson",
+      "citation": "2001 CanLII 7394 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001nssf26"
+      },
+      "title": "Reinhardt v. Reinhardt",
+      "citation": "2001 NSSF 26 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001canlii2494"
+      },
+      "title": "Pothier v. Pothier",
+      "citation": "2001 CanLII 2494 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001canlii5126"
+      },
+      "title": "Ainslie v. Lively-Mannette",
+      "citation": "2001 CanLII 5126 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2002nssf7"
+      },
+      "title": "MacLennan v. MacLennan",
+      "citation": "2002 NSSF 7 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001canlii5593"
+      },
+      "title": "Paskaruk v. Paskaruk",
+      "citation": "2001 CanLII 5593 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001nssc27"
+      },
+      "title": "Blair v. Nova Scotia (Attorney General)",
+      "citation": "2001 NSSC 27 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001canlii7924"
+      },
+      "title": "Carruth v. Carruth",
+      "citation": "2001 CanLII 7924 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001canlii32530"
+      },
+      "title": "C.T.H. v. W.R.S.",
+      "citation": "2001 CanLII 32530 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001canlii5013"
+      },
+      "title": "P.L.S. v. C.A.T.L.",
+      "citation": "2001 CanLII 5013 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001canlii4617"
+      },
+      "title": "Simmons v. Simmons",
+      "citation": "2001 CanLII 4617 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001canlii5084"
+      },
+      "title": "Henley v. McMullin",
+      "citation": "2001 CanLII 5084 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001canlii6445"
+      },
+      "title": "Angel v. Murphy",
+      "citation": "2001 CanLII 6445 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001nssf22"
+      },
+      "title": "Ryan v. Ryan",
+      "citation": "2001 NSSF 22 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001nssf21"
+      },
+      "title": "Crouse v. Crouse",
+      "citation": "2001 NSSF 21 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001canlii32671"
+      },
+      "title": "Nova Scotia (Community Services) v. M.B.",
+      "citation": "2001 CanLII 32671 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001nssc93"
+      },
+      "title": "O\u0027Quinn v. O\u0027Quinn",
+      "citation": "2001 NSSC 93 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001nssf23"
+      },
+      "title": "Larue v. Larue",
+      "citation": "2001 NSSF 23 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001nssf19"
+      },
+      "title": "Johnston v. Johnston",
+      "citation": "2001 NSSF 19 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001nssf20"
+      },
+      "title": "Gardiner v. Gardiner",
+      "citation": "2001 NSSF 20 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001nssf17"
+      },
+      "title": "Henneberry v. Strowbridge",
+      "citation": "2001 NSSF 17 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001canlii7192"
+      },
+      "title": "Fitzgerald v. Siepierski",
+      "citation": "2001 CanLII 7192 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001nssf14"
+      },
+      "title": "Horsburgh v. Nikolaev",
+      "citation": "2001 NSSF 14 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii14370"
+      },
+      "title": "Doucette v. Doucette",
+      "citation": "2000 CanLII 14370 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii26811"
+      },
+      "title": "R. v. M.C.",
+      "citation": "2000 CanLII 26811 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii1797"
+      },
+      "title": "Thomas v. Thomas",
+      "citation": "2000 CanLII 1797 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii12865"
+      },
+      "title": "Myers v. Myers",
+      "citation": "2000 CanLII 12865 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii2277"
+      },
+      "title": "Schneider v. Schneider",
+      "citation": "2000 CanLII 2277 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii50639"
+      },
+      "title": "Children\u0027s Aid Society of Halifax v. B.M.J. and T.S.M.",
+      "citation": "2000 CanLII 50639 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii2229"
+      },
+      "title": "Stewart v. Stewart",
+      "citation": "2000 CanLII 2229 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii26810"
+      },
+      "title": "Nova Scotia (Community Services) v. E.G.",
+      "citation": "2000 CanLII 26810 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii26809"
+      },
+      "title": "Children\u0027s Aid Society of Halifax v. S.G.",
+      "citation": "2000 CanLII 26809 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii4106"
+      },
+      "title": "Boon v. Boon",
+      "citation": "2000 CanLII 4106 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii2306"
+      },
+      "title": "Christian v. Christian",
+      "citation": "2000 CanLII 2306 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii4386"
+      },
+      "title": "Dupuis v. Dupuis",
+      "citation": "2000 CanLII 4386 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii50561"
+      },
+      "title": "Fitzgerald v. Siepierski",
+      "citation": "2000 CanLII 50561 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii2203"
+      },
+      "title": "Maloy v. Nequin",
+      "citation": "2000 CanLII 2203 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii50633"
+      },
+      "title": "R. v. T.S.",
+      "citation": "2000 CanLII 50633 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii50584"
+      },
+      "title": "Maloy v. Nequin",
+      "citation": "2000 CanLII 50584 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii14367"
+      },
+      "title": "Hatfield v. Hatfield",
+      "citation": "2000 CanLII 14367 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii4623"
+      },
+      "title": "Wagg v. Wagg",
+      "citation": "2000 CanLII 4623 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii26797"
+      },
+      "title": "R. v. A.D.G.",
+      "citation": "2000 CanLII 26797 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii1189"
+      },
+      "title": "Martin v. Dares",
+      "citation": "2000 CanLII 1189 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2001nssf3"
+      },
+      "title": "J.C.D. v. T.D.",
+      "citation": "2001 NSSF 3 (CanLII)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii4818"
+      },
+      "title": "Studley v. O\u0027Laughlin",
+      "citation": "2000 CanLII 4818 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii50598"
+      },
+      "title": "S.M.H. v. J.M.",
+      "citation": "2000 CanLII 50598 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii22920"
+      },
+      "title": "Nova Scotia (Community Services) v. C.A.W.",
+      "citation": "2000 CanLII 22920 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii26889"
+      },
+      "title": "Family and Children\u0027s Services of Digby County v. D.G.",
+      "citation": "2000 CanLII 26889 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii1592"
+      },
+      "title": "Wedsworth v. Wedsworth",
+      "citation": "2000 CanLII 1592 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii26887"
+      },
+      "title": "Family and Children\u0027s Services of Yarmouth County v. N.B.",
+      "citation": "2000 CanLII 26887 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii3345"
+      },
+      "title": "Davis v. Davis",
+      "citation": "2000 CanLII 3345 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "2000canlii14361"
+      },
+      "title": "Cook v. Cook",
+      "citation": "2000 CanLII 14361 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "1999canlii1897"
+      },
+      "title": "Yurkiw v. Lariviere",
+      "citation": "1999 CanLII 1897 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "1999canlii6891"
+      },
+      "title": "Newcombe v. Newcombe",
+      "citation": "1999 CanLII 6891 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "1999canlii4763"
+      },
+      "title": "Toole v. Stokes",
+      "citation": "1999 CanLII 4763 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "1999canlii4794"
+      },
+      "title": "Huggins v. Huggins",
+      "citation": "1999 CanLII 4794 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "1999canlii36369"
+      },
+      "title": "R. v. K.N.",
+      "citation": "1999 CanLII 36369 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "1999canlii18579"
+      },
+      "title": "Nova Scotia (Community Services) v. S.D.",
+      "citation": "1999 CanLII 18579 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "1999canlii18580"
+      },
+      "title": "Family and Children\u0027s Services of Annapolis County v. T.W.",
+      "citation": "1999 CanLII 18580 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "1999canlii6889"
+      },
+      "title": "Innes v. Ayadi",
+      "citation": "1999 CanLII 6889 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "1998canlii19448"
+      },
+      "title": "Nova Scotia (Minister of Community Services) v. W.(T.L.)",
+      "citation": "1998 CanLII 19448 (NS SF)"
+    },
+    {
+      "databaseId": "nssf",
+      "caseId": {
+        "en": "1985canlii5711"
+      },
+      "title": "Minister of Social Services (N.S.) v. K.R.",
+      "citation": "1985 CanLII 5711 (NS SF)"
+    }
+  ]
+}

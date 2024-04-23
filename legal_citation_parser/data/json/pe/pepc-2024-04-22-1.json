@@ -1,0 +1,92 @@
+{
+  "cases": [
+    {
+      "databaseId": "pepc",
+      "caseId": {
+        "en": "2009canlii101169"
+      },
+      "title": "R. v. Lauer (J.M.)",
+      "citation": "2009 CanLII 101169 (PE PC)"
+    },
+    {
+      "databaseId": "pepc",
+      "caseId": {
+        "en": "2004canlii94304"
+      },
+      "title": "R. v. Caseley (George M.) \u0026 Sons Inc.",
+      "citation": "2004 CanLII 94304 (PE PC)"
+    },
+    {
+      "databaseId": "pepc",
+      "caseId": {
+        "en": "2003canlii89024"
+      },
+      "title": "R. v. Stavert (R.B.)",
+      "citation": "2003 CanLII 89024 (PE PC)"
+    },
+    {
+      "databaseId": "pepc",
+      "caseId": {
+        "en": "2002canlii78153"
+      },
+      "title": "R. v. Matthews (B.R.)",
+      "citation": "2002 CanLII 78153 (PE PC)"
+    },
+    {
+      "databaseId": "pepc",
+      "caseId": {
+        "en": "1995canlii16086"
+      },
+      "title": "Regina v. R.W.M.",
+      "citation": "1995 CanLII 16086 (PE PC)"
+    },
+    {
+      "databaseId": "pepc",
+      "caseId": {
+        "en": "1992canlii14248"
+      },
+      "title": "R. v. All-Can Travel Inc.",
+      "citation": "1992 CanLII 14248 (PE PC)"
+    },
+    {
+      "databaseId": "pepc",
+      "caseId": {
+        "en": "1988canlii7086"
+      },
+      "title": "R. v. M.(D.T.)",
+      "citation": "1988 CanLII 7086 (PE PC)"
+    },
+    {
+      "databaseId": "pepc",
+      "caseId": {
+        "en": "1988canlii1375"
+      },
+      "title": "R. v. Hackett",
+      "citation": "1988 CanLII 1375 (PE PC)"
+    },
+    {
+      "databaseId": "pepc",
+      "caseId": {
+        "en": "1987canlii6838"
+      },
+      "title": "R. v. Gray",
+      "citation": "1987 CanLII 6838 (PE PC)"
+    },
+    {
+      "databaseId": "pepc",
+      "caseId": {
+        "en": "1982canlii4815"
+      },
+      "title": "R. v. Carroll",
+      "citation": "1982 CanLII 4815 (PE PC)"
+    },
+    {
+      "databaseId": "pepc",
+      "caseId": {
+        "en": "1974canlii2775"
+      },
+      "title": "Regina v. S. S. Kresge Co. Ltd.",
+      "citation": "1974 CanLII 2775 (PE PC)"
+    }
+  ]
+}
