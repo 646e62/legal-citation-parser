@@ -7,7 +7,7 @@ Although legal citations are typically short strings, they contain a great deal 
 * Supreme Court Reader (SCR) citations;
 * CanLII citations.
 
-Version 0.4.0 modifies the return value somewhat by creating a key for all official reporters (instead of just SCR), and changing the values for the `keywords` and `categories` keys into lists, rather than strings. This will hopefully pave the way for future relational database updates and features.
+Version 0.4.0 modifies the return value somewhat by creating a key for all official reporters (instead of just SCR), and changing the values for the `keywords` and `categories` keys into lists, rather than strings. This will enable future relational database updates and features.
 
 
 
@@ -138,10 +138,12 @@ Should produce:
    } 
 ```
 
-## v 0.3.2 updates
+## v 0.4.0 updates
 
 * Improved style of cause handling
+* Improved language handling
 * Early database implementation and testing
+* Additional official reporter recognition
 
 ## Contributing
 

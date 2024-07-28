@@ -55,10 +55,17 @@ def canlii_api_call(
         jurisdiction, court name, and court level. The dictionary will also include the CanLII URL.
     """
 
-    load_dotenv()
+    """
     if os.getenv("CANLII_API_KEY") is None:
         print("Please enter your CanLII API key (or blank input to exit):")
         API_KEY = input()
+        if API_KEY == "":
+            sys.exit()
+    """
+
+    load_dotenv()
+    if os.getenv("CANLII_API_KEY") is None:
+        API_KEY = set_canlii_api_key_env_var()
         if API_KEY == "":
             sys.exit()
     else:
@@ -74,8 +81,9 @@ def canlii_api_call(
         metadata_api_info["language"] = case_metadata["language"]
         metadata_api_info["docket_number"] = case_metadata["docketNumber"]
         metadata_api_info["decision_date"] = case_metadata["decisionDate"]
-        metadata_api_info["keywords"] = case_metadata["keywords"]
-        metadata_api_info["categories"] = case_metadata["topics"]
+        metadata_api_info["keywords"] = case_metadata.get("keywords", "").split(" — ") if case_metadata.get("keywords") else []
+        metadata_api_info["categories"] = case_metadata.get("topics", "").split(" — ") if case_metadata.get("topics") else []
+
 
     if cases_cited:
         cited_cases_url = f"https://api.canlii.org/v1/caseCitator/{language}/{database_id}/{case_id}/citedCases?api_key={API_KEY}"
@@ -203,3 +211,43 @@ def insert_data(data, update_existing=False):
 
     conn.commit()
     conn.close()
+
+import os
+import sys
+from dotenv import load_dotenv, set_key, find_dotenv
+
+def set_api_key_env_var():
+    """
+    Prompts the user to enter an API key and sets it as an environment variable.
+    It saves the environment variable to a .env file for persistence across sessions.
+    """
+    # Load existing environment variables from .env file if available
+    dotenv_path = find_dotenv()
+    load_dotenv(dotenv_path)
+
+    # Check if API key is already set
+    if os.getenv("CANLII_API_KEY") is None:
+        print("Please enter your CanLII API key (blank input to exit):")
+        API_KEY = input().strip()
+        if API_KEY == "":
+            sys.exit("No API key entered. Exiting.")
+        else:
+            # Set the environment variable for the current session
+            os.environ['CANLII_API_KEY'] = API_KEY
+            
+            # Save the API key to the .env file for persistence
+            if dotenv_path:
+                set_key(dotenv_path, "CANLII_API_KEY", API_KEY)
+            else:
+                # Create a new .env file if it doesn't exist
+                with open('.env', 'w') as env_file:
+                    env_file.write(f"CANLII_API_KEY={API_KEY}\n")
+            print("API key has been set and saved to the .env file.")
+    else:
+        API_KEY = os.getenv("CANLII_API_KEY")
+        print("API key loaded from environment variable.")
+
+    return API_KEY
+
+# Example usage
+set_api_key_env_var()

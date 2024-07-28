@@ -1,4 +1,5 @@
 """
+canlii_rules
 Rule set for parsing CanLII citations and constructing CanLII URLs, as well as neutral citations.
 """
 
