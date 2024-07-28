@@ -227,7 +227,8 @@ def set_api_key_env_var():
 
     # Check if API key is already set
     if os.getenv("CANLII_API_KEY") is None:
-        print("Please enter your CanLII API key (blank input to exit):")
+        print("The citation parser can provide additional functionality for users with access to the CanLII API.\n", 
+              "Enter your CanLII API key to enable or ENTER (blank input) to skip/remove:")
         API_KEY = input().strip()
         if API_KEY == "":
             sys.exit("No API key entered. Exiting.")
@@ -248,6 +249,3 @@ def set_api_key_env_var():
         print("API key loaded from environment variable.")
 
     return API_KEY
-
-# Example usage
-set_api_key_env_var()

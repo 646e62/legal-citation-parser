@@ -7,11 +7,9 @@ Although legal citations are typically short strings, they contain a great deal 
 * Supreme Court Reader (SCR) citations;
 * CanLII citations.
 
-Version 0.4.0 modifies the return value somewhat by creating a key for all official reporters (instead of just SCR), and changing the values for the `keywords` and `categories` keys into lists, rather than strings. This will enable future relational database updates and features.
+Version 0.4.x is broadly focused on making the existing program more robust and user-friendly. Planned improvements include
 
-
-
-This version also introduces a more consistent and useful approach to error handling and data verification. 
+Version 0.4.1 adds some QoL improvements to API functionality. Specifically, it allows users to add, update, and remove their API key from the environment. It adds some verification functions to the API itself as well.
 
 ## Metadata
 
@@ -138,12 +136,9 @@ Should produce:
    } 
 ```
 
-## v 0.4.0 updates
+## v 0.4.1 updates
 
-* Improved style of cause handling
-* Improved language handling
-* Early database implementation and testing
-* Additional official reporter recognition
+* 
 
 ## Contributing
 
