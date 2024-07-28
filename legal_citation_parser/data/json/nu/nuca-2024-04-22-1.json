@@ -1,0 +1,1196 @@
+{
+    "cases": [
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2023nuca10"
+        },
+        "title": "Baffinland Iron Mines Corporation v Naqitarvik",
+        "citation": "2023 NUCA 10 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2023nuca9"
+        },
+        "title": "R v Arreak",
+        "citation": "2023 NUCA 9 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2023nuca8"
+        },
+        "title": "R v JI",
+        "citation": "2023 NUCA 8 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2023nuca7"
+        },
+        "title": "R v Baasch",
+        "citation": "2023 NUCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2023nuca6"
+        },
+        "title": "Ngatcha v The Registered Nurses Association of Northwest Territories and Nunavut",
+        "citation": "2023 NUCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2023nuca5"
+        },
+        "title": "R v Arreak",
+        "citation": "2023 NUCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2023nuca4"
+        },
+        "title": "R v Kattuk",
+        "citation": "2023 NUCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2023nuca3"
+        },
+        "title": "R v Idlout",
+        "citation": "2023 NUCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2023nuca2"
+        },
+        "title": "R v Kownirk",
+        "citation": "2023 NUCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2023nuca1"
+        },
+        "title": "R v JI",
+        "citation": "2023 NUCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2022nuca10"
+        },
+        "title": "Baffinland Iron Mines Corporation v Naqitarvik",
+        "citation": "2022 NUCA 10 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2022nuca6"
+        },
+        "title": "R v Kalliraq",
+        "citation": "2022 NUCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2022nuca9"
+        },
+        "title": "R v Hodgson",
+        "citation": "2022 NUCA 9 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2022nuca8"
+        },
+        "title": "R v GN",
+        "citation": "2022 NUCA 8 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2022nuca7"
+        },
+        "title": "Iqaluit (Director of Child and Family Services) v O.M.",
+        "citation": "2022 NUCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2022nuca5"
+        },
+        "title": "R v Algiak",
+        "citation": "2022 NUCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2022nuca4"
+        },
+        "title": "Public Guardian for Nunavut and Public Trustee for Nunavut v SJ",
+        "citation": "2022 NUCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2022nuca3"
+        },
+        "title": "R v Pauloosie",
+        "citation": "2022 NUCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2022nuca2"
+        },
+        "title": "R v Ejetsiak",
+        "citation": "2022 NUCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2022nuca1"
+        },
+        "title": "R v CD",
+        "citation": "2022 NUCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2021nuca21"
+        },
+        "title": "R v CD",
+        "citation": "2021 NUCA 21 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2021nuca20"
+        },
+        "title": "R v Hodgson",
+        "citation": "2021 NUCA 20 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2021nuca19"
+        },
+        "title": "R v Kogvik",
+        "citation": "2021 NUCA 19 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2021nuca18"
+        },
+        "title": "R v Kingwatsiak",
+        "citation": "2021 NUCA 18 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2021nuca17"
+        },
+        "title": "R v Gibbons",
+        "citation": "2021 NUCA 17 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2021nuca16"
+        },
+        "title": "R v Qaqasiq",
+        "citation": "2021 NUCA 16 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2021nuca15"
+        },
+        "title": "Jane Doe v Government of Nunavut",
+        "citation": "2021 NUCA 15 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2021nuca14"
+        },
+        "title": "R v Algiak",
+        "citation": "2021 NUCA 14 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2021nuca13"
+        },
+        "title": "R v AA",
+        "citation": "2021 NUCA 13 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2021nuca11"
+        },
+        "title": "R v Kolola",
+        "citation": "2021 NUCA 11 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2021nuca10"
+        },
+        "title": "R v CD",
+        "citation": "2021 NUCA 10 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2021nuca8"
+        },
+        "title": "R v Meeko",
+        "citation": "2021 NUCA 8 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2021nuca9"
+        },
+        "title": "R v Kingatook",
+        "citation": "2021 NUCA 9 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2021nuca7"
+        },
+        "title": "R v E.F.",
+        "citation": "2021 NUCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2021nuca6"
+        },
+        "title": "R v K.A.",
+        "citation": "2021 NUCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2021nuca5"
+        },
+        "title": "JD1HI v Budden",
+        "citation": "2021 NUCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2021nuca4"
+        },
+        "title": "R v Kritaqliluk",
+        "citation": "2021 NUCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2021nuca3"
+        },
+        "title": "R v Kullualik",
+        "citation": "2021 NUCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2021nuca1"
+        },
+        "title": "R v Nauya",
+        "citation": "2021 NUCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2021nuca2"
+        },
+        "title": "R v Akpalialuk",
+        "citation": "2021 NUCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2020nuca16"
+        },
+        "title": "R v GH",
+        "citation": "2020 NUCA 16 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2020nuca15"
+        },
+        "title": "R v Hughes",
+        "citation": "2020 NUCA 15 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2020nuca14"
+        },
+        "title": "R v Pameolik",
+        "citation": "2020 NUCA 14 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2020nuca13"
+        },
+        "title": "R v Pameolik",
+        "citation": "2020 NUCA 13 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2020nuca12"
+        },
+        "title": "R v Komoartok",
+        "citation": "2020 NUCA 12 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2020nuca11"
+        },
+        "title": "R v Amaaq",
+        "citation": "2020 NUCA 11 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2020nuca10"
+        },
+        "title": "R v TL",
+        "citation": "2020 NUCA 10 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2020nuca9"
+        },
+        "title": "R v Amaaq",
+        "citation": "2020 NUCA 9 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2020nuca8"
+        },
+        "title": "R v Qittosuk",
+        "citation": "2020 NUCA 8 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2020nuca7"
+        },
+        "title": "R v Kuliktana",
+        "citation": "2020 NUCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2020nuca6"
+        },
+        "title": "R v Itturiligaq",
+        "citation": "2020 NUCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2020nuca5"
+        },
+        "title": "R v Ookowt",
+        "citation": "2020 NUCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2020nuca4"
+        },
+        "title": "R v Irngaut",
+        "citation": "2020 NUCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2020nuca3"
+        },
+        "title": "JD1H1 v Budden",
+        "citation": "2020 NUCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2020nuca2"
+        },
+        "title": "R v Parr",
+        "citation": "2020 NUCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2020nuca1"
+        },
+        "title": "R. v. Salomonie",
+        "citation": "2020 NUCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2019nuca6"
+        },
+        "title": "R. v. Meeko",
+        "citation": "2019 NUCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2019nuca5"
+        },
+        "title": "R. v. G.N.",
+        "citation": "2019 NUCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2019nuca4"
+        },
+        "title": "JD1H1 et. al. v Budden",
+        "citation": "2019 NUCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2019nuca2"
+        },
+        "title": "R v HQ",
+        "citation": "2019 NUCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2019nuca3"
+        },
+        "title": "R. v. Kippomee",
+        "citation": "2019 NUCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2019nuca1"
+        },
+        "title": "R v Oqutaq",
+        "citation": "2019 NUCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2018nuca7"
+        },
+        "title": "R. v. Dejaeger",
+        "citation": "2018 NUCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2018nuca6"
+        },
+        "title": "R. v. Dejaeger",
+        "citation": "2018 NUCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2018nuca5"
+        },
+        "title": "R. v. Salomonie",
+        "citation": "2018 NUCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2018nuca4"
+        },
+        "title": "Fontaine v Canada (Attorney General)",
+        "citation": "2018 NUCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2018nuca3"
+        },
+        "title": "R v Ippak",
+        "citation": "2018 NUCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2018nuca2"
+        },
+        "title": "R v Mala",
+        "citation": "2018 NUCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2018nuca1"
+        },
+        "title": "Waters v. NPR Limited Partnership",
+        "citation": "2018 NUCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2017nuca7"
+        },
+        "title": "R v Ganesan",
+        "citation": "2017 NUCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2017nuca6"
+        },
+        "title": "Government of Nunavut v. Swoboda",
+        "citation": "2017 NUCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2017nuca5"
+        },
+        "title": "R. v. Mikijuk",
+        "citation": "2017 NUCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2017nuca4"
+        },
+        "title": "R. v. Ehaloak",
+        "citation": "2017 NUCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2017nuca3"
+        },
+        "title": "Rankin Inlet Housing Association  v. Tatty",
+        "citation": "2017 NUCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2017nuca2"
+        },
+        "title": "R v DeJaeger",
+        "citation": "2017 NUCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2017nuca1"
+        },
+        "title": "R v Kayaitok",
+        "citation": "2017 NUCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2016nuca5"
+        },
+        "title": "R. v. Mathewsie",
+        "citation": "2016 NUCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2016nuca4"
+        },
+        "title": "R. v. McDonald",
+        "citation": "2016 NUCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2016nuca3"
+        },
+        "title": "R. v. VanEindhoven",
+        "citation": "2016 NUCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2016nuca2"
+        },
+        "title": "Nunavut v Agnico-Eagle Mines Ltd.",
+        "citation": "2016 NUCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2016nuca1"
+        },
+        "title": "R. v. Akpalialuk",
+        "citation": "2016 NUCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2015nuca3"
+        },
+        "title": "R v Ipeelie",
+        "citation": "2015 NUCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2015nuca2"
+        },
+        "title": "Kucera v Qulliq Energy Corporation",
+        "citation": "2015 NUCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2015nuca1"
+        },
+        "title": "R. v. VanEindhoven",
+        "citation": "2015 NUCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2014nuca2"
+        },
+        "title": "Nunavut Tunngavik Incorporated v Canada (Attorney General)",
+        "citation": "2014 NUCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2014nuca1"
+        },
+        "title": "R. v. Evic",
+        "citation": "2014 NUCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2013nuca11"
+        },
+        "title": "Polar Supplies Ltd. v Cape Dorset (Hamlet)",
+        "citation": "2013 NUCA 11 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2013nuca10"
+        },
+        "title": "R v Lyta",
+        "citation": "2013 NUCA 10 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2013nuca9"
+        },
+        "title": "R v Korgak",
+        "citation": "2013 NUCA 9 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2013nuca8"
+        },
+        "title": "R v Kolola",
+        "citation": "2013 NUCA 8 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2013nuca7"
+        },
+        "title": "J.I. v Nunavut (Child and Family Services, Director)",
+        "citation": "2013 NUCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2013nuca6"
+        },
+        "title": "R. v. Atadjuat",
+        "citation": "2013 NUCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2013nuca5"
+        },
+        "title": "R. v. G.S.",
+        "citation": "2013 NUCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2013nuca4"
+        },
+        "title": "R. v. Kolola",
+        "citation": "2013 NUCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2013nuca3"
+        },
+        "title": "R. v. Bishop",
+        "citation": "2013 NUCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2013nuca2"
+        },
+        "title": "Polar Supplies Ltd. v. Cape Dorset (Hamlet)",
+        "citation": "2013 NUCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2013nuca1"
+        },
+        "title": "R. v. Kritaqliluk",
+        "citation": "2013 NUCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2012nuca7"
+        },
+        "title": "Nunavut (The Director of Child and Family Services) v. J.A.",
+        "citation": "2012 NUCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2012nuca6"
+        },
+        "title": "R. v. Netser",
+        "citation": "2012 NUCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2012nuca5"
+        },
+        "title": "R. v. VanEindhoven",
+        "citation": "2012 NUCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2012nuca4"
+        },
+        "title": "Midnight Sun Management Ltd. v. Four-Way Holdings Ltd.",
+        "citation": "2012 NUCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2012nuca3"
+        },
+        "title": "Qaqasiq v. R.",
+        "citation": "2012 NUCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2012nuca2"
+        },
+        "title": "Nunavut (Child and Family Services) v. J.A. and J.N.",
+        "citation": "2012 NUCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2012nuca1"
+        },
+        "title": "R. v. VanEindhoven",
+        "citation": "2012 NUCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2011nuca6"
+        },
+        "title": "Mosher Engineering Limited v. Ootoova Estate",
+        "citation": "2011 NUCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2011nuca5"
+        },
+        "title": "R. v. Keenainak",
+        "citation": "2011 NUCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2011nuca4"
+        },
+        "title": "R. v. Oakoak",
+        "citation": "2011 NUCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2011nuca3"
+        },
+        "title": "R. v. Hughes",
+        "citation": "2011 NUCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2011nuca2"
+        },
+        "title": "R. v. Partridge",
+        "citation": "2011 NUCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2011nuca1"
+        },
+        "title": "R. v. K.G.S.",
+        "citation": "2011 NUCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2010nuca1"
+        },
+        "title": "Mazhero v. Nunavut",
+        "citation": "2010 NUCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2009nuca4"
+        },
+        "title": "Mazhero v. Nunavut",
+        "citation": "2009 NUCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2009nuca3"
+        },
+        "title": "Diavik Diamond Mines Inc. v. Tahera Diamond Corp",
+        "citation": "2009 NUCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2009nuca2"
+        },
+        "title": "Nunavut Tunngavik Incorporated v. Canada (Attorney General)",
+        "citation": "2009 NUCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2009nuca1"
+        },
+        "title": "R. v. Etuangat",
+        "citation": "2009 NUCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2008nuca3"
+        },
+        "title": "M.(T.) v. N.(O.)",
+        "citation": "2008 NUCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2008nuca2"
+        },
+        "title": "R. v. Jaw",
+        "citation": "2008 NUCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2008nuca1"
+        },
+        "title": "R. v. Koaha",
+        "citation": "2008 NUCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2007nuca6"
+        },
+        "title": "R. v. Akkuardjuk",
+        "citation": "2007 NUCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2007nuca5"
+        },
+        "title": "R. v. Tessier",
+        "citation": "2007 NUCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2007nuca4"
+        },
+        "title": "R. v. Kukkik",
+        "citation": "2007 NUCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2007nuca3"
+        },
+        "title": "R. v. B.T.",
+        "citation": "2007 NUCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2007nuca2"
+        },
+        "title": "Kitikmeot Corp. v. Cambridge Bay",
+        "citation": "2007 NUCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2007nuca1"
+        },
+        "title": "R. v. Tookanachiak",
+        "citation": "2007 NUCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2006nuca4"
+        },
+        "title": "Paneak (Estate of) and Daniska (Estate of) v. Heli-Max Limited",
+        "citation": "2006 NUCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2006nuca3"
+        },
+        "title": "R. v. Kooktook et al",
+        "citation": "2006 NUCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2006nuca2"
+        },
+        "title": "HMQ v. Smith",
+        "citation": "2006 NUCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2006nuca1"
+        },
+        "title": "HMQ v. Qaqasiq",
+        "citation": "2006 NUCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2005nuca5"
+        },
+        "title": "R. v. Hakungak",
+        "citation": "2005 NUCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2005nuca4"
+        },
+        "title": "H.M.T Q. v. Tookanachiak",
+        "citation": "2005 NUCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2005nuca3"
+        },
+        "title": "H.M.T.Q. v. Pudlat",
+        "citation": "2005 NUCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2005nuca2"
+        },
+        "title": "R.v. Evalik",
+        "citation": "2005 NUCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2005nuca1"
+        },
+        "title": "R. v. J.N.",
+        "citation": "2005 NUCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2004nuca5"
+        },
+        "title": "R. v. Shoo",
+        "citation": "2004 NUCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2004nuca3"
+        },
+        "title": "R. v. T.J",
+        "citation": "2004 NUCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2004nuca2"
+        },
+        "title": "R. v. N. (M.)",
+        "citation": "2004 NUCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2004nuca4"
+        },
+        "title": "R. v. Christensen",
+        "citation": "2004 NUCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2004canlii76245"
+        },
+        "title": "R. v. M iyok",
+        "citation": "2004 CanLII 76245 (NU CA)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2003nuca3"
+        },
+        "title": "R. v. Atagootak",
+        "citation": "2003 NUCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2003nuca5"
+        },
+        "title": "R. v. Korgak",
+        "citation": "2003 NUCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2003nuca4"
+        },
+        "title": "R. v. Kootoo Korgak",
+        "citation": "2003 NUCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2003nuca2"
+        },
+        "title": "Mazhero v. Government of Nunavut",
+        "citation": "2003 NUCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2003nuca1"
+        },
+        "title": "Mazhero v. Peltz",
+        "citation": "2003 NUCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2003canlii74680"
+        },
+        "title": "R. v. M.I.",
+        "citation": "2003 CanLII 74680 (NU CA)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2003nuca6"
+        },
+        "title": "R. v. Arvaluk",
+        "citation": "2003 NUCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2002canlii63053"
+        },
+        "title": "R v Ullikataq",
+        "citation": "2002 CanLII 63053 (NU CA)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2002canlii63051"
+        },
+        "title": "R v Horne",
+        "citation": "2002 CanLII 63051 (NU CA)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2002canlii63052"
+        },
+        "title": "R v Arvaluk",
+        "citation": "2002 CanLII 63052 (NU CA)"
+      },
+      {
+        "databaseId": "nuca",
+        "caseId": {
+          "en": "2001canlii39421"
+        },
+        "title": "R v Evaloakjuk",
+        "citation": "2001 CanLII 39421 (NU CA)"
+      }
+    ]
+  }

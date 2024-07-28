@@ -1,6 +1,6 @@
 """
+citation_parser
 Extracts metadata information from legal citation strings.
-
 """
 
 from .canlii_rules import canlii_citation_parser

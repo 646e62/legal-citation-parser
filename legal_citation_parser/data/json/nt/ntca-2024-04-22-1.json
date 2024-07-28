@@ -1,0 +1,2964 @@
+{
+    "cases": [
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2024nwtca2"
+        },
+        "title": "R v Avadluk",
+        "citation": "2024 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2024nwtca1"
+        },
+        "title": "Mubili v Northwest Territories (Administrator, Maintenance Enforcement)",
+        "citation": "2024 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2023nwtca5"
+        },
+        "title": "R v Gargan",
+        "citation": "2023 NWTCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2023nwtca4"
+        },
+        "title": "R v Durocher",
+        "citation": "2023 NWTCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2023nwtca3"
+        },
+        "title": "R v Avadluk",
+        "citation": "2023 NWTCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2023nwtca2"
+        },
+        "title": "Gruben v Gruben Estate",
+        "citation": "2023 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2023nwtca1"
+        },
+        "title": "R v Jackson",
+        "citation": "2023 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2022nwtca3"
+        },
+        "title": "R v Burles",
+        "citation": "2022 NWTCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2022nwtca2"
+        },
+        "title": "Beaulieu v Goulet",
+        "citation": "2022 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2022nwtca1"
+        },
+        "title": "R v Durocher",
+        "citation": "2022 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2021nwtca9"
+        },
+        "title": "R v Fabian et al",
+        "citation": "2021 NWTCA 9 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2021nwtca8"
+        },
+        "title": "A.B. v Northwest Territories (Minister of Education, Culture and Employment)",
+        "citation": "2021 NWTCA 8 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2021nwtca7"
+        },
+        "title": "R v Tsetta",
+        "citation": "2021 NWTCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2021nwtca6"
+        },
+        "title": "R v Tsetta",
+        "citation": "2021 NWTCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2021nwtca5"
+        },
+        "title": "Mubili v Northwest Territories (Administrator, Maintenance Enforcement)",
+        "citation": "2021 NWTCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2021nwtca4"
+        },
+        "title": "Elleze v Norn",
+        "citation": "2021 NWTCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2021nwtca2"
+        },
+        "title": "R v Elias",
+        "citation": "2021 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2021nwtca1"
+        },
+        "title": "Northland Utilities (NWT) Limited v Hay River (Town of)",
+        "citation": "2021 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2021nwtca3"
+        },
+        "title": "Mohammed v R",
+        "citation": "2021 NWTCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2020nwtca9"
+        },
+        "title": "R v DP",
+        "citation": "2020 NWTCA 9 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2020nwtca8"
+        },
+        "title": "R v Nerysoo",
+        "citation": "2020 NWTCA 8 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2020nwtca7"
+        },
+        "title": "British Columbia (Director of Child, Family and Community Services) v Beauchamp",
+        "citation": "2020 NWTCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2020nwtca6"
+        },
+        "title": "R v Mantla",
+        "citation": "2020 NWTCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2020nwtca5"
+        },
+        "title": "R v King",
+        "citation": "2020 NWTCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2020nwtca3"
+        },
+        "title": "McCaw North Drilling and Blasting Ltd. v Clark Builders",
+        "citation": "2020 NWTCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2020nwtca2"
+        },
+        "title": "R v Paradis",
+        "citation": "2020 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2020nwtca1"
+        },
+        "title": "R v Zoe",
+        "citation": "2020 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2019nwtca6"
+        },
+        "title": "L.M. and R.B. v The B.C. Director",
+        "citation": "2019 NWTCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2019nwtca5"
+        },
+        "title": "R v K.M.",
+        "citation": "2019 NWTCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2019nwtca4"
+        },
+        "title": "Goodzeck Estate v Goodzeck",
+        "citation": "2019 NWTCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2019nwtca3"
+        },
+        "title": "R v Palmer",
+        "citation": "2019 NWTCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2019nwtca2"
+        },
+        "title": "R v R.G.K.",
+        "citation": "2019 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2019nwtca1"
+        },
+        "title": "R v P.(D.)",
+        "citation": "2019 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2018nwtca9"
+        },
+        "title": "R v Kuptana",
+        "citation": "2018 NWTCA 9 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2018nwtca8"
+        },
+        "title": "R v Melanson",
+        "citation": "2018 NWTCA 8 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2018nwtca7"
+        },
+        "title": "R v Bernarde",
+        "citation": "2018 NWTCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2018nwtca6"
+        },
+        "title": "R v Elias",
+        "citation": "2018 NWTCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2018nwtca5"
+        },
+        "title": "R v J.C.",
+        "citation": "2018 NWTCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2018nwtca4"
+        },
+        "title": "GNWT v Portman",
+        "citation": "2018 NWTCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2018nwtca3"
+        },
+        "title": "R v Akhiatak",
+        "citation": "2018 NWTCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2018nwtca2"
+        },
+        "title": "R v Eeyeevadluk",
+        "citation": "2018 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2018nwtca1"
+        },
+        "title": "R v Joe",
+        "citation": "2018 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2017nwtca9"
+        },
+        "title": "R v Roberts",
+        "citation": "2017 NWTCA 9 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2017nwtca8"
+        },
+        "title": "R v J.C.",
+        "citation": "2017 NWTCA 8 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2017nwtca5"
+        },
+        "title": "R v Roberts",
+        "citation": "2017 NWTCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2017nwtca7"
+        },
+        "title": "Workers\u0027 Safety and Compensation Commission v Lewis",
+        "citation": "2017 NWTCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2017nwtca6"
+        },
+        "title": "R v Simpson",
+        "citation": "2017 NWTCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2017nwtca4"
+        },
+        "title": "R v Wilson",
+        "citation": "2017 NWTCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2017nwtca3"
+        },
+        "title": "Miller Sales v Metso Minerals",
+        "citation": "2017 NWTCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2017nwtca2"
+        },
+        "title": "R v Albert",
+        "citation": "2017 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2017nwtca1"
+        },
+        "title": "R v Bonnetrouge",
+        "citation": "2017 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2016nwtca2"
+        },
+        "title": "R v M.S.J.",
+        "citation": "2016 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2016nwtca1"
+        },
+        "title": "Workers\u0027 Safety and Compensation Commission v Petersen",
+        "citation": "2016 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2015nwtca8"
+        },
+        "title": "R v N.A.",
+        "citation": "2015 NWTCA 8 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2015nwtca7"
+        },
+        "title": "R v Sassie",
+        "citation": "2015 NWTCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2015nwtca6"
+        },
+        "title": "R v Sikyea",
+        "citation": "2015 NWTCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2015nwtca5"
+        },
+        "title": "R v R.M.S.",
+        "citation": "2015 NWTCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2015nwtca3"
+        },
+        "title": "Anderson v Bell Mobility Inc.",
+        "citation": "2015 NWTCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2015nwtca4"
+        },
+        "title": "R v Caesar",
+        "citation": "2015 NWTCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2015nwtca2"
+        },
+        "title": "Northwest Territories (Attorney General) v Association des parents ayants droit de Yellowknife",
+        "citation": "2015 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2015canlii153967"
+        },
+        "title": "Territoires du Nord Ouest (Procureur Général) c. Boulanger",
+        "citation": "2015 CanLII 153967 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2015canlii153968"
+        },
+        "title": "Territoires du Nord Ouest (Procureur Général) c. Association des parents ayants droit de Yellowknife",
+        "citation": "2015 CanLII 153968 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2015nwtca1"
+        },
+        "title": "Northwest Territories (Attorney General) v Commission Scolaire Francophone",
+        "citation": "2015 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2014nwtca3"
+        },
+        "title": "R v Doll",
+        "citation": "2014 NWTCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2014nwtca2"
+        },
+        "title": "Werner v Hay River (Mobile Home Park)",
+        "citation": "2014 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2014nwtca1"
+        },
+        "title": "Northwest Territories (WCB) v Mercer",
+        "citation": "2014 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2013nwtca8"
+        },
+        "title": "R v Lepine",
+        "citation": "2013 NWTCA 8 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2013nwtca7"
+        },
+        "title": "R v Lennie",
+        "citation": "2013 NWTCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2013nwtca6"
+        },
+        "title": "R v Illasiak",
+        "citation": "2013 NWTCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2013canlii148418"
+        },
+        "title": "Territoires du Nord-Ouest (Procureur Général) c. Association des Parents ayant droit de Yellowknife",
+        "citation": "2013 CanLII 148418 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "fr": "2013canlii53218"
+        },
+        "title": "Procureur Général des Territoires du Nord-Ouest c Association des Parents ayant droit de Yellowknife",
+        "citation": "2013 CanLII 53218 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2013nwtca4"
+        },
+        "title": "Werner v Hay River (Mobile Home Park)",
+        "citation": "2013 NWTCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2013nwtca2"
+        },
+        "title": "R v Yelle",
+        "citation": "2013 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2013canlii148419"
+        },
+        "title": "Territoires du Nord-Ouest (Procureur Général) c. Association des Parents ayant droit de Yellowknife",
+        "citation": "2013 CanLII 148419 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "fr": "2013canlii40090"
+        },
+        "title": "Procureur Général des Territoires du Nord-Ouest v. Association des Parents ayant droit de Yellowknife",
+        "citation": "2013 CanLII 40090 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2013nwtca1"
+        },
+        "title": "R v Petrin",
+        "citation": "2013 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2012nwtca14"
+        },
+        "title": "R v Gargan",
+        "citation": "2012 NWTCA 14 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2012nwtca12"
+        },
+        "title": "Heron v Lepine",
+        "citation": "2012 NWTCA 12 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2012nwtca11"
+        },
+        "title": "R v Lafferty",
+        "citation": "2012 NWTCA 11 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2012nwtca13"
+        },
+        "title": "R v Lafferty",
+        "citation": "2012 NWTCA 13 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2012nwtca10"
+        },
+        "title": "R. v. Itsi",
+        "citation": "2012 NWTCA 10 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2012nwtca9"
+        },
+        "title": "R v Larsen",
+        "citation": "2012 NWTCA 9 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2012nwtca8"
+        },
+        "title": "Hess v Iqaluit (Town)",
+        "citation": "2012 NWTCA 8 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2012nwtca7"
+        },
+        "title": "R v Nayally",
+        "citation": "2012 NWTCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2012nwtca6"
+        },
+        "title": "R v Bulatci",
+        "citation": "2012 NWTCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2012nwtca5"
+        },
+        "title": "Kell v Senych Estate",
+        "citation": "2012 NWTCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2012nwtca3"
+        },
+        "title": "R v K.W.J.",
+        "citation": "2012 NWTCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2012nwtca4"
+        },
+        "title": "Anderson v Bell Mobility Inc.",
+        "citation": "2012 NWTCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2012nwtca2"
+        },
+        "title": "R v Grossetete",
+        "citation": "2012 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2012nwtca1"
+        },
+        "title": "Christensen v Northwest Territories (Commissioner)",
+        "citation": "2012 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2011nwtca6"
+        },
+        "title": "R v Gordon",
+        "citation": "2011 NWTCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2011nwtca5"
+        },
+        "title": "R v Larsen",
+        "citation": "2011 NWTCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2011nwtca4"
+        },
+        "title": "R v Abel",
+        "citation": "2011 NWTCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2011nwtca3"
+        },
+        "title": "Del Valle v Government of the Northwest Territories",
+        "citation": "2011 NWTCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2011nwtca2"
+        },
+        "title": "R v A.J.P.J.",
+        "citation": "2011 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2011nwtca1"
+        },
+        "title": "R v Bilodeau",
+        "citation": "2011 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2010nwtca12"
+        },
+        "title": "R v Evaglok",
+        "citation": "2010 NWTCA 12 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2010nwtca11"
+        },
+        "title": "R v Gargan",
+        "citation": "2010 NWTCA 11 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2010nwtca10"
+        },
+        "title": "R v Giroux",
+        "citation": "2010 NWTCA 10 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2010nwtca9"
+        },
+        "title": "Taylor v Law Society",
+        "citation": "2010 NWTCA 9 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2010nwtca7"
+        },
+        "title": "R v Allooloo",
+        "citation": "2010 NWTCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2010nwtca6"
+        },
+        "title": "Dr. Bargen v Medical Board of Inquiry",
+        "citation": "2010 NWTCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2010nwtca5"
+        },
+        "title": "R. v. Gargan",
+        "citation": "2010 NWTCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2010nwtca4"
+        },
+        "title": "Lafferty v Tlicho Government",
+        "citation": "2010 NWTCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2010nwtca3"
+        },
+        "title": "R v McPherson",
+        "citation": "2010 NWTCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2010nwtca2"
+        },
+        "title": "R v Delorme",
+        "citation": "2010 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2010nwtca1"
+        },
+        "title": "McMeekin v Northwest Territories Liquor Comission",
+        "citation": "2010 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2009nwtca7"
+        },
+        "title": "R v W.A.P.",
+        "citation": "2009 NWTCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2009nwtca6"
+        },
+        "title": "R v Sabourin",
+        "citation": "2009 NWTCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2009nwtca5"
+        },
+        "title": "R v Beaulieu",
+        "citation": "2009 NWTCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2009nwtca4"
+        },
+        "title": "Valic v WCB",
+        "citation": "2009 NWTCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2009nwtca3"
+        },
+        "title": "Bell Mobility Inc. v Anderson",
+        "citation": "2009 NWTCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2009nwtca2"
+        },
+        "title": "Lloyd and Bungay v Northwest Territories (Commissioner)",
+        "citation": "2009 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2009nwtca1"
+        },
+        "title": "R v Arnault",
+        "citation": "2009 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2008nwtca13"
+        },
+        "title": "Yellowknife (Public Denominational District Education Authority) v Euchner",
+        "citation": "2008 NWTCA 13 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2008nwtca12"
+        },
+        "title": "R v Morgan",
+        "citation": "2008 NWTCA 12 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2008nwtca11"
+        },
+        "title": "R v Lucas",
+        "citation": "2008 NWTCA 11 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2008nwtca10"
+        },
+        "title": "Fullowka v Royal Oak Ventures Inc.",
+        "citation": "2008 NWTCA 10 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2008nwtca9"
+        },
+        "title": "Fullowka v Royal Oak Ventures Inc.",
+        "citation": "2008 NWTCA 9 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2008nwtca8"
+        },
+        "title": "Northwest Territories (Attorney General) v Fédération Franco-Ténoise",
+        "citation": "2008 NWTCA 8 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2008nwtca7"
+        },
+        "title": "Graham v Workers’ Compensation Board",
+        "citation": "2008 NWTCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2008nwtca6"
+        },
+        "title": "Northwest Territories (Attorney General) v Fédération Franco-Ténoise",
+        "citation": "2008 NWTCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2008nwtca5"
+        },
+        "title": "Procureur général des Territoires du Nord-Ouest c. Fédération Franco-Ténoise",
+        "citation": "2008 NWTCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2008nwtca4"
+        },
+        "title": "Fullowka v Royal Oak Ventures Inc.",
+        "citation": "2008 NWTCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2008nwtca2"
+        },
+        "title": "R v Tourangeau",
+        "citation": "2008 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2008nwtca3"
+        },
+        "title": "Lucas v. HMTQ",
+        "citation": "2008 NWTCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2008nwtca1"
+        },
+        "title": "Yellowknife Public Denominational District Education Authority v Euchner",
+        "citation": "2008 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2007nwtca8"
+        },
+        "title": "R v Omilgoituk",
+        "citation": "2007 NWTCA 8 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2007nwtca7"
+        },
+        "title": "R v G.J.S",
+        "citation": "2007 NWTCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2007nwtca6"
+        },
+        "title": "Nixon v Beggair",
+        "citation": "2007 NWTCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2007nwtca5"
+        },
+        "title": "R v Wong",
+        "citation": "2007 NWTCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2007nwtca4"
+        },
+        "title": "R v Madsen",
+        "citation": "2007 NWTCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2007nwtca3"
+        },
+        "title": "R v Michel",
+        "citation": "2007 NWTCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2007nwtca2"
+        },
+        "title": "R v Smith",
+        "citation": "2007 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2007nwtca1"
+        },
+        "title": "Ellingson v Summit Air Charters",
+        "citation": "2007 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2006nwtca6"
+        },
+        "title": "Mangelana v McFadzen",
+        "citation": "2006 NWTCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2006nwtca4"
+        },
+        "title": "North West Company v Fort Smith (Town)",
+        "citation": "2006 NWTCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2006nwtca5"
+        },
+        "title": "R v Marlowe",
+        "citation": "2006 NWTCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2006nwtca3"
+        },
+        "title": "R v C.O.",
+        "citation": "2006 NWTCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2006nwtca2"
+        },
+        "title": "GNWT v WCB",
+        "citation": "2006 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2006nwtca1"
+        },
+        "title": "R v Bruha",
+        "citation": "2006 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2005nwtca7"
+        },
+        "title": "Fédération Franco-Ténoise v Canada (Attorney General)",
+        "citation": "2005 NWTCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2005nwtca6"
+        },
+        "title": "Fédération Franco-Ténoise v Canada (Attorney General)",
+        "citation": "2005 NWTCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2005nwtca5"
+        },
+        "title": "R v Werner",
+        "citation": "2005 NWTCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2005nwtca2"
+        },
+        "title": "R v Khatib",
+        "citation": "2005 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2005nwtca1"
+        },
+        "title": "R v Kolausok",
+        "citation": "2005 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2004nwtca2"
+        },
+        "title": "Gelinas v Worker\u0027s Compensation Board",
+        "citation": "2004 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2004nwtca1"
+        },
+        "title": "R v Kolausok",
+        "citation": "2004 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2003nwtca10"
+        },
+        "title": "R v Nilaulak",
+        "citation": "2003 NWTCA 10 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2003nwtca9"
+        },
+        "title": "R v Panaktalok",
+        "citation": "2003 NWTCA 9 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2003nwtca8"
+        },
+        "title": "R v M.D.B.",
+        "citation": "2003 NWTCA 8 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2003nwtca7"
+        },
+        "title": "R v Nilaulak",
+        "citation": "2003 NWTCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2003nwtca5"
+        },
+        "title": "North American Tungsten Corporation Ltd. v Mackenzie Valley Land and Water Board",
+        "citation": "2003 NWTCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2003nwtca6"
+        },
+        "title": "R v Brownlee and Domkowsky",
+        "citation": "2003 NWTCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2003nwtca1"
+        },
+        "title": "Ebke v Germany \u0026 Minister of Justice",
+        "citation": "2003 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2003nwtca4"
+        },
+        "title": "Ebke v The Minister of Justice and Canada (Attorney General)",
+        "citation": "2003 NWTCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2003nwtca3"
+        },
+        "title": "North American Tungsten Corporation Ltd. v Mackenzie Valley Land and Water Board",
+        "citation": "2003 NWTCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2002nwtca4"
+        },
+        "title": "R v Kikoak",
+        "citation": "2002 NWTCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2002nwtca5"
+        },
+        "title": "R v Abouchami",
+        "citation": "2002 NWTCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2002nwtca3"
+        },
+        "title": "Fullowka v CBC",
+        "citation": "2002 NWTCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2002nwtca1"
+        },
+        "title": "Workers\u0027 Compensation Board of the Northwest Territories v Nunavut",
+        "citation": "2002 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2002nwtca2"
+        },
+        "title": "Fullowka v CBC",
+        "citation": "2002 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2002canlii45535"
+        },
+        "title": "R v M.S.",
+        "citation": "2002 CanLII 45535 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2002canlii45537"
+        },
+        "title": "Ruman Estate v Yellowknife (City)",
+        "citation": "2002 CanLII 45537 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2002canlii45536"
+        },
+        "title": "R v Wanazah",
+        "citation": "2002 CanLII 45536 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2002canlii45534"
+        },
+        "title": "Ebke v The Federal Republic of Germany",
+        "citation": "2002 CanLII 45534 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2002canlii45533"
+        },
+        "title": "R v B.B.",
+        "citation": "2002 CanLII 45533 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2001nwtca13"
+        },
+        "title": "Ebke v The Federal Republic of Germany",
+        "citation": "2001 NWTCA 13 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2001nwtca12"
+        },
+        "title": "Ebke v The Federal Republic of Germany",
+        "citation": "2001 NWTCA 12 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2001nwtca11"
+        },
+        "title": "Ebke v The Federal Republic of Germany",
+        "citation": "2001 NWTCA 11 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2001nwtca8"
+        },
+        "title": "Kosta v Western Union Insurance Company",
+        "citation": "2001 NWTCA 8 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2001nwtca9"
+        },
+        "title": "R v Wanazah",
+        "citation": "2001 NWTCA 9 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2001nwtca4"
+        },
+        "title": "Guinan v Northwestel",
+        "citation": "2001 NWTCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2001nwtca2"
+        },
+        "title": "R v Kelly",
+        "citation": "2001 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2001nwtca3"
+        },
+        "title": "R v Knutson",
+        "citation": "2001 NWTCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2001nwtca1"
+        },
+        "title": "R v Brenton",
+        "citation": "2001 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2000nwtca8"
+        },
+        "title": "Grogono v Yellowknife (City)",
+        "citation": "2000 NWTCA 8 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2000nwtca7"
+        },
+        "title": "Marren v Echo Bay Mines Ltd.",
+        "citation": "2000 NWTCA 7 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2000nwtca6"
+        },
+        "title": "Marren v Echo Bay Mines Ltd.",
+        "citation": "2000 NWTCA 6 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2000ntwca5"
+        },
+        "title": "Grogono v Yellowknife (City)",
+        "citation": "2000 NWTCA 5 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2000nwtca4"
+        },
+        "title": "R v Andre",
+        "citation": "2000 NWTCA 4 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2000nwtca3"
+        },
+        "title": "R v Modeste",
+        "citation": "2000 NWTCA 3 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2000nwtca2"
+        },
+        "title": "Marianayagam v. Bank of Montreal",
+        "citation": "2000 NWTCA 2 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "2000nwtca1"
+        },
+        "title": "Fullowka v Witte",
+        "citation": "2000 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1999canlii35020"
+        },
+        "title": "Fullowka v Witte",
+        "citation": "1999 CanLII 35020 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1999canlii4170"
+        },
+        "title": "Fullowka v. Witte",
+        "citation": "1999 CanLII 4170 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1999nwtca1"
+        },
+        "title": "Fullowka, et al, v. Witte, et al",
+        "citation": "1999 NWTCA 1 (CanLII)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1999canlii18633"
+        },
+        "title": "Workers\u0027 Compensation Board v Braden-Burry Expediting Services Ltd.",
+        "citation": "1999 CanLII 18633 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1999canlii6815"
+        },
+        "title": "McCauley v Law Society of the Northwest Territories",
+        "citation": "1999 CanLII 6815 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1999canlii18715"
+        },
+        "title": "Metis Nation v Friends of Democracy",
+        "citation": "1999 CanLII 18715 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1999canlii6816"
+        },
+        "title": "Metis Nation v Friends of Democracy",
+        "citation": "1999 CanLII 6816 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1999canlii6813"
+        },
+        "title": "319232 Alberta Limited v Northwest Territories Business Credit Corporation",
+        "citation": "1999 CanLII 6813 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1999canlii6814"
+        },
+        "title": "Metl-Span Corporation v Humphrey Metal Buildgins Inc. Dudley Kill and Sons Ltd.",
+        "citation": "1999 CanLII 6814 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1998canlii29682"
+        },
+        "title": "R v CBC",
+        "citation": "1998 CanLII 29682 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1998canlii6998"
+        },
+        "title": "R. v. Canadian Broadcasting Corp.",
+        "citation": "1998 CanLII 6998 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1998canlii6997"
+        },
+        "title": "R v Quitte",
+        "citation": "1998 CanLII 6997 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1998canlii6995"
+        },
+        "title": "R v Maxwell",
+        "citation": "1998 CanLII 6995 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1998canlii6992"
+        },
+        "title": "Hunter v Hunter",
+        "citation": "1998 CanLII 6992 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1998canlii5770"
+        },
+        "title": "R v Firth",
+        "citation": "1998 CanLII 5770 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1998canlii4395"
+        },
+        "title": "R v Koonoo",
+        "citation": "1998 CanLII 4395 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1998canlii6999"
+        },
+        "title": "R v Jeremick\u0027ca",
+        "citation": "1998 CanLII 6999 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1998canlii6993"
+        },
+        "title": "R v Drybones",
+        "citation": "1998 CanLII 6993 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1998canlii6040"
+        },
+        "title": "R v Lam",
+        "citation": "1998 CanLII 6040 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1998canlii6994"
+        },
+        "title": "R v Bell",
+        "citation": "1998 CanLII 6994 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1998canlii6390"
+        },
+        "title": "R v Bui",
+        "citation": "1998 CanLII 6390 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1998canlii6996"
+        },
+        "title": "Sivulliik Development Corporation v Iqaluit",
+        "citation": "1998 CanLII 6996 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1998canlii6052"
+        },
+        "title": "R v A.P.",
+        "citation": "1998 CanLII 6052 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1998canlii29683"
+        },
+        "title": "Carswell v Engle",
+        "citation": "1998 CanLII 29683 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1998canlii6991"
+        },
+        "title": "Carswell v. Engle",
+        "citation": "1998 CanLII 6991 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1998canlii5202"
+        },
+        "title": "R v Klugie",
+        "citation": "1998 CanLII 5202 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1998canlii6990"
+        },
+        "title": "R v Denethlon",
+        "citation": "1998 CanLII 6990 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1998canlii29916"
+        },
+        "title": "R. v. K. (A.J.)",
+        "citation": "1998 CanLII 29916 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1997canlii3483"
+        },
+        "title": "Carswell v Engle",
+        "citation": "1997 CanLII 3483 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1997canlii4540"
+        },
+        "title": "R v Thatcher",
+        "citation": "1997 CanLII 4540 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1997canlii24871"
+        },
+        "title": "R. v. Kaunak",
+        "citation": "1997 CanLII 24871 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1997canlii4535"
+        },
+        "title": "R v Kaunak",
+        "citation": "1997 CanLII 4535 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1997canlii4536"
+        },
+        "title": "R v Atagootak",
+        "citation": "1997 CanLII 4536 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1997canlii22736"
+        },
+        "title": "R v Warren",
+        "citation": "1997 CanLII 22736 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1997canlii24547"
+        },
+        "title": "R v Gargan",
+        "citation": "1997 CanLII 24547 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1997canlii4539"
+        },
+        "title": "Schram v Schram",
+        "citation": "1997 CanLII 4539 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1997canlii4538"
+        },
+        "title": "R. v. E.P.G.",
+        "citation": "1997 CanLII 4538 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1997canlii4537"
+        },
+        "title": "R v Gargan",
+        "citation": "1997 CanLII 4537 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1997canlii4534"
+        },
+        "title": "Baffin Plumbing \u0026 Heating Ltd. v Labour Standards Board",
+        "citation": "1997 CanLII 4534 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1997canlii2993"
+        },
+        "title": "R v Thatcher",
+        "citation": "1997 CanLII 2993 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1997canlii14473"
+        },
+        "title": "R v Bell",
+        "citation": "1997 CanLII 14473 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1996canlii19815"
+        },
+        "title": "Fullowka v Whitford",
+        "citation": "1996 CanLII 19815 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1996canlii10199"
+        },
+        "title": "Fullowka v. Whitford",
+        "citation": "1996 CanLII 10199 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1996canlii19816"
+        },
+        "title": "R v Kudlak",
+        "citation": "1996 CanLII 19816 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1996canlii3663"
+        },
+        "title": "Minister of Economic Development and Tourism v Yellowknife (City)",
+        "citation": "1996 CanLII 3663 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1996canlii19814"
+        },
+        "title": "R v Bell",
+        "citation": "1996 CanLII 19814 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1996canlii19813"
+        },
+        "title": "R v Boudreau",
+        "citation": "1996 CanLII 19813 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1996canlii20128"
+        },
+        "title": "R. v. Boudreau",
+        "citation": "1996 CanLII 20128 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1996canlii20124"
+        },
+        "title": "R. v. Esau",
+        "citation": "1996 CanLII 20124 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1996canlii10201"
+        },
+        "title": "Canadian Egg Marketing Agency v. Richardson",
+        "citation": "1996 CanLII 10201 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1996canlii19812"
+        },
+        "title": "R v Cook",
+        "citation": "1996 CanLII 19812 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1996canlii19811"
+        },
+        "title": "R v Ukuqtunnuaq",
+        "citation": "1996 CanLII 19811 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1996canlii10200"
+        },
+        "title": "Canadian Egg Marketing Agency v. Richardson",
+        "citation": "1996 CanLII 10200 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1995canlii18207"
+        },
+        "title": "R. v. Gold Range Investments Ltd.",
+        "citation": "1995 CanLII 18207 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1995canlii18229"
+        },
+        "title": "R. v. Mantla",
+        "citation": "1995 CanLII 18229 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1995canlii3416"
+        },
+        "title": "R v Mantla",
+        "citation": "1995 CanLII 3416 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1995canlii6232"
+        },
+        "title": "McGrath v Holmes",
+        "citation": "1995 CanLII 6232 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1994canlii18492"
+        },
+        "title": "McElheran v. Great Northwest Insulation Ltd.",
+        "citation": "1994 CanLII 18492 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1994canlii18502"
+        },
+        "title": "R. v. Evaglok",
+        "citation": "1994 CanLII 18502 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1994canlii18504"
+        },
+        "title": "Executive Ltd. v. B.A.S. Developments Ltd.",
+        "citation": "1994 CanLII 18504 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1994canlii5246"
+        },
+        "title": "Volker Stevin NWT Ltd. v Northwest Territories (Commissioner)",
+        "citation": "1994 CanLII 5246 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1994canlii5245"
+        },
+        "title": "Martselos Services Limited v Arctic College",
+        "citation": "1994 CanLII 5245 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1994canlii3375"
+        },
+        "title": "882432 NWT Ltd. v Canadian Imperial Bank of Commerce",
+        "citation": "1994 CanLII 3375 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1993canlii16256"
+        },
+        "title": "Rebus v. McLellan",
+        "citation": "1993 CanLII 16256 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1993canlii16563"
+        },
+        "title": "R. v. Ittinuar",
+        "citation": "1993 CanLII 16563 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1993canlii16244"
+        },
+        "title": "Chapman v. Chapman",
+        "citation": "1993 CanLII 16244 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1993canlii16530"
+        },
+        "title": "R. v. Laisa",
+        "citation": "1993 CanLII 16530 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1993canlii16544"
+        },
+        "title": "R. v. Nowdluk",
+        "citation": "1993 CanLII 16544 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1993canlii16543"
+        },
+        "title": "R. v. Shearing",
+        "citation": "1993 CanLII 16543 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1993canlii3410"
+        },
+        "title": "R. v. E. (S.)",
+        "citation": "1993 CanLII 3410 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1993canlii16556"
+        },
+        "title": "R. v. Green",
+        "citation": "1993 CanLII 16556 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1993canlii16529"
+        },
+        "title": "Vlassoff v. Canada Tungsten Mining Corp.",
+        "citation": "1993 CanLII 16529 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1992canlii14316"
+        },
+        "title": "R. v. Edwards",
+        "citation": "1992 CanLII 14316 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1992canlii14363"
+        },
+        "title": "Canadian Imperial Bank of Commerce v. Sahtu Contractors Ltd.",
+        "citation": "1992 CanLII 14363 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1992canlii14342"
+        },
+        "title": "Peters v. Fireman\u0027s Fund Insurance Co. of Canada",
+        "citation": "1992 CanLII 14342 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1992canlii8500"
+        },
+        "title": "Peters v. Fireman\u0027s Fund Insurance Co. of Canada",
+        "citation": "1992 CanLII 8500 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1992canlii14317"
+        },
+        "title": "Izzard Estate v. Lyle",
+        "citation": "1992 CanLII 14317 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1992canlii12827"
+        },
+        "title": "R. v. T.(T.)",
+        "citation": "1992 CanLII 12827 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1992canlii12783"
+        },
+        "title": "R. v. Netser",
+        "citation": "1992 CanLII 12783 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1992canlii14354"
+        },
+        "title": "R. v. Ulayuk",
+        "citation": "1992 CanLII 14354 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1992canlii14362"
+        },
+        "title": "R. v. Doyle",
+        "citation": "1992 CanLII 14362 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1992canlii14338"
+        },
+        "title": "841656 Northwest Territories Ltd. v. Jodphur Holdings Ltd.",
+        "citation": "1992 CanLII 14338 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1991canlii13228"
+        },
+        "title": "R. v. Temela",
+        "citation": "1991 CanLII 13228 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1991canlii13191"
+        },
+        "title": "R. v. Yew",
+        "citation": "1991 CanLII 13191 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1991canlii13218"
+        },
+        "title": "McCarthy v. Inuvik (Town)",
+        "citation": "1991 CanLII 13218 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1991canlii8285"
+        },
+        "title": "McCarthy v. Inuvik (Town)",
+        "citation": "1991 CanLII 8285 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1991canlii13231"
+        },
+        "title": "Clegg v. Clegg",
+        "citation": "1991 CanLII 13231 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1991canlii13212"
+        },
+        "title": "R. v. Pearce",
+        "citation": "1991 CanLII 13212 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1991canlii11731"
+        },
+        "title": "R. v. M. (G.O.)",
+        "citation": "1991 CanLII 11731 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1990canlii12541"
+        },
+        "title": "R. v. Oakley",
+        "citation": "1990 CanLII 12541 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1990canlii7954"
+        },
+        "title": "Karl Mueller Construction Ltd. v. Northwest Territories (Commissioner)",
+        "citation": "1990 CanLII 7954 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1990canlii12542"
+        },
+        "title": "R. v. Sittichinli",
+        "citation": "1990 CanLII 12542 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1989canlii9122"
+        },
+        "title": "R. v. N. (L.)",
+        "citation": "1989 CanLII 9122 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1989canlii7196"
+        },
+        "title": "R. v. N. (L.)",
+        "citation": "1989 CanLII 7196 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1989canlii7256"
+        },
+        "title": "Irecan Ltd. V. Yellowknife (City)",
+        "citation": "1989 CanLII 7256 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1989canlii9131"
+        },
+        "title": "R. v. Hakuluk",
+        "citation": "1989 CanLII 9131 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1989canlii9103"
+        },
+        "title": "872245 N.W.T. Ltd. v. Northwest Territories (Minister of Finance)",
+        "citation": "1989 CanLII 9103 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1988canlii8995"
+        },
+        "title": "R. v. Little",
+        "citation": "1988 CanLII 8995 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1988canlii9009"
+        },
+        "title": "R. v. Beyonnie",
+        "citation": "1988 CanLII 9009 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1988canlii5711"
+        },
+        "title": "Irecan Ltd. v. Yellowknife (City)",
+        "citation": "1988 CanLII 5711 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1988canlii9006"
+        },
+        "title": "R. v. E. (E.)",
+        "citation": "1988 CanLII 9006 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1988canlii8994"
+        },
+        "title": "Emikotailuk v. R.",
+        "citation": "1988 CanLII 8994 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1988canlii204"
+        },
+        "title": "The Professional Institute of the Public Service of Canada v Northwest Territories (Commissioner) v The Northwest Territories Public Service Association",
+        "citation": "1988 CanLII 204 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1988canlii9014"
+        },
+        "title": "R. v. Avadluk",
+        "citation": "1988 CanLII 9014 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1988canlii7055"
+        },
+        "title": "R. v. Emile",
+        "citation": "1988 CanLII 7055 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1988canlii9007"
+        },
+        "title": "R. v. Tatzia",
+        "citation": "1988 CanLII 9007 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1988canlii8982"
+        },
+        "title": "R. v. Dresen",
+        "citation": "1988 CanLII 8982 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1988canlii9010"
+        },
+        "title": "R. v. Norris",
+        "citation": "1988 CanLII 9010 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1988canlii7087"
+        },
+        "title": "R. v. Norris",
+        "citation": "1988 CanLII 7087 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1988canlii8983"
+        },
+        "title": "R. v. McLeod",
+        "citation": "1988 CanLII 8983 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1988canlii7153"
+        },
+        "title": "R. v. Ashoona",
+        "citation": "1988 CanLII 7153 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1988canlii5673"
+        },
+        "title": "Sibbeston v. Canada (Attorney-General)",
+        "citation": "1988 CanLII 161 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1988canlii9021"
+        },
+        "title": "R. v. Adams",
+        "citation": "1988 CanLII 9021 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1988canlii8999"
+        },
+        "title": "R. v. Ashoona",
+        "citation": "1988 CanLII 8999 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1987canlii8624"
+        },
+        "title": "R. v. Levesque",
+        "citation": "1987 CanLII 8624 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1987canlii8635"
+        },
+        "title": "R. v. Idlout",
+        "citation": "1987 CanLII 8635 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1987canlii8591"
+        },
+        "title": "R. v. Jacobson",
+        "citation": "1987 CanLII 8591 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1987canlii8620"
+        },
+        "title": "Andre v. R.",
+        "citation": "1987 CanLII 8620 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1987canlii8592"
+        },
+        "title": "R. v. Rogers",
+        "citation": "1987 CanLII 8592 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1987canlii143"
+        },
+        "title": "R v Shannon",
+        "citation": "1987 CanLII 143 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1987canlii8617"
+        },
+        "title": "R. v. B. (C.F.)",
+        "citation": "1987 CanLII 8617 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1987canlii6813"
+        },
+        "title": "R. v. C.F.B.",
+        "citation": "1987 CanLII 6813 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1986canlii3990"
+        },
+        "title": "Gal-Cab Invts. Ltd. v. Liquor Licensing Bd.",
+        "citation": "1986 CanLII 3990 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1986canlii6571"
+        },
+        "title": "Papa\u0027s Holdings Ltd. v. Northwest Territories (Liquor Licensing Board)",
+        "citation": "1986 CanLII 6571 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1985canlii2916"
+        },
+        "title": "R v Avery",
+        "citation": "1986 CanLII 6417 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1986canlii6604"
+        },
+        "title": "Beaulieu v. R.",
+        "citation": "1986 CanLII 6604 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1986canlii6586"
+        },
+        "title": "R. v. Daniels",
+        "citation": "1986 CanLII 6586 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1986canlii6598"
+        },
+        "title": "R. v. Petaulassie",
+        "citation": "1986 CanLII 6598 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1986canlii6564"
+        },
+        "title": "R. v. Ettagiak",
+        "citation": "1986 CanLII 6564 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1986canlii6585"
+        },
+        "title": "R. v. S.N.",
+        "citation": "1986 CanLII 6585 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1986canlii4612"
+        },
+        "title": "R. v. J.N.",
+        "citation": "1986 CanLII 4612 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1986canlii6597"
+        },
+        "title": "R. v. W.A.A.",
+        "citation": "1986 CanLII 6597 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1986canlii4701"
+        },
+        "title": "R. v. Lines",
+        "citation": "1986 CanLII 4701 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1986canlii6577"
+        },
+        "title": "Koyina v. Commissioner of Northwest Territories",
+        "citation": "1986 CanLII 6577 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1984canlii46"
+        },
+        "title": "R. v Dennis",
+        "citation": "1985 CanLII 5320 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1985canlii3495"
+        },
+        "title": "R v Mantla",
+        "citation": "1985 CanLII 3495 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1985canlii180"
+        },
+        "title": "Regina v. Tobac",
+        "citation": "1985 CanLII 180 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1985canlii5275"
+        },
+        "title": "R. v. Wayallon",
+        "citation": "1985 CanLII 5275 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1985canlii5319"
+        },
+        "title": "R. v. Alainga",
+        "citation": "1985 CanLII 5319 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1985canlii5293"
+        },
+        "title": "R. v. L.J.; R. v. B.N.",
+        "citation": "1985 CanLII 3527 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1984canlii60"
+        },
+        "title": "Regina v. Amaralik",
+        "citation": "1984 CanLII 60 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1984canlii3003"
+        },
+        "title": "R. v. Rocher",
+        "citation": "1984 CanLII 3003 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1984canlii5099"
+        },
+        "title": "R. v. Curley",
+        "citation": "1984 CanLII 5099 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1984canlii5098"
+        },
+        "title": "R. v. Masuzumi",
+        "citation": "1984 CanLII 5098 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1983canlii4761"
+        },
+        "title": "Allman v. Commissioner of the Northwest Territories",
+        "citation": "1983 CanLII 4761 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1983canlii2847"
+        },
+        "title": "Allman v. Northwest Territories (Commissioner)",
+        "citation": "1983 CanLII 2847 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1983canlii4779"
+        },
+        "title": "R. v. Magna",
+        "citation": "1983 CanLII 4779 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1983canlii3588"
+        },
+        "title": "R. v. Daniels",
+        "citation": "1983 CanLII 3588 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1983canlii3575"
+        },
+        "title": "R v Fyfe",
+        "citation": "1983 CanLII 3575 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1983canlii4791"
+        },
+        "title": "R. v. Huxted",
+        "citation": "1983 CanLII 4791 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1983canlii4762"
+        },
+        "title": "A. v. Mr. B",
+        "citation": "1983 CanLII 4762 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1983canlii2880"
+        },
+        "title": "A v. B",
+        "citation": "1983 CanLII 2880 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1983canlii4799"
+        },
+        "title": "R. v. Simon",
+        "citation": "1983 CanLII 4799 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1982canlii3965"
+        },
+        "title": "Commissioner of Northwest Territories v. Pine Point Mines Limited",
+        "citation": "1982 CanLII 3965 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1982canlii4946"
+        },
+        "title": "Gagnon v. Registrar of Vehicles for the Northwest Territories",
+        "citation": "1982 CanLII 4946 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1980canlii2502"
+        },
+        "title": "Firth v. Nickerson",
+        "citation": "1980 CanLII 2502 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1979canlii2581"
+        },
+        "title": "Northwest Territories Public Service Association v Northwest Territories (Commissioner)",
+        "citation": "1979 CanLII 2581 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1979canlii2618"
+        },
+        "title": "Tower Company Ltd. v Frobisher Bay (Village)",
+        "citation": "1979 CanLII 2618 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1979canlii2498"
+        },
+        "title": "Plamondon v Grodt",
+        "citation": "1979 CanLII 2498 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1978canlii2553"
+        },
+        "title": "R. v. Hazzard",
+        "citation": "1978 CanLII 2553 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1977canlii2122"
+        },
+        "title": "R v Laserich and Altair Leasing Ltd.",
+        "citation": "1977 CanLII 2122 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1977canlii1904"
+        },
+        "title": "R. v. Johnston",
+        "citation": "1977 CanLII 1904 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1976canlii1425"
+        },
+        "title": "Regina v. Kingwatsiak",
+        "citation": "1976 CanLII 1425 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1976canlii1486"
+        },
+        "title": "R v Bohnet",
+        "citation": "1976 CanLII 1486 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1976canlii1384"
+        },
+        "title": "Regina v. Bonnet",
+        "citation": "1976 CanLII 1384 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1976canlii1410"
+        },
+        "title": "Re Dubrule and The Queen",
+        "citation": "1976 CanLII 1410 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1975canlii945"
+        },
+        "title": "Paulette (Re)",
+        "citation": "1975 CanLII 945 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1973canlii1086"
+        },
+        "title": "Lepine v. Demeule",
+        "citation": "1973 CanLII 1086 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1972canlii982"
+        },
+        "title": "R. v. Kupiyana",
+        "citation": "1972 CanLII 982 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1972canlii977"
+        },
+        "title": "Kitchooalik v. Tucktoo",
+        "citation": "1972 CanLII 977 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1971canlii971"
+        },
+        "title": "Sittler v. Conwest Exploration Company Limited",
+        "citation": "1971 CanLII 971 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1970canlii1207"
+        },
+        "title": "Berg v. Northern Mountain Airlines Ltd.",
+        "citation": "1970 CanLII 1207 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1968canlii1021"
+        },
+        "title": "Traders Group Limited v. Hopkins",
+        "citation": "1968 CanLII 1021 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1968canlii779"
+        },
+        "title": "Re Traders Group Ltd. v. Hopkins et al.",
+        "citation": "1968 CanLII 779 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1967canlii714"
+        },
+        "title": "R. v. Mussalem",
+        "citation": "1967 CanLII 714 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1967canlii531"
+        },
+        "title": "R. v. Drybones",
+        "citation": "1967 CanLII 531 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1965canlii536"
+        },
+        "title": "R. v. Sigeareak",
+        "citation": "1965 CanLII 536 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1964canlii830"
+        },
+        "title": "Gold Range Hotel Limited v. Plains-Western Gas and Electric Company",
+        "citation": "1964 CanLII 830 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1964canlii510"
+        },
+        "title": "R. v. Sikyea",
+        "citation": "1964 CanLII 510 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1963canlii800"
+        },
+        "title": "R. v. Brown",
+        "citation": "1963 CanLII 800 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1963canlii670"
+        },
+        "title": "R. v. Brown (No. 2)",
+        "citation": "1963 CanLII 670 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1962canlii471"
+        },
+        "title": "Hagel and Hagel v. Municipal District of Yellowknife and Board of Trustees for Yellowknife Public School District No. 1",
+        "citation": "1962 CanLII 471 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1961canlii524"
+        },
+        "title": "Regina v. Brown",
+        "citation": "1961 CanLII 524 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1961canlii807"
+        },
+        "title": "Voghell v. Voghell and Pratt",
+        "citation": "1961 CanLII 807 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1960canlii841"
+        },
+        "title": "Voghell v. Voghell and Pratt",
+        "citation": "1960 CanLII 841 (NWT CA)"
+      },
+      {
+        "databaseId": "ntca",
+        "caseId": {
+          "en": "1960canlii559"
+        },
+        "title": "R. v. Ayalik",
+        "citation": "1960 CanLII 559 (NWT CA)"
+      }
+    ]
+  }
