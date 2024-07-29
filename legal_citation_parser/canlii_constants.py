@@ -142,6 +142,13 @@ COURT_HIERARCHY_TRIBUNAL = {
     "bcsfi": "provincial tribunal",
     "bcsp": "provincial tribunal",
     "bcsre": "provincial tribunal",
+    "mbcpsdc": "provincial tribunal",
+    "mbla": "provincial tribunal",
+    "mbls": "provincial tribunal",
+    "mbhab": "provincial tribunal",
+    "mbhrc": "provincial tribunal",
+    "mblb": "provincial tribunal",
+    "mbsec": "provincial tribunal",
 }
 
 COURT_CODES = {
@@ -3473,7 +3480,7 @@ COURT_CODES = {
             "en": "mbcpsdc",
             "fr": "mbcpsdc",
         },
-        "court_id": ["mbcpsdc"],
+        "court_id": ["mbcpsdc", "mb cpsdc"],
     },
     "forep": {
         "jurisdiction": "ca",
@@ -5141,6 +5148,7 @@ COURT_CODE_MAP = [
     ("qc oarq", "qcoarq"),
     ("qccdarc", "qcoarq"),
     ("mbcpsdc", "mbcpsdc"),
+    ("mb cpsdc", "mbcpsdc"),
     ("forep", "forep"),
     ("nssc", "nssc"),
     ("ns sc", "nssc"),
