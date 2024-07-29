@@ -51,6 +51,16 @@ COURT_HIERARCHY_CRIMINAL = {
     "yjcn": "provincial",
 }
 
+COURT_HIERARCHY_FEDERAL = {
+    "fct": "federal",
+    "fca": "federal appellate",
+    "cci-tcc": "federal tax",
+    "cm": "military",
+    "cmac-cacm": "military appellate",
+}
+
+
+
 COURT_CODES = {
     "nlpc": {
         "jurisdiction": "nl",
