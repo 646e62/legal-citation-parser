@@ -180,6 +180,11 @@ COURT_HIERARCHY_TRIBUNAL = {
     "aboipc": "provincial tribunal",
     "abreca": "provincial tribunal",
     "absra": "provincial tribunal",
+    "ytla": "territorial tribunal",
+    "ykhrc": "territorial tribunal",
+    "ytpslrb": "territorial tribunal",
+    "ytrto": "territorial tribunal",
+    "yttlrb": "territorial tribunal",
 }
 
 COURT_CODES = {
