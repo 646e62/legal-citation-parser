@@ -112,6 +112,36 @@ COURT_HIERARCHY_TRIBUNAL = {
     "skort": "provincial tribunal",
     "skpmb": "provincial tribunal",
     "skrec": "provincial tribunal",
+    "bccnm": "provincial tribunal",
+    "bcctc": "provincial tribunal",
+    "bcest": "provincial tribunal",
+    "bceab": "provincial tribunal",
+    "bchab": "provincial tribunal",
+    "bchrt": "provincial tribunal",
+    "bclcrb": "provincial tribunal",
+    "bcrb": "provincial tribunal",
+    "bcsec": "provincial tribunal",
+    "bcwcat": "provincial tribunal",
+    "bccrt": "provincial tribunal",
+    "bccds": "provincial tribunal",
+    "bccps": "provincial tribunal",
+    "bcccalab": "provincial tribunal",
+    "bcerat": "provincial tribunal",
+    "bcogat": "provincial tribunal",
+    "bcfst": "provincial tribunal",
+    "bcfac": "provincial tribunal",
+    "bcprb": "provincial tribunal",
+    "bcipc": "provincial tribunal",
+    "bcla": "provincial tribunal",
+    "bclrb": "provincial tribunal",
+    "lsbc": "provincial tribunal",
+    "bcorl": "provincial tribunal",
+    "bcrec": "provincial tribunal",
+    "bcrmb": "provincial tribunal",
+    "bcitab": "provincial tribunal",
+    "bcsfi": "provincial tribunal",
+    "bcsp": "provincial tribunal",
+    "bcsre": "provincial tribunal",
 }
 
 COURT_CODES = {
@@ -3664,13 +3694,24 @@ COURT_CODES = {
     "bcogat": {
         "jurisdiction": "bc",
         "name": {
+            "en": "Oil and Gas Appeal Tribunal",
+        },
+        "url": {
+            "en": "bcogat",
+            "fr": "bcogat",
+        },
+        "court_id": ["bcogat"],
+    },
+    "bcerat": {
+        "jurisdiction": "bc",
+        "name": {
             "en": "Energy Resource Appeal Tribunal",
         },
         "url": {
             "en": "bcerat",
             "fr": "bcerat",
         },
-        "court_id": ["bcogat"],
+        "court_id": ["bcerat"],
     },
     "qccdoiq": {
         "jurisdiction": "qc",
@@ -4583,7 +4624,18 @@ COURT_CODES = {
             "fr": "cidphn",
         },
         "court_id": ["sopf", "cidphn"],
-    }
+    },
+    "bcegbc": {
+        "jurisdiction": "bc",
+        "name": {
+            "en": "Engineers and Geoscientists British Columbia",
+        },
+        "url": {
+            "en": "bcegbc",
+            "fr": "bcegbc",
+        },
+        "court_id": ["bcegbc", "bceg"],
+    },
 }
 
 # Map citation abbreviations to the database_id
@@ -5120,6 +5172,7 @@ COURT_CODE_MAP = [
     ("oncaspd", "oncaspd"),
     ("bc wcat", "bcwcat"),
     ("bcogat", "bcogat"),
+    ["bcerat", "bcogat"],
     ("qc cdoiq", "qccdoiq"),
     ("qccding", "qccdoiq"),
     ("nt tadp", "nthrap"),
@@ -5265,4 +5318,6 @@ COURT_CODE_MAP = [
     ("qccdbq", "qccdbq"),
     ("sopf", "sopf"),
     ("cidphn", "sopf"),
+    ("bcegbc", "bcegbc"),
+    ("bceg", "bcegbc"),
 ]

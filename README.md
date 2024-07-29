@@ -9,7 +9,13 @@ Although legal citations are typically short strings, they contain a great deal 
 
 Version 0.4.x is broadly focused on making the existing program more robust and user-friendly. Planned improvements include
 
-Version 0.4.1 adds some QoL improvements to API functionality. Specifically, it allows users to add, update, and remove their API key from the environment. It adds some verification functions to the API itself as well.
+* QoL improvements to the CanLII API functionality
+* Improved error handling
+* More robust testing
+* Improved documentation
+* Complete list of tribunals to complete court hierarchy and enable future hierarchical analysis
+
+Version 0.4.1 begins by adding more updates to the court level dictionaries to allow hierarchical comparisons outside of courts that handle criminal cases.
 
 ## Metadata
 
