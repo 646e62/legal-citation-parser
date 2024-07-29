@@ -40,15 +40,15 @@ COURT_HIERARCHY_CRIMINAL = {
     "nlsc": "superior",
     "nltd": "superior",
     "nlpc": "provincial",
-    "ykca": "provincial appellate",
+    "ykca": "territorial appellate",
     "yksc": "superior",
-    "yktc": "provincial",
-    "ntca": "provincial appellate",
+    "yktc": "territorial",
+    "ntca": "territorial appellate",
     "ntsc": "superior",
-    "nttc": "provincial",
-    "nuca": "provincial appellate",
-    "nucj": "provincial",
-    "yjcn": "provincial",
+    "nttc": "territorial",
+    "nuca": "territorial appellate",
+    "nucj": "territorial",
+    "yjcn": "territorial",
 }
 
 COURT_HIERARCHY_FEDERAL = {
@@ -60,6 +60,40 @@ COURT_HIERARCHY_FEDERAL = {
 }
 
 
+COURT_HIERARCHY_TRIBUNAL = {
+    "cart-crac": "federal tribunal",
+    "cer-rec": "federal tribunal",
+    "cirb": "federal tribunal",
+    "cbsc-ccnr": "federal tribunal",
+    "chrt": "federal tribunal",
+    "citt-tcce": "federal tribunal",
+    "ciro-ocri": "federal tribunal",
+    "iccrc": "federal tribunal",
+    "cacp": "federal tribunal",
+    "cact": "federal tribunal",
+    "cbc": "federal tribunal",
+    "eptc": "federal tribunal",
+    "caci": "federal tribunal",
+    "pslreb": "federal tribunal",
+    "fpca": "federal tribunal",
+    "cisr": "federal tribunal",
+    "oic": "federal tribunal",
+    "caiiroc": "federal tribunal",
+    "casa-cala": "federal tribunal",
+    "camfda": "federal tribunal",
+    "ohstc": "federal tribunal",
+    "pec-ces": "federal tribunal",
+    "pcc-cvpc": "federal tribunal",
+    "capsdpt": "federal tribunal",
+    "pssrb": "federal tribunal",
+    "psst": "federal tribunal",
+    "sopf": "federal tribunal",
+    "sst-tss": "federal tribunal",
+    "sct-trp": "federal tribunal",
+    "tmob": "federal tribunal",
+    "tatc": "federal tribunal",
+    "vrab": "federal tribunal",
+}
 
 COURT_CODES = {
     "nlpc": {
@@ -654,6 +688,18 @@ COURT_CODES = {
             "fr": "crtefp",
         },
         "court_id": ["fpslreb", "pslreb", "crtespf", "crtefp"],
+    },
+    "fpca": {
+        "jurisdiction": "ca",
+        "name": {
+            "en": "FP Canada Standards Council",
+            "fr": "FP Canada Standards Council",
+        },
+        "url": {
+            "en": "fpca",
+            "fr": "fpca",
+        },
+        "court_id": ["fpca"],
     },
     "mbca": {
         "jurisdiction": "mb",
@@ -4507,6 +4553,18 @@ COURT_CODES = {
         },
         "court_id": ["qc cdbq", "qccdbq"],
     },
+    "sopf": {
+        "jurisdiction": "ca",
+        "name": {
+            "en": "Ship-source Oil Pollution Fund",
+            "fr": "Caisse d'indemnisation des dommages dus à la pollution par les hydrocarbures causée par les navires",
+        },
+        "url": {
+            "en": "sopf",
+            "fr": "cidphn",
+        },
+        "court_id": ["sopf", "cidphn"],
+    }
 }
 
 # Map citation abbreviations to the database_id
@@ -4596,6 +4654,7 @@ COURT_CODE_MAP = [
     ("pslreb", "pslreb"),
     ("crtespf", "pslreb"),
     ("crtefp", "pslreb"),
+    ("fpca", "fpca"),
     ("mbca", "mbca"),
     ("mb ca", "mbca"),
     ("skca", "skca"),
@@ -5185,4 +5244,6 @@ COURT_CODE_MAP = [
     ("scc", "csc-scc"),
     ("qc cdbq", "qccdbq"),
     ("qccdbq", "qccdbq"),
+    ("sopf", "sopf"),
+    ("cidphn", "sopf"),
 ]

@@ -8,6 +8,7 @@ import re
 from .canlii_constants import (
     COURT_HIERARCHY_CRIMINAL,
     COURT_HIERARCHY_FEDERAL,
+    COURT_HIERARCHY_TRIBUNAL,
     COURT_CODES,
     COURT_CODE_MAP,
 )
@@ -15,7 +16,7 @@ from .canlii_constants import (
 from .utils import canlii_api_call, check_url
 
 
-COMBINED_COURT_HIERARCHY = {**COURT_HIERARCHY_CRIMINAL, **COURT_HIERARCHY_FEDERAL}
+COMBINED_COURT_HIERARCHY = {**COURT_HIERARCHY_CRIMINAL, **COURT_HIERARCHY_FEDERAL, **COURT_HIERARCHY_TRIBUNAL}
 
 def check_court_code(year, court_code, citation, citation_type, language="en"):
     """
