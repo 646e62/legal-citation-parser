@@ -227,6 +227,17 @@ COURT_HIERARCHY_TRIBUNAL = {
     "peihrc": "provincial tribunal",
     "pelrb": "provincial tribunal",
     "peirac": "provincial tribunal",
+    "nbbihra": "provincial tribunal",
+    "nbfc": "provincial tribunal",
+    "nbsec": "provincial tribunal",
+    "nbla": "provincial tribunal",
+    "nbls": "provincial tribunal",
+    "nbapab": "provincial tribunal",
+    "nbcph": "provincial tribunal",
+    "nbleb": "provincial tribunal",
+    "nbrea": "provincial tribunal",
+    "nbomb": "provincial tribunal",
+    "nbwhscc": "provincial tribunal",
 }
 
 COURT_CODES = {
@@ -1813,7 +1824,7 @@ COURT_CODES = {
             "en": "nbcph",
             "fr": "nbcph",
         },
-        "court_id": ["nboph"],
+        "court_id": ["nbcph"],
     },
     "abhrc": {
         "jurisdiction": "ab",
@@ -4980,7 +4991,7 @@ COURT_CODE_MAP = [
     ("yt pslrb", "ytpslrb"),
     ("bchrt", "bchrt"),
     ("bc hrt", "bchrt"),
-    ("nboph", "nbcph"),
+    ("nbcph", "nbcph"),
     ("ahrc", "abhrc"),
     ("ab hrc", "abhrc"),
     ("cact", "cact"),
