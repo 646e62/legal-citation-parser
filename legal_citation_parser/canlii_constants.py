@@ -185,6 +185,16 @@ COURT_HIERARCHY_TRIBUNAL = {
     "ytpslrb": "territorial tribunal",
     "ytrto": "territorial tribunal",
     "yttlrb": "territorial tribunal",
+    "ntlsb": "territorial tribunal",
+    "nthrap": "territorial tribunal",
+    "ntla": "territorial tribunal",
+    "ntls": "territorial tribunal",
+    "nwcat": "territorial tribunal",
+    "ntaat": "territorial tribunal",
+    "ntipc": "territorial tribunal",
+    "ntllb": "territorial tribunal",
+    "ntsec": "territorial tribunal",
+    "ntro": "territorial tribunal",
 }
 
 COURT_CODES = {
@@ -3046,7 +3056,7 @@ COURT_CODES = {
             "en": "ntlsb",
             "fr": "ntlsb",
         },
-        "court_id": ["nwt lsb"],
+        "court_id": ["nwt lsb", "ntesa"],
     },
     "mbpc": {
         "jurisdiction": "mb",
@@ -4679,6 +4689,29 @@ COURT_CODES = {
         },
         "court_id": ["bcegbc", "bceg"],
     },
+    "ntsec": {
+        "jurisdiction": "nt",
+        "name": {
+            "en": "Northwest Territories Securities Office",
+            "fr": "Northwest Territories Securities Office",
+        },
+        "url": {
+            "en": "ntsec",
+            "fr": "ntsec",
+        },
+        "court_id": ["nt sec", "ntsec"],
+    },
+    "ntydab": { 
+        "jurisdiction": "nt",
+        "name": {
+            "en": "Yellowknife Development Appeal Board",
+        },
+        "url": {
+            "en": "ntydab",
+            "fr": "ntydab",
+        },
+        "court_id": ["nt ydab", "ntydab"],
+    },
 }
 
 # Map citation abbreviations to the database_id
@@ -5105,6 +5138,7 @@ COURT_CODE_MAP = [
     ("onctcmpao", "onctcmpao"),
     ("bcsp", "bcsp"),
     ("nwt lsb", "ntlsb"),
+    ("ntesa", "ntlsb"),
     ("mbpc", "mbpc"),
     ("mb pc", "mbpc"),
     ("skpc", "skpc"),
@@ -5364,4 +5398,6 @@ COURT_CODE_MAP = [
     ("cidphn", "sopf"),
     ("bcegbc", "bcegbc"),
     ("bceg", "bcegbc"),
+    ("nt sec", "ntsec"),
+    ("nt ydab", "ntydab"),
 ]
