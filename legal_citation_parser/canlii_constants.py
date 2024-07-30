@@ -200,6 +200,13 @@ COURT_HIERARCHY_TRIBUNAL = {
     "nuls": "territorial tribunal",
     "nuhrt": "territorial tribunal",
     "nusec": "territorial tribunal",
+    "nlcps": "provincial tribunal",
+    "nlipc": "provincial tribunal",
+    "nlla": "provincial tribunal",
+    "nlls": "provincial tribunal",
+    "nlhrc": "provincial tribunal",
+    "nllrb": "provincial tribunal",
+    "nlpb": "provincial tribunal",
 }
 
 COURT_CODES = {
