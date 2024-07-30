@@ -65,7 +65,7 @@ def canlii_api_call(
 
     load_dotenv()
     if os.getenv("CANLII_API_KEY") is None:
-        API_KEY = set_canlii_api_key_env_var()
+        API_KEY = set_api_key_env_var()
         if API_KEY == "":
             sys.exit()
     else:

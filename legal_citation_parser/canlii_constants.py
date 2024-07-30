@@ -40,15 +40,357 @@ COURT_HIERARCHY_CRIMINAL = {
     "nlsc": "superior",
     "nltd": "superior",
     "nlpc": "provincial",
-    "ykca": "provincial appellate",
+    "ykca": "territorial appellate",
     "yksc": "superior",
-    "yktc": "provincial",
-    "ntca": "provincial appellate",
+    "yktc": "territorial",
+    "ntca": "territorial appellate",
     "ntsc": "superior",
-    "nttc": "provincial",
-    "nuca": "provincial appellate",
-    "nucj": "provincial",
-    "yjcn": "provincial",
+    "nttc": "territorial",
+    "nuca": "territorial appellate",
+    "nucj": "territorial",
+    "yjcn": "territorial",
+}
+
+COURT_HIERARCHY_FEDERAL = {
+    "fct": "federal",
+    "fca": "federal appellate",
+    "cci-tcc": "federal tax",
+    "cm": "military",
+    "cmac-cacm": "military appellate",
+}
+
+
+COURT_HIERARCHY_TRIBUNAL = {
+    "cart-crac": "federal tribunal",
+    "cer-rec": "federal tribunal",
+    "cirb": "federal tribunal",
+    "cbsc-ccnr": "federal tribunal",
+    "chrt": "federal tribunal",
+    "citt-tcce": "federal tribunal",
+    "ciro-ocri": "federal tribunal",
+    "iccrc": "federal tribunal",
+    "cacp": "federal tribunal",
+    "cact": "federal tribunal",
+    "cbc": "federal tribunal",
+    "eptc": "federal tribunal",
+    "caci": "federal tribunal",
+    "pslreb": "federal tribunal",
+    "fpca": "federal tribunal",
+    "cisr": "federal tribunal",
+    "oic": "federal tribunal",
+    "caiiroc": "federal tribunal",
+    "casa-cala": "federal tribunal",
+    "camfda": "federal tribunal",
+    "ohstc": "federal tribunal",
+    "pec-ces": "federal tribunal",
+    "pcc-cvpc": "federal tribunal",
+    "capsdpt": "federal tribunal",
+    "pssrb": "federal tribunal",
+    "psst": "federal tribunal",
+    "sopf": "federal tribunal",
+    "sst-tss": "federal tribunal",
+    "sct-trp": "federal tribunal",
+    "tmob": "federal tribunal",
+    "tatc": "federal tribunal",
+    "vrab": "federal tribunal",
+    "skatmpa": "provincial tribunal",
+    "skaia": "provincial tribunal",
+    "sksec": "provincial tribunal",
+    "skipc": "provincial tribunal",
+    "skla": "provincial tribunal",
+    "sklss": "provincial tribunal",
+    "skac": "provincial tribunal",
+    "skfca": "provincial tribunal",
+    "skcp": "provincial tribunal",
+    "skhrc": "provincial tribunal",
+    "skhrt": "provincial tribunal",
+    "sklrb": "provincial tribunal",
+    "sklgb": "provincial tribunal",
+    "skmt": "provincial tribunal",
+    "sksmb": "provincial tribunal",
+    "skmbr": "provincial tribunal",
+    "skort": "provincial tribunal",
+    "skpmb": "provincial tribunal",
+    "skrec": "provincial tribunal",
+    "bccnm": "provincial tribunal",
+    "bcctc": "provincial tribunal",
+    "bcest": "provincial tribunal",
+    "bceab": "provincial tribunal",
+    "bchab": "provincial tribunal",
+    "bchrt": "provincial tribunal",
+    "bclcrb": "provincial tribunal",
+    "bcrb": "provincial tribunal",
+    "bcsec": "provincial tribunal",
+    "bcwcat": "provincial tribunal",
+    "bccrt": "provincial tribunal",
+    "bccds": "provincial tribunal",
+    "bccps": "provincial tribunal",
+    "bcccalab": "provincial tribunal",
+    "bcerat": "provincial tribunal",
+    "bcogat": "provincial tribunal",
+    "bcfst": "provincial tribunal",
+    "bcfac": "provincial tribunal",
+    "bcprb": "provincial tribunal",
+    "bcipc": "provincial tribunal",
+    "bcla": "provincial tribunal",
+    "bclrb": "provincial tribunal",
+    "lsbc": "provincial tribunal",
+    "bcorl": "provincial tribunal",
+    "bcrec": "provincial tribunal",
+    "bcrmb": "provincial tribunal",
+    "bcitab": "provincial tribunal",
+    "bcsfi": "provincial tribunal",
+    "bcsp": "provincial tribunal",
+    "bcsre": "provincial tribunal",
+    "mbcpsdc": "provincial tribunal",
+    "mbla": "provincial tribunal",
+    "mbls": "provincial tribunal",
+    "mbhab": "provincial tribunal",
+    "mbhrc": "provincial tribunal",
+    "mblb": "provincial tribunal",
+    "mbsec": "provincial tribunal",
+    "abci": "provincial tribunal",
+    "abesu": "provincial tribunal",
+    "abeab": "provincial tribunal",
+    "abgaa": "provincial tribunal",
+    "abhrc": "provincial tribunal",
+    "ablrb": "provincial tribunal",
+    "ablprt": "provincial tribunal",
+    "ablcb": "provincial tribunal",
+    "ablerb": "provincial tribunal",
+    "ablcsab": "provincial tribunal",
+    "abmg": "provincial tribunal",
+    "abohsab": "provincial tribunal",
+    "abplab": "provincial tribunal",
+    "abrtdrs": "provincial tribunal",
+    "absec": "provincial tribunal",
+    "absrb": "provincial tribunal",
+    "abtsb": "provincial tribunal",
+    "abwcac": "provincial tribunal",
+    "abcgyarb": "provincial tribunal",
+    "absdab": "provincial tribunal",
+    "abcpa": "provincial tribunal",
+    "abcpsdc": "provincial tribunal",
+    "abcpt": "provincial tribunal",
+    "abecarb": "provincial tribunal",
+    "abelarb": "provincial tribunal",
+    "abesdab": "provincial tribunal",
+    "abhraat": "provincial tribunal",
+    "abls": "provincial tribunal",
+    "aboipc": "provincial tribunal",
+    "abreca": "provincial tribunal",
+    "absra": "provincial tribunal",
+    "ytla": "territorial tribunal",
+    "ykhrc": "territorial tribunal",
+    "ytpslrb": "territorial tribunal",
+    "ytrto": "territorial tribunal",
+    "yttlrb": "territorial tribunal",
+    "ntlsb": "territorial tribunal",
+    "nthrap": "territorial tribunal",
+    "ntla": "territorial tribunal",
+    "ntls": "territorial tribunal",
+    "nwcat": "territorial tribunal",
+    "ntaat": "territorial tribunal",
+    "ntipc": "territorial tribunal",
+    "ntllb": "territorial tribunal",
+    "ntsec": "territorial tribunal",
+    "ntro": "territorial tribunal",
+    "nuipc": "territorial tribunal",
+    "nula": "territorial tribunal",
+    "nuls": "territorial tribunal",
+    "nuhrt": "territorial tribunal",
+    "nusec": "territorial tribunal",
+    "nlcps": "provincial tribunal",
+    "nlipc": "provincial tribunal",
+    "nlla": "provincial tribunal",
+    "nlls": "provincial tribunal",
+    "nlhrc": "provincial tribunal",
+    "nllrb": "provincial tribunal",
+    "nlpb": "provincial tribunal",
+    "nscps": "provincial tribunal",
+    "nsla": "provincial tribunal",
+    "nsawab": "provincial tribunal",
+    "nsbs": "provincial tribunal",
+    "nshrc": "provincial tribunal",
+    "nslb": "provincial tribunal",
+    "nslrb": "provincial tribunal",
+    "nslst": "provincial tribunal",
+    "nsohsap": "provincial tribunal",
+    "nsprb": "provincial tribunal",
+    "nssec": "provincial tribunal",
+    "nssirt": "provincial tribunal",
+    "nsuarb": "provincial tribunal",
+    "nswcat": "provincial tribunal",
+    "nsfoipop": "provincial tribunal",
+    "peipc": "provincial tribunal",
+    "pela": "provincial tribunal",
+    "peihrc": "provincial tribunal",
+    "pelrb": "provincial tribunal",
+    "peirac": "provincial tribunal",
+    "nbbihra": "provincial tribunal",
+    "nbfc": "provincial tribunal",
+    "nbsec": "provincial tribunal",
+    "nbla": "provincial tribunal",
+    "nbls": "provincial tribunal",
+    "nbapab": "provincial tribunal",
+    "nbcph": "provincial tribunal",
+    "nbleb": "provincial tribunal",
+    "nbrea": "provincial tribunal",
+    "nbomb": "provincial tribunal",
+    "nbwhscc": "provincial tribunal",
+    "onafraat": "provincial tribunal",
+    "onagc": "provincial tribunal",
+    "onarb": "provincial tribunal",
+    "onape": "provincial tribunal",
+    "onbcc": "provincial tribunal",
+    "oncmt": "provincial tribunal",
+    "oncpa": "provincial tribunal",
+    "oncfsrb": "provincial tribunal",
+    "oncaspd": "provincial tribunal",
+    "oncocoo": "provincial tribunal",
+    "oncdho": "provincial tribunal",
+    "oncmto": "provincial tribunal",
+    "oncno": "provincial tribunal",
+    "oncoto": "provincial tribunal",
+    "onco": "provincial tribunal",
+    "oncpo": "provincial tribunal",
+    "oncpd": "provincial tribunal",
+    "onctcmpao": "provincial tribunal",
+    "oncvo": "provincial tribunal",
+    "oncat": "provincial tribunal",
+    "onccb": "provincial tribunal",
+    "onconrb": "provincial tribunal",
+    "oncicb": "provincial tribunal",
+    "onertb": "provincial tribunal",
+    "onfst": "provincial tribunal",
+    "ongsb": "provincial tribunal",
+    "onhparb": "provincial tribunal",
+    "onhsarb": "provincial tribunal",
+    "onhrap": "provincial tribunal",
+    "onhrt": "provincial tribunal",
+    "onipc": "provincial tribunal",
+    "onlab": "provincial tribunal",
+    "onltb": "provincial tribunal",
+    "onlst": "provincial tribunal",
+    "onmb": "provincial tribunal",
+    "onmlc": "provincial tribunal",
+    "onmicb": "provincial tribunal",
+    "onnfppb": "provincial tribunal",
+    "onombud": "provincial tribunal",
+    "onacrb": "provincial tribunal",
+    "oncpc": "provincial tribunal",
+    "onceceb": "provincial tribunal",
+    "oncpdc": "provincial tribunal",
+    "oncswssw": "provincial tribunal",
+    "onoct": "provincial tribunal",
+    "ondr": "provincial tribunal",
+    "oncrb": "provincial tribunal",
+    "onfscdrs": "provincial tribunal",
+    "onfsc": "provincial tribunal",
+    "onlrb": "provincial tribunal",
+    "onlt": "provincial tribunal",
+    "onlat": "provincial tribunal",
+    "onpeht": "provincial tribunal",
+    "onpprb": "provincial tribunal",
+    "oncps": "provincial tribunal",
+    "onpsgb": "provincial tribunal",
+    "onrc": "provincial tribunal",
+    "oncrpo": "provincial tribunal",
+    "onsec": "provincial tribunal",
+    "onsbt": "provincial tribunal",
+    "onset": "provincial tribunal",
+    "onwsiat": "provincial tribunal",
+    "onwsib": "provincial tribunal",
+    "onrcdso": "provincial tribunal",
+    "onst": "provincial tribunal",
+    "ontlab": "provincial tribunal",
+    "qctaq": "provincial tribunal",
+    "qcoagbrn": "provincial tribunal",
+    "qcamp": "provincial tribunal",
+    "qccdbq": "provincial tribunal",
+    "qccdcm": "provincial tribunal",
+    "qcoaciq": "provincial tribunal",
+    "qccdchad": "provincial tribunal",
+    "qccdcsf": "provincial tribunal",
+    "qccai": "provincial tribunal",
+    "qccalp": "provincial tribunal",
+    "qcces": "provincial tribunal",
+    "qccfp": "provincial tribunal",
+    "qccsst": "provincial tribunal",
+    "qccptaq": "provincial tribunal",
+    "qccraaap": "provincial tribunal",
+    "qcclp": "provincial tribunal",
+    "qccnesst": "provincial tribunal",
+    "qccrt": "provincial tribunal",
+    "qccsj": "provincial tribunal",
+    "qcctq": "provincial tribunal",
+    "qccvm": "provincial tribunal",
+    "qccmnq": "provincial tribunal",
+    "qcoaq": "provincial tribunal",
+    "qcadmaq": "provincial tribunal",
+    "qcagq": "provincial tribunal",
+    "qcoarq": "provincial tribunal",
+    "qcoagq": "provincial tribunal",
+    "qcoapq": "provincial tribunal",
+    "qcocq": "provincial tribunal",
+    "qccpa": "provincial tribunal",
+    "qccdcrim": "provincial tribunal",
+    "qcodq": "provincial tribunal",
+    "qcoeq": "provincial tribunal",
+    "qccdoiia": "provincial tribunal",
+    "qccdoii": "provincial tribunal",
+    "qccdoiq": "provincial tribunal",
+    "qccdomv": "provincial tribunal",
+    "qccdoooq": "provincial tribunal",
+    "qcooq": "provincial tribunal",
+    "qccdopq": "provincial tribunal",
+    "qcopodq": "provincial tribunal",
+    "qcopq": "provincial tribunal",
+    "qccdosfq": "provincial tribunal",
+    "qcopsq": "provincial tribunal",
+    "qccdottdq": "provincial tribunal",
+    "qcotimro": "provincial tribunal",
+    "qcotpq": "provincial tribunal",
+    "qcouq": "provincial tribunal",
+    "qcoppq": "provincial tribunal",
+    "qcochq": "provincial tribunal",
+    "qccdrhri": "provincial tribunal",
+    "qcodlq": "provincial tribunal",
+    "qcoeaq": "provincial tribunal",
+    "qcoifq": "provincial tribunal",
+    "qcooaq": "provincial tribunal",
+    "qcotmq": "provincial tribunal",
+    "qcottiaq": "provincial tribunal",
+    "qcotstcfq": "provincial tribunal",
+    "qccdhj": "provincial tribunal",
+    "qccdnq": "provincial tribunal",
+    "qccdccoq": "provincial tribunal",
+    "qccdppq": "provincial tribunal",
+    "qccja": "provincial tribunal",
+    "qccmq": "provincial tribunal",
+    "qccse": "provincial tribunal",
+    "qccmeq": "provincial tribunal",
+    "qccmmtq": "provincial tribunal",
+    "qctdp": "provincial tribunal",
+    "qcdag": "provincial tribunal",
+    "qcct": "provincial tribunal",
+    "qctt": "provincial tribunal",
+    "qcolf": "provincial tribunal",
+    "qcopdq": "provincial tribunal",
+    "qcohdq": "provincial tribunal",
+    "qcopgq": "provincial tribunal",
+    "qcopiq": "provincial tribunal",
+    "qctp": "provincial tribunal",
+    "qcamf": "provincial tribunal",
+    "qcrde": "provincial tribunal",
+    "qcracj": "provincial tribunal",
+    "qcrmaaq": "provincial tribunal",
+    "qcrbq": "provincial tribunal",
+    "qccdp": "provincial tribunal",
+    "qcbdrvm": "provincial tribunal",
+    "qcrdl": "provincial tribunal",
+    "qctat": "provincial tribunal",
+    "qctacarra": "provincial tribunal",
 }
 
 COURT_CODES = {
@@ -62,6 +404,7 @@ COURT_CODES = {
             "fr": "nlpc",
         },
         "court_id": ["nl pc"],
+        "court_type": "provincial",
     },
     "nlpb": {
         "jurisdiction": "nl",
@@ -73,6 +416,7 @@ COURT_CODES = {
             "fr": "nlpb",
         },
         "court_id": ["nlpb"],
+        "court_type": "provincial tribunal",
     },
     "qcopodq": {
         "jurisdiction": "qc",
@@ -84,6 +428,7 @@ COURT_CODES = {
             "fr": "qcopodq",
         },
         "court_id": ["qccdpod", "qc opodq"],
+        "court_type": "provincial tribunal",
     },
     "qcamf": {
         "jurisdiction": "qc",
@@ -95,6 +440,7 @@ COURT_CODES = {
             "fr": "qcamf",
         },
         "court_id": ["qc amf"],
+        "court_type": "provincial tribunal",
     },
     "abca": {
         "jurisdiction": "ab",
@@ -107,6 +453,7 @@ COURT_CODES = {
             "fr": "abca",
         },
         "court_id": ["abca", "altascad", "ab ca"],
+        "court_type": "provincial appellate",
     },
     "bccnm": {
         "jurisdiction": "bc",
@@ -118,6 +465,7 @@ COURT_CODES = {
             "fr": "bccnm",
         },
         "court_id": ["bccnm"],
+        "court_type": "provincial tribunal",
     },
     "qccmmtq": {
         "jurisdiction": "qc",
@@ -130,6 +478,7 @@ COURT_CODES = {
             "fr": "qccmmtq",
         },
         "court_id": ["qc cmmtq"],
+        "court_type": "provincial tribunal",
     },
     "nuwcat": {
         "jurisdiction": "nu",
@@ -141,7 +490,8 @@ COURT_CODES = {
             "en": "ntwcat",
             "fr": "ntwcat",
         },
-        "court_id": ["nuwcat", "ntwcat", "nt wcat" "ntnuwcat"],
+        "court_id": ["nuwcat", "ntwcat", "nt wcat", "ntnuwcat"],
+        "court_type": "territorial tribunal",
     },
     "skufc": {
         "jurisdiction": "sk",
@@ -153,6 +503,7 @@ COURT_CODES = {
             "fr": "skufc",
         },
         "court_id": ["sk ufc"],
+        "court_type": "superior",
     },
     "nbsec": {
         "jurisdiction": "nb",
@@ -165,6 +516,7 @@ COURT_CODES = {
             "fr": "nbfcst",
         },
         "court_id": ["nbfcst", "nbsecf"],
+        "court_type": "provincial tribunal",
     },
     "oncdho": {
         "jurisdiction": "on",
@@ -177,6 +529,7 @@ COURT_CODES = {
             "fr": "oncdho",
         },
         "court_id": ["oncdho"],
+        "court_type": "provincial tribunal",
     },
     "qccpa": {
         "jurisdiction": "qc",
@@ -188,6 +541,7 @@ COURT_CODES = {
             "fr": "qccpa",
         },
         "court_id": ["qccdcpa", "qc cpa"],
+        "court_type": "provincial tribunal",
     },
     "onhrt": {
         "jurisdiction": "on",
@@ -200,6 +554,7 @@ COURT_CODES = {
             "fr": "onhrt",
         },
         "court_id": ["on hrt", "hrto"],
+        "court_type": "provincial tribunal",
     },
     "qctt": {
         "jurisdiction": "qc",
@@ -212,6 +567,7 @@ COURT_CODES = {
             "fr": "qctt",
         },
         "court_id": ["qc tt"],
+        "court_type": "provincial tribunal",
     },
     "bchprb": {
         "jurisdiction": "bc",
@@ -223,6 +579,7 @@ COURT_CODES = {
             "fr": "bchprb",
         },
         "court_id": ["bchprb", "bc hprb"],
+        "court_type": "provincial tribunal",
     },
     "nsawab": {
         "jurisdiction": "ns",
@@ -234,6 +591,7 @@ COURT_CODES = {
             "fr": "nsawab",
         },
         "court_id": ["nsawab"],
+        "court_type": "provincial tribunal",
     },
     "qccdosfq": {
         "jurisdiction": "qc",
@@ -245,6 +603,7 @@ COURT_CODES = {
             "fr": "qccdosfq",
         },
         "court_id": ["qccdsf", "qc cdosfq"],
+        "court_type": "provincial tribunal",
     },
     "bcrmb": {
         "jurisdiction": "bc",
@@ -256,6 +615,7 @@ COURT_CODES = {
             "fr": "bcrmb",
         },
         "court_id": ["bcrmb"],
+        "court_type": "provincial tribunal",
     },
     "bcest": {
         "jurisdiction": "bc",
@@ -267,6 +627,7 @@ COURT_CODES = {
             "fr": "bcest",
         },
         "court_id": ["bcest", "bc est"],
+        "court_type": "provincial tribunal",
     },
     "qctp": {
         "jurisdiction": "qc",
@@ -279,6 +640,7 @@ COURT_CODES = {
             "fr": "qctp",
         },
         "court_id": ["qctp", "qc tp"],
+        "court_type": "provincial tribunal",
     },
     "lsbc": {
         "jurisdiction": "bc",
@@ -290,6 +652,7 @@ COURT_CODES = {
             "fr": "lsbc",
         },
         "court_id": ["lsbc", "ls bc"],
+        "court_type": "provincial tribunal",
     },
     "qccdhj": {
         "jurisdiction": "qc",
@@ -301,6 +664,7 @@ COURT_CODES = {
             "fr": "qccdhj",
         },
         "court_id": ["qccdhj", "qc cdhj"],
+        "court_type": "provincial tribunal",
     },
     "skipc": {
         "jurisdiction": "sk",
@@ -312,6 +676,7 @@ COURT_CODES = {
             "fr": "skipc",
         },
         "court_id": ["sk ipc"],
+        "court_type": "provincial tribunal",
     },
     "abesu": {
         "jurisdiction": "ab",
@@ -323,6 +688,7 @@ COURT_CODES = {
             "fr": "abesa",
         },
         "court_id": ["abesab", "ab esa"],
+        "court_type": "provincial tribunal",
     },
     "cmac-cacm": {
         "jurisdiction": "ca",
@@ -335,6 +701,7 @@ COURT_CODES = {
             "fr": "cacm",
         },
         "court_id": ["cmac", "cacm"],
+        "court_type": "military appellate",
     },
     "oncswssw": {
         "jurisdiction": "on",
@@ -347,6 +714,7 @@ COURT_CODES = {
             "fr": "oncswssw",
         },
         "court_id": ["oncswssw"],
+        "court_type": "provincial tribunal",
     },
     "qccdcrim": {
         "jurisdiction": "qc",
@@ -358,6 +726,7 @@ COURT_CODES = {
             "fr": "qccdcrim",
         },
         "court_id": ["qccdcrim", "qc cdcrim"],
+        "court_type": "provincial tribunal",
     },
     "onbcc": {
         "jurisdiction": "on",
@@ -370,6 +739,7 @@ COURT_CODES = {
             "fr": "onbcc",
         },
         "court_id": ["onbcc", "on bcc"],
+        "court_type": "provincial tribunal",
     },
     "skac": {
         "jurisdiction": "sk",
@@ -381,6 +751,7 @@ COURT_CODES = {
             "fr": "skac",
         },
         "court_id": ["sk ac"],
+        "court_type": "provincial tribunal",
     },
     "nuca": {
         "jurisdiction": "nu",
@@ -393,6 +764,7 @@ COURT_CODES = {
             "fr": "nuca",
         },
         "court_id": ["nuca", "nu ca"],
+        "court_type": "territorial appellate",
     },
     "bccps": {
         "jurisdiction": "bc",
@@ -404,6 +776,7 @@ COURT_CODES = {
             "fr": "bccps",
         },
         "court_id": ["bc cps"],
+        "court_type": "provincial tribunal",
     },
     "abrtdrs": {
         "jurisdiction": "ab",
@@ -415,6 +788,7 @@ COURT_CODES = {
             "fr": "abrtdrs",
         },
         "court_id": ["abrtdrs"],
+        "court_type": "provincial tribunal",
     },
     "abcpa": {
         "jurisdiction": "ab",
@@ -426,6 +800,7 @@ COURT_CODES = {
             "fr": "abcpa",
         },
         "court_id": ["abcpa"],
+        "court_type": "provincial tribunal",
     },
     "onsc": {
         "jurisdiction": "on",
@@ -438,6 +813,7 @@ COURT_CODES = {
             "fr": "onsc",
         },
         "court_id": ["onsc", "on sc"],
+        "court_type": "superior",
     },
     "nlhrc": {
         "jurisdiction": "nl",
@@ -449,6 +825,7 @@ COURT_CODES = {
             "fr": "nlhrc",
         },
         "court_id": ["nl hrc"],
+        "court_type": "provincial tribunal",
     },
     "nucj": {
         "jurisdiction": "nu",
@@ -461,6 +838,7 @@ COURT_CODES = {
             "fr": "nucj",
         },
         "court_id": ["nucj", "nu cj"],
+        "court_type": "territorial",
     },
     "onsec": {
         "jurisdiction": "on",
@@ -473,6 +851,7 @@ COURT_CODES = {
             "fr": "oncvm",
         },
         "court_id": ["on sec", "on cvm"],
+        "court_type": "provincial tribunal",
     },
     "peipc": {
         "jurisdiction": "pe",
@@ -484,6 +863,7 @@ COURT_CODES = {
             "fr": "peipc",
         },
         "court_id": ["pe ipc"],
+        "court_type": "provincial tribunal",
     },
     "nssirt": {
         "jurisdiction": "ns",
@@ -495,6 +875,7 @@ COURT_CODES = {
             "fr": "nssirt",
         },
         "court_id": ["ns sirt"],
+        "court_type": "provincial tribunal",
     },
     "abcpt": {
         "jurisdiction": "ab",
@@ -506,6 +887,7 @@ COURT_CODES = {
             "fr": "abcpt",
         },
         "court_id": ["abcpt", "abpaca"],
+        "court_type": "provincial tribunal",
     },
     "onrc": {
         "jurisdiction": "on",
@@ -518,6 +900,7 @@ COURT_CODES = {
             "fr": "onrc",
         },
         "court_id": ["on rc"],
+        "court_type": "provincial tribunal",
     },
     "nbrea": {
         "jurisdiction": "nb",
@@ -529,6 +912,7 @@ COURT_CODES = {
             "fr": "nbrea",
         },
         "court_id": ["nbrea"],
+        "court_type": "provincial tribunal",
     },
     "abci": {
         "jurisdiction": "ab",
@@ -540,6 +924,7 @@ COURT_CODES = {
             "fr": "abci",
         },
         "court_id": ["ab ci"],
+        "court_type": "provincial tribunal",
     },
     "cm": {
         "jurisdiction": "ca",
@@ -551,7 +936,8 @@ COURT_CODES = {
             "en": "cm",
             "fr": "cm",
         },
-        "court_id": ["cm" "ca cm"],
+        "court_id": ["cm", "ca cm"],
+        "court_type": "military",
     },
     "onset": {
         "jurisdiction": "on",
@@ -564,6 +950,7 @@ COURT_CODES = {
             "fr": "onset",
         },
         "court_id": ["onset", "onted"],
+        "court_type": "provincial tribunal",
     },
     "qcrmaaq": {
         "jurisdiction": "qc",
@@ -575,6 +962,7 @@ COURT_CODES = {
             "fr": "qcrmaaq",
         },
         "court_id": ["qcrmaaq"],
+        "court_type": "provincial tribunal",
     },
     "qcoeq": {
         "jurisdiction": "qc",
@@ -586,6 +974,7 @@ COURT_CODES = {
             "fr": "qcoeq",
         },
         "court_id": ["qc oeq", "qccderg"],
+        "court_type": "provincial tribunal",
     },
     "bcca": {
         "jurisdiction": "bc",
@@ -598,6 +987,7 @@ COURT_CODES = {
             "fr": "bcca",
         },
         "court_id": ["bcca", "bc ca"],
+        "court_type": "provincial appellate",
     },
     "qcbdrvm": {
         "jurisdiction": "qc",
@@ -608,7 +998,8 @@ COURT_CODES = {
             "en": "qctmf",
             "fr": "qctmf",
         },
-        "court_id": ["qctmf", "qc tmf" "qcbdr", "qcbdrvm"],
+        "court_id": ["qctmf", "qc tmf", "qcbdr", "qcbdrvm"],
+        "court_type": "provincial tribunal",
     },
     "eptc": {
         "jurisdiction": "ca",
@@ -621,6 +1012,7 @@ COURT_CODES = {
             "fr": "tpec",
         },
         "court_id": ["eptc", "tpec"],
+        "court_type": "federal tribunal",
     },
     "sksec": {
         "jurisdiction": "sk",
@@ -632,6 +1024,7 @@ COURT_CODES = {
             "fr": "sksec",
         },
         "court_id": ["sk fcaa"],
+        "court_type": "provincial tribunal",
     },
     "pslreb": {
         "jurisdiction": "ca",
@@ -644,6 +1037,20 @@ COURT_CODES = {
             "fr": "crtefp",
         },
         "court_id": ["fpslreb", "pslreb", "crtespf", "crtefp"],
+        "court_type": "federal tribunal",
+    },
+    "fpca": {
+        "jurisdiction": "ca",
+        "name": {
+            "en": "FP Canada Standards Council",
+            "fr": "FP Canada Standards Council",
+        },
+        "url": {
+            "en": "fpca",
+            "fr": "fpca",
+        },
+        "court_id": ["fpca"],
+        "court_type": "federal tribunal",
     },
     "mbca": {
         "jurisdiction": "mb",
@@ -656,6 +1063,7 @@ COURT_CODES = {
             "fr": "mbca",
         },
         "court_id": ["mbca", "mb ca"],
+        "court_type": "provincial appellate",
     },
     "skca": {
         "jurisdiction": "sk",
@@ -668,6 +1076,7 @@ COURT_CODES = {
             "fr": "skca",
         },
         "court_id": ["skca", "sk ca"],
+        "court_type": "provincial appellate",
     },
     "qccdnq": {
         "jurisdiction": "qc",
@@ -679,6 +1088,7 @@ COURT_CODES = {
             "fr": "qccdnq",
         },
         "court_id": ["qc cdnq", "qccdnot"],
+        "court_type": "provincial tribunal",
     },
     "ntwcat": {
         "jurisdiction": "nt",
@@ -691,6 +1101,7 @@ COURT_CODES = {
             "fr": "ntwcat",
         },
         "court_id": ["ntwcat", "nt wcat", "ntnuwcat", "nuwcat"],
+        "court_type": "territorial tribunal",
     },
     "onombud": {
         "jurisdiction": "on",
@@ -703,6 +1114,7 @@ COURT_CODES = {
             "fr": "onombud",
         },
         "court_id": ["onombud"],
+        "court_type": "provincial tribunal",
     },
     "qcochq": {
         "jurisdiction": "qc",
@@ -717,6 +1129,7 @@ COURT_CODES = {
             "qcochq",
             "qccdchim",
         ],
+        "court_type": "provincial tribunal",
     },
     "ntca": {
         "jurisdiction": "nt",
@@ -729,6 +1142,7 @@ COURT_CODES = {
             "fr": "ntca",
         },
         "court_id": ["nwtca", "nwt ca"],
+        "court_type": "territorial appellate",
     },
     "onscsm": {
         "jurisdiction": "on",
@@ -741,6 +1155,7 @@ COURT_CODES = {
             "fr": "onscsm",
         },
         "court_id": ["on scsm"],
+        "court_type": "provincial tribunal",
     },
     "qcctq": {
         "jurisdiction": "qc",
@@ -752,6 +1167,7 @@ COURT_CODES = {
             "fr": "qcctq",
         },
         "court_id": ["qcctq"],
+        "court_type": "provincial tribunal",
     },
     "abesdab": {
         "jurisdiction": "ab",
@@ -763,6 +1179,7 @@ COURT_CODES = {
             "fr": "abesdab",
         },
         "court_id": ["abesdab"],
+        "court_type": "provincial tribunal",
     },
     "abwcac": {
         "jurisdiction": "ab",
@@ -774,6 +1191,7 @@ COURT_CODES = {
             "fr": "abwcac",
         },
         "court_id": ["ab wcac"],
+        "court_type": "provincial tribunal",
     },
     "onoct": {
         "jurisdiction": "on",
@@ -786,6 +1204,7 @@ COURT_CODES = {
             "fr": "onoct",
         },
         "court_id": ["onoct"],
+        "court_type": "provincial tribunal",
     },
     "csc-scc-al": {
         "jurisdiction": "ca",
@@ -798,6 +1217,7 @@ COURT_CODES = {
             "fr": "csc-a",
         },
         "court_id": ["scc", "csc"],
+        "court_type": "federal appellate",
     },
     "qcolf": {
         "jurisdiction": "qc",
@@ -809,6 +1229,7 @@ COURT_CODES = {
             "fr": "qcolf",
         },
         "court_id": ["qcolf"],
+        "court_type": "provincial tribunal",
     },
     "mbsec": {
         "jurisdiction": "mb",
@@ -821,6 +1242,7 @@ COURT_CODES = {
             "fr": "mbcvm",
         },
         "court_id": ["mb sec", "mb cvm"],
+        "court_type": "provincial tribunal",
     },
     "onst": {
         "jurisdiction": "on",
@@ -833,6 +1255,7 @@ COURT_CODES = {
             "fr": "onms",
         },
         "court_id": ["onct"],
+        "court_type": "provincial tribunal",
     },
     "qccdccoq": {
         "jurisdiction": "qc",
@@ -844,6 +1267,7 @@ COURT_CODES = {
             "fr": "qccdccoq",
         },
         "court_id": ["qc cdccoq", "qccdco"],
+        "court_type": "provincial tribunal",
     },
     "onfsc": {
         "jurisdiction": "on",
@@ -856,6 +1280,7 @@ COURT_CODES = {
             "fr": "oncsi",
         },
         "court_id": ["onfsc", "oncsi", "on fsc"],
+        "court_type": "provincial tribunal",
     },
     "sst-tss": {
         "jurisdiction": "ca",
@@ -868,6 +1293,7 @@ COURT_CODES = {
             "fr": "tss",
         },
         "court_id": ["sst", "sstad", "tss", "tssda"],
+        "court_type": "federal tribunal",
     },
     "onhparb": {
         "jurisdiction": "on",
@@ -880,6 +1306,7 @@ COURT_CODES = {
             "fr": "oncarps",
         },
         "court_id": ["on carps", "on hparb"],
+        "court_type": "provincial tribunal",
     },
     "sklrb": {
         "jurisdiction": "sk",
@@ -891,6 +1318,7 @@ COURT_CODES = {
             "fr": "sklrb",
         },
         "court_id": ["sk lrb"],
+        "court_type": "provincial tribunal",
     },
     "qccse": {
         "jurisdiction": "qc",
@@ -902,6 +1330,7 @@ COURT_CODES = {
             "fr": "qccse",
         },
         "court_id": ["qc cse"],
+        "court_type": "provincial tribunal",
     },
     "mbhrc": {
         "jurisdiction": "mb",
@@ -914,6 +1343,7 @@ COURT_CODES = {
             "fr": "mbhrc",
         },
         "court_id": ["mbhr", "mb hrc"],
+        "court_type": "provincial tribunal",
     },
     "qccsj": {
         "jurisdiction": "qc",
@@ -925,6 +1355,7 @@ COURT_CODES = {
             "fr": "qccsj",
         },
         "court_id": ["qccsj"],
+        "court_type": "provincial tribunal",
     },
     "nsca": {
         "jurisdiction": "ns",
@@ -936,6 +1367,7 @@ COURT_CODES = {
             "fr": "nsca",
         },
         "court_id": ["nsca", "ns ca"],
+        "court_type": "provincial appellate",
     },
     "yksm": {
         "jurisdiction": "yk",
@@ -948,6 +1380,7 @@ COURT_CODES = {
             "fr": "yksm",
         },
         "court_id": ["yksm"],
+        "court_type": "territorial tribunal",
     },
     "pesctd": {
         "jurisdiction": "pe",
@@ -959,6 +1392,7 @@ COURT_CODES = {
             "fr": "pesctd",
         },
         "court_id": ["pesctd", "pe sctd", "pesc"],
+        "court_type": "superior",
     },
     "yksc": {
         "jurisdiction": "yk",
@@ -971,6 +1405,7 @@ COURT_CODES = {
             "fr": "yksc",
         },
         "court_id": ["yksc"],
+        "court_type": "superior",
     },
     "skdc": {
         "jurisdiction": "sk",
@@ -982,6 +1417,7 @@ COURT_CODES = {
             "fr": "skdc",
         },
         "court_id": ["skdc"],
+        "court_type": "provincial",
     },
     "nsbs": {
         "jurisdiction": "ns",
@@ -993,6 +1429,7 @@ COURT_CODES = {
             "fr": "nsbs",
         },
         "court_id": ["nsbs"],
+        "court_type": "provincial tribunal",
     },
     "abelarb": {
         "jurisdiction": "ab",
@@ -1004,6 +1441,7 @@ COURT_CODES = {
             "fr": "abelarb",
         },
         "court_id": ["abelarb"],
+        "court_type": "provincial tribunal",
     },
     "skcp": {
         "jurisdiction": "sk",
@@ -1015,6 +1453,7 @@ COURT_CODES = {
             "fr": "skcppdc",
         },
         "court_id": ["skcppdc"],
+        "court_type": "provincial tribunal",
     },
     "onagc": {
         "jurisdiction": "on",
@@ -1027,6 +1466,7 @@ COURT_CODES = {
             "fr": "onagc",
         },
         "court_id": ["on agc"],
+        "court_type": "provincial tribunal",
     },
     "sklss": {
         "jurisdiction": "sk",
@@ -1038,6 +1478,7 @@ COURT_CODES = {
             "fr": "sklss",
         },
         "court_id": ["sklss", "lss", "sk lss"],
+        "court_type": "provincial tribunal",
     },
     "qccrt": {
         "jurisdiction": "qc",
@@ -1049,6 +1490,7 @@ COURT_CODES = {
             "fr": "qccrt",
         },
         "court_id": ["qccrt", "qc crt"],
+        "court_type": "provincial tribunal",
     },
     "bcfst": {
         "jurisdiction": "bc",
@@ -1060,6 +1502,7 @@ COURT_CODES = {
             "fr": "bcfst",
         },
         "court_id": ["bcfst"],
+        "court_type": "provincial tribunal",
     },
     "ongsb": {
         "jurisdiction": "on",
@@ -1072,6 +1515,7 @@ COURT_CODES = {
             "fr": "oncrg",
         },
         "court_id": ["on gsb", "on crg"],
+        "court_type": "provincial tribunal",
     },
     "onwsib": {
         "jurisdiction": "on",
@@ -1084,6 +1528,7 @@ COURT_CODES = {
             "fr": "oncspaat",
         },
         "court_id": ["on wsib", "on cspaat"],
+        "court_type": "provincial tribunal",
     },
     "nsprb": {
         "jurisdiction": "ns",
@@ -1095,6 +1540,7 @@ COURT_CODES = {
             "fr": "nsprb",
         },
         "court_id": ["ns prb"],
+        "court_type": "provincial tribunal",
     },
     "qccalp": {
         "jurisdiction": "qc",
@@ -1106,6 +1552,7 @@ COURT_CODES = {
             "fr": "qccalp",
         },
         "court_id": ["qc calp"],
+        "court_type": "provincial tribunal",
     },
     "nbapab": {
         "jurisdiction": "nb",
@@ -1118,6 +1565,7 @@ COURT_CODES = {
             "fr": "nbcaeu",
         },
         "court_id": ["nbapab", "nbcaeu", "nb caeu", "nb apab"],
+        "court_type": "provincial tribunal",
     },
     "ciro-ocri": {
         "jurisdiction": "ca",
@@ -1130,6 +1578,7 @@ COURT_CODES = {
             "fr": "ocri",
         },
         "court_id": ["ciro", "ocri"],
+        "court_type": "federal tribunal",
     },
     "oncece": {
         "jurisdiction": "on",
@@ -1142,6 +1591,7 @@ COURT_CODES = {
             "fr": "oncece",
         },
         "court_id": ["onoepe", "oncece"],
+        "court_type": "provincial tribunal",
     },
     "nswcat": {
         "jurisdiction": "ns",
@@ -1153,6 +1603,7 @@ COURT_CODES = {
             "fr": "nswcat",
         },
         "court_id": ["ns wcat"],
+        "court_type": "provincial tribunal",
     },
     "bcsfi": {
         "jurisdiction": "bc",
@@ -1164,6 +1615,7 @@ COURT_CODES = {
             "fr": "bcsfi",
         },
         "court_id": ["bcsfi"],
+        "court_type": "provincial tribunal",
     },
     "oncfsrb": {
         "jurisdiction": "on",
@@ -1176,6 +1628,7 @@ COURT_CODES = {
             "fr": "oncrsef",
         },
         "court_id": ["cfsrb"],
+        "court_type": "provincial tribunal",
     },
     "pescad": {
         "jurisdiction": "pe",
@@ -1187,6 +1640,7 @@ COURT_CODES = {
             "fr": "pescad",
         },
         "court_id": ["pescad", "pe scad", "peca", "pe ca"],
+        "court_type": "provincial appellate",
     },
     "absec": {
         "jurisdiction": "ab",
@@ -1198,6 +1652,7 @@ COURT_CODES = {
             "fr": "absec",
         },
         "court_id": ["abasc", "ab sec"],
+        "court_type": "provincial tribunal",
     },
     "oncpd": {
         "jurisdiction": "on",
@@ -1210,6 +1665,7 @@ COURT_CODES = {
             "fr": "oncpd",
         },
         "court_id": ["oncpd"],
+        "court_type": "provincial tribunal",
     },
     "oncpc": {
         "jurisdiction": "on",
@@ -1222,6 +1678,7 @@ COURT_CODES = {
             "fr": "oncpc",
         },
         "court_id": ["oncpc", "on cpc"],
+        "court_type": "provincial tribunal",
     },
     "ntllb": {
         "jurisdiction": "nt",
@@ -1233,6 +1690,7 @@ COURT_CODES = {
             "fr": "ntllb",
         },
         "court_id": ["ntllb"],
+        "court_type": "territorial tribunal",
     },
     "oncpa": {
         "jurisdiction": "on",
@@ -1245,6 +1703,7 @@ COURT_CODES = {
             "fr": "oncpa",
         },
         "court_id": ["oncpa"],
+        "court_type": "provincial tribunal",
     },
     "nsfoipop": {
         "jurisdiction": "ns",
@@ -1259,6 +1718,7 @@ COURT_CODES = {
             "nsoipc",
             "ns foipop",
         ],
+        "court_type": "provincial tribunal",
     },
     "qcotmq": {
         "jurisdiction": "qc",
@@ -1270,6 +1730,7 @@ COURT_CODES = {
             "fr": "qcotmq",
         },
         "court_id": ["qc otmq"],
+        "court_type": "provincial tribunal",
     },
     "nbca": {
         "jurisdiction": "nb",
@@ -1282,6 +1743,7 @@ COURT_CODES = {
             "fr": "nbca",
         },
         "court_id": ["nbca", "nb ca"],
+        "court_type": "provincial appellate",
     },
     "onpprb": {
         "jurisdiction": "on",
@@ -1294,6 +1756,7 @@ COURT_CODES = {
             "fr": "onpprb",
         },
         "court_id": ["on pprb"],
+        "court_type": "provincial tribunal",
     },
     "skatmpa": {
         "jurisdiction": "sk",
@@ -1305,6 +1768,7 @@ COURT_CODES = {
             "fr": "skatmpa",
         },
         "court_id": ["sk atmpa"],
+        "court_type": "provincial tribunal",
     },
     "oncps": {
         "jurisdiction": "on",
@@ -1317,6 +1781,7 @@ COURT_CODES = {
             "fr": "onpsdt",
         },
         "court_id": ["oncps", "onpsdt", "oncpsd", "on psdt"],
+        "court_type": "provincial tribunal",
     },
     "oncpo": {
         "jurisdiction": "on",
@@ -1328,6 +1793,7 @@ COURT_CODES = {
             "fr": "oncpo",
         },
         "court_id": ["oncpo", "on cpo"],
+        "court_type": "provincial tribunal",
     },
     "onlat": {
         "jurisdiction": "on",
@@ -1340,6 +1806,7 @@ COURT_CODES = {
             "fr": "onlat",
         },
         "court_id": ["on lat"],
+        "court_type": "provincial tribunal",
     },
     "qcotimro": {
         "jurisdiction": "qc",
@@ -1351,6 +1818,7 @@ COURT_CODES = {
             "fr": "qcotimro",
         },
         "court_id": ["qc otimro", "qccdtimroem"],
+        "court_type": "provincial tribunal",
     },
     "qcoagq": {
         "jurisdiction": "qc",
@@ -1362,6 +1830,7 @@ COURT_CODES = {
             "fr": "qcoagq",
         },
         "court_id": ["qc oagq", "qccdag"],
+        "court_type": "provincial tribunal",
     },
     "cirb": {
         "jurisdiction": "ca",
@@ -1374,6 +1843,7 @@ COURT_CODES = {
             "fr": "ccri",
         },
         "court_id": ["cirb", "ccri"],
+        "court_type": "federal tribunal",
     },
     "yktc": {
         "jurisdiction": "yk",
@@ -1386,6 +1856,7 @@ COURT_CODES = {
             "fr": "yktc",
         },
         "court_id": ["yktc", "yk tc", "ykyc", "yk yc", "yttc", "yt tc"],
+        "court_type": "territorial",
     },
     "qcopq": {
         "jurisdiction": "qc",
@@ -1397,6 +1868,7 @@ COURT_CODES = {
             "fr": "qcopq",
         },
         "court_id": ["qc opq", "qccdpsy"],
+        "court_type": "provincial tribunal",
     },
     "qcopdq": {
         "jurisdiction": "qc",
@@ -1408,6 +1880,7 @@ COURT_CODES = {
             "fr": "qcopdq",
         },
         "court_id": ["qc opdq", "qccddtp"],
+        "court_type": "provincial tribunal",
     },
     "abcpsdc": {
         "jurisdiction": "ab",
@@ -1419,6 +1892,7 @@ COURT_CODES = {
             "fr": "abcpsdc",
         },
         "court_id": ["ab cpsdc"],
+        "court_type": "provincial tribunal",
     },
     "bcrec": {
         "jurisdiction": "bc",
@@ -1430,6 +1904,7 @@ COURT_CODES = {
             "fr": "bcrec",
         },
         "court_id": ["bc rec"],
+        "court_type": "provincial tribunal",
     },
     "nbfc": {
         "jurisdiction": "nb",
@@ -1442,6 +1917,7 @@ COURT_CODES = {
             "fr": "nbfcsc",
         },
         "court_id": ["nbfcsc"],
+        "court_type": "provincial tribunal",
     },
     "oncmt": {
         "jurisdiction": "on",
@@ -1454,6 +1930,7 @@ COURT_CODES = {
             "fr": "ontmf",
         },
         "court_id": ["oncmt", "ontmf", "onsec"],
+        "court_type": "provincial tribunal",
     },
     "abls": {
         "jurisdiction": "ab",
@@ -1465,6 +1942,7 @@ COURT_CODES = {
             "fr": "abls",
         },
         "court_id": ["abls", "lsa"],
+        "court_type": "provincial tribunal",
     },
     "onfst": {
         "jurisdiction": "on",
@@ -1477,6 +1955,7 @@ COURT_CODES = {
             "fr": "onfst",
         },
         "court_id": ["onfst", "on fst"],
+        "court_type": "provincial tribunal",
     },
     "abecarb": {
         "jurisdiction": "ab",
@@ -1488,6 +1967,7 @@ COURT_CODES = {
             "fr": "abecarb",
         },
         "court_id": ["abecarb"],
+        "court_type": "provincial tribunal",
     },
     "bclcrb": {
         "jurisdiction": "bc",
@@ -1499,6 +1979,7 @@ COURT_CODES = {
             "fr": "bclcrb",
         },
         "court_id": ["bclcrb", "bc lcrb"],
+        "court_type": "provincial tribunal",
     },
     "chrt": {
         "jurisdiction": "ca",
@@ -1511,6 +1992,7 @@ COURT_CODES = {
             "fr": "tcdp",
         },
         "court_id": ["chrt", "tcdp"],
+        "court_type": "federal tribunal",
     },
     "nula": {
         "jurisdiction": "nu",
@@ -1523,6 +2005,7 @@ COURT_CODES = {
             "fr": "nula",
         },
         "court_id": ["nu la"],
+        "court_type": "territorial tribunal",
     },
     "yttlrb": {
         "jurisdiction": "yk",
@@ -1534,6 +2017,7 @@ COURT_CODES = {
             "fr": "yttlrb",
         },
         "court_id": ["yt tlrb"],
+        "court_type": "territorial tribunal",
     },
     "ontlab": {
         "jurisdiction": "on",
@@ -1545,6 +2029,7 @@ COURT_CODES = {
             "fr": "ontlab",
         },
         "court_id": ["ontlab"],
+        "court_type": "provincial tribunal",
     },
     "qcodlq": {
         "jurisdiction": "qc",
@@ -1556,6 +2041,7 @@ COURT_CODES = {
             "fr": "qcodlq",
         },
         "court_id": ["qc odlq", "qccddd"],
+        "court_type": "provincial tribunal",
     },
     "bcla": {
         "jurisdiction": "bc",
@@ -1568,6 +2054,7 @@ COURT_CODES = {
             "fr": "bcla",
         },
         "court_id": ["bc la"],
+        "court_type": "provincial tribunal",
     },
     "qcooq": {
         "jurisdiction": "qc",
@@ -1579,6 +2066,7 @@ COURT_CODES = {
             "fr": "qcooq",
         },
         "court_id": ["qccdooq", "qc ooq"],
+        "court_type": "provincial tribunal",
     },
     "qcooaq": {
         "jurisdiction": "qc",
@@ -1590,6 +2078,7 @@ COURT_CODES = {
             "fr": "qcooaq",
         },
         "court_id": ["qc ooaq", "qccdoaq"],
+        "court_type": "provincial tribunal",
     },
     "ytpslrb": {
         "jurisdiction": "yk",
@@ -1601,6 +2090,7 @@ COURT_CODES = {
             "fr": "ytpslrb",
         },
         "court_id": ["yt pslrb"],
+        "court_type": "territorial tribunal",
     },
     "bchrt": {
         "jurisdiction": "bc",
@@ -1612,6 +2102,7 @@ COURT_CODES = {
             "fr": "bchrt",
         },
         "court_id": ["bchrt", "bc hrt"],
+        "court_type": "provincial tribunal",
     },
     "nbcph": {
         "jurisdiction": "nb",
@@ -1623,7 +2114,8 @@ COURT_CODES = {
             "en": "nbcph",
             "fr": "nbcph",
         },
-        "court_id": ["nboph"],
+        "court_id": ["nbcph"],
+        "court_type": "provincial tribunal",
     },
     "abhrc": {
         "jurisdiction": "ab",
@@ -1635,6 +2127,7 @@ COURT_CODES = {
             "fr": "abhrc",
         },
         "court_id": ["ahrc", "ab hrc"],
+        "court_type": "provincial tribunal",
     },
     "cact": {
         "jurisdiction": "ca",
@@ -1647,6 +2140,7 @@ COURT_CODES = {
             "fr": "cact",
         },
         "court_id": ["cact", "ct", "tc"],
+        "court_type": "federal tribunal",
     },
     "oncmto": {
         "jurisdiction": "on",
@@ -1659,6 +2153,7 @@ COURT_CODES = {
             "fr": "oncmto",
         },
         "court_id": ["oncmto"],
+        "court_type": "provincial tribunal",
     },
     "cacp": {
         "jurisdiction": "ca",
@@ -1671,18 +2166,7 @@ COURT_CODES = {
             "fr": "cacb",
         },
         "court_id": ["cacp", "ca cp", "cacb", "ca cb"],
-    },
-    "sopf": {
-        "jurisdiction": "ca",
-        "name": {
-            "en": "Ship-source Oil Pollution Fund",
-            "fr": "Caisse d'indemnisation des dommages dus à la pollution par les hydrocarbures causée par les navires",
-        },
-        "url": {
-            "en": "sopf",
-            "fr": "sopf",
-        },
-        "court_id": ["cidphn"],
+        "court_type": "federal tribunal",
     },
     "onert": {
         "jurisdiction": "on",
@@ -1695,6 +2179,7 @@ COURT_CODES = {
             "fr": "onte",
         },
         "court_id": ["on ert", "on te"],
+        "court_type": "provincial tribunal",
     },
     "skaia": {
         "jurisdiction": "sk",
@@ -1706,6 +2191,7 @@ COURT_CODES = {
             "fr": "skaia",
         },
         "court_id": ["skaia"],
+        "court_type": "provincial tribunal",
     },
     "nlcps": {
         "jurisdiction": "nl",
@@ -1717,6 +2203,7 @@ COURT_CODES = {
             "fr": "nlcps",
         },
         "court_id": ["nlcps"],
+        "court_type": "provincial tribunal",
     },
     "caci": {
         "jurisdiction": "ca",
@@ -1729,6 +2216,7 @@ COURT_CODES = {
             "fr": "cace",
         },
         "court_id": ["ca ci", "ca ce"],
+        "court_type": "federal tribunal",
     },
     "oncno": {
         "jurisdiction": "on",
@@ -1741,6 +2229,7 @@ COURT_CODES = {
             "fr": "oncno",
         },
         "court_id": ["on cno"],
+        "court_type": "provincial tribunal",
     },
     "cisr": {
         "jurisdiction": "ca",
@@ -1753,6 +2242,7 @@ COURT_CODES = {
             "fr": "cisr",
         },
         "court_id": ["ca cisr", "ca irb"],
+        "court_type": "federal tribunal",
     },
     "qccvm": {
         "jurisdiction": "qc",
@@ -1764,6 +2254,7 @@ COURT_CODES = {
             "fr": "qccvm",
         },
         "court_id": ["qc cvm"],
+        "court_type": "provincial tribunal",
     },
     "onfscdrs": {
         "jurisdiction": "on",
@@ -1776,6 +2267,7 @@ COURT_CODES = {
             "fr": "onfscdrs",
         },
         "court_id": ["onfscdrs", "onicdrg"],
+        "court_type": "provincial tribunal",
     },
     "nsfc": {
         "jurisdiction": "ns",
@@ -1787,6 +2279,7 @@ COURT_CODES = {
             "fr": "nsfc",
         },
         "court_id": ["nsfc", "ns fc"],
+        "court_type": "superior",
     },
     "qccptaq": {
         "jurisdiction": "qc",
@@ -1798,6 +2291,7 @@ COURT_CODES = {
             "fr": "qccptaq",
         },
         "court_id": ["qc cptaq"],
+        "court_type": "provincial tribunal",
     },
     "qccdrhri": {
         "jurisdiction": "qc",
@@ -1806,6 +2300,7 @@ COURT_CODES = {
         },
         "url": {"en": "qccdrhri"},
         "court_id": ["qccdcrhri", "qc cdrhri"],
+        "court_type": "provincial tribunal",
     },
     "sksmb": {
         "jurisdiction": "sk",
@@ -1817,6 +2312,7 @@ COURT_CODES = {
             "fr": "skmb",
         },
         "court_id": ["skmb"],
+        "court_type": "provincial tribunal",
     },
     "ablprt": {
         "jurisdiction": "ab",
@@ -1828,6 +2324,7 @@ COURT_CODES = {
             "fr": "ablprt",
         },
         "court_id": ["ablprt"],
+        "court_type": "provincial tribunal",
     },
     "ntla": {
         "jurisdiction": "nt",
@@ -1840,6 +2337,7 @@ COURT_CODES = {
             "fr": "ntla",
         },
         "court_id": ["nt la"],
+        "court_type": "territorial tribunal",
     },
     "pec-ces": {
         "jurisdiction": "ca",
@@ -1852,6 +2350,7 @@ COURT_CODES = {
             "fr": "ces",
         },
         "court_id": ["pec", "ces"],
+        "court_type": "federal tribunal",
     },
     "qcracj": {
         "jurisdiction": "qc",
@@ -1863,6 +2362,7 @@ COURT_CODES = {
             "fr": "qcracj",
         },
         "court_id": ["qcracj", "qc racj"],
+        "court_type": "provincial tribunal",
     },
     "qccsst": {
         "jurisdiction": "qc",
@@ -1874,6 +2374,7 @@ COURT_CODES = {
             "fr": "qccsst",
         },
         "court_id": ["qccsst", "qc csst"],
+        "court_type": "provincial tribunal",
     },
     "qccnesst": {
         "jurisdiction": "qc",
@@ -1882,6 +2383,7 @@ COURT_CODES = {
         },
         "url": {"en": "qccnesst"},
         "court_id": ["qccnesst"],
+        "court_type": "provincial tribunal",
     },
     "onape": {
         "jurisdiction": "on",
@@ -1893,6 +2395,7 @@ COURT_CODES = {
             "fr": "onape",
         },
         "court_id": ["onape"],
+        "court_type": "provincial tribunal",
     },
     "onconrb": {
         "jurisdiction": "on",
@@ -1905,6 +2408,7 @@ COURT_CODES = {
             "fr": "onconrb",
         },
         "court_id": ["on conrb"],
+        "court_type": "provincial tribunal",
     },
     "qcouq": {
         "jurisdiction": "qc",
@@ -1916,6 +2420,7 @@ COURT_CODES = {
             "fr": "qcouq",
         },
         "court_id": ["qc ouq"],
+        "court_type": "provincial tribunal",
     },
     "qccdottdq": {
         "jurisdiction": "qc",
@@ -1927,6 +2432,7 @@ COURT_CODES = {
             "fr": "qccdottdq",
         },
         "court_id": ["qc cdottdq"],
+        "court_type": "provincial tribunal",
     },
     "abplab": {
         "jurisdiction": "ab",
@@ -1938,6 +2444,7 @@ COURT_CODES = {
             "fr": "abplab",
         },
         "court_id": ["abplab", "ab plab"],
+        "court_type": "provincial tribunal",
     },
     "qcopiq": {
         "jurisdiction": "qc",
@@ -1949,6 +2456,7 @@ COURT_CODES = {
             "fr": "qcopiq",
         },
         "court_id": ["qc opiq"],
+        "court_type": "provincial tribunal",
     },
     "qctacarra": {
         "jurisdiction": "qc",
@@ -1960,6 +2468,7 @@ COURT_CODES = {
             "fr": "qcta",
         },
         "court_id": ["qcta", "qc ta"],
+        "court_type": "provincial tribunal",
     },
     "bcipc": {
         "jurisdiction": "bc",
@@ -1971,6 +2480,7 @@ COURT_CODES = {
             "fr": "bcipc",
         },
         "court_id": ["bcipc", "bc icp"],
+        "court_type": "provincial tribunal",
     },
     "ntyjc": {
         "jurisdiction": "nt",
@@ -1979,6 +2489,7 @@ COURT_CODES = {
         },
         "url": {"en": "ntyjc"},
         "court_id": ["nwttc", "nwtsc"],
+        "court_type": "territorial",
     },
     "tatc": {
         "jurisdiction": "ca",
@@ -1991,6 +2502,7 @@ COURT_CODES = {
             "fr": "tatc",
         },
         "court_id": ["tatcf", "tatce", "ca tat"],
+        "court_type": "federal tribunal",
     },
     "nslst": {
         "jurisdiction": "ns",
@@ -2002,6 +2514,7 @@ COURT_CODES = {
             "fr": "nslst",
         },
         "court_id": ["nslst", "ns lst"],
+        "court_type": "provincial tribunal",
     },
     "nsohsap": {
         "jurisdiction": "ns",
@@ -2013,6 +2526,7 @@ COURT_CODES = {
             "fr": "nsohsap",
         },
         "court_id": ["nsohsap", "ns ohsap"],
+        "court_type": "provincial tribunal",
     },
     "qccdchad": {
         "jurisdiction": "qc",
@@ -2024,6 +2538,7 @@ COURT_CODES = {
             "fr": "qccdchad",
         },
         "court_id": ["qc cdchad"],
+        "court_type": "provincial tribunal",
     },
     "nuls": {
         "jurisdiction": "nu",
@@ -2036,6 +2551,7 @@ COURT_CODES = {
             "fr": "nuls",
         },
         "court_id": ["nuls"],
+        "court_type": "territorial",
     },
     "skrec": {
         "jurisdiction": "sk",
@@ -2047,6 +2563,7 @@ COURT_CODES = {
             "fr": "skrec",
         },
         "court_id": ["skrec"],
+        "court_type": "provincial tribunal",
     },
     "bccds": {
         "jurisdiction": "bc",
@@ -2058,6 +2575,7 @@ COURT_CODES = {
             "fr": "bccds",
         },
         "court_id": ["bc cds"],
+        "court_type": "provincial tribunal",
     },
     "qcotpq": {
         "jurisdiction": "qc",
@@ -2069,6 +2587,7 @@ COURT_CODES = {
             "fr": "qcotpq",
         },
         "court_id": ["qccdtp", "qc otpq"],
+        "court_type": "provincial tribunal",
     },
     "qcca": {
         "jurisdiction": "qc",
@@ -2081,6 +2600,7 @@ COURT_CODES = {
             "fr": "qcca",
         },
         "court_id": ["qcca", "qc ca"],
+        "court_type": "provincial appellate",
     },
     "skhrc": {
         "jurisdiction": "sk",
@@ -2092,6 +2612,7 @@ COURT_CODES = {
             "fr": "skhrc",
         },
         "court_id": ["sk hrc"],
+        "court_type": "provincial tribunal",
     },
     "oic": {
         "jurisdiction": "ca",
@@ -2104,6 +2625,7 @@ COURT_CODES = {
             "fr": "ci",
         },
         "court_id": ["oic", "ci"],
+        "court_type": "federal tribunal",
     },
     "nslb": {
         "jurisdiction": "ns",
@@ -2115,6 +2637,7 @@ COURT_CODES = {
             "fr": "nslb",
         },
         "court_id": ["nslb", "ns lb", "nslrb"],
+        "court_type": "provincial tribunal",
     },
     "qccm": {
         "jurisdiction": "qc",
@@ -2127,6 +2650,7 @@ COURT_CODES = {
             "fr": "qccm",
         },
         "court_id": ["qccm", "qc cm"],
+        "court_type": "provincial tribunal",
     },
     "nsla": {
         "jurisdiction": "ns",
@@ -2139,6 +2663,7 @@ COURT_CODES = {
             "fr": "nsla",
         },
         "court_id": ["nsla", "ns la"],
+        "court_type": "provincial tribunal",
     },
     "skmt": {
         "jurisdiction": "sk",
@@ -2150,6 +2675,7 @@ COURT_CODES = {
             "fr": "skmt",
         },
         "court_id": ["sk mt"],
+        "court_type": "provincial tribunal",
     },
     "onwsiat": {
         "jurisdiction": "on",
@@ -2161,6 +2687,7 @@ COURT_CODES = {
             "fr": "ontaspaat",
         },
         "court_id": ["onwsiat", "on wsiat", "ontaspaat"],
+        "court_type": "provincial tribunal",
     },
     "skhrt": {
         "jurisdiction": "sk",
@@ -2172,6 +2699,7 @@ COURT_CODES = {
             "fr": "skhrt",
         },
         "court_id": ["skhrt", "sk hrt"],
+        "court_type": "provincial tribunal",
     },
     "bcpc": {
         "jurisdiction": "bc",
@@ -2183,6 +2711,7 @@ COURT_CODES = {
             "fr": "bcpc",
         },
         "court_id": ["bcpc", "bc pc"],
+        "court_type": "provincial",
     },
     "oncrb": {
         "jurisdiction": "on",
@@ -2195,6 +2724,7 @@ COURT_CODES = {
             "fr": "oncrb",
         },
         "court_id": ["oncrb"],
+        "court_type": "provincial tribunal",
     },
     "qccmeq": {
         "jurisdiction": "qc",
@@ -2206,6 +2736,7 @@ COURT_CODES = {
             "fr": "qccmeq",
         },
         "court_id": ["qccmeq"],
+        "court_type": "provincial tribunal",
     },
     "citt-tcce": {
         "jurisdiction": "ca",
@@ -2218,6 +2749,7 @@ COURT_CODES = {
             "fr": "tcce",
         },
         "court_id": ["ca tcce", "ca citt"],
+        "court_type": "federal tribunal",
     },
     "abqb": {
         "jurisdiction": "ab",
@@ -2230,6 +2762,7 @@ COURT_CODES = {
             "fr": "abkb",
         },
         "court_id": ["abqb", "abkb", "ab qb", "ab kb"],
+        "court_type": "superior",
     },
     "oncoto": {
         "jurisdiction": "on",
@@ -2242,6 +2775,7 @@ COURT_CODES = {
             "fr": "oncot",
         },
         "court_id": ["oncot"],
+        "court_type": "provincial tribunal",
     },
     "bcsec": {
         "jurisdiction": "bc",
@@ -2253,6 +2787,7 @@ COURT_CODES = {
             "fr": "bcsec",
         },
         "court_id": ["bcseccom"],
+        "court_type": "provincial tribunal",
     },
     "qcopgq": {
         "jurisdiction": "qc",
@@ -2264,6 +2799,7 @@ COURT_CODES = {
             "fr": "qcopgq",
         },
         "court_id": ["qc opgq"],
+        "court_type": "provincial tribunal",
     },
     "ytla": {
         "jurisdiction": "yk",
@@ -2276,6 +2812,7 @@ COURT_CODES = {
             "fr": "ytla",
         },
         "court_id": ["yt la"],
+        "court_type": "territorial tribunal",
     },
     "nbleb": {
         "jurisdiction": "nb",
@@ -2288,6 +2825,7 @@ COURT_CODES = {
             "fr": "nbcte",
         },
         "court_id": ["nb leb", "nb cte"],
+        "court_type": "provincial tribunal",
     },
     "mbls": {
         "jurisdiction": "mb",
@@ -2300,6 +2838,7 @@ COURT_CODES = {
             "fr": "mbsb",
         },
         "court_id": ["mbls", "mb ls", "mbsb"],
+        "court_type": "provincial tribunal",
     },
     "nslrb": {
         "jurisdiction": "ns",
@@ -2311,6 +2850,7 @@ COURT_CODES = {
             "fr": "nslrb",
         },
         "court_id": ["ns lrb"],
+        "court_type": "provincial tribunal",
     },
     "mblb": {
         "jurisdiction": "mb",
@@ -2322,6 +2862,7 @@ COURT_CODES = {
             "fr": "mblb",
         },
         "court_id": ["mb lb"],
+        "court_type": "provincial tribunal",
     },
     "skla": {
         "jurisdiction": "sk",
@@ -2334,6 +2875,7 @@ COURT_CODES = {
             "fr": "skla",
         },
         "court_id": ["sk la"],
+        "court_type": "provincial tribunal",
     },
     "abpc": {
         "jurisdiction": "ab",
@@ -2346,6 +2888,7 @@ COURT_CODES = {
             "fr": "abcj",
         },
         "court_id": ["abpc", "ab pc", "abcj", "ab cj"],
+        "court_type": "provincial",
     },
     "mbla": {
         "jurisdiction": "mb",
@@ -2358,6 +2901,7 @@ COURT_CODES = {
             "fr": "mbla",
         },
         "court_id": ["mb la"],
+        "court_type": "provincial tribunal",
     },
     "ntls": {
         "jurisdiction": "nt",
@@ -2369,6 +2913,7 @@ COURT_CODES = {
             "fr": "ntls",
         },
         "court_id": ["nwt ls"],
+        "court_type": "territorial tribunal",
     },
     "abeab": {
         "jurisdiction": "ab",
@@ -2380,6 +2925,7 @@ COURT_CODES = {
             "fr": "abeab",
         },
         "court_id": ["abeab"],
+        "court_type": "provincial tribunal",
     },
     "oncicb": {
         "jurisdiction": "on",
@@ -2392,6 +2938,7 @@ COURT_CODES = {
             "fr": "oncivac",
         },
         "court_id": ["oncicb", "oncivac"],
+        "court_type": "provincial tribunal",
     },
     "nbbihra": {
         "jurisdiction": "nb",
@@ -2404,6 +2951,7 @@ COURT_CODES = {
             "fr": "nbbihra",
         },
         "court_id": ["nb bhr"],
+        "court_type": "provincial tribunal",
     },
     "capsdpt": {
         "jurisdiction": "ca",
@@ -2416,6 +2964,7 @@ COURT_CODES = {
             "fr": "tpfd",
         },
         "court_id": ["tpfd", "psdpt"],
+        "court_type": "federal tribunal",
     },
     "nbls": {
         "jurisdiction": "nb",
@@ -2428,6 +2977,7 @@ COURT_CODES = {
             "fr": "nblsb",
         },
         "court_id": ["nblsb"],
+        "court_type": "provincial tribunal",
     },
     "onafraat": {
         "jurisdiction": "on",
@@ -2440,6 +2990,7 @@ COURT_CODES = {
             "fr": "onafraat",
         },
         "court_id": ["onafraat"],
+        "court_type": "provincial tribunal",
     },
     "ablerb": {
         "jurisdiction": "ab",
@@ -2451,6 +3002,7 @@ COURT_CODES = {
             "fr": "ablerb",
         },
         "court_id": ["ablerb", "ab lerb"],
+        "court_type": "provincial tribunal",
     },
     "nbla": {
         "jurisdiction": "nb",
@@ -2463,6 +3015,7 @@ COURT_CODES = {
             "fr": "nbla",
         },
         "court_id": ["nb la"],
+        "court_type": "provincial tribunal",
     },
     "pela": {
         "jurisdiction": "pe",
@@ -2475,6 +3028,7 @@ COURT_CODES = {
             "fr": "pela",
         },
         "court_id": ["pe la"],
+        "court_type": "provincial tribunal",
     },
     "qcoapq": {
         "jurisdiction": "qc",
@@ -2486,6 +3040,7 @@ COURT_CODES = {
             "fr": "qcoapq",
         },
         "court_id": ["qccdap", "qc oapq"],
+        "court_type": "provincial tribunal",
     },
     "bcrb": {
         "jurisdiction": "bc",
@@ -2497,6 +3052,7 @@ COURT_CODES = {
             "fr": "bcrb",
         },
         "court_id": ["bcrb"],
+        "court_type": "provincial tribunal",
     },
     "qccai": {
         "jurisdiction": "qc",
@@ -2508,6 +3064,7 @@ COURT_CODES = {
             "fr": "qccai",
         },
         "court_id": ["qccai", "qc cai"],
+        "court_type": "provincial tribunal",
     },
     "qctaa": {
         "jurisdiction": "qc",
@@ -2519,6 +3076,7 @@ COURT_CODES = {
             "fr": "qctaa",
         },
         "court_id": ["qcta", "qc taa"],
+        "court_type": "provincial tribunal",
     },
     "qccdoooq": {
         "jurisdiction": "qc",
@@ -2530,6 +3088,7 @@ COURT_CODES = {
             "fr": "qccdoooq",
         },
         "court_id": ["qccdood", "qc cdoooq"],
+        "court_type": "provincial tribunal",
     },
     "bclrb": {
         "jurisdiction": "bc",
@@ -2541,6 +3100,7 @@ COURT_CODES = {
             "fr": "bclrb",
         },
         "court_id": ["bclrb", "bc lrb"],
+        "court_type": "provincial tribunal",
     },
     "nssec": {
         "jurisdiction": "ns",
@@ -2552,6 +3112,7 @@ COURT_CODES = {
             "fr": "nssec",
         },
         "court_id": ["nssec", "ns sec"],
+        "court_type": "provincial tribunal",
     },
     "onmlc": {
         "jurisdiction": "on",
@@ -2564,6 +3125,7 @@ COURT_CODES = {
             "fr": "ontmt",
         },
         "court_id": ["on mlt", "on tmt"],
+        "court_type": "provincial tribunal",
     },
     "skpmb": {
         "jurisdiction": "sk",
@@ -2575,6 +3137,7 @@ COURT_CODES = {
             "fr": "skpmb",
         },
         "court_id": ["skpmb"],
+        "court_type": "provincial tribunal",
     },
     "qcottiaq": {
         "jurisdiction": "qc",
@@ -2586,6 +3149,7 @@ COURT_CODES = {
             "fr": "qcottiaq",
         },
         "court_id": ["qc ottiaq"],
+        "court_type": "provincial tribunal",
     },
     "cer-rec": {
         "jurisdiction": "ca",
@@ -2598,6 +3162,7 @@ COURT_CODES = {
             "fr": "rec",
         },
         "court_id": ["ca cer", "ca rec"],
+        "court_type": "federal tribunal",
     },
     "nbomb": {
         "jurisdiction": "nb",
@@ -2610,6 +3175,7 @@ COURT_CODES = {
             "fr": "nbombud",
         },
         "court_id": ["nbombud", "nb ombud", "nbomb"],
+        "court_type": "provincial tribunal",
     },
     "casa-cala": {
         "jurisdiction": "ca",
@@ -2622,6 +3188,7 @@ COURT_CODES = {
             "fr": "casa",
         },
         "court_id": ["ca la", "ca sa"],
+        "court_type": "federal tribunal",
     },
     "qctat": {
         "jurisdiction": "qc",
@@ -2633,6 +3200,7 @@ COURT_CODES = {
             "fr": "qctat",
         },
         "court_id": ["qctat", "qc tat"],
+        "court_type": "provincial tribunal",
     },
     "qccq": {
         "jurisdiction": "qc",
@@ -2645,6 +3213,7 @@ COURT_CODES = {
             "fr": "qccq",
         },
         "court_id": ["qccq", "qc cq"],
+        "court_type": "provincial",
     },
     "qctaq": {
         "jurisdiction": "qc",
@@ -2657,6 +3226,7 @@ COURT_CODES = {
             "fr": "qctaq",
         },
         "court_id": ["qc taq"],
+        "court_type": "provincial tribunal",
     },
     "qccs": {
         "jurisdiction": "qc",
@@ -2669,6 +3239,7 @@ COURT_CODES = {
             "fr": "qccs",
         },
         "court_id": ["qccs", "qc cs"],
+        "court_type": "superior",
     },
     "oncocoo": {
         "jurisdiction": "on",
@@ -2680,6 +3251,7 @@ COURT_CODES = {
             "fr": "oncocoo",
         },
         "court_id": ["oncocoo", "on cocoo"],
+        "court_type": "provincial tribunal",
     },
     "qcct": {
         "jurisdiction": "qc",
@@ -2692,6 +3264,7 @@ COURT_CODES = {
             "fr": "qcct",
         },
         "court_id": ["qc ct"],
+        "court_type": "provincial tribunal",
     },
     "tmob": {
         "jurisdiction": "ca",
@@ -2704,6 +3277,7 @@ COURT_CODES = {
             "fr": "comc",
         },
         "court_id": ["tmob", "comc"],
+        "court_type": "federal tribunal",
     },
     "qcoaciq": {
         "jurisdiction": "qc",
@@ -2715,6 +3289,7 @@ COURT_CODES = {
             "fr": "qcoaciq",
         },
         "court_id": ["qc oaciq"],
+        "court_type": "provincial tribunal",
     },
     "onmic": {
         "jurisdiction": "on",
@@ -2727,6 +3302,7 @@ COURT_CODES = {
             "fr": "onmic",
         },
         "court_id": ["onmic"],
+        "court_type": "provincial tribunal",
     },
     "onca": {
         "jurisdiction": "on",
@@ -2739,6 +3315,7 @@ COURT_CODES = {
             "fr": "onca",
         },
         "court_id": ["onca", "on ca"],
+        "court_type": "provincial appellate",
     },
     "nspc": {
         "jurisdiction": "ns",
@@ -2750,6 +3327,7 @@ COURT_CODES = {
             "fr": "nspc",
         },
         "court_id": ["nspc", "ns pc"],
+        "court_type": "provincial",
     },
     "abreca": {
         "jurisdiction": "ab",
@@ -2761,6 +3339,7 @@ COURT_CODES = {
             "fr": "abreca",
         },
         "court_id": ["abreca", "ab reca"],
+        "court_type": "provincial tribunal",
     },
     "oncvo": {
         "jurisdiction": "on",
@@ -2772,6 +3351,7 @@ COURT_CODES = {
             "fr": "oncvo",
         },
         "court_id": ["oncvo"],
+        "court_type": "provincial tribunal",
     },
     "mbqb": {
         "jurisdiction": "mb",
@@ -2784,18 +3364,20 @@ COURT_CODES = {
             "fr": "mbkb",
         },
         "court_id": ["mbqb", "mb qb", "mbkb", "mb kb"],
+        "court_type": "superior",
     },
     "sct-trp": {
         "jurisdiction": "ca",
         "name": {
             "en": "Specific Claims Tribunal Canada",
-            "en": "Tribunal des revendications particulières Canada",
+            "fr": "Tribunal des revendications particulières Canada",
         },
         "url": {
             "en": "sct",
             "fr": "trp",
         },
         "court_id": ["sctc", "trpc"],
+        "court_type": "federal tribunal",
     },
     "skqb": {
         "jurisdiction": "sk",
@@ -2807,6 +3389,7 @@ COURT_CODES = {
             "fr": "skkb",
         },
         "court_id": ["skqb", "sk qb", "skkb", "sk kb"],
+        "court_type": "superior",
     },
     "onarb": {
         "jurisdiction": "on",
@@ -2819,6 +3402,7 @@ COURT_CODES = {
             "fr": "oncref",
         },
         "court_id": ["on arb", "on cref"],
+        "court_type": "provincial tribunal",
     },
     "ablrb": {
         "jurisdiction": "ab",
@@ -2830,6 +3414,7 @@ COURT_CODES = {
             "fr": "ablrb",
         },
         "court_id": ["alrb", "ab lrb"],
+        "court_type": "provincial tribunal",
     },
     "qcdag": {
         "jurisdiction": "qc",
@@ -2842,6 +3427,7 @@ COURT_CODES = {
             "fr": "qcsat",
         },
         "court_id": ["qc sat", "qc la"],
+        "court_type": "provincial tribunal",
     },
     "peirac": {
         "jurisdiction": "pe",
@@ -2854,6 +3440,7 @@ COURT_CODES = {
             "fr": "peirac",
         },
         "court_id": ["peirac", "pe irac"],
+        "court_type": "provincial tribunal",
     },
     "sklgb": {
         "jurisdiction": "sk",
@@ -2865,6 +3452,7 @@ COURT_CODES = {
             "fr": "sklgb",
         },
         "court_id": ["sk lgb"],
+        "court_type": "provincial tribunal",
     },
     "onctcmpao": {
         "jurisdiction": "on",
@@ -2877,6 +3465,7 @@ COURT_CODES = {
             "fr": "onctcmpao",
         },
         "court_id": ["onctcmpao"],
+        "court_type": "provincial tribunal",
     },
     "bcsp": {
         "jurisdiction": "bc",
@@ -2888,6 +3477,7 @@ COURT_CODES = {
             "fr": "bcsp",
         },
         "court_id": ["bcsp"],
+        "court_type": "provincial tribunal",
     },
     "ntlsb": {
         "jurisdiction": "nt",
@@ -2898,7 +3488,8 @@ COURT_CODES = {
             "en": "ntlsb",
             "fr": "ntlsb",
         },
-        "court_id": ["nwt lsb"],
+        "court_id": ["nwt lsb", "ntesa"],
+        "court_type": "territorial tribunal",
     },
     "mbpc": {
         "jurisdiction": "mb",
@@ -2911,6 +3502,7 @@ COURT_CODES = {
             "fr": "mbpc",
         },
         "court_id": ["mbpc", "mb pc"],
+        "court_type": "provincial",
     },
     "skpc": {
         "jurisdiction": "sk",
@@ -2923,6 +3515,7 @@ COURT_CODES = {
             "fr": "skpc",
         },
         "court_id": ["skpc", "sk pc"],
+        "court_type": "provincial",
     },
     "bcsc": {
         "jurisdiction": "bc",
@@ -2934,6 +3527,7 @@ COURT_CODES = {
             "fr": "bcsc",
         },
         "court_id": ["bcsc", "bc sc"],
+        "court_type": "superior",
     },
     "abgaa": {
         "jurisdiction": "ab",
@@ -2945,6 +3539,7 @@ COURT_CODES = {
             "fr": "abgaa",
         },
         "court_id": ["ab gaa"],
+        "court_type": "provincial tribunal",
     },
     "onscdc": {
         "jurisdiction": "on",
@@ -2957,6 +3552,7 @@ COURT_CODES = {
             "fr": "onscdc",
         },
         "court_id": ["onsc", "on scdc", "oncs", "on cs"],
+        "court_type": "superior",
     },
     "nttc": {
         "jurisdiction": "nt",
@@ -2968,6 +3564,7 @@ COURT_CODES = {
             "fr": "nttc",
         },
         "court_id": ["nwttc", "nwt tc"],
+        "court_type": "territorial",
     },
     "qcrbq": {
         "jurisdiction": "qc",
@@ -2979,6 +3576,7 @@ COURT_CODES = {
             "fr": "qcrbq",
         },
         "court_id": ["qcrbq", "qc rbq"],
+        "court_type": "provincial tribunal",
     },
     "nbwhscc": {
         "jurisdiction": "nb",
@@ -2991,6 +3589,7 @@ COURT_CODES = {
             "fr": "nbtaat",
         },
         "court_id": ["nb wcat", "nb taat"],
+        "court_type": "provincial tribunal",
     },
     "ntaat": {
         "jurisdiction": "nt",
@@ -3002,6 +3601,7 @@ COURT_CODES = {
             "fr": "ntaat",
         },
         "court_id": ["nwtaat"],
+        "court_type": "territorial tribunal",
     },
     "onrcdso": {
         "jurisdiction": "on",
@@ -3014,6 +3614,7 @@ COURT_CODES = {
             "fr": "onrcdso",
         },
         "court_id": ["onrcdso", "on rcdso"],
+        "court_type": "provincial tribunal",
     },
     "sksu": {
         "jurisdiction": "sk",
@@ -3025,6 +3626,7 @@ COURT_CODES = {
             "fr": "sksu",
         },
         "court_id": ["sk su"],
+        "court_type": "superior",
     },
     "bcitab": {
         "jurisdiction": "bc",
@@ -3036,6 +3638,7 @@ COURT_CODES = {
             "fr": "bcstab",
         },
         "court_id": ["bcitab"],
+        "court_type": "provincial tribunal",
     },
     "nbpc": {
         "jurisdiction": "nb",
@@ -3048,6 +3651,7 @@ COURT_CODES = {
             "fr": "nbpc",
         },
         "court_id": ["nbpc", "nb pc"],
+        "court_type": "provincial",
     },
     "qcces": {
         "jurisdiction": "qc",
@@ -3059,6 +3663,7 @@ COURT_CODES = {
             "fr": "qcces",
         },
         "court_id": ["qc ces"],
+        "court_type": "provincial tribunal",
     },
     "ondr": {
         "jurisdiction": "on",
@@ -3071,6 +3676,7 @@ COURT_CODES = {
             "fr": "ondr",
         },
         "court_id": ["ondr"],
+        "court_type": "provincial tribunal",
     },
     "bcorl": {
         "jurisdiction": "bc",
@@ -3082,6 +3688,7 @@ COURT_CODES = {
             "fr": "bcorl",
         },
         "court_id": ["bcorl"],
+        "court_type": "provincial tribunal",
     },
     "ykhrc": {
         "jurisdiction": "yk",
@@ -3094,6 +3701,7 @@ COURT_CODES = {
             "fr": "ykhrc",
         },
         "court_id": ["yk hrc"],
+        "court_type": "territorial tribunal",
     },
     "pepc": {
         "jurisdiction": "pe",
@@ -3105,6 +3713,7 @@ COURT_CODES = {
             "fr": "pepc",
         },
         "court_id": ["pe pc"],
+        "court_type": "provincial",
     },
     "bcccalab": {
         "jurisdiction": "bc",
@@ -3116,6 +3725,7 @@ COURT_CODES = {
             "fr": "bcccalab",
         },
         "court_id": ["bcccalab"],
+        "court_type": "provincial tribunal",
     },
     "nlsctd": {
         "jurisdiction": "nl",
@@ -3127,6 +3737,7 @@ COURT_CODES = {
             "fr": "nlsc",
         },
         "court_id": ["nlsc", "nl sc", "nlsctd", "nltd"],
+        "court_type": "superior",
     },
     "skmbr": {
         "jurisdiction": "sk",
@@ -3138,6 +3749,7 @@ COURT_CODES = {
             "fr": "skmbr",
         },
         "court_id": ["skmbr"],
+        "court_type": "provincial tribunal",
     },
     "ntsc": {
         "jurisdiction": "nt",
@@ -3150,6 +3762,7 @@ COURT_CODES = {
             "fr": "ntsc",
         },
         "court_id": ["nwtsc", "ntsc", "nwt sc"],
+        "court_type": "territorial",
     },
     "oncrpo": {
         "jurisdiction": "on",
@@ -3160,7 +3773,8 @@ COURT_CODES = {
             "en": "oncrpo",
             "fr": "oncrpo",
         },
-        "court_id": ["oncrpo"],
+        "court_id": ["oncrpo", "onrpdt"],
+        "court_type": "provincial tribunal",
     },
     "nlca": {
         "jurisdiction": "nl",
@@ -3172,6 +3786,7 @@ COURT_CODES = {
             "fr": "nlca",
         },
         "court_id": ["nlca", "nl ca"],
+        "court_type": "provincial appellate",
     },
     "ntro": {
         "jurisdiction": "nt",
@@ -3184,6 +3799,7 @@ COURT_CODES = {
             "fr": "ntro",
         },
         "court_id": ["nwt ro"],
+        "court_type": "territorial tribunal",
     },
     "nuipc": {
         "jurisdiction": "nu",
@@ -3195,6 +3811,7 @@ COURT_CODES = {
             "fr": "nuipc",
         },
         "court_id": ["nuipc"],
+        "court_type": "territorial tribunal",
     },
     "onhrap": {
         "jurisdiction": "on",
@@ -3207,6 +3824,7 @@ COURT_CODES = {
             "fr": "oncacc",
         },
         "court_id": ["on hrap", "on cacc"],
+        "court_type": "provincial tribunal",
     },
     "oncj": {
         "jurisdiction": "on",
@@ -3219,6 +3837,7 @@ COURT_CODES = {
             "fr": "oncj",
         },
         "court_id": ["oncj", "on cj"],
+        "court_type": "provincial",
     },
     "cart-crac": {
         "jurisdiction": "ca",
@@ -3231,6 +3850,7 @@ COURT_CODES = {
             "fr": "crac",
         },
         "court_id": ["cart", "ca art", "crac", "ca cra"],
+        "court_type": "federal tribunal",
     },
     "bcfac": {
         "jurisdiction": "bc",
@@ -3242,6 +3862,7 @@ COURT_CODES = {
             "fr": "bcfac",
         },
         "court_id": ["bcfac"],
+        "court_type": "provincial tribunal",
     },
     "nspr": {
         "jurisdiction": "ns",
@@ -3256,6 +3877,7 @@ COURT_CODES = {
             "nspb",
             "ns pr",
         ],
+        "court_type": "superior",
     },
     "qccdp": {
         "jurisdiction": "qc",
@@ -3267,6 +3889,7 @@ COURT_CODES = {
             "fr": "qctadp",
         },
         "court_id": ["qctadp", "qc tadp", "chrc cdp", "qc tdap", "qc cdp", "qccdp"],
+        "court_type": "provincial tribunal",
     },
     "onco": {
         "jurisdiction": "on",
@@ -3278,6 +3901,7 @@ COURT_CODES = {
             "fr": "onco",
         },
         "court_id": ["onco"],
+        "court_type": "provincial tribunal",
     },
     "ykca": {
         "jurisdiction": "yk",
@@ -3290,6 +3914,7 @@ COURT_CODES = {
             "fr": "ykca",
         },
         "court_id": ["ykca", "yk ca"],
+        "court_type": "territorial appellate",
     },
     "qctdp": {
         "jurisdiction": "qc",
@@ -3302,6 +3927,7 @@ COURT_CODES = {
             "fr": "qctdp",
         },
         "court_id": ["qctdp", "qc tdp", "cq tdp", "tdp qc", "tdp cq"],
+        "court_type": "provincial tribunal",
     },
     "qccmnq": {
         "jurisdiction": "qc",
@@ -3313,6 +3939,7 @@ COURT_CODES = {
             "fr": "qccmnq",
         },
         "court_id": ["qc cmnq"],
+        "court_type": "provincial tribunal",
     },
     "qcoppq": {
         "jurisdiction": "qc",
@@ -3324,6 +3951,7 @@ COURT_CODES = {
             "fr": "qcoppq",
         },
         "court_id": ["qccdoppq", "qc oppq"],
+        "court_type": "provincial tribunal",
     },
     "qccdoii": {
         "jurisdiction": "qc",
@@ -3335,6 +3963,7 @@ COURT_CODES = {
             "fr": "qccdoii",
         },
         "court_id": ["qccdinf", "qc cdoii"],
+        "court_type": "provincial tribunal",
     },
     "ntipc": {
         "jurisdiction": "nt",
@@ -3346,6 +3975,7 @@ COURT_CODES = {
             "fr": "ntipc",
         },
         "court_id": ["ntipc", "nwt ipc"],
+        "court_type": "territorial tribunal",
     },
     "qcoarq": {
         "jurisdiction": "qc",
@@ -3357,6 +3987,7 @@ COURT_CODES = {
             "fr": "qcoarq",
         },
         "court_id": ["qc oarq", "qccdarc"],
+        "court_type": "provincial tribunal",
     },
     "mbcpsdc": {
         "jurisdiction": "mb",
@@ -3368,7 +3999,8 @@ COURT_CODES = {
             "en": "mbcpsdc",
             "fr": "mbcpsdc",
         },
-        "court_id": ["mbcpsdc"],
+        "court_id": ["mbcpsdc", "mb cpsdc"],
+        "court_type": "provincial tribunal",
     },
     "forep": {
         "jurisdiction": "ca",
@@ -3381,6 +4013,7 @@ COURT_CODES = {
             "fr": "etrap",
         },
         "court_id": ["forep"],
+        "court_type": "federal tribunal",
     },
     "nssc": {
         "jurisdiction": "ns",
@@ -3392,6 +4025,7 @@ COURT_CODES = {
             "fr": "nssc",
         },
         "court_id": ["nssc", "ns sc"],
+        "court_type": "superior",
     },
     "nssf": {
         "jurisdiction": "ns",
@@ -3403,6 +4037,7 @@ COURT_CODES = {
             "fr": "nssf",
         },
         "court_id": ["nssf", "ns sf"],
+        "court_type": "superior",
     },
     "nssm": {
         "jurisdiction": "ns",
@@ -3414,6 +4049,7 @@ COURT_CODES = {
             "fr": "nssm",
         },
         "court_id": ["nssm"],
+        "court_type": "provincial tribunal",
     },
     "onnfppb": {
         "jurisdiction": "on",
@@ -3426,6 +4062,7 @@ COURT_CODES = {
             "fr": "onnfppb",
         },
         "court_id": ["onnfppb"],
+        "court_type": "provincial tribunal",
     },
     "absdab": {
         "jurisdiction": "ab",
@@ -3437,6 +4074,7 @@ COURT_CODES = {
             "fr": "absdab",
         },
         "court_id": ["ab sdab", "cgysdab"],
+        "court_type": "provincial tribunal",
     },
     "bceab": {
         "jurisdiction": "bc",
@@ -3448,6 +4086,7 @@ COURT_CODES = {
             "fr": "bceab",
         },
         "court_id": ["bceab"],
+        "court_type": "provincial tribunal",
     },
     "nbqb": {
         "jurisdiction": "nb",
@@ -3460,6 +4099,7 @@ COURT_CODES = {
             "fr": "nbbr",
         },
         "court_id": ["nbqb", "nbkb", "nb qb", "nb kb", "nbbr", "nb br"],
+        "court_type": "superior",
     },
     "nshrc": {
         "jurisdiction": "ns",
@@ -3471,6 +4111,7 @@ COURT_CODES = {
             "fr": "nshrc",
         },
         "court_id": ["ns hrc"],
+        "court_type": "provincial tribunal",
     },
     "qccdoiia": {
         "jurisdiction": "qc",
@@ -3482,6 +4123,7 @@ COURT_CODES = {
             "fr": "qccdoiia",
         },
         "court_id": ["qc oiia", "qccdia"],
+        "court_type": "provincial tribunal",
     },
     "mbhab": {
         "jurisdiction": "mb",
@@ -3494,6 +4136,7 @@ COURT_CODES = {
             "fr": "mbhab",
         },
         "court_id": ["mb hab"],
+        "court_type": "provincial tribunal",
     },
     "qccraaap": {
         "jurisdiction": "qc",
@@ -3505,6 +4148,7 @@ COURT_CODES = {
             "fr": "qccraaap",
         },
         "court_id": ["qc craaap", "craaap"],
+        "court_type": "provincial tribunal",
     },
     "onlrb": {
         "jurisdiction": "on",
@@ -3517,6 +4161,7 @@ COURT_CODES = {
             "fr": "onlrb",
         },
         "court_id": ["on lrb"],
+        "court_type": "provincial tribunal",
     },
     "qccdcsf": {
         "jurisdiction": "qc",
@@ -3528,6 +4173,7 @@ COURT_CODES = {
             "fr": "qccdcsf",
         },
         "court_id": ["qccdcsf", "qc cdcsf"],
+        "court_type": "provincial tribunal",
     },
     "abohsab": {
         "jurisdiction": "ab",
@@ -3539,6 +4185,7 @@ COURT_CODES = {
             "fr": "abohsab",
         },
         "court_id": ["abohsab"],
+        "court_type": "provincial tribunal",
     },
     "skort": {
         "jurisdiction": "sk",
@@ -3550,6 +4197,7 @@ COURT_CODES = {
             "fr": "skort",
         },
         "court_id": ["skort"],
+        "court_type": "provincial tribunal",
     },
     "nuyc": {
         "jurisdiction": "nu",
@@ -3562,6 +4210,7 @@ COURT_CODES = {
             "fr": "nuyc",
         },
         "court_id": ["yjcn"],
+        "court_type": "territorial",
     },
     "oncaspd": {
         "jurisdiction": "on",
@@ -3574,6 +4223,7 @@ COURT_CODES = {
             "fr": "oncaspd",
         },
         "court_id": ["oncaspd"],
+        "court_type": "provincial tribunal",
     },
     "bcwcat": {
         "jurisdiction": "bc",
@@ -3585,8 +4235,21 @@ COURT_CODES = {
             "fr": "bcwcat",
         },
         "court_id": ["bc wcat"],
+        "court_type": "provincial tribunal",
     },
     "bcogat": {
+        "jurisdiction": "bc",
+        "name": {
+            "en": "Oil and Gas Appeal Tribunal",
+        },
+        "url": {
+            "en": "bcogat",
+            "fr": "bcogat",
+        },
+        "court_id": ["bcogat"],
+        "court_type": "provincial tribunal",
+    },
+    "bcerat": {
         "jurisdiction": "bc",
         "name": {
             "en": "Energy Resource Appeal Tribunal",
@@ -3595,7 +4258,8 @@ COURT_CODES = {
             "en": "bcerat",
             "fr": "bcerat",
         },
-        "court_id": ["bcogat"],
+        "court_id": ["bcerat"],
+        "court_type": "provincial tribunal",
     },
     "qccdoiq": {
         "jurisdiction": "qc",
@@ -3607,6 +4271,7 @@ COURT_CODES = {
             "fr": "qccdoiq",
         },
         "court_id": ["qc cdoiq", "qccding"],
+        "court_type": "provincial tribunal",
     },
     "nthrap": {
         "jurisdiction": "nt",
@@ -3619,6 +4284,7 @@ COURT_CODES = {
             "fr": "nttadp",
         },
         "court_id": ["nt tadp", "nt hrap"],
+        "court_type": "territorial tribunal",
     },
     "bchab": {
         "jurisdiction": "bc",
@@ -3630,6 +4296,7 @@ COURT_CODES = {
             "fr": "bchab",
         },
         "court_id": ["bchab"],
+        "court_type": "provincial tribunal",
     },
     "ukpc": {
         "jurisdiction": "ca",
@@ -3642,6 +4309,7 @@ COURT_CODES = {
             "fr": "rucjcp",
         },
         "court_id": ["uk jcpc"],
+        "court_type": "federal appellate",
     },
     "nsuarb": {
         "jurisdiction": "ns",
@@ -3653,6 +4321,7 @@ COURT_CODES = {
             "fr": "nsuarb",
         },
         "court_id": ["nsuarb"],
+        "court_type": "provincial tribunal",
     },
     "qcohdq": {
         "jurisdiction": "qc",
@@ -3664,6 +4333,7 @@ COURT_CODES = {
             "fr": "qcohdq",
         },
         "court_id": ["qccdhd", "qc ohdq"],
+        "court_type": "provincial tribunal",
     },
     "fca": {
         "jurisdiction": "ca",
@@ -3676,6 +4346,7 @@ COURT_CODES = {
             "fr": "caf",
         },
         "court_id": ["fca", "caf"],
+        "court_type": "federal appellate",
     },
     "qcrde": {
         "jurisdiction": "qc",
@@ -3687,6 +4358,7 @@ COURT_CODES = {
             "fr": "qcrde",
         },
         "court_id": ["qc rde"],
+        "court_type": "provincial tribunal",
     },
     "camfda": {
         "jurisdiction": "ca",
@@ -3699,6 +4371,7 @@ COURT_CODES = {
             "fr": "caaccfm",
         },
         "court_id": ["camfda", "ca accfm", "ca mfdac"],
+        "court_type": "federal tribunal",
     },
     "qcoifq": {
         "jurisdiction": "qc",
@@ -3710,6 +4383,7 @@ COURT_CODES = {
             "fr": "qcoifq",
         },
         "court_id": ["qc oifq", "qccdingf"],
+        "court_type": "provincial tribunal",
     },
     "qcrdl": {
         "jurisdiction": "qc",
@@ -3721,6 +4395,7 @@ COURT_CODES = {
             "fr": "qctal",
         },
         "court_id": ["qc tal", "qctal"],
+        "court_type": "provincial tribunal",
     },
     "fct": {
         "jurisdiction": "ca",
@@ -3733,6 +4408,7 @@ COURT_CODES = {
             "fr": "cfpi",
         },
         "court_id": ["fc", "cf", "fct"],
+        "court_type": "federal",
     },
     "nllrb": {
         "jurisdiction": "nl",
@@ -3744,6 +4420,7 @@ COURT_CODES = {
             "fr": "nllrb",
         },
         "court_id": ["nllrb", "nl lrb"],
+        "court_type": "provincial tribunal",
     },
     "pssrb": {
         "jurisdiction": "ca",
@@ -3756,6 +4433,7 @@ COURT_CODES = {
             "fr": "crtfp",
         },
         "court_id": ["pssrb", "crtfp", "pslrb"],
+        "court_type": "federal tribunal",
     },
     "skfca": {
         "jurisdiction": "sk",
@@ -3767,6 +4445,7 @@ COURT_CODES = {
             "fr": "skfca",
         },
         "court_id": ["sk fca"],
+        "court_type": "provincial tribunal",
     },
     "qcopsq": {
         "jurisdiction": "qc",
@@ -3778,6 +4457,7 @@ COURT_CODES = {
             "fr": "opsq",
         },
         "court_id": ["qccdsexo", "qc opsq"],
+        "court_type": "provincial tribunal",
     },
     "nusec": {
         "jurisdiction": "nu",
@@ -3790,6 +4470,7 @@ COURT_CODES = {
             "fr": "nusec",
         },
         "court_id": ["nu sec"],
+        "court_type": "territorial tribunal",
     },
     "qccfp": {
         "jurisdiction": "qc",
@@ -3798,6 +4479,7 @@ COURT_CODES = {
         },
         "url": {"en": "qccfp"},
         "court_id": ["qccfp", "qc cfp", "qc mff", "qc psc"],
+        "court_type": "provincial tribunal",
     },
     "nlla": {
         "jurisdiction": "nl",
@@ -3810,6 +4492,7 @@ COURT_CODES = {
             "fr": "nlla",
         },
         "court_id": ["nl la"],
+        "court_type": "provincial tribunal",
     },
     "onmb": {
         "jurisdiction": "on",
@@ -3822,6 +4505,7 @@ COURT_CODES = {
             "fr": "ontaal",
         },
         "court_id": ["on lpat", "on taal"],
+        "court_type": "provincial tribunal",
     },
     "caiiroc": {
         "jurisdiction": "ca",
@@ -3834,6 +4518,7 @@ COURT_CODES = {
             "fr": "ocrcvm",
         },
         "court_id": ["iroc", "ocrcvm", "ca ocrcvm", "ca iiroc", "iiroc"],
+        "court_type": "federal tribunal",
     },
     "nscps": {
         "jurisdiction": "ns",
@@ -3845,6 +4530,7 @@ COURT_CODES = {
             "fr": "nscps",
         },
         "court_id": ["ns cps"],
+        "court_type": "provincial tribunal",
     },
     "abtsb": {
         "jurisdiction": "ab",
@@ -3856,6 +4542,7 @@ COURT_CODES = {
             "fr": "abtsb",
         },
         "court_id": ["abtsb"],
+        "court_type": "provincial tribunal",
     },
     "onsbt": {
         "jurisdiction": "on",
@@ -3868,6 +4555,7 @@ COURT_CODES = {
             "fr": "onsbt",
         },
         "court_id": ["onsbt"],
+        "court_type": "provincial tribunal",
     },
     "exchc-cech": {
         "jurisdiction": "ca",
@@ -3880,6 +4568,7 @@ COURT_CODES = {
             "fr": "ech",
         },
         "court_id": ["ca céc", "ca exc"],
+        "court_type": "federal",
     },
     "onccb": {
         "jurisdiction": "on",
@@ -3892,6 +4581,7 @@ COURT_CODES = {
             "fr": "onccb",
         },
         "court_id": ["on ccb"],
+        "court_type": "provincial tribunal",
     },
     "iccrc": {
         "jurisdiction": "ca",
@@ -3904,6 +4594,7 @@ COURT_CODES = {
             "fr": "ccic",
         },
         "court_id": ["ccic", "cicc", "iccrc", "crcic"],
+        "court_type": "federal tribunal",
     },
     "onpeht": {
         "jurisdiction": "on",
@@ -3916,6 +4607,7 @@ COURT_CODES = {
             "fr": "onpeht",
         },
         "court_id": ["on peht"],
+        "court_type": "provincial tribunal",
     },
     "qcodq": {
         "jurisdiction": "qc",
@@ -3927,6 +4619,7 @@ COURT_CODES = {
             "fr": "qcodq",
         },
         "court_id": ["qccdodq", "qc odq"],
+        "court_type": "provincial tribunal",
     },
     "ablcb": {
         "jurisdiction": "ab",
@@ -3938,6 +4631,7 @@ COURT_CODES = {
             "fr": "ablcb",
         },
         "court_id": ["ablcb", "ab lcb"],
+        "court_type": "provincial tribunal",
     },
     "psst": {
         "jurisdiction": "ca",
@@ -3950,6 +4644,7 @@ COURT_CODES = {
             "fr": "psst",
         },
         "court_id": ["psst", "tdfp"],
+        "court_type": "federal tribunal",
     },
     "onipc": {
         "jurisdiction": "on",
@@ -3962,6 +4657,7 @@ COURT_CODES = {
             "fr": "onipc",
         },
         "court_id": ["on ipc"],
+        "court_type": "provincial tribunal",
     },
     "onlt": {
         "jurisdiction": "on",
@@ -3974,6 +4670,7 @@ COURT_CODES = {
             "fr": "onlt",
         },
         "court_id": ["on lt"],
+        "court_type": "provincial tribunal",
     },
     "qccmq": {
         "jurisdiction": "qc",
@@ -3985,6 +4682,7 @@ COURT_CODES = {
             "fr": "qccmq",
         },
         "court_id": ["qc cm"],
+        "court_type": "provincial tribunal",
     },
     "onacrb": {
         "jurisdiction": "on",
@@ -3997,6 +4695,7 @@ COURT_CODES = {
             "fr": "oncesa",
         },
         "court_id": ["onacrb", "on acrb", "on cesa", "oncesa"],
+        "court_type": "provincial tribunal",
     },
     "bcsre": {
         "jurisdiction": "bc",
@@ -4008,6 +4707,7 @@ COURT_CODES = {
             "fr": "bcsre",
         },
         "court_id": ["bcsre"],
+        "court_type": "provincial tribunal",
     },
     "bccrt": {
         "jurisdiction": "bc",
@@ -4019,6 +4719,7 @@ COURT_CODES = {
             "fr": "bccrt",
         },
         "court_id": ["bccrt"],
+        "court_type": "provincial tribunal",
     },
     "qcadmaq": {
         "jurisdiction": "qc",
@@ -4030,6 +4731,7 @@ COURT_CODES = {
             "fr": "qcadmaq",
         },
         "court_id": ["qcadmaq", "qccdadma", "qc admaq"],
+        "court_type": "provincial tribunal",
     },
     "onhsarb": {
         "jurisdiction": "on",
@@ -4042,6 +4744,7 @@ COURT_CODES = {
             "fr": "oncarss",
         },
         "court_id": ["on hsarb", "oncarss"],
+        "court_type": "provincial tribunal",
     },
     "onla": {
         "jurisdiction": "on",
@@ -4054,6 +4757,7 @@ COURT_CODES = {
             "fr": "onla",
         },
         "court_id": ["on la"],
+        "court_type": "provincial tribunal",
     },
     "bcctc": {
         "jurisdiction": "bc",
@@ -4065,6 +4769,7 @@ COURT_CODES = {
             "fr": "bcctc",
         },
         "court_id": ["bcctc"],
+        "court_type": "provincial tribunal",
     },
     "absra": {
         "jurisdiction": "ab",
@@ -4076,6 +4781,7 @@ COURT_CODES = {
             "fr": "absra",
         },
         "court_id": ["absra"],
+        "court_type": "provincial tribunal",
     },
     "pcc-cvpc": {
         "jurisdiction": "ca",
@@ -4088,6 +4794,7 @@ COURT_CODES = {
             "fr": "cvpc",
         },
         "court_id": ["pcc", "cvpc"],
+        "court_type": "federal tribunal",
     },
     "absrb": {
         "jurisdiction": "ab",
@@ -4099,6 +4806,7 @@ COURT_CODES = {
             "fr": "absrb",
         },
         "court_id": ["absrb"],
+        "court_type": "provincial tribunal",
     },
     "qcocq": {
         "jurisdiction": "qc",
@@ -4110,6 +4818,7 @@ COURT_CODES = {
             "fr": "qcocq",
         },
         "court_id": ["qc ocq", "qccdchir"],
+        "court_type": "provincial tribunal",
     },
     "qccdppq": {
         "jurisdiction": "qc",
@@ -4121,6 +4830,7 @@ COURT_CODES = {
             "fr": "qccdppq",
         },
         "court_id": ["qc cdppq", "qccdpsed"],
+        "court_type": "provincial tribunal",
     },
     "ytrto": {
         "jurisdiction": "yk",
@@ -4132,6 +4842,7 @@ COURT_CODES = {
             "fr": "ytrto",
         },
         "court_id": ["ytrto"],
+        "court_type": "territorial tribunal",
     },
     "oncpdc": {
         "jurisdiction": "on",
@@ -4144,6 +4855,7 @@ COURT_CODES = {
             "fr": "oncpdc",
         },
         "court_id": ["oncpdc"],
+        "court_type": "provincial tribunal",
     },
     "qcclp": {
         "jurisdiction": "qc",
@@ -4155,6 +4867,7 @@ COURT_CODES = {
             "fr": "qcclp",
         },
         "court_id": ["qcclp", "qc clp"],
+        "court_type": "provincial tribunal",
     },
     "abcgyarb": {
         "jurisdiction": "ab",
@@ -4166,6 +4879,7 @@ COURT_CODES = {
             "fr": "abcgyarb",
         },
         "court_id": ["abcgyarb", "ab cgyarb"],
+        "court_type": "provincial tribunal",
     },
     "qccdomv": {
         "jurisdiction": "qc",
@@ -4177,6 +4891,7 @@ COURT_CODES = {
             "fr": "qccdomv",
         },
         "court_id": ["qccdmv", "qc cdomv"],
+        "court_type": "provincial tribunal",
     },
     "onlst": {
         "jurisdiction": "on",
@@ -4189,6 +4904,7 @@ COURT_CODES = {
             "fr": "ontb",
         },
         "court_id": ["onlsth", "ontbh", "on lst", "onlsta", "onlsap", "onlst", "onlshp"],
+        "court_type": "provincial tribunal",
     },
     "abmgb": {
         "jurisdiction": "ab",
@@ -4200,6 +4916,7 @@ COURT_CODES = {
             "fr": "abmgb",
         },
         "court_id": ["abmgb"],
+        "court_type": "provincial tribunal",
     },
     "cci-tcc": {
         "jurisdiction": "ca",
@@ -4212,6 +4929,7 @@ COURT_CODES = {
             "fr": "cci",
         },
         "court_id": ["cci", "tcc"],
+        "court_type": "federal",
     },
     "nuhrt": {
         "jurisdiction": "nu",
@@ -4224,6 +4942,7 @@ COURT_CODES = {
             "fr": "nuhrt",
         },
         "court_id": ["nhrt"],
+        "court_type": "territorial tribunal",
     },
     "qcotstcfq": {
         "jurisdiction": "qc",
@@ -4235,6 +4954,7 @@ COURT_CODES = {
             "fr": "qcotstcfq",
         },
         "court_id": ["qc otstcfq", "qccdtstcf"],
+        "court_type": "provincial tribunal",
     },
     "onpsgb": {
         "jurisdiction": "on",
@@ -4247,6 +4967,7 @@ COURT_CODES = {
             "fr": "oncgfp",
         },
         "court_id": ["on psgb", "on cgfp"],
+        "court_type": "provincial tribunal",
     },
     "onltb": {
         "jurisdiction": "on",
@@ -4259,6 +4980,7 @@ COURT_CODES = {
             "fr": "oncll",
         },
         "court_id": ["onltb", "on ltb"],
+        "court_type": "provincial tribunal",
     },
     "oncat": {
         "jurisdiction": "on",
@@ -4271,6 +4993,7 @@ COURT_CODES = {
             "fr": "ontasc",
         },
         "court_id": ["oncat", "ontasc"],
+        "court_type": "provincial tribunal",
     },
     "peihrc": {
         "jurisdiction": "pe",
@@ -4283,6 +5006,7 @@ COURT_CODES = {
             "fr": "peicdp",
         },
         "court_id": ["pe hrc"],
+        "court_type": "provincial tribunal",
     },
     "pelrb": {
         "jurisdiction": "pe",
@@ -4294,6 +5018,7 @@ COURT_CODES = {
             "fr": "pelrb",
         },
         "court_id": ["pe lrb"],
+        "court_type": "provincial tribunal",
     },
     "nlipc": {
         "jurisdiction": "nl",
@@ -4305,6 +5030,7 @@ COURT_CODES = {
             "fr": "nlipc",
         },
         "court_id": ["nl ipc"],
+        "court_type": "provincial tribunal",
     },
     "qcagq": {
         "jurisdiction": "qc",
@@ -4316,6 +5042,7 @@ COURT_CODES = {
             "fr": "qcagq",
         },
         "court_id": ["qc agq", "qccdagr"],
+        "court_type": "provincial tribunal",
     },
     "qcoeaq": {
         "jurisdiction": "qc",
@@ -4327,6 +5054,7 @@ COURT_CODES = {
             "fr": "qcoeaq",
         },
         "court_id": ["qc oeaq", "qccdea"],
+        "court_type": "provincial tribunal",
     },
     "ablcsab": {
         "jurisdiction": "ab",
@@ -4338,6 +5066,7 @@ COURT_CODES = {
             "fr": "ablcsab",
         },
         "court_id": ["ablcsab"],
+        "court_type": "provincial tribunal",
     },
     "ohstc": {
         "jurisdiction": "ca",
@@ -4350,6 +5079,7 @@ COURT_CODES = {
             "fr": "tsstc",
         },
         "court_id": ["ohstc", "tsstc"],
+        "court_type": "federal tribunal",
     },
     "cbc": {
         "jurisdiction": "ca",
@@ -4362,6 +5092,7 @@ COURT_CODES = {
             "fr": "cda",
         },
         "court_id": ["cb", "cda", "ca cda", "ca cb"],
+        "court_type": "federal tribunal",
     },
     "qcoagbrn": {
         "jurisdiction": "qc",
@@ -4373,6 +5104,7 @@ COURT_CODES = {
             "fr": "qcoagbrn",
         },
         "court_id": ["qc oagbrn"],
+        "court_type": "provincial tribunal",
     },
     "qccdcm": {
         "jurisdiction": "qc",
@@ -4384,6 +5116,7 @@ COURT_CODES = {
             "fr": "qccdcm",
         },
         "court_id": ["qc cdcm", "qccdmd"],
+        "court_type": "provincial tribunal",
     },
     "qcoaq": {
         "jurisdiction": "qc",
@@ -4395,6 +5128,7 @@ COURT_CODES = {
             "fr": "qcoaq",
         },
         "court_id": ["qc oaq", "qccdac"],
+        "court_type": "provincial tribunal",
     },
     "vrab": {
         "jurisdiction": "ca",
@@ -4406,6 +5140,7 @@ COURT_CODES = {
             "fr": "catacra",
         },
         "court_id": ["ca vrab", "ca tacra"],
+        "court_type": "federal tribunal",
     },
     "cbsc-ccnr": {
         "jurisdiction": "ca",
@@ -4418,6 +5153,7 @@ COURT_CODES = {
             "fr": "ccnr",
         },
         "court_id": ["cbsc", "ccnr"],
+        "court_type": "federal tribunal",
     },
     "qccja": {
         "jurisdiction": "qc",
@@ -4429,6 +5165,7 @@ COURT_CODES = {
             "fr": "qccja",
         },
         "court_id": ["qc cja"],
+        "court_type": "provincial tribunal",
     },
     "qccdopq": {
         "jurisdiction": "qc",
@@ -4440,6 +5177,7 @@ COURT_CODES = {
             "fr": "qccdopq",
         },
         "court_id": ["qc cdopq", "qccdpha"],
+        "court_type": "provincial tribunal",
     },
     "abhraat": {
         "jurisdiction": "ab",
@@ -4451,6 +5189,7 @@ COURT_CODES = {
             "fr": "abhraat",
         },
         "court_id": ["abhraat"],
+        "court_type": "provincial tribunal",
     },
     "aboipc": {
         "jurisdiction": "ab",
@@ -4462,6 +5201,7 @@ COURT_CODES = {
             "fr": "aboipc",
         },
         "court_id": ["ab oipc"],
+        "court_type": "provincial tribunal",
     },
     "nlls": {
         "jurisdiction": "nl",
@@ -4473,6 +5213,7 @@ COURT_CODES = {
             "fr": "nlls",
         },
         "court_id": ["nl ls"],
+        "court_type": "provincial tribunal",
     },
     "csc-scc": {
         "jurisdiction": "ca",
@@ -4485,17 +5226,82 @@ COURT_CODES = {
             "fr": "csc",
         },
         "court_id": ["csc", "scc"],
+        "court_type": "federal appellate",
     },
     "qccdbq": {
         "jurisdiction": "qc",
         "name": {
-            "fr": "Barreau du Québec  Disciplinary Council",
+            "en": "Barreau du Québec Disciplinary Council",
+            "fr": "Conseil de discipline du Barreau du Québec"
         },
         "url": {
             "en": "qccdbq",
             "fr": "qccdbq",
         },
         "court_id": ["qc cdbq", "qccdbq"],
+        "court_type": "provincial tribunal",
+    },
+    "sopf": {
+        "jurisdiction": "ca",
+        "name": {
+            "en": "Ship-source Oil Pollution Fund",
+            "fr": "Caisse d'indemnisation des dommages dus à la pollution par les hydrocarbures causée par les navires",
+        },
+        "url": {
+            "en": "sopf",
+            "fr": "cidphn",
+        },
+        "court_id": ["sopf", "cidphn"],
+        "court_type": "federal tribunal",
+    },
+    "bcegbc": {
+        "jurisdiction": "bc",
+        "name": {
+            "en": "Engineers and Geoscientists British Columbia",
+        },
+        "url": {
+            "en": "bcegbc",
+            "fr": "bcegbc",
+        },
+        "court_id": ["bcegbc", "bceg"],
+        "court_type": "provincial tribunal",
+    },
+    "ntsec": {
+        "jurisdiction": "nt",
+        "name": {
+            "en": "Northwest Territories Securities Office",
+            "fr": "Northwest Territories Securities Office",
+        },
+        "url": {
+            "en": "ntsec",
+            "fr": "ntsec",
+        },
+        "court_id": ["nt sec", "ntsec"],
+        "court_type": "territorial tribunal",
+    },
+    "ntydab": { 
+        "jurisdiction": "nt",
+        "name": {
+            "en": "Yellowknife Development Appeal Board",
+        },
+        "url": {
+            "en": "ntydab",
+            "fr": "ntydab",
+        },
+        "court_id": ["nt ydab", "ntydab"],
+        "court_type": "territorial tribunal",
+    },
+    "qcamp": {
+        "jurisdiction": "qc",
+        "name": {
+            "fr": "Autorité des marchés publics",
+        },
+        "url": {
+            "en": "qcamp",
+            "fr": "qcamp",
+        },
+        "court_id": ["qc amp", "qcamp"],
+        "court_type": "provincial tribunal",
     },
 }
 
@@ -4586,6 +5392,7 @@ COURT_CODE_MAP = [
     ("pslreb", "pslreb"),
     ("crtespf", "pslreb"),
     ("crtefp", "pslreb"),
+    ("fpca", "fpca"),
     ("mbca", "mbca"),
     ("mb ca", "mbca"),
     ("skca", "skca"),
@@ -4732,7 +5539,7 @@ COURT_CODE_MAP = [
     ("yt pslrb", "ytpslrb"),
     ("bchrt", "bchrt"),
     ("bc hrt", "bchrt"),
-    ("nboph", "nbcph"),
+    ("nbcph", "nbcph"),
     ("ahrc", "abhrc"),
     ("ab hrc", "abhrc"),
     ("cact", "cact"),
@@ -4922,6 +5729,7 @@ COURT_CODE_MAP = [
     ("onctcmpao", "onctcmpao"),
     ("bcsp", "bcsp"),
     ("nwt lsb", "ntlsb"),
+    ("ntesa", "ntlsb"),
     ("mbpc", "mbpc"),
     ("mb pc", "mbpc"),
     ("skpc", "skpc"),
@@ -4961,6 +5769,7 @@ COURT_CODE_MAP = [
     ("ntsc", "ntsc"),
     ("nwt sc", "ntsc"),
     ("oncrpo", "oncrpo"),
+    ("onrpdt", "oncrpo"),
     ("nlca", "nlca"),
     ("nl ca", "nlca"),
     ("nfca", "nlca"),
@@ -5001,6 +5810,7 @@ COURT_CODE_MAP = [
     ("qc oarq", "qcoarq"),
     ("qccdarc", "qcoarq"),
     ("mbcpsdc", "mbcpsdc"),
+    ("mb cpsdc", "mbcpsdc"),
     ("forep", "forep"),
     ("nssc", "nssc"),
     ("ns sc", "nssc"),
@@ -5032,6 +5842,7 @@ COURT_CODE_MAP = [
     ("oncaspd", "oncaspd"),
     ("bc wcat", "bcwcat"),
     ("bcogat", "bcogat"),
+    ["bcerat", "bcogat"],
     ("qc cdoiq", "qccdoiq"),
     ("qccding", "qccdoiq"),
     ("nt tadp", "nthrap"),
@@ -5175,4 +5986,12 @@ COURT_CODE_MAP = [
     ("scc", "csc-scc"),
     ("qc cdbq", "qccdbq"),
     ("qccdbq", "qccdbq"),
+    ("sopf", "sopf"),
+    ("cidphn", "sopf"),
+    ("bcegbc", "bcegbc"),
+    ("bceg", "bcegbc"),
+    ("nt sec", "ntsec"),
+    ("nt ydab", "ntydab"),
+    ("qc amp", "qcamp"),
+    ("qcamp", "qcamp"),
 ]

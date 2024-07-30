@@ -7,11 +7,16 @@ import re
 
 from .canlii_constants import (
     COURT_HIERARCHY_CRIMINAL,
+    COURT_HIERARCHY_FEDERAL,
+    COURT_HIERARCHY_TRIBUNAL,
     COURT_CODES,
     COURT_CODE_MAP,
 )
 
 from .utils import canlii_api_call, check_url
+
+
+COMBINED_COURT_HIERARCHY = {**COURT_HIERARCHY_CRIMINAL, **COURT_HIERARCHY_FEDERAL, **COURT_HIERARCHY_TRIBUNAL}
 
 def check_court_code(year, court_code, citation, citation_type, language="en"):
     """
@@ -129,7 +134,8 @@ def canlii_citation_parser(
         DRY function to check the court database ID and return the court level, jurisdiction, and
         court name.
         """
-        court_level = COURT_HIERARCHY_CRIMINAL.get(database_id)
+
+        court_level = COMBINED_COURT_HIERARCHY.get(database_id)
         jurisdiction = COURT_CODES[database_id]["jurisdiction"]
     
         # Default to French for Quebec decisions for now
