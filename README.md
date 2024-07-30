@@ -15,7 +15,7 @@ Version 0.4.x is broadly focused on making the existing program more robust and 
 * Improved documentation
 * Complete list of tribunals to complete court hierarchy and enable future hierarchical analysis
 
-Version 0.4.1 begins by adding more updates to the court level dictionaries and fixing bugs with the existing court codes as they came up. Providing every decision with a court type should enable hierarchical analysis in the future.
+Version 0.4.1 begins by adding more updates to the court level dictionaries and fixing bugs with the existing court codes as they came up. Providing every decision with a court type should enable hierarchical analysis in the future. This version experiments with a few different ways to store and access this information in the canlii_constants.py file, with a winner to be determined at a future date.
 
 ## Metadata
 
