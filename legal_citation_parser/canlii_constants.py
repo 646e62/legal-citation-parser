@@ -195,6 +195,11 @@ COURT_HIERARCHY_TRIBUNAL = {
     "ntllb": "territorial tribunal",
     "ntsec": "territorial tribunal",
     "ntro": "territorial tribunal",
+    "nuipc": "territorial tribunal",
+    "nula": "territorial tribunal",
+    "nuls": "territorial tribunal",
+    "nuhrt": "territorial tribunal",
+    "nusec": "territorial tribunal",
 }
 
 COURT_CODES = {
