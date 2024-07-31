@@ -1,4 +1,4 @@
-# legal_citation_parser v 0.4.1
+# legal_citation_parser v 0.4.2
 Extracts metadata from Canadian legal citations and provides a basic CLI UI for the CanLII API.
 
 Although legal citations are typically short strings, they contain a great deal of information compressed into a relatively small package. This Python module is designed to extract and standardize that data from from legal citation strings. This module can currently handles the following citation types:
@@ -15,7 +15,7 @@ Version 0.4.x is broadly focused on making the existing program more robust and 
 * Improved documentation
 * Complete list of tribunals to complete court hierarchy and enable future hierarchical analysis
 
-Version 0.4.1 begins by adding more updates to the court level dictionaries and fixing bugs with the existing court codes as they came up. Providing every decision with a court type should enable hierarchical analysis in the future. This version experiments with a few different ways to store and access this information in the canlii_constants.py file, with a winner to be determined at a future date.
+Version 0.4.2 ...
 
 ## Metadata
 
@@ -144,7 +144,8 @@ Should produce:
 
 ## v 0.4.1 updates
 
-* 
+* Court leeel dictionaries updated to classify all courts on CanLII
+* Bug fixes and table updates
 
 ## Contributing
 
