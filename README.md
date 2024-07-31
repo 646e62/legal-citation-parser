@@ -144,7 +144,7 @@ Should produce:
 
 ## v 0.4.1 updates
 
-* Court leeel dictionaries updated to classify all courts on CanLII
+* Court level dictionaries updated to classify all courts on CanLII
 * Bug fixes and table updates
 
 ## Contributing
