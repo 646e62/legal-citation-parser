@@ -9,8 +9,8 @@ Although legal citations are typically short strings, they contain a great deal 
 
 Version 0.4.x is broadly focused on making the existing program more robust and user-friendly. Planned improvements include
 
-* QoL improvements to the CanLII API functionality
-* Improved error handling
+* ~~QoL improvements to the CanLII API functionality~~
+* ~~Improved error handling~~
 * More robust testing
 * Improved documentation
 * ~~Complete list of tribunals to complete court hierarchy and enable future hierarchical analysis~~
