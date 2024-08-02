@@ -53,27 +53,34 @@ def check_court_code(year, court_code, citation, citation_type, language="en"):
         else:
             database_id = "cacp"
 
-    # nwttc/nwtsc & ntwytc — defaulting to NTTC for now
-    # Can be addressed with a ping test or the CanLII API later
-    elif court_code == "nwttc":
-        database_id = "nttc"
-    elif court_code == "nwtsc":
-        database_id = "ntsc"
-
-    # qcta/qctaa - default to qcta for now
-    # Can be addressed with a ping test or the CanLII API later
-    elif court_code == "qcta":
-        database_id = "qctacarra"
-
-    # onsc/onsctd - default to onsc for now
-    # Can be addressed with a ping test or the CanLII API later
-    elif court_code == "onsc":
-        database_id = "onsc"
-
     return uid, decision_number, database_id
 
+def generate_uid(year: str, court_level: str, decision_number: str, citation_type: str) -> str:
+    """
+    Generates a unique identifier (UID) for a CanLII case based on the year, court level, and
+    decision number. The UID is used to construct the CanLII URL, as well as for API calls.
+
+    Args:
+        year (str): The year of the decision.
+        court_level (str): The court level abbreviation.
+        decision_number (str): The decision number.
+        citation_type (str): The type of citation to generate.
+
+    Returns:
+        str: The generated unique identifier for the CanLII case.
+    """
+
+    citation = ""
+
+    if citation_type == "canlii":
+        citation = f"{year}canlii{decision_number}"
+    else:
+        citation = f"{year}{court_level}{decision_number}"
+
+    return citation
+
 def canlii_citation_parser(
-    citation_string: str,
+    citation: str,
     language: str = "en",
     metadata: bool = False,
     cited: bool = False,
@@ -84,7 +91,7 @@ def canlii_citation_parser(
     Rules for parsing a CanLII citation string to extract metadata information.
 
     Args:
-        citation_string (str): The CanLII citation string to parse.
+        citation (str): The CanLII citation string to parse.
         include_url (bool): A flag to determine whether to include the CanLII URL in the output.
 
     Returns:
@@ -93,9 +100,6 @@ def canlii_citation_parser(
         jurisdiction, court name, and court level. If `include_url` is True, the dictionary will
         also include the CanLII URL.
     """
-
-    # Remove the " (CanLII)" suffix from the citation string, if present, as it is not part of the
-    # citation itself
 
     def search_right_to_left(pattern, text):
         """
@@ -141,7 +145,31 @@ def canlii_citation_parser(
         return court_level, jurisdiction, court_name
 
 
-    def split_citation(citation_string):
+    def detect_official_reporter(citation):
+        """
+        Single use function to detect and extract the official reporter citation from the atomic
+        citation. This function is used to handle the rare case where the citation contains an
+        official reporter citation in addition to the atomic citation.
+        """
+        OFFICIAL_REPORTER_LIST = [
+            "SCR",
+            "RCS",
+            "CF",
+            "FC",
+        ]
+
+        for reporter in OFFICIAL_REPORTER_LIST:
+            if reporter in citation[1]:
+                official_reporter_citation = citation[-1]
+                citation = citation[0]
+                return official_reporter_citation, citation
+                
+        official_reporter_citation = None
+
+        return official_reporter_citation, citation
+
+
+    def verify_citation_year(citation):
         """
         Absent a very unusually-named court case, the style of cause will always be separated from the
         rest of the citation by a comma, space, a four-digit year, and another space. This single use
@@ -152,7 +180,7 @@ def canlii_citation_parser(
         pattern = r", \d{4} "
         
         # Use the modified search function
-        year_match = search_right_to_left(pattern, citation_string)
+        year_match = search_right_to_left(pattern, citation)
         
         if year_match is None:
             return "Error: citation string must contain a four-digit year followed by a space and an alpha character"
@@ -162,54 +190,45 @@ def canlii_citation_parser(
             return year
 
 
-    citation_string = citation_string.replace(" (CanLII)", "")
-    year = split_citation(citation_string)
-    
-    # Split the citation string into the style of cause and the rest of the citation
-    citation_string = re.split(r", \d{4} ", citation_string)
-    style_of_cause = citation_string[0].replace(".", "")
+    citation = citation.replace(" (CanLII)", "")
+    year = verify_citation_year(citation)
+    split_citation = re.split(r"(, \d{4} )", citation)
+    style_of_cause = split_citation[0].replace(".", "")
+    citation = split_citation[1].replace(", ", "") + split_citation[2]
 
-    # Construct the citation string
-    try:
-        citation = year + " " + citation_string[1]
-    except IndexError:
-        return "Error: citation must contain a court code and decision number"
-
-    # Identify and handle SCR citations
-    if citation and " SCR " in citation:
-        citation = citation.split(", ")
-        scr_citation = citation[1]
-        citation = citation[0]
-    else:
-        scr_citation = None
-
-    # Determine the citation type, if any
-    # Relocate and refactor this code if more citation types are added
+    # Determine the atomic citation type
     if citation and " CanLII " not in citation:
         citation_type = "neutral"
         court_code = citation.split(" ")[1].lower()
-        uid, decision_number, database_id = check_court_code(year, court_code, citation, citation_type, language)
-        # Return an error if the court code is not recognized
-        if uid is None:
-            return f"Error: court code {court_code} not recognized"
-
-    # Catches CanLII citations in obvious cases where the citation type wasn't explicitly stated
     elif citation and " CanLII " in citation:
         citation_type = "canlii"
-        court_code = re.search(r"\(([^)]+)\)", citation)
-        court_code = court_code.group(1).lower()
-        uid, decision_number, database_id = check_court_code(year, court_code, citation, citation_type, language)
-        if uid is None:
-            return f"Error: court code {court_code} not recognized"
+        court_code = re.search(r"\(([^)]+)\)", citation).group(1).lower()
     else:
-        return None
+        return "Error: not a recognized CanLII citation format"
 
-    # Without this code, the function returns the non-compliant string as the style of cause
+    # Construct the citation string
+    try:
+        if ", " in citation:
+            citation = citation.split(", ")
+            official_reporter_citation, citation = detect_official_reporter(citation)
+        
+        else:
+            official_reporter_citation = None
+    
+    except IndexError:
+        return "Error: citation must contain a court code and decision number"
+
+    # Generate the unique identifier, decision number, and database ID
+    uid, decision_number, database_id = check_court_code(year, court_code, citation, citation_type, language)
+   
+    # Return an error if the court code is not recognized
     if uid is None:
-        return None
-
-    # Compile the long URL
-    court_level, jurisdiction, court_name = generate_court_metadata(database_id, language)
+        return f"Error: court code {court_code} not recognized"
+    else:
+        uid = uid.replace(",", "")
+        court_level, jurisdiction, court_name = generate_court_metadata(database_id, language)
+    
+    # Construct the long URL
     long_url = f"https://www.canlii.org/{language}/{jurisdiction}/{database_id}/doc/{year}/{uid}/{uid}.html"
 
 
@@ -219,7 +238,7 @@ def canlii_citation_parser(
         "style_of_cause": style_of_cause,
         "atomic_citation": citation,
         "citation_type": citation_type,
-        "scr_citation": scr_citation,
+        "official_reporter_citation": official_reporter_citation,
         "year": year,
         "court": database_id,
         "decision_number": decision_number,
@@ -269,27 +288,3 @@ def canlii_citation_parser(
         citation_info.update(api_info)
 
     return citation_info
-
-def generate_uid(year: str, court_level: str, decision_number: str, citation_type: str) -> str:
-    """
-    Generates a unique identifier (UID) for a CanLII case based on the year, court level, and
-    decision number. The UID is used to construct the CanLII URL, as well as for API calls.
-
-    Args:
-        year (str): The year of the decision.
-        court_level (str): The court level abbreviation.
-        decision_number (str): The decision number.
-        citation_type (str): The type of citation to generate.
-
-    Returns:
-        str: The generated unique identifier for the CanLII case.
-    """
-
-    citation = ""
-
-    if citation_type == "canlii":
-        citation = f"{year}canlii{decision_number}"
-    else:
-        citation = f"{year}{court_level}{decision_number}"
-
-    return citation
