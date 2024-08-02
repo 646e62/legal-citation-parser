@@ -1,4 +1,4 @@
-# legal_citation_parser v 0.4.1
+# legal_citation_parser v 0.4.2
 Extracts metadata from Canadian legal citations and provides a basic CLI UI for the CanLII API.
 
 Although legal citations are typically short strings, they contain a great deal of information compressed into a relatively small package. This Python module is designed to extract and standardize that data from from legal citation strings. This module can currently handles the following citation types:
@@ -9,13 +9,13 @@ Although legal citations are typically short strings, they contain a great deal 
 
 Version 0.4.x is broadly focused on making the existing program more robust and user-friendly. Planned improvements include
 
-* QoL improvements to the CanLII API functionality
-* Improved error handling
+* ~~QoL improvements to the CanLII API functionality~~
+* ~~Improved error handling~~
 * More robust testing
 * Improved documentation
-* Complete list of tribunals to complete court hierarchy and enable future hierarchical analysis
+* ~~Complete list of tribunals to complete court hierarchy and enable future hierarchical analysis~~
 
-Version 0.4.1 begins by adding more updates to the court level dictionaries and fixing bugs with the existing court codes as they came up. Providing every decision with a court type should enable hierarchical analysis in the future. This version experiments with a few different ways to store and access this information in the canlii_constants.py file, with a winner to be determined at a future date.
+Version 0.4.2 adds additional official reporter recognition from CanLII citations, as well as significant improvements to error handling.
 
 ## Metadata
 
@@ -86,7 +86,7 @@ Should produce:
  'style_of_cause': 'R v Sutherland',
  'atomic_citation': '2022 MBCA 23',
  'citation_type': 'neutral',
- 'scr_citation': None,
+ 'official_reporter_citation': None,
  'year': '2022',
  'court': 'mbca',
  'decision_number': '23',
@@ -115,7 +115,7 @@ Should produce:
  'style_of_cause': 'R v Sutherland',
  'atomic_citation': '2022 MBCA 23',
  'citation_type': 'neutral',
- 'scr_citation': None,
+ 'official_reporter_citation': None,
  'year': '2022',
  'court': 'mbca',
  'decision_number': '23',
@@ -142,9 +142,11 @@ Should produce:
    } 
 ```
 
-## v 0.4.1 updates
+## v 0.4.2 updates
 
-* 
+* Added official reporter functionality, changed the key name from "scr_citation" to "official_reporter_citation" to reflect the change
+* Improved error handling for incorrect citations and CanLII API calls
+* Significant code refactoring throughout the module
 
 ## Contributing
 
@@ -156,4 +158,3 @@ Contributions to improve this module are welcome. You can contribute by:
 ## License
 
 This project is licensed under the GPL 3.0 License - see the [LICENSE](https://github.com/646e62/legal_citation_parser/blob/main/LICENSE) file for details.
-

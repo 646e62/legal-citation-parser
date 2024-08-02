@@ -6,9 +6,6 @@ Rule set for parsing CanLII citations and constructing CanLII URLs, as well as n
 import re
 
 from .canlii_constants import (
-    COURT_HIERARCHY_CRIMINAL,
-    COURT_HIERARCHY_FEDERAL,
-    COURT_HIERARCHY_TRIBUNAL,
     COURT_CODES,
     COURT_CODE_MAP,
 )
@@ -16,9 +13,7 @@ from .canlii_constants import (
 from .utils import canlii_api_call, check_url
 
 
-COMBINED_COURT_HIERARCHY = {**COURT_HIERARCHY_CRIMINAL, **COURT_HIERARCHY_FEDERAL, **COURT_HIERARCHY_TRIBUNAL}
-
-def check_court_code(year, court_code, citation, citation_type, language="en"):
+def check_court_code(year, court_code, uid, language="en"):
     """
     Court code fine-tuning function to ensure consistency in the court code format.
     """
@@ -28,29 +23,19 @@ def check_court_code(year, court_code, citation, citation_type, language="en"):
             database_id = court[1]
             break
     else:
-        return None, None, None
-    # Add error handling for court codes not in the map
-    
-            
-    decision_number = citation.split(" ")[2]
-    uid = generate_uid(year, court_code, decision_number, citation_type)
+        database_id = None
 
-    # Duplicate court_code handling
-    # Current limitations may be fine-tunable with CanLII API access
-    # Corrects for SCC and SCC-l applications by defaulting to SCC
-    if court_code == "scc" or database_id == "csc":
-        database_id = "csc-scc"
-    
-    # Separates "qc cm" citations by year
-    # The QCCMQ database took over "qc cm" after and including 1983, with one exception 
+    # Rule for QCCMQ
+    # The QCCMQ database took over "qc cm" after and including 1983, with one exception
     # (1983canlii2659)
-    elif court_code == "qc cm" and int(year) >= 1983 and uid != "1983canlii2659":
+    # See if this code can be replaced using the new constants rules
+    if court_code == "qc cm" and int(year) >= 1983 and uid != "1983canlii2659":
         database_id = "qccmq"
     elif court_code == "qc cm" and int(year) <= 1983:
         database_id = "qccm"
 
     # cbc/cacp - decide based on language
-    # The "ca cb" court code is used for both the CBC and CACP databases. CBC is an English 
+    # The "ca cb" court code is used for both the CBC and CACP databases. CBC is an English
     # abbreviation for the Copyright Board of Canada, and CACP is the French abbreviation for
     # the Commissaire aux brevets
     elif court_code == "ca cb":
@@ -59,27 +44,213 @@ def check_court_code(year, court_code, citation, citation_type, language="en"):
         else:
             database_id = "cacp"
 
-    # nwttc/nwtsc & ntwytc — defaulting to NTTC for now
-    # Can be addressed with a ping test or the CanLII API later
-    elif court_code == "nwttc":
-        database_id = "nttc"
-    elif court_code == "nwtsc":
-        database_id = "ntsc"
+    return database_id
 
-    # qcta/qctaa - default to qcta for now
-    # Can be addressed with a ping test or the CanLII API later
-    elif court_code == "qcta":
-        database_id = "qctacarra"
 
-    # onsc/onsctd - default to onsc for now
-    # Can be addressed with a ping test or the CanLII API later
-    elif court_code == "onsc":
-        database_id = "onsc"
+def identify_court(database_id, language):
+    """
+    DRY function to check the court database ID and return the court level, jurisdiction, and
+    court name.
+    """
 
-    return uid, decision_number, database_id
+    if database_id:
+        court_level = COURT_CODES[database_id]["court_type"]
+        jurisdiction = COURT_CODES[database_id]["jurisdiction"]
+
+        # Default to French for Quebec decisions for now
+        if jurisdiction == "qc":
+            language = "fr"
+
+        court_name = COURT_CODES[database_id]["name"][language]
+    else:
+        court_level = None
+        jurisdiction = None
+        court_name = None
+
+    return court_level, jurisdiction, court_name
+
+
+def generate_uid(
+    year: str, court_level: str, decision_number: str, citation_type: str
+) -> str:
+    """
+    Generates a unique identifier (UID) for a CanLII case based on the year, court level, and
+    decision number. The UID is used to construct the CanLII URL, as well as for API calls.
+
+    Args:
+        year (str): The year of the decision.
+        court_level (str): The court level abbreviation.
+        decision_number (str): The decision number.
+        citation_type (str): The type of citation to generate.
+
+    Returns:
+        str: The generated unique identifier for the CanLII case.
+    """
+
+    uid = ""
+
+    if citation_type == "canlii":
+        uid = f"{year}canlii{decision_number}"
+    else:
+        uid = f"{year}{court_level}{decision_number}"
+
+    return uid
+
+
+def search_right_to_left(pattern, text):
+    """
+    Single use function to search for a pattern in a string from right to left. Used for the
+    rare case (1% of 1% of cases on a recent test) where the style of cause contains a four-digit
+    number followed by a comma and a space. This function solves this problem by effectively
+    reading the string backwards, searching for the last instance of the pattern.
+
+    This subfunction can be moved to a utility module if it proves useful elsewhere.
+
+    Args:
+        pattern (str): The regex pattern to search for. r", \d{4} " in the canlii_citation_parser
+            function.
+        text (str): The text to search in.
+    """
+
+    matches = re.findall(pattern, text)
+
+    if matches:
+        # Return the last match found
+        last_match = matches[-1]
+        # To find the exact position of the last match:
+        last_pos = text.rfind(last_match)
+        return last_pos, last_match
+    return None
+
+
+def detect_official_reporter(citation):
+    """
+    Single use function to detect and extract the official reporter citation from the atomic
+    citation. This function is used to handle the rare case where the citation contains an
+    official reporter citation in addition to the atomic citation.
+    """
+    OFFICIAL_REPORTER_LIST = [
+        "SCR",
+        "RCS",
+        "CF",
+        "FC",
+        "CMAR",
+        "CACM",
+        "Ex CR",
+    ]
+
+    for reporter in OFFICIAL_REPORTER_LIST:
+        if reporter in citation[1]:
+            official_reporter_citation = citation[-1]
+            citation = citation[0]
+            return official_reporter_citation, citation
+
+    official_reporter_citation = None
+
+    return official_reporter_citation, citation
+
+
+def verify_citation_year(citation):
+    """
+    Absent a very unusually-named court case, the style of cause will always be separated from the
+    rest of the citation by a comma, space, a four-digit year, and another space. This single use
+    function captures the style of cause.
+    """
+
+    # Modified regex pattern to include checking for an alpha character after the year
+    pattern = r", \d{4} "
+
+    # Use the modified search function
+    year_match = search_right_to_left(pattern, citation)
+
+    if year_match is None:
+        year = None
+        return year
+    else:
+        # Extract the year and the character
+        year = year_match[1].replace(", ", "").strip()
+        return year
+
+
+def citation_metadata(year, citation, language="en"):
+    """
+    Infer initial metadata from the citation string.
+    """
+
+    # Determine the citation type and court code
+    if citation and " CanLII " not in citation:
+        citation_type = "neutral"
+        court_code = citation.split(" ")[1].lower()
+    elif citation and " CanLII " in citation:
+        citation_type = "canlii"
+        court_code = re.search(r"\(([^)]+)\)", citation).group(1).lower()
+    else:
+        citation_type = None
+        court_code = None
+        #alert_log.append("Error: citation type not recognized")
+
+    # Identify and separate the official reporter citation from the atomic citation
+    if citation and ", " in citation:
+        citation_components = citation.split(", ")
+        official_reporter_citation, citation = detect_official_reporter(
+            citation_components
+        )
+
+    else:
+        official_reporter_citation = None
+
+    # Extract the decision number and generate the unique identifier
+    if citation:
+        try:
+            decision_number = citation.split(" ")[2]
+        except IndexError:
+            decision_number = None
+            #alert_log.append("Error: decision number not found")
+
+    if court_code and decision_number and citation_type:
+        uid = generate_uid(year, court_code, decision_number, citation_type)
+        uid = uid.replace(",", "")
+        database_id = check_court_code(year, court_code, uid)
+        court_level, jurisdiction, court_name = identify_court(
+            database_id, language
+        )
+    else:
+        uid = None
+        court_level = None
+        jurisdiction = None 
+        court_name = None
+        decision_number = None
+        #alert_log(f"Error: court code {court_code} not recognized")
+
+    return (
+        citation_type,
+        court_code,
+        official_reporter_citation,
+        court_level,
+        jurisdiction,
+        court_name,
+        uid,
+        decision_number,
+    )
+
+
+def separate_citation_elements(citation):
+
+    try:
+        citation = citation.replace(" (CanLII)", "")
+        split_citation = re.split(r"(, \d{4} )", citation)
+        style_of_cause = split_citation[0].replace(".", "")
+        citation = split_citation[1].replace(", ", "") + split_citation[2]
+    except IndexError:
+        style_of_cause = None
+        citation = None
+        #alert_log("Error: citation string must contain a style of cause")
+
+    return style_of_cause, citation
+
 
 def canlii_citation_parser(
-    citation_string: str,
+    citation: str,
     language: str = "en",
     metadata: bool = False,
     cited: bool = False,
@@ -90,7 +261,7 @@ def canlii_citation_parser(
     Rules for parsing a CanLII citation string to extract metadata information.
 
     Args:
-        citation_string (str): The CanLII citation string to parse.
+        citation (str): The CanLII citation string to parse.
         include_url (bool): A flag to determine whether to include the CanLII URL in the output.
 
     Returns:
@@ -100,124 +271,36 @@ def canlii_citation_parser(
         also include the CanLII URL.
     """
 
-    # Remove the " (CanLII)" suffix from the citation string, if present, as it is not part of the
-    # citation itself
+    alert_log = []
+    diagnostic_log = []
 
-    def search_right_to_left(pattern, text):
-        """
-        Single use function to search for a pattern in a string from right to left. Used for the 
-        rare case (1% of 1% of cases on a recent test) where the style of cause contains a four-digit
-        number followed by a comma and a space. This function solves this problem by effectively 
-        reading the string backwards, searching for the last instance of the pattern.
-        
-        This subfunction can be moved to a utility module if it proves useful elsewhere.
+    year = verify_citation_year(citation)
+    style_of_cause, citation = separate_citation_elements(citation)
 
-        Args:
-            pattern (str): The regex pattern to search for. r", \d{4} " in the canlii_citation_parser
-                function.
-            text (str): The text to search in.
-        """
-        
-        matches = re.findall(pattern, text)
-        
-        if matches:
-            # Return the last match found
-            last_match = matches[-1]
-            # To find the exact position of the last match:
-            last_pos = text.rfind(last_match)
-            return last_pos, last_match
-        return None
+    # Generate the bulk of the metadata using the inference function
+    (
+        citation_type,
+        court_code,
+        official_reporter_citation,
+        court_level,
+        jurisdiction,
+        court_name,
+        uid,
+        decision_number,
+    ) = citation_metadata(year, citation)
 
-
-    def generate_court_metadata(database_id, language):
-        """
-        DRY function to check the court database ID and return the court level, jurisdiction, and
-        court name.
-        """
-
-        court_level = COMBINED_COURT_HIERARCHY.get(database_id)
-        jurisdiction = COURT_CODES[database_id]["jurisdiction"]
-    
-        # Default to French for Quebec decisions for now
-        if jurisdiction == "qc":
-            language = "fr"
-        
-        court_name = COURT_CODES[database_id]["name"][language]
-
-        return court_level, jurisdiction, court_name
-
-
-    def split_citation(citation_string):
-        """
-        Absent a very unusually-named court case, the style of cause will always be separated from the
-        rest of the citation by a comma, space, a four-digit year, and another space. This single use
-        function captures the style of cause.
-        """
-
-        # Modified regex pattern to include checking for an alpha character after the year
-        pattern = r", \d{4} "
-        
-        # Use the modified search function
-        year_match = search_right_to_left(pattern, citation_string)
-        
-        if year_match is None:
-            return "Error: citation string must contain a four-digit year followed by a space and an alpha character"
-        else:
-            # Extract the year and the character
-            year = year_match[1].replace(", ", "").strip()
-            return year
-
-
-    citation_string = citation_string.replace(" (CanLII)", "")
-    year = split_citation(citation_string)
-    
-    # Split the citation string into the style of cause and the rest of the citation
-    citation_string = re.split(r", \d{4} ", citation_string)
-    style_of_cause = citation_string[0].replace(".", "")
-
-    # Construct the citation string
-    try:
-        citation = year + " " + citation_string[1]
-    except IndexError:
-        return "Error: citation must contain a court code and decision number"
-
-    # Identify and handle SCR citations
-    if citation and " SCR " in citation:
-        citation = citation.split(", ")
-        scr_citation = citation[1]
-        citation = citation[0]
+    # Verify the court code and generate the database ID if possible
+    if year and court_code and uid:
+        database_id = check_court_code(year, court_code, uid)
     else:
-        scr_citation = None
+        database_id = None
+        #alert_log.append("Error: year not found")
 
-    # Determine the citation type, if any
-    # Relocate and refactor this code if more citation types are added
-    if citation and " CanLII " not in citation:
-        citation_type = "neutral"
-        court_code = citation.split(" ")[1].lower()
-        uid, decision_number, database_id = check_court_code(year, court_code, citation, citation_type, language)
-        # Return an error if the court code is not recognized
-        if uid is None:
-            return f"Error: court code {court_code} not recognized"
-
-    # Catches CanLII citations in obvious cases where the citation type wasn't explicitly stated
-    elif citation and " CanLII " in citation:
-        citation_type = "canlii"
-        court_code = re.search(r"\(([^)]+)\)", citation)
-        court_code = court_code.group(1).lower()
-        uid, decision_number, database_id = check_court_code(year, court_code, citation, citation_type, language)
-        if uid is None:
-            return f"Error: court code {court_code} not recognized"
+    # Construct the long URL
+    if year and language and jurisdiction and database_id and year and uid:
+        long_url = f"https://www.canlii.org/{language}/{jurisdiction}/{database_id}/doc/{year}/{uid}/{uid}.html"
     else:
-        return None
-
-    # Without this code, the function returns the non-compliant string as the style of cause
-    if uid is None:
-        return None
-
-    # Compile the long URL
-    court_level, jurisdiction, court_name = generate_court_metadata(database_id, language)
-    long_url = f"https://www.canlii.org/{language}/{jurisdiction}/{database_id}/doc/{year}/{uid}/{uid}.html"
-
+        long_url = None
 
     # Construct the citation information dictionary
     citation_info = {
@@ -225,7 +308,7 @@ def canlii_citation_parser(
         "style_of_cause": style_of_cause,
         "atomic_citation": citation,
         "citation_type": citation_type,
-        "scr_citation": scr_citation,
+        "official_reporter_citation": official_reporter_citation,
         "year": year,
         "court": database_id,
         "decision_number": decision_number,
@@ -257,13 +340,12 @@ def canlii_citation_parser(
             else:
                 citation_info["long_url"] = None
 
-
     ## API fine-tuning
     ### Metadata
     if metadata:
         api_info = canlii_api_call(uid, database_id, decision_metadata=True)
         citation_info.update(api_info)
-    
+
     ### Cases cited
     if cited:
         api_info = canlii_api_call(uid, database_id, cases_cited=True)
@@ -275,27 +357,3 @@ def canlii_citation_parser(
         citation_info.update(api_info)
 
     return citation_info
-
-def generate_uid(year: str, court_level: str, decision_number: str, citation_type: str) -> str:
-    """
-    Generates a unique identifier (UID) for a CanLII case based on the year, court level, and
-    decision number. The UID is used to construct the CanLII URL, as well as for API calls.
-
-    Args:
-        year (str): The year of the decision.
-        court_level (str): The court level abbreviation.
-        decision_number (str): The decision number.
-        citation_type (str): The type of citation to generate.
-
-    Returns:
-        str: The generated unique identifier for the CanLII case.
-    """
-
-    citation = ""
-
-    if citation_type == "canlii":
-        citation = f"{year}canlii{decision_number}"
-    else:
-        citation = f"{year}{court_level}{decision_number}"
-
-    return citation
