@@ -23,22 +23,22 @@ def check_court_code(year, court_code, citation, citation_type, language="en"):
             break
     else:
         return None, None, None
-    # Add error handling for court codes not in the map
-    
-            
+
     decision_number = citation.split(" ")[2]
     uid = generate_uid(year, court_code, decision_number, citation_type)
 
-    # Duplicate court_code handling
-    # Current limitations may be fine-tunable with CanLII API access
-    # Corrects for SCC and SCC-l applications by defaulting to SCC
-    if court_code == "scc" or database_id == "csc":
-        database_id = "csc-scc"
-    
-    # Separates "qc cm" citations by year
+        # Return an error if the court code is not recognized
+    if uid is None:
+        return f"Error: court code {court_code} not recognized"
+    else:
+        uid = uid.replace(",", "")
+        court_level, jurisdiction, court_name = generate_court_metadata(database_id, language)
+
+    # Rule for QCCMQ
     # The QCCMQ database took over "qc cm" after and including 1983, with one exception 
     # (1983canlii2659)
-    elif court_code == "qc cm" and int(year) >= 1983 and uid != "1983canlii2659":
+    # See if this code can be replaced using the new constants rules
+    if court_code == "qc cm" and int(year) >= 1983 and uid != "1983canlii2659":
         database_id = "qccmq"
     elif court_code == "qc cm" and int(year) <= 1983:
         database_id = "qccm"
@@ -53,7 +53,24 @@ def check_court_code(year, court_code, citation, citation_type, language="en"):
         else:
             database_id = "cacp"
 
-    return uid, decision_number, database_id
+    return uid, decision_number, database_id, court_level, jurisdiction, court_name
+
+def generate_court_metadata(database_id, language):
+    """
+    DRY function to check the court database ID and return the court level, jurisdiction, and
+    court name.
+    """
+
+    court_level = COURT_CODES[database_id]["court_type"]
+    jurisdiction = COURT_CODES[database_id]["jurisdiction"]
+
+    # Default to French for Quebec decisions for now
+    if jurisdiction == "qc":
+        language = "fr"
+    
+    court_name = COURT_CODES[database_id]["name"][language]
+
+    return court_level, jurisdiction, court_name
 
 def generate_uid(year: str, court_level: str, decision_number: str, citation_type: str) -> str:
     """
@@ -126,25 +143,6 @@ def canlii_citation_parser(
             return last_pos, last_match
         return None
 
-
-    def generate_court_metadata(database_id, language):
-        """
-        DRY function to check the court database ID and return the court level, jurisdiction, and
-        court name.
-        """
-
-        court_level = COURT_CODES[database_id]["court_type"]
-        jurisdiction = COURT_CODES[database_id]["jurisdiction"]
-    
-        # Default to French for Quebec decisions for now
-        if jurisdiction == "qc":
-            language = "fr"
-        
-        court_name = COURT_CODES[database_id]["name"][language]
-
-        return court_level, jurisdiction, court_name
-
-
     def detect_official_reporter(citation):
         """
         Single use function to detect and extract the official reporter citation from the atomic
@@ -156,6 +154,9 @@ def canlii_citation_parser(
             "RCS",
             "CF",
             "FC",
+            "CMAR",
+            "CACM",
+            "Ex CR",
         ]
 
         for reporter in OFFICIAL_REPORTER_LIST:
@@ -219,14 +220,7 @@ def canlii_citation_parser(
         return "Error: citation must contain a court code and decision number"
 
     # Generate the unique identifier, decision number, and database ID
-    uid, decision_number, database_id = check_court_code(year, court_code, citation, citation_type, language)
-   
-    # Return an error if the court code is not recognized
-    if uid is None:
-        return f"Error: court code {court_code} not recognized"
-    else:
-        uid = uid.replace(",", "")
-        court_level, jurisdiction, court_name = generate_court_metadata(database_id, language)
+    uid, decision_number, database_id, court_level, jurisdiction, court_name = check_court_code(year, court_code, citation, citation_type, language)
     
     # Construct the long URL
     long_url = f"https://www.canlii.org/{language}/{jurisdiction}/{database_id}/doc/{year}/{uid}/{uid}.html"
