@@ -44,7 +44,6 @@ def check_court_code(year, court_code, uid, language="en"):
         else:
             database_id = "cacp"
 
-    print(database_id)
     return database_id
 
 
@@ -159,7 +158,6 @@ def verify_citation_year(citation):
     """
 
     # Modified regex pattern to include checking for an alpha character after the year
-    print(citation)
     pattern = r", \d{4} "
 
     # Use the modified search function
@@ -174,7 +172,7 @@ def verify_citation_year(citation):
         return year
 
 
-def infer_metadata(year, citation, language="en"):
+def citation_metadata(year, citation, language="en"):
     """
     Infer initial metadata from the citation string.
     """
@@ -192,18 +190,14 @@ def infer_metadata(year, citation, language="en"):
         #alert_log.append("Error: citation type not recognized")
 
     # Identify and separate the official reporter citation from the atomic citation
-    try:
-        if citation and ", " in citation:
-            citation_components = citation.split(", ")
-            official_reporter_citation, citation = detect_official_reporter(
-                citation_components
-            )
+    if citation and ", " in citation:
+        citation_components = citation.split(", ")
+        official_reporter_citation, citation = detect_official_reporter(
+            citation_components
+        )
 
-        else:
-            official_reporter_citation = None
-
-    except IndexError:
-        return "Error: citation must contain a court code and decision number"
+    else:
+        official_reporter_citation = None
 
     # Extract the decision number and generate the unique identifier
     if citation:
@@ -255,7 +249,6 @@ def separate_citation_elements(citation):
     return style_of_cause, citation
 
 
-
 def canlii_citation_parser(
     citation: str,
     language: str = "en",
@@ -294,7 +287,7 @@ def canlii_citation_parser(
         court_name,
         uid,
         decision_number,
-    ) = infer_metadata(year, citation)
+    ) = citation_metadata(year, citation)
 
     # Verify the court code and generate the database ID if possible
     if year and court_code and uid:

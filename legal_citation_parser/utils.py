@@ -55,13 +55,21 @@ def canlii_api_call(
         jurisdiction, court name, and court level. The dictionary will also include the CanLII URL.
     """
 
-    """
-    if os.getenv("CANLII_API_KEY") is None:
-        print("Please enter your CanLII API key (or blank input to exit):")
-        API_KEY = input()
-        if API_KEY == "":
-            sys.exit()
-    """
+    def check_for_api_error_codes(response: list) -> None:
+        """
+        Checks for common error codes in the CanLII API response.
+
+        Args:
+            response (dict): The response from the CanLII API.
+        """
+        # Check to see if the response has an "error" key in it
+        print(response)
+        if "error" in response:
+            print("True")
+            return True
+        else:
+            print("False")
+            return False
 
     load_dotenv()
     if os.getenv("CANLII_API_KEY") is None:
@@ -77,42 +85,61 @@ def canlii_api_call(
         metadata_url = f"https://api.canlii.org/v1/caseBrowse/{language}/{database_id}/{case_id}/?api_key={API_KEY}"
         response = requests.get(metadata_url, timeout=5)
         case_metadata = response.json()
-        metadata_api_info["short_url"] = case_metadata["url"]
-        metadata_api_info["language"] = case_metadata["language"]
-        metadata_api_info["docket_number"] = case_metadata["docketNumber"]
-        metadata_api_info["decision_date"] = case_metadata["decisionDate"]
-        metadata_api_info["keywords"] = case_metadata.get("keywords", "").split(" — ") if case_metadata.get("keywords") else []
-        metadata_api_info["categories"] = case_metadata.get("topics", "").split(" — ") if case_metadata.get("topics") else []
+        if type(case_metadata) == list and check_for_api_error_codes(case_metadata[0]):
+            return case_metadata
+        else:
+            metadata_api_info["short_url"] = case_metadata["url"]
+            metadata_api_info["language"] = case_metadata["language"]
+            metadata_api_info["docket_number"] = case_metadata["docketNumber"]
+            metadata_api_info["decision_date"] = case_metadata["decisionDate"]
+            metadata_api_info["keywords"] = case_metadata.get("keywords", "").split(" — ") if case_metadata.get("keywords") else []
+            metadata_api_info["categories"] = case_metadata.get("topics", "").split(" — ") if case_metadata.get("topics") else []
 
 
     if cases_cited:
         cited_cases_url = f"https://api.canlii.org/v1/caseCitator/{language}/{database_id}/{case_id}/citedCases?api_key={API_KEY}"
         response = requests.get(cited_cases_url, timeout=5)
         cited_cases = response.json()
-        metadata_api_info["cited_cases"] = cited_cases
+
+        if type(case_metadata) == list and check_for_api_error_codes(cited_cases):
+            return cited_cases
+        else:
+            metadata_api_info["cited_cases"] = cited_cases
 
     if cases_citing:
         citing_cases_url = f"https://api.canlii.org/v1/caseCitator/{language}/{database_id}/{case_id}/citingCases?api_key={API_KEY}"
         response = requests.get(citing_cases_url, timeout=5)
         citing_cases = response.json()
-        metadata_api_info["citing_cases"] = citing_cases
+
+        if type(case_metadata) == list and check_for_api_error_codes(citing_cases):
+            return citing_cases
+        else:
+            metadata_api_info["citing_cases"] = citing_cases
 
     # Placeholder for legislation metadata
     if legislation_metadata:
         metadata_url = f"https://api.canlii.org/v1/legislationBrowse/{language}/{database_id}/{legislation_id}/?api_key={API_KEY}"
         response = requests.get(metadata_url, timeout=5)
         legislation_metadata = response.json()
-        metadata_api_info["database_id"] = legislation_metadata["databaseId"]
-        metadata_api_info["legislation_id"] = legislation_metadata["legislationId"]
-        metadata_api_info["title"] = legislation_metadata["title"]
-        metadata_api_info["type"] = legislation_metadata["type"]
-        metadata_api_info["citation"] = legislation_metadata["citation"]
+
+        if type(case_metadata) == list and check_for_api_error_codes(legislation_metadata):
+            return legislation_metadata
+        else:
+            metadata_api_info["database_id"] = legislation_metadata["databaseId"]
+            metadata_api_info["legislation_id"] = legislation_metadata["legislationId"]
+            metadata_api_info["title"] = legislation_metadata["title"]
+            metadata_api_info["type"] = legislation_metadata["type"]
+            metadata_api_info["citation"] = legislation_metadata["citation"]
 
     if canlii_database:
         database_url = f"https://api.canlii.org/v1/caseBrowse/{language}/?api_key={API_KEY}"
         response = requests.get(database_url, timeout=5)
         database_info = response.json()
-        metadata_api_info["database"] = database_info
+
+        if type(case_metadata) == list and check_for_api_error_codes(database_info):
+            return database_info
+        else:
+            metadata_api_info["database"] = database_info
 
     return metadata_api_info
 
