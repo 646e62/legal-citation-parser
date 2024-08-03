@@ -317,7 +317,7 @@ def canlii_citation_parser(
     metadata: bool = False,
     cited: bool = False,
     citing: bool = False,
-    verify_url: bool = False,
+    verify_url: bool = True,
 ) -> dict:
     """
     Rules for parsing a CanLII citation string to extract metadata information.
