@@ -379,6 +379,7 @@ def canlii_citation_parser(
         "court_name": court_name,
         "court_level": court_level,
         "long_url": long_url,
+        "url_verified": False,
     }
 
     # Kwargs
@@ -387,6 +388,7 @@ def canlii_citation_parser(
     ### Long URL verification
     if verify_url:
         if check_url(long_url):
+            citation_info["url_verified"] = True
             print("URL is valid")
             pass
         else:
@@ -399,8 +401,10 @@ def canlii_citation_parser(
             alt_url = f"https://www.canlii.org/{alt_language}/{jurisdiction}/{database_id}/doc/{year}/{uid}/{uid}.html"
             if check_url(alt_url):
                 citation_info["long_url"] = alt_url
+                citation_info["url_verified"] = True
                 print("Alt URL is valid")
             else:
+                citation_info["url_verified"] = False
                 citation_info["long_url"] = None
 
     ## API fine-tuning
