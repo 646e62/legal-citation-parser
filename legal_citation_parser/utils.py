@@ -145,6 +145,22 @@ def canlii_api_call(
 
 
 def create_citation_database():
+    """
+    Creates a SQLite database to store the citation results.
+
+    The database will have three tables:
+
+    1. results: Contains the main citation information, including the style of cause, atomic citation,
+    citation type, SCR citation, year, court, decision number, jurisdiction, court name, court level,
+    long URL, short URL, language, docket number, and decision date.
+
+    2. keywords: Contains the keywords associated with each citation. Each keyword is linked to a
+    citation using the citation's unique identifier (uid).
+
+    3. categories: Contains the categories associated with each citation. Each category is linked to a
+    citation using the citation's unique identifier (uid).
+    """
+
     conn = sqlite3.connect('results.db')
     c = conn.cursor()
 
@@ -194,6 +210,21 @@ def create_citation_database():
 import sqlite3
 
 def insert_data(data, update_existing=False):
+    """
+    Inserts citation data into the SQLite database.
+
+    Args:
+        data (dict): A dictionary containing the citation data to insert.
+        update_existing (bool): Whether to update existing records if the unique identifier (uid) already exists
+        in the database.
+
+    The data dictionary should contain the following keys:
+    - uid
+    - style_of_cause
+    - atomic_citation
+
+    """
+
     conn = sqlite3.connect('results.db')
     c = conn.cursor()
 
@@ -245,9 +276,15 @@ from dotenv import load_dotenv, set_key, find_dotenv
 
 def set_api_key_env_var():
     """
-    Prompts the user to enter an API key and sets it as an environment variable.
-    It saves the environment variable to a .env file for persistence across sessions.
+    Sets the CanLII API key as an environment variable.
+
+    If the API key is not already set, the user will be prompted to enter it. The API key will be saved
+    to the .env file for persistence.
+
+    Returns:
+        str: The CanLII API key.
     """
+
     # Load existing environment variables from .env file if available
     dotenv_path = find_dotenv()
     load_dotenv(dotenv_path)
