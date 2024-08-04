@@ -205,9 +205,9 @@ Should produce:
 
  ```python
  >>> citation.uid
- 2022mbca23
+ '2022mbca23'
  >>> citation.court_level
- provincial appellate
+ 'provincial appellate'
  >>> citation.keywords
  ['Criminal law', 'Murder', 'Second degree murder', 'Evidence', 'Admissibility']
  ```
