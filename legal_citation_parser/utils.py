@@ -3,6 +3,7 @@
 import requests
 import os
 import sys
+import time
 import sqlite3
 from dotenv import load_dotenv, set_key, find_dotenv
 
@@ -39,6 +40,7 @@ class CanLIIAPI:
         metadata_api_info = {}
 
         if decision_metadata:
+            time.sleep(0.5)  # Introduce a 2-second delay to avoid rate limiting
             metadata_url = f"https://api.canlii.org/v1/caseBrowse/{language}/{database_id}/{case_id}/?api_key={API_KEY}"
             response = requests.get(metadata_url, timeout=5)
             case_metadata = response.json()
@@ -55,34 +57,37 @@ class CanLIIAPI:
             metadata_api_info["categories"] = case_metadata.get("topics", "").split(" — ") if case_metadata.get("topics") else []
 
         if cases_cited:
+            time.sleep(0.5)
             cited_cases_url = f"https://api.canlii.org/v1/caseCitator/{language}/{database_id}/{case_id}/citedCases?api_key={API_KEY}"
             response = requests.get(cited_cases_url, timeout=5)
             cited_cases = response.json()
 
             if type(cited_cases) == list and CanLIIAPI.check_for_api_error_codes(cited_cases):
-                metadata_api_info["error"] = case_metadata[0]["message"]
+                metadata_api_info["error"] = cited_cases[0]["message"]
                 return cited_cases
             
             metadata_api_info["cited_cases"] = cited_cases
 
         if cases_citing:
+            time.sleep(0.5)
             citing_cases_url = f"https://api.canlii.org/v1/caseCitator/{language}/{database_id}/{case_id}/citingCases?api_key={API_KEY}"
             response = requests.get(citing_cases_url, timeout=5)
             citing_cases = response.json()
 
             if type(citing_cases) == list and CanLIIAPI.check_for_api_error_codes(citing_cases):
-                metadata_api_info["error"] = case_metadata[0]["message"]
+                metadata_api_info["error"] = citing_cases[0]["message"]
                 return citing_cases
             
             metadata_api_info["citing_cases"] = citing_cases
 
         if canlii_database:
+            time.sleep(0.5)
             database_url = f"https://api.canlii.org/v1/caseBrowse/{language}/?api_key={API_KEY}"
             response = requests.get(database_url, timeout=5)
             database_info = response.json()
 
             if type(database_info) == list and CanLIIAPI.check_for_api_error_codes(database_info):
-                metadata_api_info["error"] = case_metadata[0]["message"]
+                metadata_api_info["error"] = database_info[0]["message"]
                 return database_info
             
             metadata_api_info["database"] = database_info
