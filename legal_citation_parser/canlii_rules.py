@@ -199,7 +199,7 @@ class CanLIICitationParser:
         else:
             long_url = None
 
-        citation_info = ParsedCitation(
+        citation_info = Citation(
             uid=uid,
             style_of_cause=style_of_cause,
             atomic_citation=atomic_citation,
@@ -235,7 +235,7 @@ class CanLIICitationParser:
 
 # parsed_citation.py
 
-class ParsedCitation:
+class Citation:
     def __init__(self, uid, style_of_cause, atomic_citation, citation_type, 
                  official_reporter_citation, year, court, decision_number, 
                  jurisdiction, court_name, court_level, long_url, 
@@ -265,7 +265,7 @@ class ParsedCitation:
         self.error = error
 
     def __repr__(self):
-        return f"<ParsedCitation: {self.style_of_cause} ({self.year})>"
+        return f"<Citation: {self.style_of_cause} ({self.year})>"
     
     def __str__(self):
         return f"{self.style_of_cause} ({self.year})"
