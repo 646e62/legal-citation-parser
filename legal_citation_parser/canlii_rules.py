@@ -15,9 +15,23 @@ from .utils import canlii_api_call, check_url
 
 def check_court_code(year, court_code, uid, language="en"):
     """
-    Court code fine-tuning function to ensure consistency in the court code format.
+    Check the court code to determine whether it is a valid CanLII court code. If the court code
+    is valid, determine whether it runs into any exceptions. Return the correct database ID.
+    
+    If the court code is not valid, return None.
+
+    Args:
+        year (str): The year of the decision. Used to check for an obscure exception.
+        court_code (str): The court code of the decision.
+        uid (str): The unique identifier of the decision. Used to check for an obscure exception.
+        language (str): The language of the decision. Used to check for an obscure exception.
+
+    Returns:
+        str: The database ID of the court code.
     """
 
+    # Check the court code against the COURT_CODE_MAP and return the database ID
+    # If the court code is not found, return None
     for court in COURT_CODE_MAP:
         if court_code == court[0]:
             database_id = court[1]
@@ -25,10 +39,8 @@ def check_court_code(year, court_code, uid, language="en"):
     else:
         database_id = None
 
-    # Rule for QCCMQ
     # The QCCMQ database took over "qc cm" after and including 1983, with one exception
     # (1983canlii2659)
-    # See if this code can be replaced using the new constants rules
     if court_code == "qc cm" and int(year) >= 1983 and uid != "1983canlii2659":
         database_id = "qccmq"
     elif court_code == "qc cm" and int(year) <= 1983:
@@ -47,10 +59,18 @@ def check_court_code(year, court_code, uid, language="en"):
     return database_id
 
 
-def identify_court(database_id, language):
+def identify_court(database_id: str, language: str) -> tuple:
     """
-    DRY function to check the court database ID and return the court level, jurisdiction, and
-    court name.
+    Identify the court level, jurisdiction, and court name based on the database ID.
+
+    Args:
+        database_id (str): The database ID of the court code.
+        language (str): The language of the decision.
+
+    Returns:
+        str: The court level of the decision.
+        str: The jurisdiction of the decision.
+        str: The court name of the decision.
     """
 
     if database_id:
@@ -97,7 +117,7 @@ def generate_uid(
     return uid
 
 
-def search_right_to_left(pattern, text):
+def search_right_to_left(pattern: str, text: str) -> tuple:
     """
     Single use function to search for a pattern in a string from right to left. Used for the
     rare case (1% of 1% of cases on a recent test) where the style of cause contains a four-digit
@@ -123,11 +143,18 @@ def search_right_to_left(pattern, text):
     return None
 
 
-def detect_official_reporter(citation):
+def detect_official_reporter(citation: list) -> tuple:
     """
-    Single use function to detect and extract the official reporter citation from the atomic
-    citation. This function is used to handle the rare case where the citation contains an
-    official reporter citation in addition to the atomic citation.
+    Detect the official reporter citation in the citation string. The official reporter citation
+    is typically the last element in the citation string, but there are exceptions. This function
+    captures the official reporter citation and separates it from the rest of the citation.
+
+    Args:
+        citation (list): The citation string split into components.
+
+    Returns:
+        official_reporter_citation (str): The official reporter citation.
+        citation (str): The rest of the citation.
     """
     OFFICIAL_REPORTER_LIST = [
         "SCR",
@@ -150,11 +177,16 @@ def detect_official_reporter(citation):
     return official_reporter_citation, citation
 
 
-def verify_citation_year(citation):
+def verify_citation_year(citation: str) -> str:
     """
-    Absent a very unusually-named court case, the style of cause will always be separated from the
-    rest of the citation by a comma, space, a four-digit year, and another space. This single use
-    function captures the style of cause.
+    Verify the year of the citation by searching for a four-digit number followed by a comma and
+    space. This function is used to extract the year from the citation string.
+
+    Args:
+        citation (str): The citation string to parse.
+
+    Returns:
+        str: The year of the citation.
     """
 
     # Modified regex pattern to include checking for an alpha character after the year
@@ -172,9 +204,27 @@ def verify_citation_year(citation):
         return year
 
 
-def citation_metadata(year, citation, language="en"):
+def citation_metadata(year: str, citation: str, language: str ="en") -> tuple:
     """
-    Infer initial metadata from the citation string.
+    Extract metadata information from the citation string. This function is used to infer the
+    citation type, court code, official reporter citation, court level, jurisdiction, court name,
+    and unique identifier (UID) from the citation string.
+
+    Args:
+        year (str): The year of the decision.
+        citation (str): The citation string to parse.
+        language (str): The language of the decision.
+
+    Returns:
+        citation_type (str): The type of citation (neutral or CanLII).
+        court_code (str): The court code of the decision.
+        official_reporter_citation (str): The official reporter citation.
+        court_level (str): The court level of the decision.
+        jurisdiction (str): The jurisdiction of the decision.
+        court_name (str): The name of the court.
+        uid (str): The unique identifier of the decision.
+        decision_number (str): The decision number.
+        citation (str): The atomic citation
     """
 
     # Determine the citation type and court code
@@ -207,6 +257,7 @@ def citation_metadata(year, citation, language="en"):
             decision_number = None
             #alert_log.append("Error: decision number not found")
 
+    # Generate the unique identifier and identify the court level, jurisdiction, and court name
     if court_code and decision_number and citation_type:
         uid = generate_uid(year, court_code, decision_number, citation_type)
         uid = uid.replace(",", "")
@@ -231,10 +282,21 @@ def citation_metadata(year, citation, language="en"):
         court_name,
         uid,
         decision_number,
+        citation
     )
 
 
-def separate_citation_elements(citation):
+def separate_citation_elements(citation: str) -> tuple:
+    """
+    Separate the style of cause from the rest of the citation.
+
+    Args:
+        citation (str): The citation string to parse.
+
+    Returns:
+        style_of_cause (str): The style of cause.
+        citation (str): The rest of the citation.
+    """
 
     try:
         citation = citation.replace(" (CanLII)", "")
@@ -287,6 +349,7 @@ def canlii_citation_parser(
         court_name,
         uid,
         decision_number,
+        atomic_citation
     ) = citation_metadata(year, citation)
 
     # Verify the court code and generate the database ID if possible
@@ -306,7 +369,7 @@ def canlii_citation_parser(
     citation_info = {
         "uid": uid,
         "style_of_cause": style_of_cause,
-        "atomic_citation": citation,
+        "atomic_citation": atomic_citation,
         "citation_type": citation_type,
         "official_reporter_citation": official_reporter_citation,
         "year": year,
@@ -316,6 +379,7 @@ def canlii_citation_parser(
         "court_name": court_name,
         "court_level": court_level,
         "long_url": long_url,
+        "url_verified": False,
     }
 
     # Kwargs
@@ -324,6 +388,7 @@ def canlii_citation_parser(
     ### Long URL verification
     if verify_url:
         if check_url(long_url):
+            citation_info["url_verified"] = True
             print("URL is valid")
             pass
         else:
@@ -336,8 +401,11 @@ def canlii_citation_parser(
             alt_url = f"https://www.canlii.org/{alt_language}/{jurisdiction}/{database_id}/doc/{year}/{uid}/{uid}.html"
             if check_url(alt_url):
                 citation_info["long_url"] = alt_url
+                citation_info["url_verified"] = True
                 print("Alt URL is valid")
             else:
+                print("Unable to verify URL")
+                citation_info["url_verified"] = False
                 citation_info["long_url"] = None
 
     ## API fine-tuning

@@ -20,7 +20,6 @@ def check_url(url: str) -> str:
     Returns:
         str: The URL if it is valid, otherwise None.
     """
-
     try:
         response = requests.get(url, timeout=5)
 
@@ -65,10 +64,8 @@ def canlii_api_call(
         # Check to see if the response has an "error" key in it
         print(response)
         if "error" in response:
-            print("True")
             return True
         else:
-            print("False")
             return False
 
     load_dotenv()
@@ -101,7 +98,7 @@ def canlii_api_call(
         response = requests.get(cited_cases_url, timeout=5)
         cited_cases = response.json()
 
-        if type(case_metadata) == list and check_for_api_error_codes(cited_cases):
+        if type(cited_cases) == list and check_for_api_error_codes(cited_cases):
             return cited_cases
         else:
             metadata_api_info["cited_cases"] = cited_cases
@@ -111,7 +108,7 @@ def canlii_api_call(
         response = requests.get(citing_cases_url, timeout=5)
         citing_cases = response.json()
 
-        if type(case_metadata) == list and check_for_api_error_codes(citing_cases):
+        if type(citing_cases) == list and check_for_api_error_codes(citing_cases):
             return citing_cases
         else:
             metadata_api_info["citing_cases"] = citing_cases
@@ -122,7 +119,7 @@ def canlii_api_call(
         response = requests.get(metadata_url, timeout=5)
         legislation_metadata = response.json()
 
-        if type(case_metadata) == list and check_for_api_error_codes(legislation_metadata):
+        if type(legislation_metadata) == list and check_for_api_error_codes(legislation_metadata):
             return legislation_metadata
         else:
             metadata_api_info["database_id"] = legislation_metadata["databaseId"]
@@ -136,7 +133,7 @@ def canlii_api_call(
         response = requests.get(database_url, timeout=5)
         database_info = response.json()
 
-        if type(case_metadata) == list and check_for_api_error_codes(database_info):
+        if type(database_info) == list and check_for_api_error_codes(database_info):
             return database_info
         else:
             metadata_api_info["database"] = database_info
@@ -145,6 +142,22 @@ def canlii_api_call(
 
 
 def create_citation_database():
+    """
+    Creates a SQLite database to store the citation results.
+
+    The database will have three tables:
+
+    1. results: Contains the main citation information, including the style of cause, atomic citation,
+    citation type, SCR citation, year, court, decision number, jurisdiction, court name, court level,
+    long URL, short URL, language, docket number, and decision date.
+
+    2. keywords: Contains the keywords associated with each citation. Each keyword is linked to a
+    citation using the citation's unique identifier (uid).
+
+    3. categories: Contains the categories associated with each citation. Each category is linked to a
+    citation using the citation's unique identifier (uid).
+    """
+
     conn = sqlite3.connect('results.db')
     c = conn.cursor()
 
@@ -194,6 +207,21 @@ def create_citation_database():
 import sqlite3
 
 def insert_data(data, update_existing=False):
+    """
+    Inserts citation data into the SQLite database.
+
+    Args:
+        data (dict): A dictionary containing the citation data to insert.
+        update_existing (bool): Whether to update existing records if the unique identifier (uid) already exists
+        in the database.
+
+    The data dictionary should contain the following keys:
+    - uid
+    - style_of_cause
+    - atomic_citation
+
+    """
+
     conn = sqlite3.connect('results.db')
     c = conn.cursor()
 
@@ -245,9 +273,15 @@ from dotenv import load_dotenv, set_key, find_dotenv
 
 def set_api_key_env_var():
     """
-    Prompts the user to enter an API key and sets it as an environment variable.
-    It saves the environment variable to a .env file for persistence across sessions.
+    Sets the CanLII API key as an environment variable.
+
+    If the API key is not already set, the user will be prompted to enter it. The API key will be saved
+    to the .env file for persistence.
+
+    Returns:
+        str: The CanLII API key.
     """
+
     # Load existing environment variables from .env file if available
     dotenv_path = find_dotenv()
     load_dotenv(dotenv_path)
