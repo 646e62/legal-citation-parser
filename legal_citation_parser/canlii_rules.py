@@ -4,8 +4,17 @@ import re
 from .canlii_constants import COURT_CODES, COURT_CODE_MAP
 from .utils import Utility, CanLIIAPI
 
+
 class CanLIICitationParser:
-    def __init__(self, citation, language="en", metadata=False, cited=False, citing=False, verify_url=False):
+    def __init__(
+        self,
+        citation: str,
+        language ="en",
+        metadata=False,
+        cited=False,
+        citing=False,
+        verify_url=False,
+    ) -> None:
         self.citation = citation
         self.language = language
         self.metadata = metadata
@@ -15,7 +24,19 @@ class CanLIICitationParser:
         self.alert_log = []
         self.diagnostic_log = []
 
-    def check_court_code(self, year, court_code, uid):
+    def check_court_code(self, year: str, court_code: str, uid: str) -> str:
+        """
+        Check the court code and year to determine the database ID for the CanLII API.
+
+        Args:
+            year (str): The year of the court case.
+            court_code (str): The court code extracted from the citation.
+            uid (str): The unique identifier for the court case.
+
+        Returns:
+            str: The database ID for the court case.
+        """
+
         for court in COURT_CODE_MAP:
             if court_code == court[0]:
                 database_id = court[1]
@@ -35,7 +56,7 @@ class CanLIICitationParser:
 
         return database_id
 
-    def identify_court(self, database_id):
+    def identify_court(self, database_id: str) -> tuple:
         if database_id:
             court_level = COURT_CODES[database_id]["court_type"]
             jurisdiction = COURT_CODES[database_id]["jurisdiction"]
@@ -98,7 +119,9 @@ class CanLIICitationParser:
 
         if citation and ", " in citation:
             citation_components = citation.split(", ")
-            official_reporter_citation, citation = self.detect_official_reporter(citation_components)
+            official_reporter_citation, citation = self.detect_official_reporter(
+                citation_components
+            )
         else:
             official_reporter_citation = None
 
@@ -116,11 +139,21 @@ class CanLIICitationParser:
         else:
             uid = None
             court_level = None
-            jurisdiction = None 
+            jurisdiction = None
             court_name = None
             decision_number = None
 
-        return citation_type, court_code, official_reporter_citation, court_level, jurisdiction, court_name, uid, decision_number, citation
+        return (
+            citation_type,
+            court_code,
+            official_reporter_citation,
+            court_level,
+            jurisdiction,
+            court_name,
+            uid,
+            decision_number,
+            citation,
+        )
 
     def separate_citation_elements(self, citation):
         try:
@@ -137,21 +170,38 @@ class CanLIICitationParser:
     def fetch_api_data(self, uid, database_id):
         api_data = {}
         if self.metadata:
-            api_metadata = CanLIIAPI.api_call(case_id=uid, database_id=database_id, decision_metadata=True)
+            api_metadata = CanLIIAPI.api_call(
+                case_id=uid, database_id=database_id, decision_metadata=True
+            )
             api_data.update(api_metadata)
         if self.cited:
-            api_cited = CanLIIAPI.api_call(case_id=uid, database_id=database_id, cases_cited=True)
+            api_cited = CanLIIAPI.api_call(
+                case_id=uid, database_id=database_id, cases_cited=True
+            )
             api_data.update(api_cited)
         if self.citing:
-            api_citing = CanLIIAPI.api_call(case_id=uid, database_id=database_id, cases_citing=True)
+            api_citing = CanLIIAPI.api_call(
+                case_id=uid, database_id=database_id, cases_citing=True
+            )
             api_data.update(api_citing)
         return api_data
 
     def parse(self):
+        """ """
         year = self.verify_citation_year(self.citation)
         style_of_cause, citation = self.separate_citation_elements(self.citation)
 
-        citation_type, court_code, official_reporter_citation, court_level, jurisdiction, court_name, uid, decision_number, atomic_citation = self.citation_metadata(year, citation)
+        (
+            citation_type,
+            court_code,
+            official_reporter_citation,
+            court_level,
+            jurisdiction,
+            court_name,
+            uid,
+            decision_number,
+            atomic_citation,
+        ) = self.citation_metadata(year, citation)
 
         if year and court_code and uid:
             database_id = self.check_court_code(year, court_code, uid)
@@ -177,6 +227,14 @@ class CanLIICitationParser:
             "court_level": court_level,
             "long_url": long_url,
             "url_verified": False,
+            "short_url": None,
+            "language": self.language,
+            "docket_number": None,
+            "decision_date": None,
+            "keywords": [],
+            "categories": [],
+            "cited_cases": [],
+            "citing_cases": [],
         }
 
         if self.verify_url:
