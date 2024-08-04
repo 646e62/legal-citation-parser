@@ -68,7 +68,7 @@ In Python 3.x:
 
 ### Example calls
 
-
+Example call:
 
 ```python
 parse_citation("R v Sutherland, 2022 MBCA 23", verify_url=True, metadata=True)
@@ -154,6 +154,63 @@ Should produce:
     ...
    } 
 ```
+
+```python
+create_citation("R v Sutherland, 2022 MBCA 23")
+```
+
+Should produce a Citation object containing all of the above citation metadata. Once created, the object can be used to access the metadata in the same way as the API call by using the ```parse``` method.
+
+Example call:
+
+```python
+citation = create_citation("R v Sutherland, 2022 MBCA 23", verify_url=True, metadata=True)
+citation.parse()
+```
+
+Should produce: 
+
+```python
+{'uid': '2022mbca23',
+ 'style_of_cause': 'R v Sutherland',
+ 'atomic_citation': '2022 MBCA 23',
+ 'citation_type': 'neutral',
+ 'official_reporter_citation': None,
+ 'year': '2022',
+ 'court': 'mbca',
+ 'decision_number': '23',
+ 'jurisdiction': 'mb',
+ 'court_name': 'Court of Appeal of Manitoba',
+ 'court_level': 'provincial appellate',
+ 'long_url': 'https://www.canlii.org/en/mb/mbca/doc/2022/2022mbca23/2022mbca23.html',
+ 'url_verified': True,
+ 'short_url': 'https://canlii.ca/t/jmnrg',
+ 'language': 'en',
+ 'docket_number': 'AR21-30-09591',
+ 'decision_date': '2022-02-24',
+ 'keywords': ['Criminal law',
+  'Murder',
+  'Second degree murder',
+  'Evidence',
+  'Admissibility'],
+ 'categories': ['Criminal or statutory infractions',
+  'Evidence',
+  'Practice and procedure'],
+ 'cited_cases': [],
+ 'citing_cases': [],
+ 'error': None}
+ ```
+
+ Individual attributes are callable from the Citation object:
+
+ ```python
+ >>> citation.uid
+ 2022mbca23
+ >>> citation.court_level
+ provincial appellate
+ >>> citation.keywords
+ ['Criminal law', 'Murder', 'Second degree murder', 'Evidence', 'Admissibility']
+ ```
 
 ## v 0.5.0 updates
 

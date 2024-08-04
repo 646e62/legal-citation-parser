@@ -271,7 +271,7 @@ class Citation:
         return f"{self.style_of_cause} ({self.year})"
     
     # Add a method to return all the citation information in a dictionary format
-    def full(self):
+    def parse(self):
         """
         Returns all the citation information in a dictionary format.
 
