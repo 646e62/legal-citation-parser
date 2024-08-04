@@ -15,7 +15,7 @@ Version 0.4.x is broadly focused on making the existing program more robust and 
 * Improved documentation
 * ~~Complete list of tribunals to complete court hierarchy and enable future hierarchical analysis~~
 
-Version 0.4.3 ... 
+Version 0.4.3 updated the documentation and handled several bugfixes.
 
 ## Metadata
 
@@ -142,11 +142,9 @@ Should produce:
    } 
 ```
 
-## v 0.4.2 updates
+## v 0.4.3 updates
 
-* Added official reporter functionality, changed the key name from "scr_citation" to "official_reporter_citation" to reflect the change
-* Improved error handling for incorrect citations and CanLII API calls
-* Significant code refactoring throughout the module
+* Documentation and bugfixes
 
 ## Contributing
 
