@@ -3,7 +3,7 @@ citation_parser
 Extracts metadata information from legal citation strings.
 """
 
-from .canlii_rules import canlii_citation_parser
+from .canlii_rules import CanLIICitationParser
 
 def parse_citation(
     citation: str, citation_type: str = "canlii", **kwargs
@@ -25,13 +25,10 @@ def parse_citation(
         jurisdiction, court name, and court level.
     """
 
-    if citation_type == "canlii":
-        return canlii_citation_parser(citation, **kwargs)
+    parser = CanLIICitationParser(citation)
+    citation_info = parser.parse()
+    
+    return citation_info
 
-    elif "CanLII" in citation:
-        return canlii_citation_parser(citation **kwargs)
-
-    else:
-        return None
 
 
