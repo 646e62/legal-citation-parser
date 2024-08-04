@@ -4,12 +4,11 @@ import re
 from .canlii_constants import COURT_CODES, COURT_CODE_MAP
 from .utils import Utility, CanLIIAPI
 
-
 class CanLIICitationParser:
     def __init__(
         self,
         citation: str,
-        language ="en",
+        language="en",
         metadata=False,
         cited=False,
         citing=False,
@@ -25,18 +24,6 @@ class CanLIICitationParser:
         self.diagnostic_log = []
 
     def check_court_code(self, year: str, court_code: str, uid: str) -> str:
-        """
-        Check the court code and year to determine the database ID for the CanLII API.
-
-        Args:
-            year (str): The year of the court case.
-            court_code (str): The court code extracted from the citation.
-            uid (str): The unique identifier for the court case.
-
-        Returns:
-            str: The database ID for the court case.
-        """
-
         for court in COURT_CODE_MAP:
             if court_code == court[0]:
                 database_id = court[1]
@@ -187,7 +174,6 @@ class CanLIICitationParser:
         return api_data
 
     def parse(self):
-        """ """
         year = self.verify_citation_year(self.citation)
         style_of_cause, citation = self.separate_citation_elements(self.citation)
 
@@ -213,34 +199,107 @@ class CanLIICitationParser:
         else:
             long_url = None
 
-        citation_info = {
-            "uid": uid,
-            "style_of_cause": style_of_cause,
-            "atomic_citation": atomic_citation,
-            "citation_type": citation_type,
-            "official_reporter_citation": official_reporter_citation,
-            "year": year,
-            "court": database_id,
-            "decision_number": decision_number,
-            "jurisdiction": jurisdiction,
-            "court_name": court_name,
-            "court_level": court_level,
-            "long_url": long_url,
-            "url_verified": False,
-            "short_url": None,
-            "language": self.language,
-            "docket_number": None,
-            "decision_date": None,
-            "keywords": [],
-            "categories": [],
-            "cited_cases": [],
-            "citing_cases": [],
-        }
+        citation_info = ParsedCitation(
+            uid=uid,
+            style_of_cause=style_of_cause,
+            atomic_citation=atomic_citation,
+            citation_type=citation_type,
+            official_reporter_citation=official_reporter_citation,
+            year=year,
+            court=database_id,
+            decision_number=decision_number,
+            jurisdiction=jurisdiction,
+            court_name=court_name,
+            court_level=court_level,
+            long_url=long_url,
+            url_verified=False,
+            short_url=None,
+            language=self.language,
+            docket_number=None,
+            decision_date=None,
+            keywords=[],
+            categories=[],
+            cited_cases=[],
+            citing_cases=[],
+            error=None,
+        )
 
         if self.verify_url:
-            citation_info["url_verified"] = Utility.check_url(long_url) is not None
+            citation_info.url_verified = Utility.check_url(long_url) is not None
 
         api_data = self.fetch_api_data(uid, database_id)
-        citation_info.update(api_data)
+        for key, value in api_data.items():
+            setattr(citation_info, key, value)
 
         return citation_info
+
+# parsed_citation.py
+
+class ParsedCitation:
+    def __init__(self, uid, style_of_cause, atomic_citation, citation_type, 
+                 official_reporter_citation, year, court, decision_number, 
+                 jurisdiction, court_name, court_level, long_url, 
+                 url_verified, short_url, language, docket_number, 
+                 decision_date, keywords, categories, cited_cases, citing_cases, error):
+        self.uid = uid
+        self.style_of_cause = style_of_cause
+        self.atomic_citation = atomic_citation
+        self.citation_type = citation_type
+        self.official_reporter_citation = official_reporter_citation
+        self.year = year
+        self.court = court
+        self.decision_number = decision_number
+        self.jurisdiction = jurisdiction
+        self.court_name = court_name
+        self.court_level = court_level
+        self.long_url = long_url
+        self.url_verified = url_verified
+        self.short_url = short_url
+        self.language = language
+        self.docket_number = docket_number
+        self.decision_date = decision_date
+        self.keywords = keywords
+        self.categories = categories
+        self.cited_cases = cited_cases
+        self.citing_cases = citing_cases
+        self.error = error
+
+    def __repr__(self):
+        return f"<ParsedCitation: {self.style_of_cause} ({self.year})>"
+    
+    def __str__(self):
+        return f"{self.style_of_cause} ({self.year})"
+    
+    # Add a method to return all the citation information in a dictionary format
+    def full(self):
+        """
+        Returns all the citation information in a dictionary format.
+
+        Returns:
+            dict: A dictionary containing all the citation information
+        """
+        return {
+            "uid": self.uid,
+            "style_of_cause": self.style_of_cause,
+            "atomic_citation": self.atomic_citation,
+            "citation_type": self.citation_type,
+            "official_reporter_citation": self.official_reporter_citation,
+            "year": self.year,
+            "court": self.court,
+            "decision_number": self.decision_number,
+            "jurisdiction": self.jurisdiction,
+            "court_name": self.court_name,
+            "court_level": self.court_level,
+            "long_url": self.long_url,
+            "url_verified": self.url_verified,
+            "short_url": self.short_url,
+            "language": self.language,
+            "docket_number": self.docket_number,
+            "decision_date": self.decision_date,
+            "keywords": self.keywords,
+            "categories": self.categories,
+            "cited_cases": self.cited_cases,
+            "citing_cases": self.citing_cases,
+            "error": self.error
+        }
+    

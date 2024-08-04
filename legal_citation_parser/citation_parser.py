@@ -17,7 +17,7 @@ def parse_citation(
         
 
     Returns:
-        dict: A dictionary containing the parsed information, including the style of cause,
+        ParsedCitation: An object containing the parsed information, including the style of cause,
         citation, citation type (neutral or CanLII), year, court code, decision number,
         jurisdiction, court name, and court level.
     """
