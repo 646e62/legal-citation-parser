@@ -7,7 +7,7 @@ Although legal citations are typically short strings, they contain a great deal 
 * Supreme Court Reader (SCR) citations;
 * CanLII citations.
 
-Version 0.5.x refactors the code to use a class structure, rather than a series of functions. This change is intended to make the code more modular and easier to maintain. 
+Version 0.5.x introduces several new features with significant behind-the-scenes improvements. Most importantly, all of the code has been refactored to work with a class structure for a Citation object, rather than as a simple set of functions that return a dictionary/JSON file. This allows for more flexibility and scalability in the future while solving numerous bugs and issues present in previous versions.
 
 
 ## Metadata
@@ -26,6 +26,8 @@ The module currently extracts the following from raw CanLII citation strings:
 - **Court name.** The human readable court level.
 - **Court level.** The relative level of the court.
 - **CanLII URL.** The decision's URL on canlii.org
+- **URL verified.** Verifies whether the CanLII URL returns a 200 status code.
+- **Error.** Records errors and other alerts encountered during the parsing process.
 
 ### CanLII API
 
@@ -87,12 +89,22 @@ Should produce:
  'court_name': 'Court of Appeal of Manitoba',
  'court_level': 'provincial appellate',
  'long_url': 'https://www.canlii.org/en/mb/mbca/doc/2022/2022mbca23/2022mbca23.html',
+ 'url_verified': True,
  'short_url': 'https://canlii.ca/t/jmnrg',
  'language': 'en',
  'docket_number': 'AR21-30-09591',
  'decision_date': '2022-02-24',
- 'keywords': 'Criminal law — Murder — Second degree murder — Evidence — Admissibility',
- 'categories': 'Criminal or statutory infractions — Evidence — Practice and procedure'}
+ 'keywords': ['Criminal law',
+  'Murder',
+  'Second degree murder',
+  'Evidence',
+  'Admissibility'],
+ 'categories': ['Criminal or statutory infractions',
+  'Evidence',
+  'Practice and procedure'],
+ 'cited_cases': [],
+ 'citing_cases': [],
+ 'error': None}
 ```
 
 Example call:
@@ -112,9 +124,17 @@ Should produce:
  'year': '2022',
  'court': 'mbca',
  'decision_number': '23',
- 'jurisdiction': 'manitoba',
+ 'jurisdiction': 'mb',
  'court_name': 'Court of Appeal of Manitoba',
  'court_level': 'provincial appellate',
+ 'long_url': 'https://www.canlii.org/en/mb/mbca/doc/2022/2022mbca23/2022mbca23.html',
+ 'url_verified': False,
+ 'short_url': None,
+ 'language': 'en',
+ 'docket_number': None,
+ 'decision_date': None,
+ 'keywords': [],
+ 'categories': [],
  'cited_cases': {'citedCases': [{'databaseId': 'csc-scc',
     'caseId': {'en': '1956canlii541'},
     'title': 'Chibok v. The Queen',
@@ -135,9 +155,9 @@ Should produce:
    } 
 ```
 
-## v 0.4.3 updates
+## v 0.5.0 updates
 
-* Documentation and bugfixes
+* Refactored all of the code to work with a class structure, with a focus on the Citation object
 
 ## Contributing
 
