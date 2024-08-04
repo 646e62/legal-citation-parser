@@ -317,7 +317,7 @@ def canlii_citation_parser(
     metadata: bool = False,
     cited: bool = False,
     citing: bool = False,
-    verify_url: bool = True,
+    verify_url: bool = False,
 ) -> dict:
     """
     Rules for parsing a CanLII citation string to extract metadata information.
@@ -404,6 +404,7 @@ def canlii_citation_parser(
                 citation_info["url_verified"] = True
                 print("Alt URL is valid")
             else:
+                print("Unable to verify URL")
                 citation_info["url_verified"] = False
                 citation_info["long_url"] = None
 

@@ -20,7 +20,6 @@ def check_url(url: str) -> str:
     Returns:
         str: The URL if it is valid, otherwise None.
     """
-
     try:
         response = requests.get(url, timeout=5)
 
@@ -65,10 +64,8 @@ def canlii_api_call(
         # Check to see if the response has an "error" key in it
         print(response)
         if "error" in response:
-            print("True")
             return True
         else:
-            print("False")
             return False
 
     load_dotenv()
@@ -101,7 +98,7 @@ def canlii_api_call(
         response = requests.get(cited_cases_url, timeout=5)
         cited_cases = response.json()
 
-        if type(case_metadata) == list and check_for_api_error_codes(cited_cases):
+        if type(cited_cases) == list and check_for_api_error_codes(cited_cases):
             return cited_cases
         else:
             metadata_api_info["cited_cases"] = cited_cases
@@ -111,7 +108,7 @@ def canlii_api_call(
         response = requests.get(citing_cases_url, timeout=5)
         citing_cases = response.json()
 
-        if type(case_metadata) == list and check_for_api_error_codes(citing_cases):
+        if type(citing_cases) == list and check_for_api_error_codes(citing_cases):
             return citing_cases
         else:
             metadata_api_info["citing_cases"] = citing_cases
@@ -122,7 +119,7 @@ def canlii_api_call(
         response = requests.get(metadata_url, timeout=5)
         legislation_metadata = response.json()
 
-        if type(case_metadata) == list and check_for_api_error_codes(legislation_metadata):
+        if type(legislation_metadata) == list and check_for_api_error_codes(legislation_metadata):
             return legislation_metadata
         else:
             metadata_api_info["database_id"] = legislation_metadata["databaseId"]
@@ -136,7 +133,7 @@ def canlii_api_call(
         response = requests.get(database_url, timeout=5)
         database_info = response.json()
 
-        if type(case_metadata) == list and check_for_api_error_codes(database_info):
+        if type(database_info) == list and check_for_api_error_codes(database_info):
             return database_info
         else:
             metadata_api_info["database"] = database_info
