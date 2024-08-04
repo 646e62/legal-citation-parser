@@ -17,31 +17,7 @@ class Utility:
                 return None
         except requests.RequestException:
             return None
-
-    @staticmethod
-    def set_api_key_env_var():
-        dotenv_path = find_dotenv()
-        load_dotenv(dotenv_path)
-
-        if os.getenv("CANLII_API_KEY") is None:
-            print("The citation parser can provide additional functionality for users with access to the CanLII API.\n", 
-                  "Enter your CanLII API key to enable or ENTER (blank input) to skip/remove:")
-            API_KEY = input().strip()
-            if API_KEY == "":
-                sys.exit("No API key entered. Exiting.")
-            else:
-                os.environ['CANLII_API_KEY'] = API_KEY
-                if dotenv_path:
-                    set_key(dotenv_path, "CANLII_API_KEY", API_KEY)
-                else:
-                    with open('.env', 'w') as env_file:
-                        env_file.write(f"CANLII_API_KEY={API_KEY}\n")
-                print("API key has been set and saved to the .env file.")
-        else:
-            API_KEY = os.getenv("CANLII_API_KEY")
-            print("API key loaded from environment variable.")
-
-        return API_KEY
+        
 
 class CanLIIAPI:
     @staticmethod
@@ -54,7 +30,7 @@ class CanLIIAPI:
     def api_call(case_id=None, database_id=None, language="en", decision_metadata=False, cases_cited=False, cases_citing=False, canlii_database=False):
         load_dotenv()
         if os.getenv("CANLII_API_KEY") is None:
-            API_KEY = Utility.set_api_key_env_var()
+            API_KEY = CanLIIAPI.set_api_key()
             if API_KEY == "":
                 sys.exit()
         else:
@@ -112,6 +88,77 @@ class CanLIIAPI:
             metadata_api_info["database"] = database_info
 
         return metadata_api_info
+
+
+    @staticmethod
+    def set_api_key(api_key: str = None, force_overwrite=False, force_delete=False):
+        dotenv_path = find_dotenv()
+        load_dotenv(dotenv_path)
+
+        if api_key:
+            current_api_key = api_key
+        else:
+            current_api_key = os.getenv("CANLII_API_KEY")
+        
+        if force_delete:
+            if current_api_key:
+                os.environ.pop("CANLII_API_KEY")
+                if dotenv_path:
+                    set_key(dotenv_path, "CANLII_API_KEY", "")
+                print("API key has been removed.")
+            else:
+                print("No API key found to remove.")
+            return None
+
+        if force_overwrite:
+            print("Forced overwrite of the API key.")
+            API_KEY = CanLIIAPI.prompt_for_api_key()
+            CanLIIAPI.save_api_key(dotenv_path, API_KEY)
+            return API_KEY
+
+        if current_api_key is None:
+            print("No API key found. Please enter your CanLII API key:")
+            API_KEY = input().strip()
+            if API_KEY == "":
+                sys.exit("No API key entered. Exiting.")
+            CanLIIAPI.save_api_key(dotenv_path, API_KEY)
+        else:
+            print(f"Current API key: {current_api_key}")
+            print("Would you like to overwrite it? (yes to overwrite, no to keep, enter to remove)")
+            user_input = input().strip().lower()
+            if user_input == "yes":
+                API_KEY = CanLIIAPI.prompt_for_api_key()
+                CanLIIAPI.save_api_key(dotenv_path, API_KEY)
+            elif user_input == "":
+                print("Removing the existing API key.")
+                os.environ.pop("CANLII_API_KEY")
+                if dotenv_path:
+                    set_key(dotenv_path, "CANLII_API_KEY", "")
+                print("API key has been removed.")
+                return None
+            else:
+                print("Keeping the existing API key.")
+                API_KEY = current_api_key
+
+        return API_KEY
+
+    @staticmethod
+    def prompt_for_api_key():
+        print("Enter your CanLII API key:")
+        API_KEY = input().strip()
+        if API_KEY == "":
+            sys.exit("No API key entered. Exiting.")
+        return API_KEY
+
+    @staticmethod
+    def save_api_key(dotenv_path, API_KEY):
+        os.environ['CANLII_API_KEY'] = API_KEY
+        if dotenv_path:
+            set_key(dotenv_path, "CANLII_API_KEY", API_KEY)
+        else:
+            with open('.env', 'w') as env_file:
+                env_file.write(f"CANLII_API_KEY={API_KEY}\n")
+        print("API key has been set and saved to the .env file.")
 
 class DatabaseManager:
     @staticmethod
