@@ -1,7 +1,4 @@
-"""
-citation_parser
-Extracts metadata information from legal citation strings.
-"""
+# citation_parser.py
 
 from .canlii_rules import CanLIICitationParser
 
@@ -25,10 +22,7 @@ def parse_citation(
         jurisdiction, court name, and court level.
     """
 
-    parser = CanLIICitationParser(citation)
+    parser = CanLIICitationParser(citation, **kwargs)
     citation_info = parser.parse()
     
     return citation_info
-
-
-

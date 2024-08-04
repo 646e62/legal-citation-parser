@@ -2,7 +2,7 @@
 
 import re
 from .canlii_constants import COURT_CODES, COURT_CODE_MAP
-from .utils import Utility
+from .utils import Utility, CanLIIAPI
 
 class CanLIICitationParser:
     def __init__(self, citation, language="en", metadata=False, cited=False, citing=False, verify_url=False):
@@ -134,6 +134,19 @@ class CanLIICitationParser:
 
         return style_of_cause, citation
 
+    def fetch_api_data(self, uid, database_id):
+        api_data = {}
+        if self.metadata:
+            api_metadata = CanLIIAPI.api_call(case_id=uid, database_id=database_id, decision_metadata=True)
+            api_data.update(api_metadata)
+        if self.cited:
+            api_cited = CanLIIAPI.api_call(case_id=uid, database_id=database_id, cases_cited=True)
+            api_data.update(api_cited)
+        if self.citing:
+            api_citing = CanLIIAPI.api_call(case_id=uid, database_id=database_id, cases_citing=True)
+            api_data.update(api_citing)
+        return api_data
+
     def parse(self):
         year = self.verify_citation_year(self.citation)
         style_of_cause, citation = self.separate_citation_elements(self.citation)
@@ -169,5 +182,7 @@ class CanLIICitationParser:
         if self.verify_url:
             citation_info["url_verified"] = Utility.check_url(long_url) is not None
 
-        return citation_info
+        api_data = self.fetch_api_data(uid, database_id)
+        citation_info.update(api_data)
 
+        return citation_info
