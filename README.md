@@ -1,4 +1,4 @@
-# legal-citation-parser v 0.5.0
+# legal-citation-parser v 0.5.1
 Extracts metadata from CanLII case citations and provides a basic CLI UI for the CanLII API.
 
 Although legal citations are typically short strings, they contain a great deal of information compressed into a relatively small package. This Python module is designed to extract and standardize that data from from legal citation strings. This module can currently handles the following citation types:
@@ -8,6 +8,8 @@ Although legal citations are typically short strings, they contain a great deal 
 * CanLII citations.
 
 Version 0.5.x introduces several new features with significant behind-the-scenes improvements. Most importantly, all of the code has been refactored to work with a class structure for a Citation object, rather than as a simple set of functions that return a dictionary/JSON file. This allows for more flexibility and scalability in the future while solving numerous bugs and issues present in previous versions.
+
+Version 0.5.1 fixes an error that caused some functions to fail, rather than return None values, for erroneous parser results.
 
 
 ## Metadata
