@@ -31,10 +31,13 @@ class CanLIICitationParser:
         else:
             database_id = None
 
+        # Account for changes in court codes over time
         if court_code == "qc cm" and int(year) >= 1983 and uid != "1983canlii2659":
             database_id = "qccmq"
         elif court_code == "qc cm" and int(year) <= 1983:
             database_id = "qccm"
+        
+        # Account for a court code used by two different courts
         elif court_code == "ca cb":
             if self.language == "en":
                 database_id = "cbc"
@@ -241,6 +244,10 @@ class Citation:
                  jurisdiction, court_name, court_level, long_url, 
                  url_verified, short_url, language, docket_number, 
                  decision_date, keywords, categories, cited_cases, citing_cases, error):
+        
+        cited_cases = cited_cases["citedCases"] if cited_cases else []
+        citing_cases = citing_cases["citingCases"] if citing_cases else []
+        
         self.uid = uid
         self.style_of_cause = style_of_cause
         self.atomic_citation = atomic_citation
@@ -265,7 +272,7 @@ class Citation:
         self.error = error
 
     def __repr__(self):
-        return f"<Citation: {self.style_of_cause} ({self.year})>"
+        return f"<Citation: {self.style_of_cause}, {self.atomic_citation}>"
     
     def __str__(self):
         return f"{self.style_of_cause} ({self.year})"

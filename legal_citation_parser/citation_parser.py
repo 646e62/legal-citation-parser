@@ -48,4 +48,4 @@ def parse_citation(
 
     citation_info = create_citation(citation, citation_type, **kwargs)
     
-    return citation_info.full()
+    return citation_info.parse()
