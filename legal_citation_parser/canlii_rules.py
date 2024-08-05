@@ -118,7 +118,7 @@ class CanLIICitationParser:
         if citation:
             try:
                 decision_number = citation.split(" ")[2]
-            except IndexError:
+            except (IndexError, AttributeError):
                 decision_number = None
 
         if court_code and decision_number and citation_type:
