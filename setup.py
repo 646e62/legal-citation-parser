@@ -11,7 +11,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='legal_citation_parser',
-    version='0.4.2',
+    version='0.5.0',
     description='Extracts metadata from CanLII case citations',
     author='Daniel Nathan Booy',
     url='https://github.com/646e62/legal_citation_parser',
@@ -21,5 +21,6 @@ setup(
     packages=find_packages(),
     install_requires=[
         'requests',
+        'python-dotenv',
     ],
 )
